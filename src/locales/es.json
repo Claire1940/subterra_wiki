@@ -1,11 +1,2608 @@
 {
+  "seo": {
+    "home": {
+      "title": "Subterra Wiki - Códigos, minerales y Ability Cards",
+      "description": "Subterra Wiki cubre códigos activos, minerales, capas, mejoras de pico, ability cards, recetas de crafting, armas, jefes y consejos para principiantes para jugadores de Roblox.",
+      "keywords": "Subterra, Roblox, códigos, minerales, capas, mejoras, ability cards, crafting, jefes",
+      "ogTitle": "Subterra Wiki - Códigos, minerales y Ability Cards",
+      "ogDescription": "Subterra Wiki cubre códigos activos, minerales, capas, mejoras de pico, ability cards, recetas de crafting, armas, jefes y consejos para principiantes para jugadores de Roblox.",
+      "twitterTitle": "Subterra Wiki - Códigos, minerales y Ability Cards",
+      "twitterDescription": "Subterra Wiki - guías de códigos, minerales, capas, ability cards, crafting y jefes para la aventura de minería de Roblox."
+    }
+  },
   "nav": {
-    "codes": "Codes",
-    "guide": "Guide",
-    "items": "Items",
-    "monsters": "Monsters",
-    "weapons": "Weapons",
-    "quests": "Quests",
-    "resources": "Resources"
+    "codes": "Códigos",
+    "guide": "Guía",
+    "items": "Objetos",
+    "monsters": "Monstruos",
+    "weapons": "Armas",
+    "quests": "Misiones",
+    "resources": "Recursos"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Roblox",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que estás buscando no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "Aventura de minería en 2.5D de Roblox",
+    "title": "Subterra Wiki",
+    "description": "Subterra es una aventura de minería de Roblox donde los jugadores excavan a través de capas hostiles, mejoran picos y mochilas, construyen con Ability Cards, fabrican armas y luchan contra monstruos bajo tierra.",
+    "getFreeCodesCTA": "Consigue códigos gratis",
+    "playOnRobloxCTA": "Jugar en Roblox",
+    "stats": {
+      "stat1": {
+        "value": "11,3M+",
+        "label": "Visitas totales"
+      },
+      "stat2": {
+        "value": "3,2K+",
+        "label": "Jugadores en línea"
+      },
+      "stat3": {
+        "value": "94%",
+        "label": "Calificación de usuarios"
+      },
+      "stat4": {
+        "value": "10",
+        "label": "Máximo de jugadores"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jugabilidad de Subterra",
+    "description": "Excava a través de capas procedimentales, mejora picos y mochilas, construye con Ability Cards, fabrica armas y pociones, y lucha contra monstruos en una aventura de minería en 2.5D de Roblox."
+  },
+  "tools": {
+    "title": "Subterra",
+    "titleHighlight": "Recursos",
+    "subtitle": "Códigos activos, enlaces oficiales, pasos para principiantes y rutas de mejora de picos y mochilas para Subterra.",
+    "cards": [
+      {
+        "icon": "Gift",
+        "title": "Códigos de Subterra",
+        "description": "Códigos activos, pasos para canjear y lista de códigos caducados"
+      },
+      {
+        "icon": "MessagesSquare",
+        "title": "Trello y Discord de Subterra",
+        "description": "Enlaces oficiales de Roblox, Trello, Discord, X y YouTube"
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Guía para principiantes de Subterra",
+        "description": "Primeros pasos, controles, ciclo de minería y conceptos básicos de supervivencia"
+      },
+      {
+        "icon": "Pickaxe",
+        "title": "Mejoras de pico y mochila en Subterra",
+        "description": "Poder del pico, espacio de mochila, recetas y prioridad de mejoras"
+      },
+      {
+        "icon": "Swords",
+        "title": "Armas y Ability Cards de Subterra",
+        "description": "Tier list de armas y Ability Cards por daño, rareza y utilidad"
+      },
+      {
+        "icon": "FlaskConical",
+        "title": "Recetas de fabricación y materiales de Subterra",
+        "description": "Recetas, minerales, lingotes, gemas, pociones, llaves y explosivos"
+      },
+      {
+        "icon": "Mountain",
+        "title": "Capas, minerales y estructuras de Subterra",
+        "description": "Profundidad de capas, depósitos de minerales, estructuras, enemigos y acceso a portales"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Monstruos, jefes, misiones y logros de Subterra",
+        "description": "Estadísticas de monstruos, combates contra jefes, recompensas de misiones y logros de Chrono Shards"
+      }
+    ]
+  },
+  "modules": {
+    "subterraCodes": {
+      "title": "Códigos de Subterra",
+      "eyebrow": "Recompensas gratuitas",
+      "subtitle": "Canjea códigos de Subterra activos por Chrono Shards, TNT Blocks, potenciadores de EXP, pociones y otras recompensas de progresión.",
+      "intro": "Usa estos códigos en el NPC de Códigos en el lobby de la superficie. Completa el tutorial primero, luego interactúa con el NPC de Códigos cerca de la puerta de aparición, pega un código y presiona Canjear código.",
+      "activeCodes": [
+        {
+          "code": "ACTUALIZACIÓN",
+          "status": "Activo",
+          "rewards": [
+            "140 Chrono Shards"
+          ],
+          "bestFor": "Tiradas iniciales de Ability Cards y moneda de progresión."
+        },
+        {
+          "code": "100KMEMBERS",
+          "status": "Activo",
+          "rewards": [
+            "420 Chrono Shards",
+            "10 Pociones de Agujero de Gusano",
+            "10 Pociones de Regreso tras la Muerte"
+          ],
+          "bestFor": "Sesiones de minería, retorno seguro y progresión de Ability Cards."
+        },
+        {
+          "code": "DESTACADO",
+          "status": "Activo",
+          "rewards": [
+            "32 TNT Blocks",
+            "2x EXP por 1 hora"
+          ],
+          "bestFor": "Despejar terreno más rápido y subir de nivel durante sesiones de juego intensas."
+        },
+        {
+          "code": "1YEAR",
+          "status": "Activo",
+          "rewards": [
+            "1,400 Chrono Shards"
+          ],
+          "bestFor": "Gran aumento de Chrono Shards para cartas y crecimiento del personaje."
+        },
+        {
+          "code": "30KLIKES",
+          "status": "Activo",
+          "rewards": [
+            "2x EXP por 2 horas"
+          ],
+          "bestFor": "Sesiones de minería y combate más largas donde la ganancia de EXP es clave."
+        },
+        {
+          "code": "RELEASE",
+          "status": "Activo",
+          "rewards": [
+            "Chrono Shards",
+            "Oro"
+          ],
+          "bestFor": "Progresión inicial tras llegar al lobby."
+        }
+      ],
+      "redeemTitle": "Cómo canjear códigos de Subterra",
+      "redeemSteps": [
+        "Abre Subterra en Roblox.",
+        "Completa el tutorial hasta que puedas moverte libremente por el lobby de la superficie.",
+        "Busca al NPC de Códigos cerca de la puerta de aparición.",
+        "Interactúa con el NPC, introduce un código válido y pulsa Canjear Código.",
+        "Repite el proceso para cada código activo."
+      ],
+      "expiredTitle": "Códigos de Subterra expirados",
+      "expiredCodes": [
+        "UPDATE1.4.50",
+        "25KMEMBERS",
+        "CRASHFIX?",
+        "LUNAREVENTS",
+        "8KMEMBERS",
+        "UPDATE1.3",
+        "3MVISITS",
+        "BETTERTOGETHER",
+        "6KMEMBERS",
+        "BETTERSTORAGE",
+        "100KFAVS",
+        "PATCH104",
+        "HOTFIX102",
+        "GRAN ACTUALIZACIÓN",
+        "20K LIKES",
+        "2M VISITAS",
+        "5K MIEMBROS",
+        "10K LIKES",
+        "1M VISITAS",
+        "8K LIKES",
+        "40K FAVS",
+        "400K ESPELEÓLOGOS",
+        "3K MIEMBROS",
+        "10K FAVS",
+        "100K ESPELEÓLOGOS",
+        "HOTFIX2",
+        "180 FAVS",
+        "ERROR",
+        "1234 FAVS",
+        "10K ESPELEÓLOGOS",
+        "HOTFIX"
+      ]
+    },
+    "subterraTrelloAndDiscord": {
+      "title": "Trello, Discord, Roblox, X y YouTube de Subterra",
+      "eyebrow": "Enlaces Oficiales",
+      "subtitle": "Usa estos canales oficiales para actualizaciones, códigos, notas del parche, informes de errores, ayuda de la comunidad y referencias del sistema de Subterra.",
+      "intro": "La información de Subterra se distribuye entre la página del juego en Roblox, los enlaces de la comunidad de Polyworks Studio, el tablero de Trello, Discord, X y YouTube. Esta sección reúne los puntos de entrada oficiales para actualizaciones, códigos, referencias del sistema, informes de errores y ayuda comunitaria.",
+      "links": [
+        {
+          "label": "Página del juego Subterra en Roblox",
+          "href": "https://www.roblox.com/games/16817315243/Subterra",
+          "category": "Juego",
+          "description": "La página principal de la experiencia de Roblox para Subterra de Polyworks Studio."
+        },
+        {
+          "label": "Tablero de Trello de Subterra",
+          "href": "https://trello.com/b/mfSycrVO/subterra-wiki",
+          "category": "Referencia",
+          "description": "El tablero de referencia principal para sistemas de progresión, categorías de objetos, fabricación, mejoras e información detallada del juego."
+        },
+        {
+          "label": "Discord de Polyworks Studio",
+          "href": "https://discord.com/invite/wZ3J4whDPe",
+          "category": "Comunidad",
+          "description": "El servidor oficial de la comunidad para los juegos de Polyworks Studio y discusiones sobre Subterra."
+        },
+        {
+          "label": "Comunidad de Polyworks Studio en Roblox",
+          "href": "https://www.roblox.com/communities/5851851/Polyworks-Studio",
+          "category": "Comunidad de Roblox",
+          "description": "La página de la comunidad de Roblox de Polyworks Studio, el grupo creador de Subterra."
+        },
+        {
+          "label": "X de Polyworks Studio",
+          "href": "---",
+          "category": "https://x.com/PolyworksStudio",
+          "description": "Social"
+        },
+        {
+          "label": "El perfil de redes sociales de Polyworks Studio para actualizaciones públicas sobre sus proyectos de Roblox.",
+          "href": "YouTube de Polyworks Studio",
+          "category": "https://www.youtube.com/channel/UCxnoxgq9LMmHBTSDJyk26BQ",
+          "description": "Video"
+        }
+      ]
+    },
+    "subterraBeginnerGuide": {
+      "title": "La entrada del canal oficial de YouTube de Polyworks Studio.",
+      "eyebrow": "Guía para principiantes de Subterra",
+      "subtitle": "Guía de inicio",
+      "intro": "Aprende el ciclo básico: mina recursos, gestiona el inventario, mejora tu pickaxe y backpack, construye con Ability Cards, craftea equipo y sobrevive en las layers más profundas.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Subterra es una aventura de minería en 2.5D donde el mundo se genera procedimentalmente y las layers se vuelven más hostiles a medida que cavas más profundo. La ruta de inicio es sencilla: aprende los controles, mina ores, mejora herramientas, añade Ability Cards, craftea armas o pociones y luego avanza hacia las layers más profundas manteniendo cada incursión rentable.",
+          "goal": "Completa el tutorial y llega al lobby de la superficie",
+          "actions": [
+            "Desbloquea el movimiento libre y aprende dónde se ubican los NPC y las puertas clave.",
+            "Termina el tutorial inicial.",
+            "Localiza el área de la puerta de spawn.",
+            "Encuentra al NPC de Codes para canjear recompensas."
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Usa el lobby como tu punto de reinicio antes de incursiones de minería más profundas.",
+          "goal": "Aprende los controles básicos",
+          "controls": [
+            {
+              "input": "Muévete, mina, interactúa, bloquea y gestiona el inventario sin perder tiempo bajo tierra.",
+              "action": "E"
+            },
+            {
+              "input": "Abrir inventario",
+              "action": "C"
+            },
+            {
+              "input": "Interactuar",
+              "action": "F"
+            },
+            {
+              "input": "Bloquear o hacer parry",
+              "action": "Clic izquierdo"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Minar",
+          "goal": "Mina ores y sigue el progreso de tu próxima mejora",
+          "actions": [
+            "Recolecta los materiales necesarios para obtener pickaxes más fuertes y backpacks más grandes.",
+            "Usa el clic izquierdo para minar bloques y ores.",
+            "Prioriza los materiales requeridos para tu siguiente nivel de pickaxe o backpack.",
+            "Mantén espacio libre en el inventario para ores valiosos."
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Regresa a la superficie cuando tu bolsa esté llena o tu incursión se vuelva arriesgada.",
+          "goal": "Mejora primero el pickaxe y después el backpack",
+          "actions": [
+            "Mejora la potencia y velocidad de minado antes de avanzar demasiado profundo.",
+            "Mejora tu pickaxe para minar más rápido y enfrentarte a layers más resistentes.",
+            "Mejora tu backpack cuando las incursiones de inventario corto empiecen a frenar tu progreso."
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Usa Gold, Rock, Coal, Copper, Tin e Ingots iniciales para la primera cadena de mejoras.",
+          "goal": "Crea tu build en torno a las Ability Cards",
+          "actions": [
+            "Gasta Chrono Shards en el progreso de las cartas.",
+            "Equipa cartas que mejoren la eficiencia de tus incursiones.",
+            "Usa las recompensas de códigos para acelerar el acceso temprano a las cartas."
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Fabrica armas, pociones y recetas",
+          "goal": "Prepárate para monstruos, jefes e incursiones subterráneas más largas.",
+          "actions": [
+            "Fabrica armas para luchar contra los enemigos bajo la superficie.",
+            "Busca recetas de armas y pociones raras.",
+            "Usa consumibles antes de incursiones de minería más largas."
+          ]
+        },
+        {
+          "step": 7,
+          "title": "Explora capas y estructuras",
+          "goal": "Encuentra recursos más profundos, cofres de botín, estructuras de cuevas y materiales de progresión.",
+          "actions": [
+            "Avanza capa por capa en lugar de descender directamente a toda prisa.",
+            "Abre cofres e inspecciona estructuras cuando sea seguro.",
+            "Ten cuidado con los monstruos más fuertes a medida que aumenta la profundidad."
+          ]
+        },
+        {
+          "step": 8,
+          "title": "Lucha con cuidado y usa Bloquear o Desviar",
+          "goal": "Sobrevive a las capas hostiles mientras mantienes la rentabilidad de tus incursiones de minería.",
+          "actions": [
+            "Usa F para bloquear o desviar los ataques entrantes.",
+            "Mantén las armas listas al entrar en secciones hostiles.",
+            "Retírate cuando los enemigos o jefes hagan que la incursión sea demasiado costosa."
+          ]
+        }
+      ]
+    },
+    "subterraPickaxeAndBackpackUpgrades": {
+      "title": "Mejoras de pico y mochila de Subterra",
+      "eyebrow": "Progresión",
+      "subtitle": "Planifica la progresión inicial en Subterra con el poder del pico, la velocidad de minería, el espacio de la mochila y las recetas de mejora.",
+      "intro": "Las mejoras de pico aumentan tu poder y velocidad de minería, mientras que las mejoras de mochila incrementan el espacio del inventario. El primer tramo es donde es más fácil asignar mal los materiales, así que usa los datos de niveles a continuación antes de gastar.",
+      "pickaxeColumns": [
+        "Tier",
+        "Poder",
+        "Velocidad",
+        "Receta",
+        "Nota de prioridad"
+      ],
+      "pickaxeRows": [
+        {
+          "tier": "Tier 1",
+          "power": "20",
+          "speed": "100%",
+          "recipe": [
+            "Pico inicial predeterminado"
+          ],
+          "priorityNote": "Usa esto solo el tiempo suficiente para recolectar Piedra y Oro para el Tier 2."
+        },
+        {
+          "tier": "Tier 2",
+          "power": "25",
+          "speed": "105%",
+          "recipe": [
+            "25 de Piedra",
+            "62 de Oro"
+          ],
+          "priorityNote": "Primera mejora práctica para una minería de superficie más fluida."
+        },
+        {
+          "tier": "Tier 3",
+          "power": "30",
+          "speed": "107%",
+          "recipe": [
+            "35 Piedra",
+            "5 Carbón",
+            "125 Oro"
+          ],
+          "priorityNote": "Añade Carbón a la ruta de materiales inicial."
+        },
+        {
+          "tier": "Tier 4",
+          "power": "35",
+          "speed": "107%",
+          "recipe": [
+            "50 Piedra",
+            "15 Cobre crudo",
+            "15 Carbón",
+            "187 Oro"
+          ],
+          "priorityNote": "Empieza a acumular Cobre crudo y Carbón en lugar de gastarlos al azar."
+        },
+        {
+          "tier": "Tier 5",
+          "power": "40",
+          "speed": "110%",
+          "recipe": [
+            "25 Carbón",
+            "20 Lingotes de cobre",
+            "250 Oro"
+          ],
+          "priorityNote": "Mueve la ruta hacia la fabricación de Lingotes de cobre."
+        },
+        {
+          "tier": "Tier 6",
+          "power": "50",
+          "speed": "115%",
+          "recipe": [
+            "20 Carbón",
+            "10 Estaño crudo",
+            "50 Lingotes de cobre",
+            "625 Oro"
+          ],
+          "priorityNote": "Un gran salto de poder inicial; empieza a ahorrar materiales de Estaño."
+        },
+        {
+          "tier": "Tier 7",
+          "power": "55",
+          "speed": "119%",
+          "recipe": [
+            "30 Estaño crudo",
+            "75 Lingotes de cobre",
+            "5 Carbón",
+            "750 Oro"
+          ],
+          "priorityNote": "Buen punto de control antes de costes de Estaño y Cobre más elevados."
+        },
+        {
+          "tier": "Tier 8",
+          "power": "60",
+          "speed": "120%",
+          "recipe": [
+            "30 Estaño crudo",
+            "100 Lingotes de cobre",
+            "50 Carbón",
+            "875 Oro"
+          ],
+          "priorityNote": "La demanda de carbón y lingotes de cobre aumenta; evita gastarlos en compras secundarias."
+        },
+        {
+          "tier": "Nivel 9",
+          "power": "65",
+          "speed": "123%",
+          "recipe": [
+            "75 Lingotes de estaño",
+            "100 Carbón",
+            "1000 Oro"
+          ],
+          "priorityNote": "Primer punto de control importante de lingotes de estaño."
+        },
+        {
+          "tier": "Nivel 10",
+          "power": "75",
+          "speed": "129%",
+          "recipe": [
+            "50 Lingotes de estaño",
+            "35 Lingotes de cobre",
+            "10 Citrino",
+            "1250 Oro"
+          ],
+          "priorityNote": "El citrino entra en la ruta; guarda las gemas obtenidas para las mejoras."
+        },
+        {
+          "tier": "Nivel 11",
+          "power": "80",
+          "speed": "132%",
+          "recipe": [
+            "90 Lingotes de estaño",
+            "75 Carbón",
+            "25 Hierro en bruto",
+            "1375 Oro"
+          ],
+          "priorityNote": "Comienza a recolectar hierro en bruto mientras mantienes el suministro de carbón."
+        },
+        {
+          "tier": "Nivel 12",
+          "power": "85",
+          "speed": "135%",
+          "recipe": [
+            "125 Lingotes de estaño",
+            "50 Lingotes de cobre",
+            "15 Citrino",
+            "35 Hierro en bruto",
+            "1500 Oro"
+          ],
+          "priorityNote": "La variedad de materiales aumenta; controla cada ingrediente antes de fabricar objetos secundarios."
+        },
+        {
+          "tier": "Nivel 13",
+          "power": "90",
+          "speed": "138%",
+          "recipe": [
+            "75 Lingotes de hierro",
+            "100 de carbón",
+            "1625 de oro"
+          ],
+          "priorityNote": "El lingote de hierro se vuelve fundamental para la ruta."
+        },
+        {
+          "tier": "Tier 14",
+          "power": "100",
+          "speed": "144%",
+          "recipe": [
+            "90 lingotes de hierro",
+            "60 lingotes de estaño",
+            "1875 de oro"
+          ],
+          "priorityNote": "Punto de control limpio de juego temprano-medio antes de que empiecen a aparecer las recetas de Tier Plata."
+        }
+      ],
+      "backpackColumns": [
+        "Tier",
+        "Aumento de inventario",
+        "Receta",
+        "Nota de prioridad"
+      ],
+      "backpackRows": [
+        {
+          "tier": "Tier 1",
+          "inventoryGain": "Mochila inicial",
+          "recipe": [
+            "Gratis"
+          ],
+          "priorityNote": "Úsala hasta que los viajes de minería empiecen a terminar por falta de espacio en el inventario."
+        },
+        {
+          "tier": "Tier 2",
+          "inventoryGain": "+75 de espacio de inventario",
+          "recipe": [
+            "20 de carbón",
+            "10 de cobre en bruto",
+            "5 de estaño en bruto",
+            "200 de oro"
+          ],
+          "priorityNote": "Primera mejora de inventario para ciclos de minería de principiante más largos."
+        },
+        {
+          "tier": "Tier 3",
+          "inventoryGain": "+75 de espacio de inventario",
+          "recipe": [
+            "30 lingotes de cobre",
+            "10 lingotes de estaño",
+            "5 citrinos",
+            "250 de oro"
+          ],
+          "priorityNote": "Combina bien con el progreso inicial de cobre y estaño."
+        },
+        {
+          "tier": "Tier 4",
+          "inventoryGain": "+75 de espacio de inventario",
+          "recipe": [
+            "35 lingotes de hierro",
+            "20 lingotes de estaño",
+            "15 lingotes de cobre",
+            "10 topacios",
+            "550 de oro"
+          ],
+          "priorityNote": "Mejora cuando los materiales de hierro se vuelvan lo suficientemente comunes."
+        },
+        {
+          "tier": "Tier 5",
+          "inventoryGain": "+75 de espacio de inventario",
+          "recipe": [
+            "50 lingotes de plata",
+            "75 lingotes de hierro",
+            "25 topacios",
+            "10 amatistas",
+            "950 de oro"
+          ],
+          "priorityNote": "Un paso de almacenamiento de mitad de juego que usa plata y materiales de gemas."
+        },
+        {
+          "tier": "Tier 6",
+          "inventoryGain": "+75 de espacio de inventario",
+          "recipe": [
+            "5 lingotes de oro",
+            "75 lingotes de plata",
+            "30 amatistas",
+            "15 esmeraldas",
+            "1250 de oro"
+          ],
+          "priorityNote": "Guarda amatistas y esmeraldas en lugar de gastarlas demasiado pronto."
+        },
+        {
+          "tier": "Tier 7",
+          "inventoryGain": "+75 de espacio de inventario",
+          "recipe": [
+            "75 lingotes de oro",
+            "100 lingotes de plata",
+            "15 rubíes",
+            "25 esmeraldas",
+            "1500 de oro"
+          ],
+          "priorityNote": "Los materiales de gemas de gran valor empiezan a ser importantes."
+        },
+        {
+          "tier": "Tier 8",
+          "inventoryGain": "+75 de espacio de inventario",
+          "recipe": [
+            "25 lingotes de platino",
+            "100 lingotes de oro",
+            "35 rubíes",
+            "20 zafiros",
+            "2000 de oro"
+          ],
+          "priorityNote": "El platino y el zafiro entran en la ruta de almacenamiento."
+        },
+        {
+          "tier": "Tier 9",
+          "inventoryGain": "+75 de espacio de inventario",
+          "recipe": [
+            "100 lingotes de platino",
+            "35 zafiros",
+            "30 rubíes",
+            "10 diamantes",
+            "2750 de oro"
+          ],
+          "priorityNote": "Aparece el diamante; no gastes gemas raras a ciegas."
+        },
+        {
+          "tier": "---",
+          "inventoryGain": "Tier 10",
+          "recipe": [
+            "+75 de espacio de inventario",
+            "100 Lingotes de oro",
+            "100 Lingotes de plata",
+            "100 Lingotes de platino",
+            "50 Amatistas",
+            "40 Rubíes",
+            "35 Esmeraldas",
+            "20 Zafiros",
+            "15 Diamantes"
+          ],
+          "priorityNote": "4525 de Oro"
+        }
+      ],
+      "priorityTitle": "Gran punto de control de Backpack fabricada final antes del almacenamiento de gamepass.",
+      "priorities": [
+        {
+          "priority": 1,
+          "title": "Prioridad de mejora",
+          "description": "Mejora el Pickaxe cuando la minería se sienta lenta"
+        },
+        {
+          "priority": 2,
+          "title": "Los tiers de Pickaxe aumentan tanto el poder como la velocidad de minería, desbloqueando rutas más rápidas a través de bloques más resistentes y capas más profundas.",
+          "description": "Mejora la Backpack cuando los viajes terminen demasiado pronto"
+        },
+        {
+          "priority": 3,
+          "title": "Las mejoras de Backpack son mejores cuando tu inventario se llena antes de que termine tu ruta de minería.",
+          "description": "Ahorra gemas para las recetas requeridas"
+        },
+        {
+          "priority": 4,
+          "title": "Citrino, Topacio, Amatista, Esmeralda, Rubí, Zafiro y Diamante aparecen en recetas de mejora, por lo que gastarlos pronto puede retrasar los tiers posteriores.",
+          "description": "Usa códigos para acelerar el progreso de cartas y EXP"
+        }
+      ]
+    },
+    "subterraWeaponsAndAbilityCardsTierList": {
+      "title": "Chrono Shards, TNT Blocks, potenciadores de EXP y pociones apoyan el mismo ciclo de minería que alimenta la progresión de Pickaxe y Backpack.",
+      "eyebrow": "Tier List de armas y Ability Cards de Subterra",
+      "subtitle": "Armas y cartas",
+      "intro": "Compara las armas y Ability Cards de Subterra por daño, rareza, límite de cartas, utilidad y adecuación a la etapa. Esta clasificación está diseñada para la progresión práctica, eficiencia de minería, seguridad en combate y exploración de capas profundas.",
+      "tierLegend": "Las builds de combate y minería dependen tanto de la elección del arma como de la acumulación de Ability Cards. Las configuraciones de alto valor suelen combinar un arma confiable con cartas que mejoran el rendimiento de mineral, velocidad de Pickaxe, espacio de Backpack, movilidad o supervivencia en capas hostiles.",
+      "tiers": [
+        {
+          "tier": "Las letras de los tiers clasifican el valor de progresión general. Las armas se miden por daño y tier de receta; las Ability Cards se miden por la fuerza del efecto, el límite de cartas y qué tanto mejora el efecto una ruta de minería o combate.",
+          "tierLabel": "S",
+          "entries": [
+            {
+              "name": "Mejores elecciones de progresión general",
+              "type": "Splitblade",
+              "category": "Arma",
+              "damage": "Espadón",
+              "rarity": "92",
+              "combatRole": "Arma de receta",
+              "bestFor": "Arma cuerpo a cuerpo de alto daño",
+              "utility": "Daño cuerpo a cuerpo para el juego tardío y preparación para jefes"
+            },
+            {
+              "name": "La opción de espadón fabricable más fuerte en los datos actuales de armas, lo que la convierte en la prioridad principal para los jugadores que buscan poder de combate directo.",
+              "type": "Lucky",
+              "rarity": "Ability Card",
+              "cardLimit": "Rara",
+              "effect": "5% de probabilidad de duplicar el mineral obtenido al extraer un mineral.",
+              "bestFor": "Recolección de minerales, recolección de materiales raros, rutas de minería largas",
+              "utility": "Una de las mejores cartas de economía porque mejora directamente el rendimiento de la minería sin cambiar la planificación de la ruta."
+            },
+            {
+              "name": "Toque explosivo",
+              "type": "Carta de habilidad",
+              "rarity": "Legendario",
+              "cardLimit": "2",
+              "effect": "10% de probabilidad de crear una pequeña explosión al golpear minerales, dañando los bloques cercanos en un radio de 2 bloques.",
+              "bestFor": "Yacimientos de mineral densos, limpieza de geodas, expansión más rápida de túneles",
+              "utility": "Excelente para limpiar bloques agrupados y acelerar las sesiones de minería más profundas."
+            },
+            {
+              "name": "Pico ardiente",
+              "type": "Carta de habilidad",
+              "rarity": "Legendario",
+              "cardLimit": "2",
+              "effect": "30% de probabilidad de fundir automáticamente los minerales extraídos.",
+              "bestFor": "Rutas de minerales que normalmente requieren viajes repetidos a la fundición",
+              "utility": "Ahorra tiempo de procesamiento y mantiene las rutas de minería más eficientes."
+            }
+          ],
+          "recommendedCombos": [
+            {
+              "name": "Granjero de mineral profundo",
+              "weapon": "Splitblade",
+              "cards": [
+                "Afortunado",
+                "Toque explosivo",
+                "Pico ardiente",
+                "Mochila más grande"
+              ],
+              "useCase": "Maximiza el rendimiento de mineral, la limpieza de bloques y la eficiencia del inventario durante largas sesiones de minería."
+            },
+            {
+              "name": "Configuración de fundición rápida",
+              "weapon": "Espadón de caballero",
+              "cards": [
+                "Pico ardiente",
+                "Horno más grande",
+                "Pico más ligero",
+                "Pico más fuerte"
+              ],
+              "useCase": "Reduce el tiempo perdido entre minar, fundir y vender."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "tierLabel": "Picos de núcleo fuerte",
+          "entries": [
+            {
+              "name": "Espadón de caballero",
+              "type": "Arma",
+              "category": "Espadón",
+              "damage": "66",
+              "rarity": "Arma de receta",
+              "combatRole": "Arma cuerpo a cuerpo confiable",
+              "bestFor": "Progresión de juego medio a tardío antes de Splitblade",
+              "utility": "Una sólida ruta de mejora para jugadores que necesitan un daño cuerpo a cuerpo confiable antes de conseguir el mejor espadón."
+            },
+            {
+              "name": "Espada miserable",
+              "type": "Arma",
+              "category": "Espadón",
+              "damage": "56",
+              "rarity": "Arma de receta",
+              "combatRole": "Arma cuerpo a cuerpo",
+              "bestFor": "Limpieza de monstruos a mitad de juego",
+              "utility": "Buen daño para jugadores que progresan a través de capas más difíciles y rutas densas de enemigos."
+            },
+            {
+              "name": "Mochila más grande",
+              "type": "Carta de Habilidad",
+              "rarity": "Rara",
+              "cardLimit": "5",
+              "effect": "Aumenta el espacio de la mochila en un 15%.",
+              "bestFor": "Sesiones de minería largas y eficiencia en rutas de venta",
+              "utility": "Reduce la frecuencia con la que los jugadores deben volver a la superficie para vender o gestionar el inventario."
+            },
+            {
+              "name": "Doble salto",
+              "type": "Carta de Habilidad",
+              "rarity": "Rara",
+              "cardLimit": "5",
+              "effect": "Añade un impulso de salto adicional.",
+              "bestFor": "Navegación por capas, estructuras de cuevas, rutas de escape",
+              "utility": "Mejora el movimiento en cuevas verticales, ruinas, torres y terrenos peligrosos."
+            },
+            {
+              "name": "Horno más grande",
+              "type": "Carta de Habilidad",
+              "rarity": "Legendaria",
+              "cardLimit": "2",
+              "effect": "Añade una ranura de horno adicional.",
+              "bestFor": "Jugadores que procesan grandes inventarios de minerales",
+              "utility": "Mejora el ciclo de fundición cuando se combina con cartas de mochila y de recolección de minerales."
+            },
+            {
+              "name": "Saludable",
+              "type": "Carta de Habilidad",
+              "rarity": "Poco común",
+              "cardLimit": "10",
+              "effect": "Añade 10 HP por carta.",
+              "bestFor": "Sobrevivir a monstruos, jefes y errores con explosiones",
+              "utility": "Resistencia directa que se vuelve más valiosa en las capas hostiles más profundas."
+            }
+          ],
+          "recommendedCombos": [
+            {
+              "name": "Explorador seguro de las profundidades",
+              "weapon": "Espada miserable",
+              "cards": [
+                "Saludable",
+                "Doble salto",
+                "Velocidad de movimiento",
+                "Oxígeno extra"
+              ],
+              "useCase": "Equilibra la supervivencia, el movimiento y la seguridad del oxígeno para explorar cuevas más profundas."
+            },
+            {
+              "name": "Minero de inventario",
+              "weapon": "Espadón de caballero",
+              "cards": [
+                "Mochila más grande",
+                "Bolsa",
+                "Afortunado",
+                "Horno más grande"
+              ],
+              "useCase": "Mejora la capacidad de carga y el procesamiento para rutas con abundancia de minerales."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "tierLabel": "Buenas opciones para el inicio y mitad del juego",
+          "entries": [
+            {
+              "name": "Espadón robusto",
+              "type": "Arma",
+              "category": "Espadón",
+              "damage": "51",
+              "rarity": "Arma de receta",
+              "combatRole": "Arma cuerpo a cuerpo para el inicio y mitad del juego",
+              "bestFor": "Jugadores que mejoran desde armas básicas",
+              "utility": "Un paso práctico en el combate antes de que estén disponibles espadones más fuertes."
+            },
+            {
+              "name": "Arco largo reforzado",
+              "type": "Arma",
+              "category": "Arco largo",
+              "damage": "44",
+              "rarity": "Arma de receta",
+              "combatRole": "Arma a distancia",
+              "bestFor": "Ataques a distancia y control de espacio más seguros",
+              "utility": "Útil para jugadores que prefieren mantener la distancia contra monstruos hostiles."
+            },
+            {
+              "name": "Arco de espina",
+              "type": "Arma",
+              "category": "Arco",
+              "damage": "38",
+              "rarity": "Arma de receta",
+              "combatRole": "Arma a distancia",
+              "bestFor": "Combate a distancia con movilidad",
+              "utility": "Una opción de arco sólida cuando los jugadores necesitan alcance sin comprometerse a un posicionamiento cuerpo a cuerpo pesado."
+            },
+            {
+              "name": "Arco reforzado",
+              "type": "Arma",
+              "category": "Arco",
+              "damage": "30",
+              "rarity": "Receta de arma",
+              "combatRole": "Arma a distancia",
+              "bestFor": "Combate a distancia a mitad de partida",
+              "utility": "Una mejora a distancia estable antes de obtener arcos y arcos largos más fuertes."
+            },
+            {
+              "name": "Pico más fuerte",
+              "type": "Carta de habilidad",
+              "rarity": "Poco común",
+              "cardLimit": "10",
+              "effect": "Aumenta el poder del pico en un 6%.",
+              "bestFor": "Minería de bloques más duros y minerales más profundos",
+              "utility": "Mejora el poder de ruptura de bloques y ayuda a progresar hacia capas más difíciles."
+            },
+            {
+              "name": "Pico más ligero",
+              "type": "Carta de habilidad",
+              "rarity": "Poco común",
+              "cardLimit": "10",
+              "effect": "Aumenta la velocidad del pico en un 5%.",
+              "bestFor": "Velocidad de minería general",
+              "utility": "Una carta de minería excelente para el día a día que mejora la sensación en casi cualquier ruta."
+            },
+            {
+              "name": "Velocidad al caminar",
+              "type": "Carta de habilidad",
+              "rarity": "Común",
+              "cardLimit": "8",
+              "effect": "Aumenta la velocidad al caminar en 2 studs.",
+              "bestFor": "Exploración, viajes de regreso y evasión de monstruos",
+              "utility": "Velocidad de movimiento simple que ahorra tiempo en cada ciclo de minería."
+            },
+            {
+              "name": "Oxígeno extra",
+              "type": "Carta de habilidad",
+              "rarity": "Poco común",
+              "cardLimit": "10",
+              "effect": "Añade 25 ml de oxígeno.",
+              "bestFor": "Rutas subterráneas largas",
+              "utility": "Ayuda a prolongar los viajes de minería antes de regresar a zonas más seguras."
+            }
+          ],
+          "recommendedCombos": [
+            {
+              "name": "Minero principiante",
+              "weapon": "Espadón resistente",
+              "cards": [
+                "Pico más ligero",
+                "Pico más fuerte",
+                "Bolsa",
+                "Velocidad al caminar"
+              ],
+              "useCase": "Mejora la velocidad de minería, la capacidad de carga básica y el movimiento, mientras mantiene el combate utilizable."
+            },
+            {
+              "name": "Seguridad a Distancia",
+              "weapon": "Arco Largo Reforzado",
+              "cards": [
+                "Velocidad de movimiento",
+                "Doble salto",
+                "Saludable",
+                "Sigiloso"
+              ],
+              "useCase": "Mantiene la distancia con los enemigos a la vez que mejora la movilidad y la supervivencia."
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "tierLabel": "Picos iniciales y de utilidad",
+          "entries": [
+            {
+              "name": "Espada",
+              "type": "Arma",
+              "category": "Espada",
+              "damage": "~25",
+              "rarity": "Arma de tienda",
+              "combatRole": "Arma cuerpo a cuerpo inicial",
+              "bestFor": "Primera mejora de combate",
+              "utility": "Una opción de arma básica para jugadores que necesitan defensa temprana mientras minan."
+            },
+            {
+              "name": "Espadón de hierro",
+              "type": "Arma",
+              "category": "Espadón",
+              "damage": "20",
+              "rarity": "Arma de receta",
+              "combatRole": "Espadón inicial",
+              "bestFor": "Progresión cuerpo a cuerpo temprana",
+              "utility": "Útil como paso inicial de fabricación antes de obtener armas cuerpo a cuerpo más fuertes."
+            },
+            {
+              "name": "Arco Largo Curvo",
+              "type": "Arma",
+              "category": "Arco Largo",
+              "damage": "24",
+              "rarity": "Arma de receta",
+              "combatRole": "Arma a distancia inicial",
+              "bestFor": "Combate a distancia temprano",
+              "utility": "Una opción de arco largo básica para jugadores que quieren alcance antes de conseguir arcos más fuertes."
+            },
+            {
+              "name": "Arco Curvo",
+              "type": "Arma",
+              "category": "Arco",
+              "damage": "16",
+              "rarity": "Arma de receta",
+              "combatRole": "Arma a distancia inicial",
+              "bestFor": "Combate a distancia ligero",
+              "utility": "Una opción a distancia de bajo compromiso para los primeros enemigos de la cueva."
+            },
+            {
+              "name": "Imán",
+              "type": "Carta de habilidad",
+              "rarity": "Común",
+              "cardLimit": "5",
+              "effect": "Aumenta el rango de recogida de objetos en 0.5 studs.",
+              "bestFor": "Minería cómoda y limpieza",
+              "utility": "Conveniente para recoger objetos caídos y minerales sin necesidad de un posicionamiento preciso."
+            },
+            {
+              "name": "Bolsa",
+              "type": "Carta de habilidad",
+              "rarity": "Común",
+              "cardLimit": "5",
+              "effect": "Aumenta el espacio de la mochila en un 3%.",
+              "bestFor": "Alivio de inventario inicial",
+              "utility": "Útil antes de que la Mochila más grande esté disponible."
+            },
+            {
+              "name": "Radiante",
+              "type": "Carta de habilidad",
+              "rarity": "Común",
+              "cardLimit": "1",
+              "effect": "Hace que el jugador emita una luz tenue.",
+              "bestFor": "Visibilidad en cuevas con poca luz",
+              "utility": "Carta de comodidad útil para navegar en capas oscuras."
+            },
+            {
+              "name": "Sigiloso",
+              "type": "Carta de habilidad",
+              "rarity": "Poco común",
+              "cardLimit": "10",
+              "effect": "Reduce el rango de detección de los monstruos en un 5%.",
+              "bestFor": "Evitar combates no deseados",
+              "utility": "Bueno para jugadores que priorizan las rutas de minería sobre el combate."
+            }
+          ],
+          "recommendedCombos": [
+            {
+              "name": "Seguridad de principiante",
+              "weapon": "Espada",
+              "cards": [
+                "Bolsa",
+                "Imán",
+                "Radiante",
+                "Saludable"
+              ],
+              "useCase": "Mejora la comodidad del inventario inicial, la visibilidad y la supervivencia básica."
+            },
+            {
+              "name": "Minero silencioso",
+              "weapon": "Arco curvo",
+              "cards": [
+                "Sigiloso",
+                "Velocidad al caminar",
+                "---",
+                "Oxígeno extra"
+              ],
+              "useCase": "Radiante"
+            }
+          ]
+        }
+      ]
+    },
+    "subterraCraftingRecipesAndMaterials": {
+      "title": "Favorece la exploración cuidadosa evitando la presión innecesaria de los monstruos.",
+      "eyebrow": "Recetas de fabricación y materiales de Subterra",
+      "subtitle": "Fabricación y materiales",
+      "intro": "Rastrea recetas útiles, ingredientes de pociones, mejoras de explosivos, llaves, materiales de mena, lingotes, cristales y fuentes de recursos comunes. Esta tabla está diseñada para filtrar rápidamente por tipo de fabricación, fuente de material y uso de progresión.",
+      "filterAll": "La fabricación conecta la minería, el botín de monstruos, los pergaminos de recetas, la fundición, las llaves, las pociones y los explosivos. Prioriza la recuperación de salud, el acceso a cofres, los explosivos pegajosos y la producción de lingotes, ya que estos sistemas afectan directamente la velocidad de exploración y la supervivencia en las capas más profundas.",
+      "items": [
+        {
+          "name": "Todo",
+          "category": "Poción de salud pequeña",
+          "recipe": [
+            "Poción",
+            "1x Frasco de agua",
+            "2x Raíces"
+          ],
+          "effect": "1x Fragmento de vida",
+          "sources": [
+            "Restaura 25 HP.",
+            "Fabricación"
+          ],
+          "sellValue": 37,
+          "progressionUse": "Pergamino de receta de objeto de utilidad básico"
+        },
+        {
+          "name": "Supervivencia temprana, combates contra monstruos, rutas de cuevas profundas",
+          "category": "Bomba pegajosa pequeña",
+          "recipe": [
+            "Explosivo pegajoso",
+            "3x Trozo de slime"
+          ],
+          "effect": "1x Bomba pequeña",
+          "sources": [
+            "Versión pegajosa de la Bomba pequeña para una limpieza de bloques controlada.",
+            "Fabricación"
+          ],
+          "progressionUse": "Pergamino de receta de objeto de combate básico"
+        },
+        {
+          "name": "Minería dirigida, limpieza de cuevas, acceso a depósitos de mena",
+          "category": "Dinamita pegajosa",
+          "recipe": [
+            "Explosivo pegajoso",
+            "3x Trozo de slime"
+          ],
+          "effect": "1x Dinamita",
+          "sources": [
+            "Versión pegajosa de la Dinamita para explosiones controladas más potentes.",
+            "Fabricación"
+          ],
+          "progressionUse": "Pergamino de receta de objeto de combate básico"
+        },
+        {
+          "name": "Limpieza a mitad de juego y acceso a estructuras",
+          "category": "Dinamitas pegajosas",
+          "recipe": [
+            "Explosivo pegajoso",
+            "3x Trozo de slime"
+          ],
+          "effect": "1x Dinamitas",
+          "sources": [
+            "Versión pegajosa de las Dinamitas para una limpieza explosiva más amplia.",
+            "Fabricación"
+          ],
+          "progressionUse": "Grandes depósitos de mineral y rutas de cuevas más difíciles"
+        },
+        {
+          "name": "C4 pegajoso",
+          "category": "Explosivo pegajoso",
+          "recipe": [
+            "3x Trozo de slime",
+            "1x C4"
+          ],
+          "effect": "Versión pegajosa de C4 para explosiones controladas de gran radio.",
+          "sources": [
+            "Fabricación",
+            "Pergamino de receta de objeto de combate básico"
+          ],
+          "progressionUse": "Despeje de bloques en el juego tardío y rutas de minería en capas profundas"
+        },
+        {
+          "name": "Piedra",
+          "category": "Fabricación de bloques",
+          "recipe": [
+            "4x Roca"
+          ],
+          "effect": "Fabrica piedra a partir de materiales básicos de roca.",
+          "sources": [
+            "Fabricación",
+            "Roca a partir de piedra, tierra y bloques comunes de cueva"
+          ],
+          "progressionUse": "Utilidad básica de conversión y fabricación de bloques"
+        },
+        {
+          "name": "Llave de hierro",
+          "category": "Llave",
+          "effect": "Abre cofres de hierro.",
+          "sources": [
+            "Vasijas de mármol",
+            "Cofres",
+            "Monstruos",
+            "Fabricación",
+            "Pergamino de receta de objeto de utilidad básico"
+          ],
+          "sellValue": 30,
+          "progressionUse": "Acceso a cofres de valor medio y progresión de botín"
+        },
+        {
+          "name": "Llave de oro",
+          "category": "Llave",
+          "effect": "Abre cofres de oro.",
+          "sources": [
+            "Vasijas de mármol",
+            "Cofres",
+            "Monstruos",
+            "Fabricación",
+            "Pergamino de receta de objeto de utilidad básico"
+          ],
+          "sellValue": 60,
+          "progressionUse": "Acceso a cofres de alto valor y rutas de botín raro"
+        },
+        {
+          "name": "Pergamino de receta de objeto de utilidad básico",
+          "category": "Pergamino de receta",
+          "unlocks": [
+            "Poción de salud pequeña",
+            "Llave de hierro",
+            "Llave de oro"
+          ],
+          "sources": [
+            "Cofres",
+            "Objetos de botín",
+            "Recompensas de progresión"
+          ],
+          "sellValue": 12,
+          "progressionUse": "Desbloquea recetas básicas de supervivencia y acceso a cofres"
+        },
+        {
+          "name": "Pergamino de receta de objeto de combate básico",
+          "category": "Pergamino de receta",
+          "unlocks": [
+            "Bomba pegajosa pequeña",
+            "Dinamita pegajosa",
+            "Dinamitas pegajosas",
+            "C4 pegajoso"
+          ],
+          "sources": [
+            "Cofres",
+            "Objetos de botín",
+            "Recompensas de progresión"
+          ],
+          "sellValue": 12,
+          "progressionUse": "Desbloquea recetas de explosivos pegajosos para minería y utilidad en combate"
+        },
+        {
+          "name": "Bomba pequeña",
+          "category": "Explosivo",
+          "damage": 85,
+          "radius": 3,
+          "sources": [
+            "Tienda",
+            "Rutas de creación"
+          ],
+          "shopPrice": 28,
+          "progressionUse": "Minería explosiva temprana y despeje de bloques"
+        },
+        {
+          "name": "Dinamita",
+          "category": "Explosivo",
+          "damage": 150,
+          "radius": 4,
+          "sources": [
+            "Tienda",
+            "Rutas de creación"
+          ],
+          "shopPrice": 125,
+          "progressionUse": "Despeje explosivo más fuerte para el juego temprano y medio"
+        },
+        {
+          "name": "Dinamitas",
+          "category": "Explosivo",
+          "damage": 175,
+          "radius": 5,
+          "sources": [
+            "Tienda",
+            "Rutas de creación"
+          ],
+          "shopPrice": 300,
+          "progressionUse": "Despeje más amplio para rutas de minería más profundas"
+        },
+        {
+          "name": "C4",
+          "category": "Explosivo",
+          "damage": 250,
+          "radius": 8,
+          "sources": [
+            "Tienda",
+            "Rutas de creación"
+          ],
+          "shopPrice": 500,
+          "progressionUse": "Despeje de gran radio para el juego tardío"
+        },
+        {
+          "name": "Frasco de agua",
+          "category": "Material de poción",
+          "rarity": "Poco común",
+          "sources": [
+            "Monstruos",
+            "Cofres",
+            "Objetos de botín"
+          ],
+          "sellValue": 17,
+          "progressionUse": "Ingrediente para poción de salud pequeña"
+        },
+        {
+          "name": "---",
+          "category": "Fragmento de vida",
+          "rarity": "Material de poción",
+          "sources": [
+            "Poco común",
+            "Monstruos",
+            "Cofres"
+          ],
+          "sellValue": 10,
+          "progressionUse": "Botines"
+        },
+        {
+          "name": "Ingrediente de poción de salud pequeña",
+          "category": "Raíces",
+          "rarity": "Material",
+          "sources": [
+            "Común"
+          ],
+          "sellValue": 2,
+          "progressionUse": "Raíces encontradas en las capas de las cuevas"
+        },
+        {
+          "name": "Ingrediente de poción de salud pequeña",
+          "category": "Trozo de slime",
+          "rarity": "Material de combate",
+          "sources": [
+            "Poco común",
+            "Slimes",
+            "Slimes de hielo",
+            "Monstruos",
+            "Cofres"
+          ],
+          "sellValue": 3,
+          "progressionUse": "Botines"
+        },
+        {
+          "name": "Ingrediente de explosivo pegajoso",
+          "category": "Roca",
+          "rarity": "Material básico",
+          "sources": [
+            "Común",
+            "Piedra",
+            "Tierra"
+          ],
+          "sellValue": 2,
+          "progressionUse": "Bloques de cueva comunes"
+        },
+        {
+          "name": "Fabricación de piedra y recolección de materiales básicos",
+          "category": "Carbón",
+          "rarity": "Material de mena",
+          "tier": 1,
+          "sources": [
+            "Común"
+          ],
+          "sellValue": 3,
+          "progressionUse": "Mena de carbón"
+        },
+        {
+          "name": "Minería inicial, misiones y rutas de progresión",
+          "category": "Cobre en bruto",
+          "rarity": "Mena en bruto",
+          "tier": 3,
+          "sources": [
+            "Común"
+          ],
+          "smeltsInto": "Mena de cobre",
+          "sellValue": 7,
+          "progressionUse": "Lingote de cobre"
+        },
+        {
+          "name": "Progresión inicial de menas",
+          "category": "Lingote",
+          "rarity": "Común",
+          "tier": 3,
+          "sources": [
+            "Fundir cobre en bruto"
+          ],
+          "sellValue": 11,
+          "progressionUse": "Material de fabricación y mejora inicial"
+        },
+        {
+          "name": "Estaño en bruto",
+          "category": "Mineral en bruto",
+          "rarity": "Común",
+          "tier": 5,
+          "sources": [
+            "Mineral de estaño en Y -80 y niveles inferiores"
+          ],
+          "smeltsInto": "Lingote de estaño",
+          "sellValue": 9,
+          "progressionUse": "Progresión de minerales inicial"
+        },
+        {
+          "name": "Lingote de estaño",
+          "category": "Lingote",
+          "rarity": "Común",
+          "tier": 5,
+          "sources": [
+            "Fundir estaño en bruto"
+          ],
+          "sellValue": 13,
+          "progressionUse": "Material de fabricación y mejora inicial"
+        },
+        {
+          "name": "Hierro en bruto",
+          "category": "Mineral en bruto",
+          "rarity": "Común",
+          "tier": 10,
+          "sources": [
+            "Mineral de hierro en Y -100 y niveles inferiores"
+          ],
+          "smeltsInto": "Lingote de hierro",
+          "sellValue": 15,
+          "progressionUse": "Progresión esencial de minerales de fase inicial a media"
+        },
+        {
+          "name": "Lingote de hierro",
+          "category": "Lingote",
+          "rarity": "Común",
+          "tier": 10,
+          "sources": [
+            "Fundir hierro en bruto"
+          ],
+          "sellValue": 22,
+          "progressionUse": "Progresión de armas, herramientas y mejoras"
+        },
+        {
+          "name": "Plata en bruto",
+          "category": "Mineral en bruto",
+          "rarity": "Común",
+          "tier": 14,
+          "sources": [
+            "Mineral de plata en Y -200 y niveles inferiores"
+          ],
+          "smeltsInto": "Lingote de plata",
+          "sellValue": 22,
+          "progressionUse": "Progresión de minerales de mitad de juego"
+        },
+        {
+          "name": "Lingote de plata",
+          "category": "Lingote",
+          "rarity": "Común",
+          "tier": 14,
+          "sources": [
+            "Fundir plata en bruto"
+          ],
+          "sellValue": 33,
+          "progressionUse": "Fabricación y mejoras de mitad de juego"
+        },
+        {
+          "name": "Oro en bruto",
+          "category": "Mineral en bruto",
+          "rarity": "Común",
+          "tier": 18,
+          "sources": [
+            "Mineral de Oro en Y -200 y por debajo"
+          ],
+          "smeltsInto": "Lingote de Oro",
+          "sellValue": 37,
+          "progressionUse": "Venta, crafteo y misiones de mitad de juego"
+        },
+        {
+          "name": "Lingote de Oro",
+          "category": "Lingote",
+          "rarity": "Común",
+          "tier": 18,
+          "sources": [
+            "Fundir Oro Bruto"
+          ],
+          "sellValue": 56,
+          "progressionUse": "Material de crafteo y mejora de mitad de juego"
+        },
+        {
+          "name": "Platino Bruto",
+          "category": "Mineral Bruto",
+          "rarity": "Poco común",
+          "tier": 22,
+          "sources": [
+            "Mineral de Platino en Y -250 y por debajo"
+          ],
+          "smeltsInto": "Lingote de Platino",
+          "sellValue": 60,
+          "progressionUse": "Progresión de minerales de nivel superior"
+        },
+        {
+          "name": "Lingote de Platino",
+          "category": "Lingote",
+          "rarity": "Poco común",
+          "tier": 22,
+          "sources": [
+            "Fundir Platino Bruto"
+          ],
+          "sellValue": 90,
+          "progressionUse": "Crafteo y mejoras avanzadas"
+        },
+        {
+          "name": "Cobalto Bruto",
+          "category": "Mineral Bruto",
+          "rarity": "Poco común",
+          "tier": 28,
+          "sources": [
+            "Mineral de Cobalto"
+          ],
+          "smeltsInto": "Lingote de Cobalto",
+          "sellValue": 50,
+          "progressionUse": "Progresión de minerales en capas profundas"
+        },
+        {
+          "name": "Lingote de Cobalto",
+          "category": "Lingote",
+          "rarity": "Poco común",
+          "tier": 28,
+          "sources": [
+            "Fundir Cobalto Bruto"
+          ],
+          "sellValue": 90,
+          "progressionUse": "Crafteo avanzado y progresión profunda"
+        },
+        {
+          "name": "Cromo Bruto",
+          "category": "Mineral Bruto",
+          "rarity": "Poco común",
+          "tier": 30,
+          "sources": [
+            "Mineral de Cromo"
+          ],
+          "smeltsInto": "Lingote de Cromo",
+          "sellValue": 60,
+          "progressionUse": "Progresión de minerales en capas profundas"
+        },
+        {
+          "name": "Lingote de Cromo",
+          "category": "Lingote",
+          "rarity": "Poco común",
+          "tier": 30,
+          "sources": [
+            "Fundir Cromo Bruto"
+          ],
+          "sellValue": 112,
+          "progressionUse": "Fabricación avanzada y mejoras más profundas"
+        },
+        {
+          "name": "Titanio en bruto",
+          "category": "Mineral en bruto",
+          "rarity": "Mítico",
+          "tier": 34,
+          "sources": [
+            "Mineral de titanio"
+          ],
+          "smeltsInto": "Lingote de titanio",
+          "sellValue": 90,
+          "progressionUse": "Progresión de minerales para el juego tardío"
+        },
+        {
+          "name": "Lingote de titanio",
+          "category": "Lingote",
+          "rarity": "Mítico",
+          "tier": 34,
+          "sources": [
+            "Fundir titanio en bruto"
+          ],
+          "sellValue": 137,
+          "progressionUse": "Fabricación y mejoras para el juego tardío"
+        },
+        {
+          "name": "Wolframita en bruto",
+          "category": "Mineral en bruto",
+          "rarity": "Mítico",
+          "tier": 38,
+          "sources": [
+            "Mineral de wolframita"
+          ],
+          "smeltsInto": "Lingote de wolframita",
+          "sellValue": 120,
+          "progressionUse": "Progresión de minerales para el juego tardío"
+        },
+        {
+          "name": "Lingote de wolframita",
+          "category": "Lingote",
+          "rarity": "Mítico",
+          "tier": 38,
+          "sources": [
+            "Fundir wolframita en bruto"
+          ],
+          "sellValue": 175,
+          "progressionUse": "Fabricación y mejoras para el juego tardío"
+        },
+        {
+          "name": "Topacio",
+          "category": "Gema",
+          "rarity": "Raro",
+          "tier": 12,
+          "sources": [
+            "Mineral de topacio en Y -150 y por debajo",
+            "Geodas de gemas"
+          ],
+          "sellValue": 40,
+          "progressionUse": "Material de misión y gema con valor de venta"
+        },
+        {
+          "name": "Amatista",
+          "category": "Gema",
+          "rarity": "Raro",
+          "tier": 15,
+          "sources": [
+            "Bloques de amatista",
+            "Mineral de amatista en Y -200 y por debajo",
+            "Geodas de gemas"
+          ],
+          "sellValue": 67,
+          "progressionUse": "Material de misión y farmeo de gemas a mitad del juego"
+        },
+        {
+          "name": "Esmeralda",
+          "category": "Gema",
+          "rarity": "Raro",
+          "tier": 16,
+          "sources": [
+            "Mineral de esmeralda en Y -150 y por debajo",
+            "Geodas de gemas"
+          ],
+          "sellValue": 57,
+          "progressionUse": "Recolección de gemas y valor de venta"
+        },
+        {
+          "name": "Zafiro",
+          "category": "Gema",
+          "rarity": "Mítico",
+          "tier": 20,
+          "sources": [
+            "Mena de zafiro en Y -160 y por debajo",
+            "Geodas de gemas"
+          ],
+          "sellValue": 75,
+          "progressionUse": "Material de misión y recolección de gemas de mayor valor"
+        },
+        {
+          "name": "Rubí",
+          "category": "Gema",
+          "rarity": "Raro",
+          "tier": 21,
+          "sources": [
+            "Mena de rubí en Y -160 y por debajo",
+            "Geodas de gemas"
+          ],
+          "sellValue": 90,
+          "progressionUse": "Recolección de gemas y valor de venta"
+        },
+        {
+          "name": "Diamante",
+          "category": "Gema",
+          "rarity": "Legendario",
+          "tier": 24,
+          "sources": [
+            "Mena de diamante en Y -250 y por debajo",
+            "Geodas de gemas"
+          ],
+          "sellValue": 150,
+          "progressionUse": "Recolección de gemas de alto valor y progresión de misiones"
+        },
+        {
+          "name": "Nocturnita",
+          "category": "Gema",
+          "rarity": "Raro",
+          "tier": 40,
+          "sources": [
+            "Mena de nocturnita",
+            "Geodas de gemas"
+          ],
+          "sellValue": 262,
+          "progressionUse": "Recolección de alto valor en capas profundas"
+        },
+        {
+          "name": "Fragmento de piedra lunar",
+          "category": "Fragmento",
+          "rarity": "Poco común",
+          "tier": 28,
+          "sources": [
+            "Mena de piedra lunar"
+          ],
+          "sellValue": 75,
+          "progressionUse": "Recolección de materiales en capas profundas"
+        },
+        {
+          "name": "Cristal de azurita",
+          "category": "Cristal",
+          "rarity": "Poco común",
+          "tier": 33,
+          "sources": [
+            "Mena de azurita"
+          ],
+          "sellValue": 212,
+          "progressionUse": "Recolección de cristales de alto valor en capas profundas"
+        },
+        {
+          "name": "Cristal de piedra solar",
+          "category": "Cristal",
+          "rarity": "Poco común",
+          "tier": 36,
+          "sources": [
+            "Mena de piedra solar"
+          ],
+          "sellValue": 75,
+          "progressionUse": "Rutas de materiales de permafrost y capas profundas"
+        }
+      ]
+    },
+    "subterraLayersOresAndStructures": {
+      "title": "Capas, minerales y estructuras de Subterra",
+      "eyebrow": "Capas y exploración",
+      "subtitle": "Explora por capa, nivel de mineral, tipo de estructura, acceso a portales y valor de recursos. Este módulo ayuda a los jugadores a decidir dónde minar, qué buscar y cuándo adentrarse más.",
+      "intro": "El mundo se vuelve más peligroso a medida que los jugadores descienden por capas de cuevas procedimentales. Cada capa cambia el conjunto de bloques, el valor de los minerales, las estructuras, los enemigos y los objetivos de exploración, por lo que una buena ruta equilibra las mejoras del pico, el oxígeno, las armas, las llaves y el espacio del inventario.",
+      "layerLegend": "Los valores de profundidad reflejan puntos comunes de ruptura en la progresión. Las coordenadas de los portales marcan desbloqueos de viaje rápido; a las capas sin un portal listado se llega minando hacia abajo desde la capa superior.",
+      "layers": [
+        {
+          "layer": "Mundo exterior",
+          "depth": "Centro de la superficie",
+          "role": "Área de preparación principal",
+          "keyOres": [],
+          "resources": [
+            "Objetos de la tienda",
+            "Acceso a la fundición",
+            "Zona de venta",
+            "Cristal Chrono",
+            "Altar de creación",
+            "Acceso al portal"
+          ],
+          "structures": [
+            "Plaza",
+            "Tienda",
+            "Fundición",
+            "Zona de venta",
+            "Cristal Chrono",
+            "Altar de creación",
+            "Portal"
+          ],
+          "enemies": [],
+          "portal": "Portal del mundo exterior",
+          "explorationFocus": "Compra explosivos y herramientas, funde minerales en bruto, vende botín, crea recetas, invoca Cartas de Habilidad y prepárate para las rutas subterráneas."
+        },
+        {
+          "layer": "Capa de tierra",
+          "depth": "Superficie hasta aproximadamente Y -35",
+          "role": "Capa de minería inicial",
+          "keyOres": [
+            "Carbón",
+            "Cobre",
+            "Estaño"
+          ],
+          "resources": [
+            "Tierra",
+            "Tierra musgosa",
+            "Piedra",
+            "Roca",
+            "Raíces",
+            "Enredaderas"
+          ],
+          "structures": [
+            "Pequeñas aberturas de cuevas",
+            "Botín inicial"
+          ],
+          "enemies": [
+            "Slime",
+            "Zombi"
+          ],
+          "portal": "No se ha listado ningún portal de capa",
+          "explorationFocus": "Extrae minerales iniciales, recolecta rocas y carbón, completa las primeras misiones y prepara mejoras de pico antes de avanzar a la capa de Piedra."
+        },
+        {
+          "layer": "Capa de Piedra",
+          "depth": "Comienza alrededor de Y -35",
+          "role": "Capa principal de progresión inicial a intermedia",
+          "keyOres": [
+            "Carbón",
+            "Cobre",
+            "Estaño",
+            "Hierro",
+            "Plata",
+            "Oro",
+            "Topacio",
+            "Amatista",
+            "Esmeralda",
+            "Zafiro",
+            "Rubí",
+            "Platino",
+            "Diamante"
+          ],
+          "resources": [
+            "Geodas de gemas",
+            "Cristales de amatista",
+            "Raíces",
+            "Enredaderas",
+            "Estalactitas"
+          ],
+          "structures": [
+            "Casa común",
+            "Aldea de la cueva",
+            "Ruinas",
+            "Pozo de mina",
+            "Barco",
+            "Cofres",
+            "Agujeros de gusano",
+            "TNT",
+            "Geoda de amatista vacía",
+            "Geoda de amatista normal"
+          ],
+          "enemies": [
+            "Slime",
+            "Zombi",
+            "Esqueleto bomba"
+          ],
+          "portal": "No se ha listado ningún portal de capa",
+          "explorationFocus": "Desarrolla tu economía con minerales y gemas, abre cofres, ten cuidado con los enemigos explosivos y usa llaves para obtener mejor botín."
+        },
+        {
+          "layer": "Capa de Piedra Oscura",
+          "depth": "Comienza alrededor de Y -435",
+          "role": "Primer gran salto a las capas profundas",
+          "keyOres": [
+            "Cobalto",
+            "Nocturnita",
+            "Hielo Negro",
+            "Oro",
+            "Platino",
+            "Diamante"
+          ],
+          "resources": [
+            "Bloques de Darkstone",
+            "Vetas de mineral de mayor valor",
+            "Estructuras profundas"
+          ],
+          "structures": [
+            "Torre",
+            "Isla flotante",
+            "Ruinas",
+            "Cofres",
+            "Agujeros de gusano"
+          ],
+          "enemies": [
+            "Zombi",
+            "Esqueleto de Darkstone"
+          ],
+          "portal": "Portal de Darkstone en X 26, Y -481",
+          "explorationFocus": "Avanza hacia minerales más fuertes, desbloquea el viaje rápido, trae mejores armas y usa Ability Cards de movilidad para manejar estructuras verticales."
+        },
+        {
+          "layer": "Capa de Permafrost",
+          "depth": "Comienza alrededor de Y -723",
+          "role": "Capa congelada avanzada",
+          "keyOres": [
+            "Platino",
+            "Cromo",
+            "Piedra lunar",
+            "Diamante",
+            "Piedra solar",
+            "Oro",
+            "Titanio",
+            "Cobalto",
+            "Wolframita",
+            "Azurita",
+            "Nocturnita",
+            "Hielo cargado"
+          ],
+          "resources": [
+            "Bloque de hielo",
+            "Hielo más frío",
+            "Hielo Negro",
+            "Fragmento de hielo",
+            "Fragmento de hielo cargado"
+          ],
+          "structures": [
+            "Cuevas heladas",
+            "Cofres",
+            "Agujeros de gusano",
+            "Objetos saqueables de las profundidades"
+          ],
+          "enemies": [
+            "Esqueleto de piedra oscura",
+            "Slime de hielo",
+            "Elemental de hielo"
+          ],
+          "portal": "Portal del Permafrost en X 26, Y -754",
+          "explorationFocus": "Recolecta minerales y cristales de nivel superior, enfréntate a enemigos más difíciles y prepárate para progresar en Schwarzfrost."
+        },
+        {
+          "layer": "Capa Schwarzfrost",
+          "depth": "Capa de congelación profunda bajo el Permafrost",
+          "role": "Capa actual de exploración de alto nivel y jefes",
+          "keyOres": [
+            "Hielo cargado",
+            "Eiskron",
+            "Nocturnita",
+            "Recursos de congelación profunda"
+          ],
+          "resources": [
+            "Fragmento de hielo cargado",
+            "Bloques de Schwarzfrost",
+            "Objetos saqueables de alto valor"
+          ],
+          "structures": [
+            "Barco de Yrsa",
+            "Cuevas de congelación profunda",
+            "Cofres",
+            "Área del jefe"
+          ],
+          "enemies": [
+            "Slime de hielo",
+            "Espíritu hundido",
+            "Guerrero hundido",
+            "Esqueleto de Schwarzfrost",
+            "Yrsa de los Mares Hundidos"
+          ],
+          "portal": "Se accede mediante el progreso en las capas profundas",
+          "explorationFocus": "Busca materiales de final de juego, prepárate para el combate contra jefes y lleva armas potentes, recuperación de salud, movilidad y soporte de oxígeno."
+        },
+        {
+          "layer": "Estructuras clave de las cuevas",
+          "depth": "Múltiples capas subterráneas",
+          "role": "Puntos de referencia de exploración reutilizables",
+          "keyOres": [
+            "Geodas de gemas",
+            "Cristales de amatista",
+            "Vetas de mineral específicas de la capa"
+          ],
+          "resources": [
+            "Cofres de madera",
+            "Cofres de hierro",
+            "Cofres de oro",
+            "Vasijas de mármol",
+            "Pergaminos de recetas",
+            "---",
+            "Llaves"
+          ],
+          "structures": [
+            "Objetos de botín",
+            "Casa común",
+            "Aldea de la cueva",
+            "Ruinas",
+            "Torre",
+            "Cabaña de Riz",
+            "Pozo de mina",
+            "Bote",
+            "Agujero de gusano",
+            "TNT"
+          ],
+          "enemies": [
+            "Isla flotante"
+          ],
+          "portal": "Monstruos dependientes de la capa",
+          "explorationFocus": "Dependiente de la capa"
+        }
+      ]
+    },
+    "subterraMonstersBossesQuestsAndAchievements": {
+      "title": "Prioriza los cofres y las aldeas para misiones y botín, evita errores con la TNT, usa llaves en cofres de mayor valor y usa los agujeros de gusano con cuidado para reposicionarte rápido.",
+      "eyebrow": "Subterra: Monstruos, jefes, misiones y logros",
+      "subtitle": "Combate y Completado",
+      "intro": "Rastrea monstruos, jefes, botines, misiones, títulos y recompensas de logros, desde los objetivos iniciales de minería hasta el progreso de jefes en capas profundas.",
+      "sections": [
+        {
+          "section": "El progreso no consiste solo en minar hacia abajo. Los monstruos presionan las rutas de las cuevas, los jefes custodian hitos más profundos, las misiones otorgan Oro y EXP, y los logros recompensan con Chrono Shards por minar, buscar cofres, explorar e hitos de combate.",
+          "defaultOpen": true,
+          "cards": [
+            {
+              "name": "Monstruos",
+              "type": "Zombi",
+              "spawns": [
+                "Monstruo",
+                "Capa de tierra"
+              ],
+              "walkspeed": 16,
+              "jumpPower": 50,
+              "attackSpeed": 1,
+              "damage": 25,
+              "behavior": "Capa de piedra",
+              "rewards": [
+                "Persigue al jugador y ataca a corta distancia."
+              ],
+              "counterplay": "35 EXP"
+            },
+            {
+              "name": "Mantén la distancia, usa el tiempo de ataque cuerpo a cuerpo básico y evita luchar contra varios enemigos en cuevas estrechas.",
+              "type": "Slime",
+              "spawns": [
+                "Monstruo",
+                "Capa de tierra"
+              ],
+              "walkspeed": 16,
+              "jumpPower": 50,
+              "attackSpeed": 1,
+              "damage": 25,
+              "behavior": "Capa de piedra",
+              "rewards": [
+                "Persigue al jugador y ataca a corta distancia.",
+                "35 EXP"
+              ],
+              "counterplay": "Trozo de slime"
+            },
+            {
+              "name": "Objetivo inicial útil para materiales explosivos pegajosos, pero sigue siendo peligroso cuando se acumula con otros enemigos.",
+              "type": "Esqueleto bomba",
+              "spawns": [
+                "Monstruo"
+              ],
+              "walkspeed": 16,
+              "jumpPower": 50,
+              "attackSpeed": 3,
+              "damage": 75,
+              "explosionRadius": 3,
+              "behavior": "Capa de piedra",
+              "rewards": [
+                "Corre hacia el jugador mientras sostiene una bomba activa que explota tras un breve retraso."
+              ],
+              "counterplay": "Aléjate de inmediato, usa las esquinas del terreno y evita minar por pánico hacia callejones sin salida."
+            },
+            {
+              "name": "Esqueleto de Piedra Oscura",
+              "type": "Monstruo",
+              "spawns": [
+                "Capa de Piedra Oscura",
+                "Capa de Permafrost"
+              ],
+              "walkspeed": 16,
+              "jumpPower": 75,
+              "attackSpeed": 1,
+              "damage": 25,
+              "behavior": "Persigue al jugador a través de capas más profundas y ataca a corta distancia.",
+              "rewards": [
+                "35 EXP"
+              ],
+              "counterplay": "Lleva armas cuerpo a cuerpo más fuertes, cartas de salud y movilidad antes de farmear rutas de Piedra Oscura y Permafrost."
+            },
+            {
+              "name": "Elemental de Hielo",
+              "type": "Monstruo",
+              "spawns": [
+                "Capa de Permafrost"
+              ],
+              "walkspeed": 12,
+              "attackSpeed": 1,
+              "damage": 50,
+              "health": 1250,
+              "behavior": "Enemigo congelado con mucha salud que se encuentra en rutas avanzadas de capas frías.",
+              "rewards": [
+                "2000 EXP"
+              ],
+              "counterplay": "Usa armas más fuertes, mantén la distancia cuando sea posible y evita comenzar la pelea sin recuperación de salud."
+            }
+          ]
+        },
+        {
+          "section": "Jefes",
+          "defaultOpen": true,
+          "cards": [
+            {
+              "name": "Yrsa de los Mares Hundidos",
+              "type": "Jefe",
+              "spawns": [
+                "Barco de Yrsa",
+                "Capa de Schwarzfrost"
+              ],
+              "damage": 85,
+              "health": 8500,
+              "rewards": [
+                "112985 EXP"
+              ],
+              "role": "Encuentro con el jefe de Schwarzfrost",
+              "preparation": [
+                "Usa un arma de alto daño como Splitblade o un mandoble fuerte.",
+                "Lleva Salud, Velocidad de Caminar, Doble Salto y Oxígeno Extra para sobrevivir y posicionarte.",
+                "Lleva recuperación de salud antes de entrar a la ruta del jefe."
+              ],
+              "counterplay": "Trata la pelea como una prueba de combate en capas profundas en lugar de un encuentro de minería normal."
+            },
+            {
+              "name": "Antiguo Señor Lorin",
+              "type": "Jefe",
+              "releaseStatus": "Lista de botín del jefe",
+              "drops": [
+                "Lágrima de Lorin",
+                "Voluntad de Lorin",
+                "Ira de Lorin"
+              ],
+              "role": "Progresión relacionada con jefes y lista de recetas",
+              "preparation": [
+                "Prioriza armas de juego tardío, cartas de salud, cartas de movilidad y objetos de recuperación."
+              ],
+              "counterplay": "Registra el botín de los jefes por separado del farmeo de monstruos normal, ya que las recompensas de artefactos y recetas pertenecen a la progresión a largo plazo."
+            }
+          ]
+        },
+        {
+          "section": "Misiones",
+          "defaultOpen": false,
+          "cards": [
+            {
+              "name": "Misiones Diarias",
+              "type": "Sistema de Misiones",
+              "requirements": [
+                "Completa tareas rotativas de minería o recolección, como reunir minerales o romper bloques."
+              ],
+              "rewards": [
+                "Recompensas de misiones diarias"
+              ],
+              "resetTimer": "24 horas",
+              "useCase": "---"
+            },
+            {
+              "name": "Es mejor revisarlo al inicio de la sesión para que las rutas de minería coincidan con los objetivos activos.",
+              "type": "Primer paso",
+              "requirements": [
+                "Misión inicial",
+                "Recolecta 25 rocas"
+              ],
+              "rewards": [
+                "Mejora tu Pico en el Herrero",
+                "25 Oro"
+              ],
+              "useCase": "120 EXP"
+            },
+            {
+              "name": "Primer objetivo de progresión estructurada para nuevos jugadores.",
+              "type": "Rompepiedras",
+              "requirements": [
+                "Misión de la Plaza"
+              ],
+              "rewards": [
+                "Mina 40 de Piedra",
+                "80 Oro"
+              ],
+              "useCase": "125 EXP"
+            },
+            {
+              "name": "Objetivo de recolección en la Capa de Piedra inicial.",
+              "type": "Campeón de la Piedra",
+              "requirements": [
+                "Misión de la Plaza"
+              ],
+              "rewards": [
+                "Mina 75 de Piedra",
+                "160 Oro"
+              ],
+              "useCase": "200 EXP"
+            },
+            {
+              "name": "Objetivo de seguimiento de recolección de piedra para la progresión inicial.",
+              "type": "Buscador de Topacio",
+              "requirements": [
+                "Misión de la Plaza"
+              ],
+              "rewards": [
+                "Mina 5 Topacios",
+                "200 Oro"
+              ],
+              "useCase": "235 EXP"
+            },
+            {
+              "name": "Introduce rutas de minería centradas en gemas.",
+              "type": "Acaparador de Minerales",
+              "requirements": [
+                "Misión de la Plaza",
+                "Mina 1 de Piedra",
+                "Mina 1 de Plata",
+                "Mina 1 de Cobre",
+                "Mina 1 de Hierro",
+                "Mina 1 de Carbón"
+              ],
+              "rewards": [
+                "Mina 1 de Estaño",
+                "400 Oro"
+              ],
+              "useCase": "250 EXP"
+            },
+            {
+              "name": "Incentiva a los jugadores a diversificar sus rutas en lugar de extraer un solo material.",
+              "type": "Explorador",
+              "requirements": [
+                "Misión de la Plaza",
+                "Minar 30 de carbón"
+              ],
+              "rewards": [
+                "200 de oro",
+                "235 EXP"
+              ],
+              "useCase": "Buena misión de economía temprana mientras mejoras herramientas y materiales básicos."
+            },
+            {
+              "name": "Coleccionista de brillantes",
+              "type": "Misión de la aldea de la cueva",
+              "requirements": [
+                "Minar 1 de oro",
+                "Minar 1 de plata",
+                "Minar 1 zafiro",
+                "Minar 1 amatista",
+                "Minar 1 diamante",
+                "Minar 1 topacio"
+              ],
+              "rewards": [
+                "400 de oro",
+                "250 EXP"
+              ],
+              "useCase": "Lista de verificación de gemas y minerales para una exploración más profunda de la Capa de Piedra."
+            },
+            {
+              "name": "Explorador de las profundidades",
+              "type": "Misión de la aldea de la cueva",
+              "requirements": [
+                "Minar 64 de plata",
+                "Minar 30 de carbón"
+              ],
+              "rewards": [
+                "425 de oro",
+                "350 EXP"
+              ],
+              "useCase": "Misión de minería de mitad de juego para jugadores que se quedan más tiempo bajo tierra."
+            },
+            {
+              "name": "Buscador de diamantes",
+              "type": "Misión de la aldea de la cueva",
+              "requirements": [
+                "Minar 10 diamantes"
+              ],
+              "rewards": [
+                "750 de oro",
+                "1000 EXP"
+              ],
+              "useCase": "Objetivo de gemas de alto valor para rutas de minería más profundas."
+            },
+            {
+              "name": "Buscador de amatistas",
+              "type": "Misión de la aldea de la cueva",
+              "requirements": [
+                "Minar 10 amatistas"
+              ],
+              "rewards": [
+                "400 de oro",
+                "750 EXP"
+              ],
+              "useCase": "Se centra en mineral de amatista, bloques de amatista y rutas de geodas."
+            },
+            {
+              "name": "Campeón de las rocas",
+              "type": "Misión de la aldea de la cueva",
+              "requirements": [
+                "Obtener 150 rocas"
+              ],
+              "rewards": [
+                "350 de oro",
+                "550 EXP"
+              ],
+              "useCase": "Objetivo simple de recolección de materiales que combina bien con los logros de romper bloques."
+            },
+            {
+              "name": "Buscador de zafiros",
+              "type": "Misión de la aldea de la cueva",
+              "requirements": [
+                "Mina 15 zafiros"
+              ],
+              "rewards": [
+                "350 de oro",
+                "550 de EXP"
+              ],
+              "useCase": "Objetivo de ruta de gemas para jugadores que recolectan menas valiosas a mayor profundidad."
+            }
+          ]
+        },
+        {
+          "section": "Logros",
+          "defaultOpen": false,
+          "cards": [
+            {
+              "name": "Primeros espeleólogos",
+              "type": "Logro",
+              "objective": "Únete al juego.",
+              "rewards": [
+                "Entrada de completado estilo título"
+              ],
+              "category": "Principiante"
+            },
+            {
+              "name": "Comienzos humildes",
+              "type": "Logro",
+              "objective": "Mina bloques.",
+              "rewards": [
+                "35 Fragmentos Crono"
+              ],
+              "category": "Minería"
+            },
+            {
+              "name": "Espeleólogo novato",
+              "type": "Logro",
+              "objective": "Mina 100 bloques.",
+              "rewards": [
+                "35 Fragmentos Crono"
+              ],
+              "category": "Minería"
+            },
+            {
+              "name": "Explorador de las profundidades",
+              "type": "Logro",
+              "objective": "Mina 500 bloques.",
+              "rewards": [
+                "50 Fragmentos Crono"
+              ],
+              "category": "Minería"
+            },
+            {
+              "name": "Moldeador de la tierra",
+              "type": "Logro",
+              "objective": "Mina 2000 bloques.",
+              "rewards": [
+                "50 Fragmentos Crono"
+              ],
+              "category": "Minería"
+            },
+            {
+              "name": "Rompeveta",
+              "type": "Logro",
+              "objective": "Mina 5000 bloques.",
+              "rewards": [
+                "50 Fragmentos Crono"
+              ],
+              "category": "Minería"
+            },
+            {
+              "name": "Destructor de mundos",
+              "type": "Logro",
+              "objective": "Mina 10000 bloques.",
+              "rewards": [
+                "140 Fragmentos Crono"
+              ],
+              "category": "Minería"
+            },
+            {
+              "name": "Tallador de Tierra",
+              "type": "Logro",
+              "objective": "Mina 25000 bloques.",
+              "rewards": [
+                "280 Fragmentos Crono"
+              ],
+              "category": "Minería"
+            },
+            {
+              "name": "Conquistador de Profundidades",
+              "type": "Logro",
+              "objective": "Mina 100000 bloques.",
+              "rewards": [
+                "500 Fragmentos Crono"
+              ],
+              "category": "Minería"
+            },
+            {
+              "name": "Moldeador del Núcleo",
+              "type": "Logro",
+              "objective": "Mina 500000 bloques.",
+              "rewards": [
+                "525 Fragmentos Crono"
+              ],
+              "category": "Minería"
+            },
+            {
+              "name": "Coleccionista de Cofres",
+              "type": "Logro",
+              "objective": "Abre 20 cofres.",
+              "rewards": [
+                "50 Fragmentos Crono"
+              ],
+              "category": "Tesoro"
+            },
+            {
+              "name": "Explorador de Cavernas",
+              "type": "Logro",
+              "objective": "Abre 40 cofres.",
+              "rewards": [
+                "50 Fragmentos Crono"
+              ],
+              "category": "Tesoro"
+            },
+            {
+              "name": "Rey de los Cofres",
+              "type": "Logro",
+              "objective": "Abre 80 cofres.",
+              "rewards": [
+                "140 Fragmentos Crono"
+              ],
+              "category": "Tesoro"
+            },
+            {
+              "name": "Perdido en las Profundidades",
+              "type": "Logro",
+              "objective": "Encuentra y entra en un Agujero de Gusano.",
+              "rewards": [
+                "Exploración completada"
+              ],
+              "category": "Exploración"
+            },
+            {
+              "name": "Hacia el Abismo",
+              "type": "Logro",
+              "objective": "Llega a la Capa de Darkstone.",
+              "rewards": [
+                "140 Fragmentos Crono"
+              ],
+              "category": "Hito de capa"
+            },
+            {
+              "name": "Frostpiercer",
+              "type": "Logro",
+              "objective": "Llega a la capa de Permafrost.",
+              "rewards": [
+                "140 Fragmentos Crono"
+              ],
+              "category": "Hito de capa"
+            },
+            {
+              "name": "Stalactite Striker",
+              "type": "Logro",
+              "objective": "Empala a un enemigo con una estalactita.",
+              "rewards": [
+                "75 Fragmentos Crono"
+              ],
+              "category": "Combate"
+            },
+            {
+              "name": "Monster Slayer",
+              "type": "Logro",
+              "objective": "Derrota a 10 enemigos.",
+              "rewards": [
+                "50 Fragmentos Crono"
+              ],
+              "category": "Combate"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Subterra",
+    "questions": [
+      {
+        "question": "¿Qué es Subterra?",
+        "answer": "Subterra es una aventura de minería en 2.5D en Roblox creada por Polyworks Studio, donde los jugadores excavan a través de capas hostiles, mejoran picos y mochilas, construyen con Ability Cards, fabrican armas y luchan contra monstruos bajo tierra."
+      },
+      {
+        "question": "¿Dónde puedo jugar a Subterra?",
+        "answer": "¿Dónde puedo jugar a Subterra?"
+      },
+      {
+        "question": "Subterra está disponible en Roblox. Puedes iniciarlo directamente desde la página oficial del juego en Roblox en PC, dispositivos móviles y consolas compatibles.",
+        "answer": "¿Cómo canjeo códigos en Subterra?"
+      },
+      {
+        "question": "En Subterra, completa el tutorial, luego interactúa con el NPC de códigos cerca de la puerta de aparición en el lobby de la superficie, introduce un código válido y presiona Claim Code para recibir tus recompensas.",
+        "answer": "¿Qué son las Ability Cards en Subterra?"
+      },
+      {
+        "question": "Las Ability Cards de Subterra son modificadores equipables que se compran con Chrono Shards. Mejoran la minería, el espacio de la mochila, el movimiento, la fundición y el combate, lo que te permite definir tu propio estilo de minería y supervivencia.",
+        "answer": "¿Cómo funcionan las capas en Subterra?"
+      },
+      {
+        "question": "Las capas de Subterra son niveles de cuevas generados procedimentalmente que se vuelven más hostiles a medida que excavas más profundo. Cada capa cambia el conjunto de bloques, el valor de los minerales, las estructuras y los enemigos, así que mejora tu pico y tu equipo antes de descender.",
+        "answer": "¿Es Subterra gratis?"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Sí. Subterra es gratis en Roblox, con almacenamiento de gamepass opcional y mejoras cosméticas que no bloquean el progreso principal de la minería.",
+    "description": "¿Listo para excavar en Subterra?",
+    "joinCommunity": "¡Únete a la comunidad de Subterra en Discord para obtener códigos, guías, actualizaciones y debates!",
+    "joinGame": "Unirse a Discord"
+  },
+  "footer": {
+    "title": "Jugar en Roblox",
+    "description": "Wiki de Subterra",
+    "resources": "Tu centro de recursos completo para códigos de Subterra, minerales, capas, mejoras de picos, Ability Cards, creación y guías de jefes.",
+    "community": "Recursos",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "youtube": "YouTube",
+    "roblox": "Roblox",
+    "about": "Acerca de",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Subterra Wiki. No afiliado con los desarrolladores de Subterra.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de Subterra",
+      "description": "Los últimos códigos activos de Subterra para obtener Chrono Shards gratis, potenciadores de EXP, TNT y recompensas de pociones. Actualizado diariamente con códigos verificados y un proceso de canje claro.",
+      "metaTitle": "Códigos de Subterra - Chrono Shards gratis y potenciadores de EXP",
+      "metaDescription": "Consigue Chrono Shards gratis, potenciadores de EXP, TNT y pociones con códigos activos de Subterra. Canjéalos en el Codes NPC cerca del spawn — actualizado diariamente con códigos verificados.",
+      "categoryLabel": "CANJEAR CÓDIGOS",
+      "whatIs": "¿Qué son los códigos?",
+      "whatIsDescription": "Los códigos de Subterra son códigos promocionales gratuitos de Polyworks Studio que otorgan Chrono Shards, potenciadores de EXP, TNT y soporte de pociones. Canjéalos en el Codes NPC cerca de la puerta de spawn para acelerar el progreso de tus cartas y tus partidas de minería.",
+      "why": "¿Por qué canjear códigos?",
+      "whySteps": {
+        "step1Title": "Chrono Shards gratis",
+        "step1Description": "Los Chrono Shards potencian las mejoras de las Ability Cards, y los códigos son la fuente gratuita más rápida",
+        "step2Title": "Progresión más rápida",
+        "step2Description": "Los potenciadores de EXP y el TNT de los códigos te ayudan a alcanzar capas más profundas sin tener que farmear",
+        "step3Title": "Seguro y verificado",
+        "step3Description": "Cada código se prueba antes de listarse, eliminando las entradas caducadas para que nunca desperdicies un canje"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los códigos"
+    },
+    "guide": {
+      "title": "Guía de Subterra",
+      "description": "Guía completa de Subterra para principiantes que cubre el ciclo de minería, mejoras de pico, Ability Cards, subida de nivel, fragmentos y los mejores picos para jugadores de Roblox.",
+      "metaTitle": "Guía de Subterra - Consejos para principiantes, subida de nivel y mejores picos",
+      "metaDescription": "GUÍA DEL JUEGO",
+      "categoryLabel": "¿Qué es la Guía de Subterra?",
+      "whatIs": "Guías paso a paso que cubren el ciclo básico de minería: cavar minerales, vender recursos, mejorar tu pico y mochila, construir con Ability Cards, fabricar armas y adentrarte en capas hostiles. Desde tu primer spawn hasta partidas avanzadas.",
+      "whatIsDescription": "¿Por qué leer la guía?",
+      "why": "Aprende el ciclo básico",
+      "whySteps": {
+        "step1Title": "Entiende la minería, la venta, las mejoras y cómo las Ability Cards cambian tu build",
+        "step1Description": "Sube de nivel rápido",
+        "step2Title": "Sigue rutas eficientes y prioridades de fragmentos para llegar a capas más profundas rápidamente",
+        "step2Description": "Elige el equipamiento adecuado",
+        "step3Title": "Elige el equipo adecuado",
+        "step3Description": "Elige los mejores picos y armas para tu etapa y presupuesto"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías"
+    },
+    "items": {
+      "title": "Objetos de Subterra",
+      "description": "Guías detalladas de objetos de Subterra para llaves, Cofre Vikingo, Brújula, Corazón de Escarcha, Corazón Congelado, Corazón de Oro y drops de Núcleo de Monstruo.",
+      "metaTitle": "Objetos de Subterra - Llaves, Corazones, Brújula y Cofres",
+      "metaDescription": "Base de datos completa de objetos de Subterra que cubre Llaves Vikingas, Cofre Vikingo, Brújula, Corazón de Escarcha, Corazón Congelado, Corazón de Oro y Núcleos de Monstruo con ubicaciones de drop y usos.",
+      "categoryLabel": "OBJETOS Y TESOROS",
+      "whatIs": "¿Qué son los objetos?",
+      "whatIsDescription": "Guías de llaves, cofres, brújula y drops raros de Subterra como el Corazón de Escarcha, Corazón Congelado, Corazón de Oro y Núcleo de Monstruo. Aprende dónde se obtiene cada objeto, qué desbloquea y cuándo usarlo o guardarlo.",
+      "why": "¿Por qué consultar las guías de objetos?",
+      "whySteps": {
+        "step1Title": "Desbloquear contenido bloqueado",
+        "step1Description": "Las llaves y la brújula desbloquean Cofres Vikingos y caminos ocultos dentro de las capas hostiles",
+        "step2Title": "Usa los drops raros con sabiduría",
+        "step2Description": "Los corazones y núcleos alimentan las cadenas de fabricación y mejora: infórmate antes de gastar",
+        "step3Title": "Encuentra cada fuente",
+        "step3Description": "Ubicaciones y tasas de drop para cada objeto para que puedas farmear de forma selectiva lo que necesitas"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los objetos"
+    },
+    "monsters": {
+      "title": "Monstruos de Subterra",
+      "description": "Guías completas de monstruos de Subterra que cubren al Elemental de Hielo, Falla de Monstruos, jefe Yrsa, Missing Target, Guardianes y Fear Ripper con tácticas y drops.",
+      "metaTitle": "Monstruos de Subterra - Guías de jefe Yrsa, Elemental de Hielo y Fallas",
+      "metaDescription": "Derrota a todos los monstruos de Subterra, incluidos el Elemental de Hielo, Falla de Monstruos, jefe Yrsa, Missing Target, Guardianes y Fear Ripper con patrones de ataque, debilidades y tablas de drops.",
+      "categoryLabel": "MONSTRUOS Y JEFES",
+      "whatIs": "¿Qué son los monstruos?",
+      "whatIsDescription": "Los monstruos de Subterra deambulan por las capas más profundas y los encuentros de fallas: Elementales de Hielo, Guardianes, Fear Rippers y jefes como Yrsa. Aprende patrones de ataque, debilidades, posicionamiento seguro y qué suelta cada uno.",
+      "why": "¿Por qué estudiar a los monstruos?",
+      "whySteps": {
+        "step1Title": "Sobrevive a las capas más profundas",
+        "step1Description": "Conoce los patrones de ataque y las señales antes de adentrarte en territorio hostil",
+        "step2Title": "Derrota a los jefes",
+        "step2Description": "Yrsa y los jefes de las fallas tienen ventanas de debilidad claras: aprende los tiempos",
+        "step3Title": "Farmea drops de manera eficiente",
+        "step3Description": "Núcleos de Monstruo y tablas de botín raras farmeados de la manera correcta"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los monstruos"
+    },
+    "weapons": {
+      "title": "Armas de Subterra",
+      "description": "Guías de armas y picos de Subterra que cubren Frost Piercer, los picos más fuertes, las mejores armas y rutas de mejora completas para minería y combate.",
+      "metaTitle": "Armas de Subterra - Mejores picos, Frost Piercer y mejoras",
+      "metaDescription": "Encuentra las mejores armas y picos de Subterra, incluyendo Frost Piercer, los niveles de pico más fuertes y recetas de mejora para poder de minería y combate contra monstruos.",
+      "categoryLabel": "ARMAS Y PICOS",
+      "whatIs": "¿Qué son las armas?",
+      "whatIsDescription": "Las armas y picos de Subterra definen tu velocidad de minería y alcance de combate. Las guías cubren los niveles de poder de los picos, el Frost Piercer, las mejores armas por capa y los materiales de mejora que necesitas para fabricarlas.",
+      "why": "¿Por qué mejorar las armas?",
+      "whySteps": {
+        "step1Title": "Mina más rápido",
+        "step1Description": "Los picos más fuertes rompen bloques más duros y alcanzan capas más profundas y ricas",
+        "step2Title": "Gana combates",
+        "step2Description": "Las mejores armas como el Frost Piercer te dan ventaja contra jefes y grietas",
+        "step3Title": "Planifica los costos de materiales",
+        "step3Description": "Conoce las recetas de mejora para ahorrar los minerales y lingotes correctos"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las armas"
+    },
+    "quests": {
+      "title": "Misiones de Subterra",
+      "description": "Guías de misiones de Subterra para la Phoenix Quest, actualizaciones de mazmorras, guías de jefes y partidas en solitario con objetivos y recompensas paso a paso.",
+      "metaTitle": "Misiones de Subterra: guías de Phoenix, mazmorras, jefes y en solitario",
+      "metaDescription": "Guías completas de misiones de Subterra que incluyen la Phoenix Quest, contenido de actualización de mazmorras, encuentros con jefes y estrategias en solitario con recompensas, pasos y equipamientos recomendados.",
+      "categoryLabel": "MISIONES Y GUÍAS",
+      "whatIs": "¿Qué son las misiones?",
+      "whatIsDescription": "Las misiones de Subterra estructuran tu progresión: la Phoenix Quest, encuentros de actualización de mazmorras, arenas de jefes y desafíos en solitario. Cada guía cubre objetivos, equipo recomendado, mecánicas y recompensas.",
+      "why": "¿Por qué seguir guías de misiones?",
+      "whySteps": {
+        "step1Title": "Completa objetivos rápido",
+        "step1Description": "Guías paso a paso para que nunca te quedes atascado en una fase",
+        "step2Title": "Prepara el equipamiento adecuado",
+        "step2Description": "Pico, armas y consumibles recomendados antes de cada combate",
+        "step3Title": "Reclama cada recompensa",
+        "step3Description": "Botines de misiones, desbloqueos y materiales que valen el tiempo invertido"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las misiones"
+    },
+    "resources": {
+      "title": "Recursos de Subterra",
+      "description": "Guías de recursos de Subterra que cubren minerales, materias primas, ingredientes de fabricación, rutas de minería y mejoras de mochila para una progresión constante.",
+      "metaTitle": "Recursos de Subterra: minerales, materiales, rutas de minería y mochilas",
+      "metaDescription": "MINERALES Y MATERIALES",
+      "categoryLabel": "¿Qué son los recursos?",
+      "whatIs": "Los recursos de Subterra cubren niveles de minerales, materias primas, ingredientes de fabricación, rutas de minería y caminos de mejora de mochila. Aprende dónde aparece cada mineral, por cuánto se vende y cómo planificar rutas rentables.",
+      "whatIsDescription": "¿Por qué planificar los recursos?",
+      "why": "Mina los minerales correctos",
+      "whySteps": {
+        "step1Title": "Tablas de valor y profundidad de minerales para que cada viaje valga la pena",
+        "step1Description": "Acumula materiales",
+        "step2Title": "Conoce qué minerales e ingredientes alimentan las cadenas de fabricación y mejora",
+        "step2Description": "Mejora tu mochila",
+        "step3Title": "Mejora tu mochila",
+        "step3Description": "Los límites de nivel de la mochila extienden cada viaje antes de tener que vender"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los recursos"
+    }
   }
 }
