@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "description": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях, концовках и советы по выживанию в сюрреалистичной воксельной песочнице на Steam.",
-      "keywords": "Lucid Blocks, вики Lucid Blocks, крафт, биомы, достижения, выживание, Steam",
-      "ogTitle": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "ogDescription": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях, концовках и советы по выживанию в сюрреалистичной воксельной песочнице на Steam.",
-      "twitterTitle": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "twitterDescription": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях и советы по выживанию в сюрреалистичной воксельной песочнице на Steam."
+      "title": "Subterra Wiki - Codes, Ores & Ability Cards",
+      "description": "Subterra Wiki covers active codes, ores, layers, pickaxe upgrades, ability cards, crafting recipes, weapons, bosses, and beginner tips for Roblox players.",
+      "keywords": "Subterra, Roblox, codes, ores, layers, upgrades, ability cards, crafting, bosses",
+      "ogTitle": "Subterra Wiki - Codes, Ores & Ability Cards",
+      "ogDescription": "Subterra Wiki covers active codes, ores, layers, pickaxe upgrades, ability cards, crafting recipes, weapons, bosses, and beginner tips for Roblox players.",
+      "twitterTitle": "Subterra Wiki - Codes, Ores & Ability Cards",
+      "twitterDescription": "Subterra Wiki - codes, ores, layers, ability cards, crafting and boss guides for the Roblox mining adventure."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Статьи скоро появятся"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Воксельная песочница на выживание",
-    "title": "Lucid Blocks Вики",
-    "description": "Исследуйте сказочные биомы, объединяйте предметы с помощью Apotheosis, свободно стройте и выживайте среди странных существ в этой сюрреалистичной песочнице с открытым миром на Steam.",
-    "getFreeCodesCTA": "Изучить руководство по крафту",
-    "playOnSteamCTA": "Играть на Steam",
+    "badge": "2.5D Roblox Mining Adventure",
+    "title": "Subterra Wiki",
+    "description": "Subterra is a Roblox mining adventure where players dig through hostile layers, upgrade pickaxes and backpacks, build with Ability Cards, craft weapons, and fight monsters underground.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1 325",
-        "label": "Игроков онлайн"
+        "value": "11.3M+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1 986",
-        "label": "Пиковый онлайн"
+        "value": "3.2K+",
+        "label": "Players Online"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Положительных отзывов"
+        "value": "94%",
+        "label": "User Rating"
       },
       "stat4": {
-        "value": "12 марта 2026",
-        "label": "Дата выхода"
+        "value": "10",
+        "label": "Max Players"
       }
     }
   },
@@ -181,27 +181,27 @@
     ]
   },
   "cta": {
-    "title": "Готовы исследовать Lucid Blocks?",
-    "description": "Присоединяйтесь к сообществу Lucid Blocks в Discord, где вас ждут руководства, обновления и обсуждения!",
-    "joinCommunity": "Присоединиться к Discord",
-    "joinGame": "Играть на Steam"
+    "title": "Ready to Dig Into Subterra?",
+    "description": "Join the Subterra community on Discord for codes, guides, updates, and discussions!",
+    "joinCommunity": "Join Discord",
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Вики Lucid Blocks",
-    "description": "Ваш полноценный ресурсный центр по крафту, биомам, существам, достижениям и руководствам по выживанию в Lucid Blocks.",
-    "resources": "Ресурсы",
-    "community": "Сообщество",
-    "legal": "Юридическая информация",
+    "title": "Subterra Wiki",
+    "description": "Your complete resource hub for Subterra codes, ores, layers, pickaxe upgrades, ability cards, crafting, and boss guides.",
+    "resources": "Resources",
+    "community": "Community",
+    "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Сообщество Steam",
-    "steamStore": "Магазин Steam",
-    "about": "О проекте",
-    "privacy": "Политика конфиденциальности",
-    "terms": "Условия использования",
-    "copyrightNotice": "Авторское право",
-    "copyright": "© 2026 Вики Lucid Blocks. Не связано с разработчиками Lucid Blocks.",
-    "disclaimer": "Неофициальный фанатский ресурс."
+    "youtube": "YouTube",
+    "roblox": "Roblox",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Subterra Wiki. Not affiliated with the developers of Subterra.",
+    "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
     "guides": {

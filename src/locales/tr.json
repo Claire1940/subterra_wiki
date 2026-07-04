@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "description": "Eksiksiz Lucid Blocks kaynak merkezi! Steam gizli soygun oyunu için demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri, üretim ipuçları, kontroller, modlar ve topluluk bağlantıları edinin.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, demo indirme, başlangıç rehberi, işbirliği rehberi, üretim, ekipman, modlar, BepInEx, Steam oyunu, gizli oyun",
-      "ogTitle": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "ogDescription": "Eksiksiz Lucid Blocks kaynak merkezi! Steam gizli soygun oyunu için demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri, üretim ipuçları ve modlar edinin.",
-      "twitterTitle": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "twitterDescription": "Eksiksiz Lucid Blocks kaynak merkezi! Demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri ve üretim ipuçları edinin."
+      "title": "Subterra Wiki - Codes, Ores & Ability Cards",
+      "description": "Subterra Wiki covers active codes, ores, layers, pickaxe upgrades, ability cards, crafting recipes, weapons, bosses, and beginner tips for Roblox players.",
+      "keywords": "Subterra, Roblox, codes, ores, layers, upgrades, ability cards, crafting, bosses",
+      "ogTitle": "Subterra Wiki - Codes, Ores & Ability Cards",
+      "ogDescription": "Subterra Wiki covers active codes, ores, layers, pickaxe upgrades, ability cards, crafting recipes, weapons, bosses, and beginner tips for Roblox players.",
+      "twitterTitle": "Subterra Wiki - Codes, Ores & Ability Cards",
+      "twitterDescription": "Subterra Wiki - codes, ores, layers, ability cards, crafting and boss guides for the Roblox mining adventure."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Makaleler yakında"
   },
   "hero": {
-    "badge": "Ufak cüceler. Büyük evler. Arkadaşlarla gizli soygunlar.",
-    "title": "Lucid Blocks wiki",
-    "description": "Lucid Blocks için merkeziniz: soygunlar nasıl işliyor, Yüksek Cüce işleri, üretim & geliştirmeler, düşmanlar, kontroller ve her koşuda hayatta kalmanın en hızlı yolları.",
-    "getFreeCodesCTA": "Demo İndir",
-    "playOnSteamCTA": "Steam'de İstek Listesine Ekle",
+    "badge": "2.5D Roblox Mining Adventure",
+    "title": "Subterra Wiki",
+    "description": "Subterra is a Roblox mining adventure where players dig through hostile layers, upgrade pickaxes and backpacks, build with Ability Cards, craft weapons, and fight monsters underground.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "15B",
-        "label": "En Yüksek Eş Zamanlı Kullanıcı (Demo)"
+        "value": "11.3M+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "6",
-        "label": "İşbirliği Oyuncusu"
+        "value": "3.2K+",
+        "label": "Players Online"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo Yayın Tarihi"
+        "value": "94%",
+        "label": "User Rating"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Platform"
+        "value": "10",
+        "label": "Max Players"
       }
     }
   },
@@ -819,27 +819,27 @@
     ]
   },
   "cta": {
-    "title": "Soygun Yapmaya Hazır mısınız?",
-    "description": "İşbirliği grupları, güncellemeler ve mod tartışmaları için Discord'da Lucid Blocks topluluğuna katılın!",
-    "joinCommunity": "Discord'a Katıl",
-    "joinGame": "Steam'de Demo Al"
+    "title": "Ready to Dig Into Subterra?",
+    "description": "Join the Subterra community on Discord for codes, guides, updates, and discussions!",
+    "joinCommunity": "Join Discord",
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocks gizli soygunları, işbirliği stratejileri, modlar ve topluluk rehberleri için eksiksiz kaynak merkeziniz.",
-    "resources": "Kaynaklar",
-    "community": "Topluluk",
-    "legal": "Yasal",
+    "title": "Subterra Wiki",
+    "description": "Your complete resource hub for Subterra codes, ores, layers, pickaxe upgrades, ability cards, crafting, and boss guides.",
+    "resources": "Resources",
+    "community": "Community",
+    "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Topluluğu",
-    "steamStore": "Steam Mağazası",
-    "about": "Hakkında",
-    "privacy": "Gizlilik Politikası",
-    "terms": "Hizmet Şartları",
-    "copyrightNotice": "Telif Hakkı",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocks geliştiricileriyle bağlantılı değildir.",
-    "disclaimer": "Resmi olmayan hayran yapımı kaynak web sitesi."
+    "youtube": "YouTube",
+    "roblox": "Roblox",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Subterra Wiki. Not affiliated with the developers of Subterra.",
+    "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
     "guides": {

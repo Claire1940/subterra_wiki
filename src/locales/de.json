@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "description": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps, Steuerung, Mods und Community-Links für das Steam-Stealth-Heist-Spiel.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, Demo-Download, Anfängerleitfaden, Koop-Leitfaden, Crafting, Ausrüstung, Mods, BepInEx, Steam-Spiel, Stealth-Spiel",
-      "ogTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "ogDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps und Mods für das Steam-Stealth-Heist-Spiel.",
-      "twitterTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "twitterDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien und Crafting-Tipps."
+      "title": "Subterra Wiki - Codes, Ores & Ability Cards",
+      "description": "Subterra Wiki covers active codes, ores, layers, pickaxe upgrades, ability cards, crafting recipes, weapons, bosses, and beginner tips for Roblox players.",
+      "keywords": "Subterra, Roblox, codes, ores, layers, upgrades, ability cards, crafting, bosses",
+      "ogTitle": "Subterra Wiki - Codes, Ores & Ability Cards",
+      "ogDescription": "Subterra Wiki covers active codes, ores, layers, pickaxe upgrades, ability cards, crafting recipes, weapons, bosses, and beginner tips for Roblox players.",
+      "twitterTitle": "Subterra Wiki - Codes, Ores & Ability Cards",
+      "twitterDescription": "Subterra Wiki - codes, ores, layers, ability cards, crafting and boss guides for the Roblox mining adventure."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Artikel folgen bald"
   },
   "hero": {
-    "badge": "Winzige Gnome. Große Häuser. Stealth-Raubzüge mit Freunden.",
-    "title": "Lucid Blocks Wiki",
-    "description": "Deine zentrale Anlaufstelle für Lucid Blocks: wie die Raubzüge funktionieren, High-Gnome-Aufträge, Crafting & Upgrades, Gegner, Steuerung und die schnellsten Wege, um jeden Durchgang zu überleben.",
-    "getFreeCodesCTA": "Demo herunterladen",
-    "playOnSteamCTA": "Auf die Wunschliste bei Steam",
+    "badge": "2.5D Roblox Mining Adventure",
+    "title": "Subterra Wiki",
+    "description": "Subterra is a Roblox mining adventure where players dig through hostile layers, upgrade pickaxes and backpacks, build with Ability Cards, craft weapons, and fight monsters underground.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "15.000",
-        "label": "Gleichzeitige Spieler (Demo)"
+        "value": "11.3M+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "6",
-        "label": "Koop-Spieler"
+        "value": "3.2K+",
+        "label": "Players Online"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo-Veröffentlichung"
+        "value": "94%",
+        "label": "User Rating"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plattform"
+        "value": "10",
+        "label": "Max Players"
       }
     }
   },
@@ -819,27 +819,27 @@
     ]
   },
   "cta": {
-    "title": "Bereit, mit dem Raub zu beginnen?",
-    "description": "Tritt der Lucid Blocks Community auf Discord bei, um Koop-Gruppen, Updates und Mod-Diskussionen zu erhalten!",
-    "joinCommunity": "Discord beitreten",
-    "joinGame": "Demo auf Steam herunterladen"
+    "title": "Ready to Dig Into Subterra?",
+    "description": "Join the Subterra community on Discord for codes, guides, updates, and discussions!",
+    "joinCommunity": "Join Discord",
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Dein komplettes Ressourcenzentrum für Lucid Blocks Stealth-Raubzüge, Koop-Strategien, Mods und Community-Leitfäden.",
-    "resources": "Ressourcen",
+    "title": "Subterra Wiki",
+    "description": "Your complete resource hub for Subterra codes, ores, layers, pickaxe upgrades, ability cards, crafting, and boss guides.",
+    "resources": "Resources",
     "community": "Community",
-    "legal": "Rechtliches",
+    "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
-    "about": "Über uns",
-    "privacy": "Datenschutzrichtlinie",
-    "terms": "Nutzungsbedingungen",
-    "copyrightNotice": "Urheberrecht",
-    "copyright": "© 2026 Lucid Blocks Wiki. Nicht mit den Entwicklern von Lucid Blocks verbunden.",
-    "disclaimer": "Inoffizielle von Fans erstellte Ressourcen-Website."
+    "youtube": "YouTube",
+    "roblox": "Roblox",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Subterra Wiki. Not affiliated with the developers of Subterra.",
+    "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
     "guides": {
