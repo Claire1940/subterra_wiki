@@ -1,0 +1,265 @@
+import { Map, Shield, Swords, Trophy, Target, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Subterra Monster Core: Guia de Monstros, Chefes e Loot",
+  description: "Subterra Monster Core cobre os tiers de inimigos, preparação para chefes, drops, ameaças por camada e rotas de combate para runs profundas eficientes.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2b1b4d/fff?text=Monster+Core+Guide",
+  date: "2026-07-05",
+  author: "Equipe da Wiki de Subterra"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Subterra Monster Core** funciona melhor quando você limpa, coleta loot e recua por camada, em vez de avançar demais.
+- **Inimigos iniciais** como Slime e Zombie acumulam EXP rapidamente, enquanto Bomb Skeletons punem avanços descuidados por túneis.
+- **A preparação para chefes** deve priorizar dano, mobilidade e recuperação antes de entrar em rotas congeladas profundas.
+- **Chrono Shards, chaves e pergaminhos** são as recompensas utilitárias de maior valor para progressão longa.
+- **Referências oficiais** como a página do Roblox e o quadro do Trello ajudam você a verificar rotas e dados de inimigos.
+</Callout>
+
+<Section icon={Map} title="Rota do Subterra Monster Core">
+
+Subterra Monster Core é o ciclo de inimigos e chefes que impulsiona a progressão em Subterra. Se você quer ganhos constantes, construa suas runs em torno de padrões seguros de limpeza, janelas curtas de loot e uma rota de fuga limpa de volta ao lobby.
+
+Comece com a [página oficial do Subterra no Roblox](https://www.roblox.com/games/16817315243/Subterra) e mantenha o [quadro de referência do Trello](https://trello.com/b/mfSycrVO/subterra-wiki) aberto quando for planejar mergulhos mais profundos. Essa combinação dá a leitura mais rápida sobre camadas, drops e ritmo de progressão.
+
+**Destaques do vídeo:**
+- Limpe os mobs iniciais antes que eles se acumulem em túneis estreitos.
+- Guarde a recuperação para ameaças explosivas e pressão das camadas mais profundas.
+- Melhore a mobilidade antes de fazer sessões de mineração gananciosas.
+- Trate lutas contra chefes como expedições planejadas, não como desvios casuais.
+
+<CardGrid cols={4}>
+  <Card title="Caça Inicial">
+    - **Zombie**
+    - **Slime**
+    - EXP rápida
+    - Loops de reinício seguros
+  </Card>
+  <Card title="Caça Intermediária">
+    - **Bomb Skeleton**
+    - Corredores apertados
+    - Risco de dano em explosão
+    - Mantenha distância
+  </Card>
+  <Card title="Caça Profunda">
+    - **Darkstone Skeleton**
+    - **Ice Elemental**
+    - Melhor verificação de arma
+    - Maior demanda por recuperação
+  </Card>
+  <Card title="Preparação para Chefes">
+    - **Cartas de mobilidade**
+    - Kit corpo a corpo ou à distância forte
+    - Itens de cura
+    - Rota de saída mapeada
+  </Card>
+</CardGrid>
+
+| Fase | Objetivo Principal | Melhor Foco | Condição de Parada |
+|---|---|---|---|
+| Lobby da superfície | Preparar o equipamento | Comprar, vender, criar, resgatar recompensas | Saia só quando o kit estiver pronto |
+| Cavernas iniciais | Construir a economia | Pedra, Carvão, Cobre, Estanho | Saia quando a bolsa encher ou os inimigos se acumularem |
+| Camadas profundas | Aumentar a tolerância à pressão | Armas mais fortes, cartas, cura | Recuar quando as lutas ficarem ineficientes |
+| Rota do chefe | Concluir a verificação | Dano, mobilidade, recuperação | Pare antes de entrar despreparado |
+
+<Callout type="tip" title="Regra da Rota">
+Mantenha um olho no espaço do inventário e outro na densidade de inimigos. Em Subterra, forçar farm demais em um túnel geralmente custa mais tempo do que recuar cedo.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Limpe o Loop da Superfície">
+    Termine o tutorial, chegue ao lobby e identifique seu principal ponto de reinício. É lá que você vende, cria e se recupera antes da próxima investida.
+  </Step>
+  <Step num="2" title="Minere Apenas o que Avança a Próxima Melhoria">
+    Priorize recursos que alimentam sua picareta, mochila, cartas ou cura. Minerar aleatoriamente desacelera a progressão e ocupa espaço cedo demais.
+  </Step>
+  <Step num="3" title="Use Janelas Curtas de Run">
+    Faça cada ida ao subterrâneo pequena o suficiente para controlar. Um loop curto e lucrativo é melhor do que uma run longa que termina em wipe.
+  </Step>
+  <Step num="4" title="Avance uma Camada por Vez">
+    Vá mais fundo apenas depois que seu kit conseguir sobreviver ao próximo tier de inimigos. Isso mantém a rota estável e reduz suas perdas.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Tiers de Inimigos e Risco por Camada">
+
+O lado dos monstros em Subterra fica muito mais fácil de gerenciar quando você pensa em tiers. Os inimigos iniciais geram recursos; os mais profundos quebram a rota se você ignorar seus padrões de ataque.
+
+<Callout type="warning" title="Verificação de Ameaça">
+Bomb Skeletons e inimigos das camadas profundas punem a ganância nos túneis. Se a caverna ficar apertada, lute menos e reposicione mais.
+</Callout>
+
+| Inimigo | Aparece Em | Nível de Ameaça | Melhor Contramedida |
+|---|---|---|---|
+| Zombie | Terra, Pedra | Baixo a Médio | Mantenha distância, use o tempo básico de corpo a corpo |
+| Slime | Terra, Pedra | Baixo a Médio | Evite acumular lutas em túneis estreitos |
+| Bomb Skeleton | Pedra | Alto | Recuar rápido, usar cantos e espaço aberto |
+| Darkstone Skeleton | Darkstone, Permafrost | Alto | Leve armas mais fortes e mobilidade |
+| Ice Elemental | Permafrost | Muito Alto | Use recuperação, alcance e paciência |
+
+| Camada | Principal Perigo | Melhor Alvo de Loot | Mentalidade Recomendada |
+|---|---|---|---|
+| Camada de Terra | Pressão de mobs iniciais | Carvão, Cobre, Estanho | Construa o básico e saia com frequência |
+| Camada de Pedra | Emboscadas de Bomb Skeletons | Ferro, Prata, Ouro, gemas | Farme com eficiência, não sem parar |
+| Camada Darkstone | Inimigos mais difíceis e rotas verticais | Cobalto, Nocturnite, Black Ice | Melhore antes de avançar mais fundo |
+| Camada Permafrost | Combate mais lento e pesado | Platina, Chromium, Moonstone | Jogue com segurança e leve cura |
+| Camada Schwarzfrost | Perigo nível chefe | Charged Ice, Eiskron, loot raro | Entre apenas com um kit adequado |
+
+| Sinal de Perigo | O Que Significa | O Que Fazer |
+|---|---|---|
+| Túneis cheios | Menos espaço para desviar | Recue e abra espaço |
+| Inventário cheio | A run está perto do valor máximo | Volte ao lobby |
+| Múltiplas ameaças à distância | O risco de perda está aumentando | Puxe os inimigos um de cada vez |
+| Sem cura restante | A run profunda está falhando | Saia antes que a luta fique cara demais |
+
+<Callout type="info" title="Dica de Camada">
+Use a tabela de camadas como uma lista de gatilhos. Se a rota atual não combina mais com seu equipamento, a jogada mais inteligente geralmente é sacar o ganho e reiniciar.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preparação para Chefes e Melhores Builds">
+
+As lutas contra chefes em Subterra são, na prática, verificações de build. Você não precisa da configuração mais chamativa; precisa do kit que o mantém vivo tempo suficiente para continuar causando dano.
+
+<Callout type="success" title="Objetivo da Build">
+Uma boa build para chefe deve combinar uma ferramenta de dano, uma de mobilidade e um plano de recuperação.
+</Callout>
+
+| Chefe | Arena | Pressão | Prioridade de Preparação | Foco da Recompensa |
+|---|---|---|---|---|
+| Yrsa of the Sunken Seas | Yrsa’s Ship, camada Schwarzfrost | Muito Alta | Arma de alto dano, mobilidade, cura | Grande recompensa de EXP |
+| Ancient Lord Lorin | Progressão de chefes listada | Alta | Arma de fim de jogo, vida, mobilidade | Lorin’s Tear, Will, Wrath |
+
+<CardGrid cols={3}>
+  <Card title="Explosão Corpo a Corpo">
+    - **Splitblade**
+    - Dano de curta distância
+    - Melhor para jogadores confiantes
+    - Forte pressão em chefe
+  </Card>
+  <Card title="À Distância Segura">
+    - **Longbow ou bow**
+    - Melhor espaçamento
+    - Kite mais fácil
+    - Menor risco de erro
+  </Card>
+  <Card title="Build de Expedição">
+    - **Healthy**
+    - **Double Jump**
+    - **Extra Oxygen**
+    - Rotas longas mais seguras
+  </Card>
+</CardGrid>
+
+| Carta ou Ferramenta | Melhor Uso | Por Que Ajuda |
+|---|---|---|
+| Healthy | Sobrevivência contra chefes | Dá mais margem para erros |
+| Double Jump | Movimento vertical | Ajuda em cavernas e fugas |
+| Walk Speed | Reposicionamento | Facilita desvio e retirada |
+| Lucky | Ganhos de mineração | Melhor valor em loops longos de farm |
+| Explosive Touch | Rotas densas de minério | Acelera a limpeza de túneis e as rotas de recursos |
+
+| Etapa de Preparação | Verificação Antes de Entrar | Resultado Recomendado |
+|---|---|---|
+| Slot de arma | O dano está atual | Leve sua opção mais forte e confiável |
+| Slot de mobilidade | O movimento parece seguro | Mantenha o suporte de pulo ou velocidade ativo |
+| Slot de recuperação | Você consegue se curar | Entre com um plano claro de sustentação |
+| Inventário | Não está sobrecarregado | Deixe espaço para drops e loot |
+
+<Callout type="warning" title="Aviso de Chefe">
+Não trate chefes profundos como inimigos comuns de caverna. Se seu dano parecer baixo e seu movimento parecer lento, você provavelmente está despreparado.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Drops, Missões e Prioridade de Farm">
+
+Se você quer que a progressão do Subterra Monster Core pareça eficiente, foque nas recompensas que geram mais runs: moeda, cartas, chaves, pergaminhos e EXP. Essas são as recompensas que mantêm o ciclo andando.
+
+<Callout type="tip" title="Ordem de Prioridade">
+Escolha primeiro as recompensas que melhoram a próxima run. Utilidade vence vaidade quando você está subindo camadas.
+</Callout>
+
+<Checklist
+  id="monster-core-priority"
+  title="O que Priorizar Primeiro:"
+  items={[
+    "Chrono Shards para Cartas de Habilidade e progressão",
+    "Chaves e pergaminhos de receita para melhor acesso a loot",
+    "Itens de cura para cavernas mais profundas e rotas de chefes",
+    "Recompensas de EXP que aceleram o level",
+    "Materiais de fundição que alimentam receitas de melhoria"
+  ]}
+/>
+
+| Recompensa | Tipo de Fonte | Por Que Importa |
+|---|---|---|
+| Chrono Shards | Conquistas, códigos | Alimenta a progressão das cartas e a utilidade |
+| Gold | Missões, loot, vendas | Mantém a economia em movimento |
+| EXP | Inimigos, missões, chefes | Aumenta a progressão e o ritmo de desbloqueio |
+| Slime Chunk | Slimes, itens coletáveis | Permite criar explosivos pegajosos |
+| Recipe Scrolls | Baús, itens coletáveis | Desbloqueia novos caminhos de criação |
+| Keys | Criação e drops de loot | Abre rotas melhores de baús |
+
+| Missão | Requisito | Recompensa | Melhor Momento |
+|---|---|---|---|
+| Primeiro Passo | 25 Rocks, melhoria da picareta | 25 Gold, 120 EXP | Muito cedo |
+| Quebra-Pedras | 40 Stone | 80 Gold, 125 EXP | Primeiro loop de mineração |
+| Caçador de Topázio | 5 Topaz | 200 Gold, 235 EXP | Quando as rotas de gemas abrirem |
+| Acumulador de Minério | Conjunto misto de minérios | 400 Gold, 250 EXP | Meio da progressão |
+| Explorador Profundo | 64 Silver, 30 Coal | 425 Gold, 350 EXP | Sessões de caverna mais longas |
+
+| Tipo de Drop | Guardar ou Vender | Observações |
+|---|---|---|
+| Gemas | Guarde se precisar | Úteis para melhorias e missões |
+| Lingotes | Geralmente guarde | Entradas comuns para upgrades e criação |
+| Minérios comuns | Vender ou armazenar | Depende da próxima receita |
+| Pergaminhos raros | Guarde sempre | Eles desbloqueiam novas receitas |
+| Materiais de cura | Guarde | Eles prolongam runs profundas |
+
+<Callout type="success" title="Regra de Farm">
+A melhor rota de farm é a que paga pela sua próxima melhoria, e não a que simplesmente fica mais tempo no subterrâneo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="FAQ do Subterra Monster Core">
+
+<Callout type="info" title="Leia Isto Primeiro">
+Estas respostas são baseadas no ciclo de inimigos, chefes e loot que impulsiona a progressão em Subterra.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "O que é Subterra Monster Core?",
+    answer: "É o ciclo de progressão de combate construído em torno de inimigos, chefes, drops e risco nas camadas profundas em Subterra. O objetivo é limpar com segurança, coletar loot com eficiência e continuar evoluindo."
+  },
+  {
+    question: "Em quais inimigos devo focar primeiro?",
+    answer: "Comece com Zombie e Slime para EXP de baixo risco e materiais básicos, depois ajuste sua rota quando Bomb Skeletons e inimigos das camadas profundas começarem a aparecer."
+  },
+  {
+    question: "Qual é a melhor preparação para chefes em runs do Subterra Monster Core?",
+    answer: "Use uma arma forte, suporte de mobilidade como Double Jump ou Walk Speed e cura suficiente para sobreviver a uma luta longa. Rotas de chefe nunca devem começar no chute."
+  },
+  {
+    question: "Quais recompensas mais importam para a progressão?",
+    answer: "Chrono Shards, chaves, pergaminhos de receita, Gold e EXP importam mais porque melhoram sua próxima run e desbloqueiam builds mais eficientes."
+  }
+]} />
+
+<Callout type="tip" title="Nota Final">
+Se uma rota parar de se pagar, saia. Em Subterra, resets disciplinados geralmente vencem avanços desesperados por túneis.
+</Callout>
+
+</Section>

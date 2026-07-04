@@ -1,0 +1,198 @@
+import { Map, Target, Shield, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Pico más fuerte de Subterra: mejor ruta de mejora y estadísticas",
+  description: "Aprende la ruta del pico más fuerte de Subterra, las estadísticas por nivel, las prioridades de materiales y el momento ideal para mejorar y minar más rápido con una progresión más fluida.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B5E34/fff?text=Pickaxe+Upgrade+Guide",
+  date: "2026-07-05",
+  author: "Equipo de la Wiki de Subterra"
+}
+
+<Callout type="info" title="Guía rápida">
+- **El pico más fuerte de Subterra** significa seguir la ruta de fabricación confirmada más alta, no perseguir mejoras secundarias demasiado pronto.
+- **El Nivel 14** es el punto de referencia más alto de la ruta actual, con **100 de poder** y **144% de velocidad**.
+- **Roca, Carbón, Cobre, Estaño y Hierro** son los materiales clave que mantienen tu cadena de mejoras avanzando sin problemas.
+- **Primero el pico** es el orden más seguro; la mochila y las cartas deben apoyar la minería, no frenar tu ruta.
+</Callout>
+
+<Section icon={Target} title="Qué hace que un pico se sienta el más fuerte">
+
+El pico más fuerte de Subterra no es solo el que tiene el número más grande en la hoja. Es la herramienta que te permite romper bloques más rápido, llegar antes a capas mejores y mantener cada expedición de minería rentable. En la práctica, eso significa que debes valorar juntos el poder bruto, la velocidad de minería y el coste de cada nivel.
+
+Actualizado el 2026-07-05, las referencias en vivo más fiables son la [experiencia oficial de Roblox](https://www.roblox.com/games/16817315243/Subterra) y el [tablero de Trello de Subterra](https://trello.com/b/mfSycrVO/subterra-wiki). Mantén ambos abiertos si quieres comparar rutas de mejora mientras juegas.
+
+<CardGrid cols={3}>
+  <Card title="Poder">
+    Un mayor poder te ayuda a romper bloques más duros y avanzar a capas más profundas con menos retraso.
+  </Card>
+  <Card title="Velocidad">
+    Más velocidad acorta cada ciclo de minería, algo que importa aún más cuando las rutas se vuelven más largas.
+  </Card>
+  <Card title="Valor de la ruta">
+    Un pico fuerte solo importa si reduce el tiempo perdido entre recoger recursos y volver.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Regla central">
+La fuerza de una mejora siempre debe juzgarse por cuánto más rápido te lleva a la siguiente capa rentable, no por lo cara que parece.
+</Callout>
+
+| Estadística | Qué cambia | En qué fijarse |
+|---|---|---|
+| Poder | Bloques más duros, capas más profundas | Mejora antes de los objetos de lujo |
+| Velocidad | Ritmo de minería, tiempo de ruta | Prioriza cuando aumenten las distancias de viaje |
+| Requisito de materiales | Lo cara que se siente el siguiente nivel | Guarda menas en lugar de venderlas |
+
+La ruta de origen muestra un patrón claro: los primeros niveles son baratos y rápidos, los niveles intermedios empiezan a pedir materiales fundidos y los niveles altos comienzan a exigir más disciplina con las menas. Por eso, el “más fuerte” realmente es el pico al que puedes llegar de forma eficiente sin dejar sin recursos a tu próxima mejora.
+
+</Section>
+
+<Section icon={Map} title="Ruta de mejora del pico más fuerte de Subterra">
+
+<Callout type="tip" title="Mejor enfoque">
+Trata los Niveles 2 al 6 como tu fase de impulso. Si te estancas aquí, tu velocidad de minería futura se ralentiza más de lo que te ayudan tus ahorros.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Asegura la ruta inicial">
+    Reúne primero Roca y Oro, y luego avanza hacia el primer nivel práctico en lugar de gastar materiales en proyectos secundarios.
+  </Step>
+  <Step num="2" title="Empuja los primeros niveles">
+    Fabrica rápidamente el Nivel 2 y el Nivel 3, y después guarda Carbón y Cobre para que el Nivel 4 y el Nivel 5 no ralenticen tu ciclo.
+  </Step>
+  <Step num="3" title="Usa la fundición como puente de velocidad">
+    Convierte Cobre en bruto en Lingote de cobre y Estaño en bruto en Lingote de estaño en cuanto tu siguiente receta los necesite.
+  </Step>
+  <Step num="4" title="Reserva las gemas raras para el punto de control correcto">
+    Guarda Citrino para el Nivel 10 y evita gastar gemas posteriores a menos que tu ruta actual realmente las necesite.
+  </Step>
+  <Step num="5" title="Termina en el tramo con mucho hierro">
+    Una vez que el Lingote de hierro esté disponible en cantidad, ve directo al nivel confirmado más alto de la ruta actual.
+  </Step>
+</Steps>
+
+| Nivel | Poder | Velocidad | Receta | Mejor uso |
+|---|---:|---:|---|---|
+| Nivel 1 | 20 | 100% | Pico inicial predeterminado | Recolectar Roca y Oro |
+| Nivel 2 | 25 | 105% | 25 Roca, 62 Oro | Primera mejora práctica |
+| Nivel 3 | 30 | 107% | 35 Roca, 5 Carbón, 125 Oro | Primeras rutas de superficie y piedra |
+| Nivel 4 | 35 | 107% | 50 Roca, 15 Cobre en bruto, 15 Carbón, 187 Oro | Guardar Cobre y Carbón |
+| Nivel 5 | 40 | 110% | 25 Carbón, 20 Lingote de cobre, 250 Oro | Entrar en el flujo de fundición |
+| Nivel 6 | 50 | 115% | 20 Carbón, 10 Estaño en bruto, 50 Lingote de cobre, 625 Oro | Primer gran salto de poder |
+| Nivel 10 | 75 | 129% | 50 Lingote de estaño, 35 Lingote de cobre, 10 Citrino, 1250 Oro | Tramo medio bloqueado por gemas |
+| Nivel 14 | 100 | 144% | 90 Lingote de hierro, 60 Lingote de estaño, 1875 Oro | Punto de control confirmado más alto |
+
+La tabla hace que la ruta sea fácil de leer: los primeros saltos de poder son eficientes, el tramo medio pide fundición y el tramo final se construye alrededor del compromiso con el Lingote de hierro. Si tu objetivo actual es el pico más fuerte de esta ruta, el Nivel 14 es la meta a superar.
+
+<Callout type="warning" title="Importante">
+No desvíes Hierro, Estaño o Citrino hacia fabricación no relacionada si todavía te faltan varios niveles para llegar al punto de control superior.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Materiales que debes guardar antes de fabricar">
+
+La ruta del pico más fuerte solo funciona si tus hábitos de almacenamiento son disciplinados. La mayoría de los retrasos vienen de gastar los materiales correctos en las cosas equivocadas. Mantén organizadas tus pilas principales de menas, funde solo cuando una receta lo necesite y evita tratar las gemas raras como botín desechable.
+
+<Checklist
+  id="pickaxe-prep"
+  title="Lista de preparación para fabricar:"
+  items={[
+    "Guarda por separado Roca, Carbón, Cobre en bruto, Estaño en bruto y Hierro en bruto.",
+    "Funde Cobre y Estaño solo cuando el siguiente nivel necesite lingotes.",
+    "Reserva Citrino, Topacio, Amatista, Esmeralda, Rubí, Zafiro y Diamante para recetas posteriores.",
+    "Vuelve a la superficie cuando el espacio del inventario se convierta en el cuello de botella.",
+    "Usa misiones y códigos para acelerar el mismo ciclo de minería."
+  ]}
+/>
+
+| Grupo de materiales | De dónde proviene | Por qué importa |
+|---|---|---|
+| Núcleo inicial | Roca, Carbón | Hace que los Niveles 2-6 avancen rápido |
+| Núcleo de fundición | Cobre en bruto, Estaño en bruto, Hierro en bruto | Desbloquea mejoras intermedias y tardías |
+| Requisito intermedio | Lingote de cobre, Lingote de estaño | Necesario para niveles de pico más altos |
+| Requisito tardío | Lingote de hierro, Citrino | Prepara el tramo final |
+| Gemas raras | Topacio, Amatista, Esmeralda, Rubí, Zafiro, Diamante | Necesarias para mejoras posteriores y sistemas que no son del pico |
+
+Aquí ayuda una regla simple: si un material aparece en tus dos próximos niveles de obtención, consérvalo. Si solo importa para una receta posterior, guárdalo en lugar de convertirlo en dinero demasiado pronto. Ese hábito evita que tu ruta del pico más fuerte se convierta en un desvío lento y caro.
+
+<Callout type="warning" title="No desperdicies progreso">
+Las gemas raras son fáciles de gastar y difíciles de reponer con eficiencia. Trátalas como moneda de ruta, no como cambio suelto.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Configuración de apoyo: combinaciones de mochila y cartas">
+
+Un pico más fuerte funciona mejor cuando el resto de la construcción apoya expediciones más largas. El espacio de la mochila mantiene viva tu ruta de minería, y las cartas de habilidad adecuadas hacen que cada viaje sea más productivo. El objetivo no es acumularlo todo a la vez; es añadir el apoyo mínimo útil que elimine tu cuello de botella actual.
+
+<CardGrid cols={3}>
+  <Card title="Comodidad temprana">
+    Bolsa, Imán y Velocidad de caminar suavizan las rutas iniciales sin exigir materiales raros.
+  </Card>
+  <Card title="Enfoque minero">
+    Pico ligero, Pico más fuerte y Afortunado te ayudan a extraer más mena con menos tiempo perdido.
+  </Card>
+  <Card title="Expediciones largas">
+    Mochila más grande, Oxígeno extra y Saludable evitan que las expediciones profundas terminen demasiado pronto.
+  </Card>
+</CardGrid>
+
+| Pieza de mejora | Beneficio principal | Cuándo priorizar |
+|---|---|---|
+| Pico | Poder y velocidad | Siempre primero |
+| Mochila | Espacio de inventario | Después de tu primer gran salto de pico |
+| Cartas de habilidad | Eficiencia y utilidad | Cuando tu ruta esté estable |
+
+| Carta | Efecto | Mejor uso |
+|---|---|---|
+| Pico ligero | Aumenta la velocidad del pico en un 5% | Romper bloques más rápido |
+| Pico más fuerte | Aumenta el poder del pico en un 6% | Bloques más duros y capas más profundas |
+| Mochila más grande | Aumenta el espacio de la mochila en un 15% | Sesiones de minería más largas |
+| Afortunado | 5% de probabilidad de duplicar la mena obtenida | Farmear mena y rutas largas |
+
+El orden de construcción más simple sigue siendo el mejor: mejora el pico, luego soluciona el problema del almacenamiento y después añade cartas que hagan cada viaje de minería más limpio. Si tus expediciones terminan porque la bolsa se llena demasiado rápido, las mejoras de mochila merecen atención. Si tus expediciones terminan porque los bloques tardan demasiado, el pico debe seguir en el centro.
+
+<Callout type="success" title="Mejor ritmo">
+Usa tus herramientas de apoyo para ampliar la misma ruta rentable, no para crear una segunda vía de progreso que compita con tu pico.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<Callout type="info" title="Respuestas rápidas">
+Estas respuestas siguen la ruta de mejora actual, así que funcionan mejor como guía de decisión en vivo que como una construcción teórica.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el pico más fuerte en los datos actuales de Subterra?",
+    answer: "El Nivel 14 es el punto de control confirmado más alto de la ruta actual, con 100 de poder, 144% de velocidad y una receta centrada en Lingote de hierro, Lingote de estaño y Oro."
+  },
+  {
+    question: "¿Debería mejorar la mochila antes que el pico?",
+    answer: "Por lo general, no. Las mejoras de mochila ayudan cuando las expediciones terminan demasiado pronto, pero las mejoras del pico mejoran cada golpe y hacen que toda la farmeo futura sea más rápido."
+  },
+  {
+    question: "¿Qué materiales debo guardar para los niveles altos?",
+    answer: "Guarda Hierro, Estaño, Citrino y las gemas raras. Esos materiales se vuelven más valiosos a medida que la ruta avanza hacia puntos de control de pico más altos."
+  },
+  {
+    question: "¿Qué debo hacer después del Nivel 6?",
+    answer: "Avanza hacia la ruta de fundición, mantén el flujo de Cobre y Estaño, y apunta al Nivel 10 antes de hacer el empuje final con mucho hierro."
+  }
+]} />
+
+<Callout type="tip" title="Regla final">
+Si dos mejoras compiten por los mismos materiales, normalmente gana la que te lleva más profundo y más rápido.
+</Callout>
+
+</Section>

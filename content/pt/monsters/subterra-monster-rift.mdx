@@ -1,0 +1,223 @@
+import { Map, Shield, Swords, Trophy, Target, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Subterra Monster Rift: Surgimento de Inimigos, Drops e Dicas de Sobrevivência",
+  description: "Use este guia de Subterra Monster Rift para entender as ameaças de cada camada, escolher o melhor loadout, derrotar inimigos profundos e transformar runs hostis em progressão constante.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/5b2333/fff?text=Monster+Rift+Guide",
+  date: "2026-07-05",
+  author: "Equipe da Wiki de Subterra"
+}
+
+<Callout type="info" title="Guia Rápido">
+- As runs de **Subterra Monster Rift** recompensam a paciência; camadas mais profundas punem mineração apressada e controle ruim do inventário.
+- **Melhorias na picareta e na mochila** devem vir antes de fabricação lateral cara ou gasto descuidado de gemas.
+- **Splitblade, Lucky e Explosive Touch** criam uma configuração forte para profundidade, com bom dano e valor de minério.
+- **Bomb Skeletons e Ice Elementals** são os principais sinais para desacelerar, se curar e redefinir seu percurso.
+- **Recompensas de missões e conquistas** ajudam a financiar a progressão sem forçar loops de farm arriscados.
+</Callout>
+
+<Section icon={Map} title="Mapa de Ameaças do Subterra Monster Rift">
+
+As rotas do Subterra Monster Rift são as runs subterrâneas hostis em que a pressão dos inimigos, a profundidade da camada e o layout dos túneis importam mais do que a velocidade bruta de mineração. Trate cada descida como uma run de valor: colete minério lucrativo, mantenha sua rota de fuga aberta e evite lutar em becos sem saída estreitos.
+
+Se você quiser os pontos de referência mais limpos, mantenha aberta a [página oficial do Subterra no Roblox](https://www.roblox.com/games/16817315243/Subterra) e consulte o [quadro Trello do Subterra](https://trello.com/b/mfSycrVO/subterra-wiki) para referências mais detalhadas de itens e camadas.
+
+**Principais destaques no estilo de vídeo para planejar sua rota:**
+- Camadas mais profundas adicionam inimigos mais fortes, não apenas minério melhor.
+- Wormholes, torres e ruínas podem acelerar a movimentação, mas também criam risco de emboscada.
+- Darkstone e Permafrost são os maiores testes de ritmo para a maioria dos jogadores.
+- Guarde suas melhores ferramentas para runs longas, não para tarefas curtas na superfície.
+
+<CardGrid cols={3}>
+  <Card title="Redefinição na Superfície">
+    - Melhor para **vender, fundir e reabastecer**
+    - Menor pressão inimiga
+    - Lugar ideal para recomeçar uma run ruim
+  </Card>
+  <Card title="Mineração de Camada Intermediária">
+    - Melhor para **carvão, cobre, estanho e ferro**
+    - Densidade moderada de inimigos
+    - Bom equilíbrio entre risco e recompensa
+  </Card>
+  <Card title="Avanço Profundo">
+    - Melhor para **minério raro e acesso a chefes**
+    - Alta pressão inimiga
+    - Exige um loadout preparado
+  </Card>
+</CardGrid>
+
+| Camada | Principais Ameaças | O que Muda | Estilo de Jogo Recomendado |
+|---|---|---|---|
+| Camada de Terra | Slime, Zombie | Pressão de combate inicial | Farme materiais básicos, aprenda o espaçamento |
+| Camada de Pedra | Slime, Zombie, Bomb Skeleton | Ameaça inimiga explosiva | Mantenha saídas abertas, evite armadilhas em túneis |
+| Camada Darkstone | Darkstone Skeleton | Pico de perigo mais rápido | Use mobilidade e armas mais fortes |
+| Camada de Permafrost | Ice Slime, Ice Elemental | Inimigos com muita vida, rotas congeladas | Leve cura e suporte para runs longas |
+| Camada de Schwarzfrost | Sunken Spirit, Sunken Warrior, Yrsa | Pressão digna de chefe | Entre apenas com um plano completo de combate |
+
+<Callout type="tip" title="Dica de Rota">
+Se a rota começar a forçar lutas em corredores apertados, pare de perseguir cada nó de minério. Em Subterra, recuar com segurança costuma ser mais lucrativo do que tentar um avanço profundo malsucedido.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Melhor Loadout para o Monster Rift">
+
+O melhor loadout de Subterra Monster Rift é construído em torno de três objetivos: minerar mais rápido, sobreviver por mais tempo e sair da caverna com mais valor do que entrou. As builds mais fortes normalmente combinam uma arma confiável com cartas que melhoram o rendimento de minério, a velocidade da picareta, o espaço da mochila ou a mobilidade.
+
+<CardGrid cols={3}>
+  <Card title="Build de Dano">
+    - Arma em primeiro lugar
+    - Melhor para pressão de chefes
+    - Boa quando os inimigos se acumulam
+  </Card>
+  <Card title="Build de Economia">
+    - Rendimento de minério e valor de fundição
+    - Melhor para sessões longas de mineração
+    - A mais forte para o ritmo de progressão
+  </Card>
+  <Card title="Build de Segurança">
+    - Vida, mobilidade e espaçamento
+    - Melhor para rotas desconhecidas
+    - Ótima para as primeiras idas às camadas profundas
+  </Card>
+</CardGrid>
+
+| Slot | Melhores Escolhas | Por que Funciona |
+|---|---|---|
+| Arma | Splitblade, Knight’s Greatsword, Wretched Sword | Dano corpo a corpo forte mantém as runs hostis administráveis |
+| Carta de Mineração | Lucky, Explosive Touch, Blazing Pickaxe | Melhor valor de minério, limpeza mais rápida, expansão de túneis mais suave |
+| Carta de Utilidade | Bigger Backpack, Pouch, Larger Furnace | Menos tempo perdido com idas ao inventário e ciclos de fundição |
+| Carta de Sobrevivência | Healthy, Double Jump, Extra Oxygen | Ajuda você a sobreviver à pressão inimiga e alcançar saídas mais seguras |
+
+<Steps>
+  <Step num="1" title="Melhore o ciclo de ferramentas primeiro">
+    Gaste os recursos iniciais em poder da picareta e espaço na mochila antes de correr atrás de equipamentos luxuosos. Minerar mais rápido e carregar mais melhora todas as runs futuras.
+  </Step>
+  <Step num="2" title="Fixe uma arma de combate">
+    Escolha uma opção corpo a corpo confiável e mantenha-a melhorada o suficiente para lidar com Bomb Skeletons, Zombies e variantes de esqueletos mais profundas.
+  </Step>
+  <Step num="3" title="Adicione um pacote de cartas de economia">
+    Lucky e Explosive Touch são fortes quando você planeja ficar underground por um bom tempo. Elas melhoram o valor sem forçar um estilo de jogo arriscado.
+  </Step>
+  <Step num="4" title="Adicione um pacote de segurança">
+    Healthy, Double Jump e Extra Oxygen ajudam você a se recuperar de terreno ruim, inimigos surpresa e tempos de deslocamento mais longos.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Aviso de Loadout">
+Não gaste gemas raras cedo demais em objetivos secundários. Materiais como Citrine, Topaz, Amethyst, Emerald, Ruby, Sapphire e Diamond podem travar a progressão posterior se você os desperdiçar.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combate Contra Inimigos e Preparação para Chefes">
+
+Quando o Monster Rift começa a gerar inimigos mais fortes, a luta deixa de ser apenas sobre dano bruto. Posicionamento, timing de recuo e controle do terreno passam a ser a diferença entre uma run lucrativa e uma bag perdida.
+
+| Inimigo | Camada | Padrão de Ameaça | Melhor Contra |
+|---|---|---|---|
+| Slime | Terra, Pedra | Persegue de perto | Mantenha distância, use o timing básico do corpo a corpo |
+| Zombie | Terra, Pedra | Pressão direta | Elimine um inimigo por vez |
+| Bomb Skeleton | Pedra | Explode após um curto atraso | Recuar imediatamente, não se deixe encurralar |
+| Darkstone Skeleton | Darkstone, Permafrost | Ameaça de perseguição mais rápida nas camadas profundas | Leve armas mais fortes e mobilidade |
+| Ice Elemental | Permafrost | Muita vida, dano alto | Use cura e evite trocas longas de face-tank |
+| Yrsa of the Sunken Seas | Schwarzfrost | Luta digna de chefe | Entre com um loadout completo de combate |
+
+O padrão principal é simples: quanto mais fundo você vai, menos espaço há para erros. É por isso que uma rota de Monster Rift deve sempre incluir um plano de saída limpo.
+
+| Item de Preparação para Boss | Por que Importa | Prioridade |
+|---|---|---|
+| Splitblade ou greatsword forte | Alto dano explosivo | Excelente |
+| Carta Healthy | Sobrevivência extra | Excelente |
+| Double Jump | Melhores ângulos de fuga | Bom |
+| Extra Oxygen | Rotas profundas mais longas | Bom |
+| Suprimento de itens de cura | Ajuda na recuperação no meio da run | Excelente |
+
+<Callout type="success" title="Regra de Combate">
+Se uma luta profunda começar a consumir o espaço do seu inventário, pare de avançar. Reinicie, cure-se e volte com uma rota mais limpa em vez de doar recursos para a caverna.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Loot, Missões e Metas de Progressão">
+
+A maneira mais rápida de melhorar as runs de Monster Rift é transformar cada descida em um loop de progressão. Minere o que precisa, venda o que não precisa e deixe missões e conquistas cobrirem as lacunas entre as melhorias de equipamento.
+
+| Objetivo | Recompensa | Por que Ajuda |
+|---|---|---|
+| Primeiro Passo | 25 Gold, 120 EXP | Impulso inicial para novos jogadores |
+| Quebra-Pedra | 80 Gold, 125 EXP | Progressão fácil da superfície até o meio do jogo |
+| Acumulador de Minério | 400 Gold, 250 EXP | Incentiva rotas com minérios mistos |
+| Caçador de Diamantes | 750 Gold, 1000 EXP | Forte avanço de recompensas no midgame |
+| Quebramundos | 140 Chrono Shards | Marco de mineração de longo prazo |
+| Rei dos Baús | 140 Chrono Shards | Recompensa exploração e caça ao loot |
+
+<CardGrid cols={3}>
+  <Card title="Guardar">
+    - Materiais de melhoria
+    - Gemas raras necessárias para receitas
+    - Cartas e moeda de progressão
+  </Card>
+  <Card title="Vender">
+    - Minério comum extra
+    - Materiais de baixo valor duplicados
+    - Loot que não sustenta sua próxima tier
+  </Card>
+  <Card title="Economizar">
+    - Gold para melhorias grandes
+    - Gemas raras para receitas obrigatórias
+    - Consumíveis para camadas mais profundas
+  </Card>
+</CardGrid>
+
+<Checklist
+  id="rift-progress-goals"
+  title="Checklist da Run do Rift:"
+  items={[
+    "Conclua o tutorial e alcance o lobby da superfície",
+    "Melhore a picareta antes de avançar mais fundo",
+    "Melhore a mochila quando as viagens terminarem cedo demais",
+    "Leve uma arma confiável e um plano de cura",
+    "Use missões e conquistas para financiar a próxima tier"
+  ]}
+/>
+
+<Callout type="info" title="Dica de Progressão">
+A rota mais limpa costuma ser a mais sem graça: minerar, fundir, vender, melhorar e só então avançar mais fundo. Esse loop mantém o Monster Rift lucrativo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<Callout type="tip" title="Respostas Rápidas">
+Estas respostas focam nas partes das runs de Subterra Monster Rift que mais importam: preparação, sobrevivência e timing de progressão.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Qual é a maneira mais segura de começar uma run de Subterra Monster Rift?",
+    answer: "Comece com uma arma estável, melhore primeiro sua picareta e mochila e mantenha sua rota de saída livre. Isso torna as runs iniciais muito mais fáceis de recuperar."
+  },
+  {
+    question: "Quais inimigos devem me fazer desacelerar imediatamente?",
+    answer: "Bomb Skeletons, Darkstone Skeletons e Ice Elementals são os sinais de alerta mais claros. Eles aumentam o custo de cada erro, especialmente em túneis estreitos."
+  },
+  {
+    question: "Vale a pena priorizar Splitblade para rotas profundas?",
+    answer: "Sim, Splitblade é uma das opções corpo a corpo craftáveis mais fortes listadas para a progressão tardia. Ela funciona especialmente bem quando sua rota já oferece boas cartas e cura."
+  },
+  {
+    question: "Como as missões ajudam na progressão do Monster Rift?",
+    answer: "Missões e conquistas adicionam Gold, EXP e Chrono Shards sem forçar farm aleatório. Essa moeda extra pode encurtar a distância entre uma tier de loadout e a próxima."
+  }
+]} />
+
+</Section>

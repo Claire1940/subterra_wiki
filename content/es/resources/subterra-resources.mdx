@@ -1,0 +1,204 @@
+import { Map, Target, Sparkles, Shield, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Recursos de Subterra: rutas de minería, menas y guía de valor",
+  description: "Encuentra recursos de Subterra más rápido con rutas de minería por capa, prioridades de menas, reglas para conservar o vender y consejos de progresión inteligente para cada partida.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Subterra+Resources+Guide",
+  date: "2026-07-05",
+  author: "Equipo de la Wiki de Subterra"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Los recursos de Subterra** impulsan cada ciclo de mejoras, desde la minería y la fundición hasta la creación y la preparación contra jefes.
+- **La elección de la capa importa** porque las zonas más profundas aumentan el riesgo, pero también mejoran el valor de las menas y las gemas.
+- **Guarda los materiales raros** como gemas, lingotes y botines de capas profundas para recetas y mejoras bloqueadas.
+- **Usa el centro de la superficie** para vender, fundir y reiniciar antes de que una partida deje de ser rentable.
+</Callout>
+
+<Section icon={Map} title="Resumen de recursos de Subterra">
+
+Los recursos de Subterra son más que menas. Una buena partida suele combinar mena en bruto, lingotes fundidos, gemas, botines de utilidad y una pequeña reserva de materiales de combate. El objetivo es simple: extrae lo que pague tu próxima mejora, guarda lo que desbloquee recetas futuras y vende el resto antes de que tu inventario frene el progreso.
+
+<BookmarkNote />
+
+Para ver cambios en tiempo real, ten a mano la página oficial del juego en Roblox y el tablero de Trello de Polyworks Studio: [página del juego en Roblox](https://www.roblox.com/games/16817315243/Subterra) y [tablero de Trello](https://trello.com/b/mfSycrVO/subterra-wiki). Última revisión: 2026-07-05.
+
+<Callout type="tip" title="Regla básica para el inicio">
+Si un material te ayuda a alcanzar el siguiente pico de pico, mochila o capa, consérvalo. Si solo aumenta el peso del inventario, conviértelo o véndelo rápido.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Menas y lingotes">
+    - **Base de la minería**
+    - Se usan para mejoras y creación
+    - Ideales para rutas de progresión
+  </Card>
+  <Card title="Gemas y cristales">
+    - **Materiales de alto valor**
+    - Muy útiles para misiones y recetas
+    - A menudo conviene guardarlos
+  </Card>
+  <Card title="Botines de utilidad">
+    - **Piezas para pociones y explosivos**
+    - Apoyan las partidas de supervivencia
+    - Geniales para expediciones largas
+  </Card>
+</CardGrid>
+
+| Grupo de recurso | Mejores ejemplos | Función principal |
+|---|---|---|
+| Menas | Carbón, Cobre, Estaño, Hierro, Plata, Oro | Impulsar mejoras, fundición y valor temprano |
+| Lingotes | Lingote de cobre, Lingote de estaño, Lingote de hierro, Lingote de plata | Creación y recetas de progresión |
+| Gemas | Topacio, Amatista, Esmeralda, Zafiro, Rubí, Diamante | Misiones, valor de almacenamiento, recetas de final de partida |
+| Materiales profundos | Nocturnita, Fragmento de piedra lunar, Cristal de azurita, Hielo cargado | Progresión de capas avanzadas y creación premium |
+| Botines de utilidad | Raíces, Frasco de agua, Fragmento de vida, Trozo de slime | Pociones, explosivos y apoyo para la supervivencia |
+
+La mejor forma de entender el flujo de recursos es esta: la mena en bruto se convierte en lingotes, los lingotes desbloquean mejor equipo y las gemas raras conservan flexibilidad para el futuro. Eso significa que una mezcla saludable de inventario siempre supera al acaparamiento aleatorio.
+
+</Section>
+
+<Section icon={Target} title="Recursos de Subterra por capa">
+
+<Callout type="warning" title="Advertencia sobre la profundidad">
+Las capas más profundas pueden mejorar la recompensa, pero también exigen más movilidad, armas más fuertes y mejor control del inventario. No bajes solo porque una capa parezca rica.
+</Callout>
+
+La ruta más limpia es tratar Subterra como una escalera, no como una carrera. Farmea la capa que puedas limpiar con eficiencia, sal con una bolsa rentable y luego baja más solo cuando tus mejoras actuales dejen de sostener la partida.
+
+| Capa | Profundidad | Mejores recursos | Riesgo | Prioridad |
+|---|---|---|---|---|
+| Mundo exterior | Centro de la superficie | Monedas, acceso a la fundición, creación, portales | Bajo | Preparar, vender y reiniciar |
+| Capa de tierra | Desde la superficie hasta aprox. Y -35 | Carbón, Cobre, Estaño, Raíces, Roca | Bajo a medio | Minería temprana de menas |
+| Capa de piedra | Empieza alrededor de Y -35 | Hierro, Plata, Oro, Topacio, Amatista, Esmeralda, Zafiro, Rubí, Platino, Diamante | Medio | Bucle principal de mitad de partida |
+| Capa de piedra oscura | Empieza alrededor de Y -435 | Cobalto, Nocturnita, Hielo negro, Oro, Platino, Diamante | Alto | Primer avance profundo |
+| Permafrost | Empieza alrededor de Y -723 | Cromo, Piedra lunar, Piedra solar, Titanio, Wolframita, Azurita, Hielo cargado | Muy alto | Minería de alto valor |
+| Schwarzfrost | Zona profunda helada de final de partida | Hielo cargado, Eiskron, Nocturnita, botines profundos | Extremo | Preparación para jefes y partidas de final de juego |
+
+<Steps>
+  <Step num="1" title="Empieza en el centro de la superficie">
+    Vende lo que te sobra, funde la mena en bruto y limpia tu inventario antes de descender.
+  </Step>
+  <Step num="2" title="Farmea la capa segura más alta">
+    Quédate en Tierra o Piedra hasta que tu bolsa se llene con suficiente mena para financiar la siguiente mejora.
+  </Step>
+  <Step num="3" title="Baja una capa más">
+    Desciende solo cuando tu pico, mochila y kit de curación puedan sostener limpiezas más rápidas.
+  </Step>
+  <Step num="4" title="Sal antes de que suba el riesgo">
+    Retírate cuando los enemigos, las muertes o las rutas sin salida empiecen a costar más de lo que vale la bolsa.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Lógica de ruta">
+Una ruta rentable suele quedarse una capa por debajo de tu zona de confort, no dos. Así consigues mejores botines sin obligarte a morir, reparar o hacer viajes de rescate constantemente.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Recursos de Subterra de mayor valor">
+
+Los objetivos de recurso más fuertes son los que apoyan varios sistemas a la vez. El hierro alimenta el equipo principal, las gemas ayudan con las misiones y las decisiones de almacenamiento, y los materiales profundos cobran relevancia en cuanto empiezas a buscar mejores recetas o rutas de final de partida. Ten los elementos de abajo en tu lista mental de prioridad.
+
+| Recurso | Mejor capa | Uso principal | Consérvalo si... |
+|---|---|---|---|
+| Carbón | Tierra, Piedra | Progresión temprana y comprobaciones de misiones | Aún necesitas combustible para mejoras |
+| Cobre | Tierra, Piedra | Creación temprana y cadena de lingotes | Estás construyendo los primeros niveles |
+| Estaño | Tierra, Piedra | Progresión de mitad temprana | Puedes fundirlo pronto |
+| Hierro | Piedra, Piedra oscura | Progresión de herramientas y armas | Te acercas a la mitad de partida |
+| Plata | Piedra, Piedra oscura | Creación y misiones de mitad de partida | Necesitas recetas más fuertes |
+| Oro | Piedra, Piedra oscura | Valor, creación, misiones | Aún necesitas fondos para mejoras |
+| Platino | Piedra, Piedra oscura, Permafrost | Progresión avanzada | Estás ahorrando para niveles posteriores |
+| Diamante | Piedra, Permafrost | Material de misión de alto valor | Tienes espacio para objetos raros |
+| Nocturnita | Piedra oscura, Schwarzfrost | Minería de capas profundas | Estás planificando rutas de final de partida |
+| Hielo cargado | Permafrost, Schwarzfrost | Creación y exploración de final de partida | Estás apuntando a zonas heladas |
+
+<Callout type="success" title="Mentalidad de alto valor">
+El mejor hábito al final de la partida no es “extraerlo todo”. Es “extraer lo que avance el siguiente punto de control”. Eso hace que las partidas sean más cortas, más seguras y más fáciles de escalar.
+</Callout>
+
+| Grupo de material | Guardar para progresar | Normalmente se puede vender |
+|---|---|---|
+| Menas básicas | Carbón, Cobre, Estaño, Hierro | Pilas extra una vez cubiertas las mejoras |
+| Menas de mitad de partida | Plata, Oro, Platino | Vende solo el excedente cuando las recetas ya estén aseguradas |
+| Gemas raras | Topacio, Amatista, Esmeralda, Zafiro, Rubí, Diamante | Casi nunca vender al principio, salvo que necesites monedas de inmediato |
+| Materiales profundos | Nocturnita, Piedra lunar, Azurita, Hielo cargado | Evita venderlos a menos que tu ruta ya sea estable |
+
+Si te falta espacio, prioriza los materiales que desbloquean recetas por encima del valor bruto en monedas. Una gema que completa una misión o una mejora suele valer más que una venta rápida.
+
+</Section>
+
+<Section icon={Shield} title="Qué guardar, fundir o vender">
+
+Aquí es donde la mayoría de las partidas triunfan o fracasan. Una bolsa llena no es automáticamente una buena bolsa. Lo inteligente es convertir los objetos en bruto de bajo valor en formas mejores, guardar los objetos raros para sistemas futuros y vender solo cuando el material ya haya cumplido su función.
+
+<Callout type="tip" title="Disciplina de inventario">
+No dejes que los botines comunes desplacen la mena rara. Una sola pila olvidada puede costarte el espacio que necesitabas para una gema, un lingote o un botín de capa profunda.
+</Callout>
+
+| Tipo de objeto | Guardar | Fundir | Vender |
+|---|---|---|---|
+| Mena en bruto | Sí, si se necesita para mejoras | Sí, cuando fundirla mejora su valor | Pilas extra después del nivel objetivo |
+| Lingotes | Sí, para recetas | No | Solo copias sobrantes |
+| Gemas | Sí, casi siempre | No | Solo duplicados de final de partida |
+| Raíces, Fragmentos de vida, Frascos de agua | Sí, para crear pociones | No | Pilas duplicadas de baja prioridad |
+| Trozo de slime | Sí, para explosivos pegajosos | No | Solo si ya terminaste la creación de explosivos |
+| Carbón y roca | A veces | La roca puede apoyar la conversión básica | Excedente después de cubrir las necesidades iniciales |
+| Botines de capa profunda | Sí | Rara vez | No hasta que conozcas el grupo de recetas |
+
+<Checklist
+  id="resource-management"
+  title="Lista de verificación al final de la partida:"
+  items={[
+    "Deposita las gemas raras antes de iniciar otro descenso",
+    "Funde la mena en bruto que tenga una ruta clara de mejora",
+    "Vende los comunes sobrantes que ya no desbloquean progreso",
+    "Mantén una pequeña reserva de materiales de curación y explosivos",
+    "Deja una fila del inventario libre para botines sorpresa"
+  ]}
+/>
+
+<Callout type="success" title="Mejor práctica">
+Si terminas una partida sin espacio para botines valiosos, la ruta fue demasiado codiciosa. Recorta la longitud de la ruta hasta que la bolsa vuelva a casa más limpia.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ de recursos de Subterra">
+
+Un plan de recursos centrado te ayuda a pasar de la minería inicial a la farmeo de capas profundas sin perder tiempo. Usa las respuestas de abajo como filtro rápido de decisiones antes de tu próxima partida.
+
+<Callout type="info" title="Filtro rápido de decisiones">
+Cuando tengas dudas, hazte una pregunta: ¿este material me acerca a la siguiente mejora, misión o capa? Si no es así, trátalo como valor temporal, no como inventario principal.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuáles son los recursos de Subterra más importantes para principiantes?",
+    answer: "Empieza con Carbón, Cobre, Estaño, Roca y Raíces. Apoyan mejoras tempranas, creación básica y los primeros ciclos rentables de minería."
+  },
+  {
+    question: "¿Qué recursos de Subterra debería guardar para más adelante?",
+    answer: "Guarda las gemas, los lingotes y los materiales de capas profundas como Platino, Diamante, Nocturnita y Hielo cargado, salvo que ya sepas que es seguro venderlos."
+  },
+  {
+    question: "¿Cuándo debería pasar a una capa más profunda?",
+    answer: "Baja más cuando tu capa actual deje de financiar mejoras útiles. Si la velocidad de limpieza cae o aumentan las muertes, quédate donde tu ruta siga siendo eficiente."
+  },
+  {
+    question: "¿Es mejor vender la mena en bruto o fundirla primero?",
+    answer: "Fúndela primero cuando la mena tenga una ruta clara hacia lingotes y tengas acceso al centro de la superficie. Vende la mena en bruto solo cuando necesites monedas de inmediato."
+  }
+]} />
+
+<Callout type="warning" title="Nota final">
+La farmeo de capas profundas parece emocionante, pero la progresión constante suele ganar. Construye primero un bucle de mena estable y luego convierte los recursos raros en mejoras en lugar de arriesgarlos.
+</Callout>
+
+</Section>

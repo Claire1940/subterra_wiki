@@ -1,0 +1,219 @@
+import { Map, Sparkles, Target, Shield, Trophy, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "subterra update: Patch Notes, Tips, and Route Guide",
+  description: "Track the latest Subterra update with patch priorities, upgrade shifts, return-player routes, and fast checks for cards, crafting, and layers.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Subterra+Update+Guide",
+  date: "2026-07-05",
+  author: "subterra Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **subterra update** usually changes the economy first, so verify rewards, boosts, and spending paths before grinding.
+- **Pickaxe and backpack upgrades** matter most when you return after a patch and want faster, safer runs.
+- **Ability Cards and Chrono Shards** can reshape your best route more than raw damage in early sessions.
+- **Layer safety** is the real bottleneck when deeper zones become harder or more resource hungry.
+</Callout>
+
+<Section icon={Map} title="What Changes First After a Subterra Update">
+
+A Subterra update can shift the best farming loop without rewriting the whole game. The first thing I check is not damage or rarity hype; it is time efficiency. If a patch changes rewards, travel speed, or inventory pressure, your old route may still work, but it may no longer be the best use of a short session.
+
+**Video Highlights:**
+- No video embed is added because no highly relevant Subterra video is available in the current dataset.
+- Focus on the systems that affect early profits, not on flashy late-game goals.
+- Recheck currency, upgrade timing, and safe layer depth before long farming sessions.
+
+<CardGrid cols={3}>
+  <Card title="Economy First">
+    - **Chrono Shards**
+    - Code rewards
+    - Gold flow and spending pace
+  </Card>
+  <Card title="Mobility Second">
+    - **Backpack space**
+    - Route length
+    - Return-trip efficiency
+  </Card>
+  <Card title="Safety Third">
+    - **Layer danger**
+    - Enemy pressure
+    - Recovery items and block timing
+  </Card>
+</CardGrid>
+
+| System | What to Check | Why It Matters |
+|---|---|---|
+| Codes | Active rewards, redeem timing, reward value | Early boosts can change the best opening route |
+| Ability Cards | Card slots, shard spending, build fit | Cards often decide mining speed and survival |
+| Pickaxe | Mining speed, power, material cost | Tool tiers affect how fast you reach deeper layers |
+| Backpack | Inventory space, trip length, return timing | More space usually means fewer forced exits |
+| Layers | Safe depth, enemy threat, ore density | The best route is often the safest profitable route |
+
+<Callout type="tip" title="Pro Tip">
+If you only have one play session, spend the first few minutes confirming your new profit loop before chasing rare drops.
+</Callout>
+
+The practical rule is simple: the best update response is to rebuild your route around the most time-sensitive bottleneck. For many players, that bottleneck is not combat. It is how quickly you can mine, store, smelt, and return without wasting movement.
+
+</Section>
+
+<Section icon={Target} title="Rebuild in the Right Order">
+
+When I map a fresh patch, I rebuild in a fixed order. That order keeps you from burning rare materials on the wrong upgrade and then realizing the session still feels slow. Start with what changes the loop, then move to what supports the loop, then spend on luxury upgrades.
+
+<Callout type="warning" title="Avoid This Mistake">
+Do not sink rare ores into side crafts or low-impact upgrades until you know which system is actually slowing your progress.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Check Your Currency and Rewards">
+    Open your reward sources first. Confirm what active bonuses, shard gains, or code rewards are available before you invest anything.
+  </Step>
+  <Step num="2" title="Test Your Tooling">
+    Run one short mining trip with your current pickaxe and backpack. If trips end too early or mining feels sluggish, prioritize upgrades.
+  </Step>
+  <Step num="3" title="Refresh Your Card Build">
+    Pick one build goal: ore farming, survival, or travel. Use cards that support that goal instead of mixing every bonus into one loadout.
+  </Step>
+  <Step num="4" title="Validate Your Layer Route">
+    Re-enter the depth that still feels profitable. If the route is slower, safer, or richer than before, lock that route in and move forward.
+  </Step>
+</Steps>
+
+| Priority | Before the Update | After the Update |
+|---|---|---|
+| Currency | Spend freely on small boosts | Save until the new bottleneck is clear |
+| Tools | Upgrade by habit | Upgrade only if mining speed feels limited |
+| Cards | Use a mixed build | Build for one goal: ore, safety, or movement |
+| Route | Farm the deepest spot you can reach | Farm the deepest spot you can clear efficiently |
+
+A useful pattern is to treat the first session after a patch as a calibration run. That means you are not trying to max out your account immediately. You are collecting information that tells you where the real progress lies now.
+
+| Decision | Best Choice |
+|---|---|
+| Need faster mining | Upgrade pickaxe first |
+| Ending runs too early | Upgrade backpack first |
+| Losing time between trips | Prioritize mobility and return flow |
+| Taking too much damage | Add survival cards and safer routes |
+
+<Callout type="info" title="Editor’s Note">
+A clean rebuild is usually cheaper than a random rebuild. Every saved material gives you more room to adapt if the patch changes again.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Best 30-Minute Return Route">
+
+If you are coming back after a Subterra update, a 30-minute route is enough to tell you whether your old plan still works. The goal is not to do everything. The goal is to identify which layer, which tool, and which card set still produce reliable value.
+
+<Callout type="success" title="Best Short-Session Rule">
+Use the first short session to confirm profit, the second to confirm safety, and the third to scale up your route.
+</Callout>
+
+<Checklist
+  id="return-route"
+  title="Return-Player Checklist:"
+  items={[
+    "Redeem any active rewards before you start mining.",
+    "Check whether your backpack fills too quickly.",
+    "Equip one mining-focused card and one survival-focused card.",
+    "Test one safe layer before pushing deeper.",
+    "Bank materials before logging off."
+  ]}
+/>
+
+| Minute | Action | Goal |
+|---|---|---|
+| 0-5 | Redeem rewards, check loadout, open inventory | Make sure you are starting with a clean baseline |
+| 5-15 | Mine one familiar route | Measure speed, drop quality, and backpack pressure |
+| 15-25 | Test a deeper or richer layer | See whether the patch changed your safe depth |
+| 25-30 | Return, sell, and compare results | Decide whether your route still holds up |
+
+The best return route is usually the one that gives you the fewest forced exits. If you are constantly returning early, the problem is often inventory flow or enemy pressure, not raw ore value. If you are comfortable but underfarmed, the problem is often route selection.
+
+| Symptom | Best Fix |
+|---|---|
+| Backpack fills too fast | Upgrade storage or filter what you mine |
+| Mining feels slow | Recheck pickaxe tier and card support |
+| Combat interrupts the run | Add safety cards or move one layer higher |
+| Profit looks low | Switch to a denser ore path or a smarter sell cycle |
+
+<Callout type="tip" title="Fast Win">
+If your route still works, keep it. If it only works with perfect luck, it is probably not the right post-update route.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Systems Worth Rechecking After Any Update">
+
+Some systems react to patches more than others. Cards, tools, crafting, and layer access are the first places where a small balance tweak can create a big change in your preferred build. That is why I always recheck these areas before I commit rare materials.
+
+<Callout type="info" title="Official Hubs">
+Use the official game page and developer channels to verify timing, announcements, and patch context before you spend a long session testing.
+</Callout>
+
+| System | Recheck For | Player Impact |
+|---|---|---|
+| Ability Cards | Shard value, card slots, build synergy | Can change the best mining or survival setup |
+| Pickaxe Upgrades | Speed, power, material cost | Directly affects clear speed and deep-layer access |
+| Backpack Upgrades | Inventory space, trip length | Changes how long your mining loop can stay profitable |
+| Crafting | Recipes, ingredient value, smelting flow | Affects whether you keep or sell a material |
+| Layers | Depth risk, enemy pressure, resource density | Determines where your route should start and stop |
+| Combat | Weapon comfort, block timing, recovery items | Decides how safely you can farm richer areas |
+
+| Official Hub | Best Use | Link |
+|---|---|---|
+| Roblox game page | Launching the game and checking the live experience | [Open the game](https://www.roblox.com/games/16817315243/Subterra) |
+| Discord | Patch timing, announcements, and community discussion | [Join the Discord](https://discord.com/invite/wZ3J4whDPe) |
+| X | Quick developer updates and short notices | [Follow on X](https://x.com/PolyworksStudio) |
+| YouTube | Trailers and visual previews | [Visit YouTube](https://www.youtube.com/channel/UCxnoxgq9LMmHBTSDJyk26BQ) |
+
+The main habit to keep is simple: do not trust muscle memory alone. After a patch, even a familiar route can become inefficient if one of its support systems changed. A slightly slower loop with safer exits is often better than an aggressive route that breaks your inventory or gets you killed.
+
+| Common Mistake | Better Habit |
+|---|---|
+| Spending materials immediately | Test the patch first |
+| Chasing every upgrade at once | Build around one clear goal |
+| Ignoring cards | Recheck card synergy every update |
+| Mining too deep too soon | Confirm safety before scaling depth |
+
+<Callout type="tip" title="Smart Review">
+If a system does not affect time, safety, or resource flow, it can usually wait until after your main route is stable.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<Callout type="warning" title="FAQ Note">
+These answers focus on the fastest way to adjust after a patch, not on trying to perfect every build at once.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "What should I check first in a Subterra update?",
+    answer: "Start with currency flow, tool upgrades, and your current layer route. Those three factors usually decide whether your old plan still feels efficient."
+  },
+  {
+    question: "Should I always upgrade my pickaxe before my backpack?",
+    answer: "Not always. If your inventory fills too early, backpack space can be the better first purchase. If mining feels slow, pickaxe power is usually the priority."
+  },
+  {
+    question: "Are Ability Cards worth rechecking after every patch?",
+    answer: "Yes. Cards can change how well your build handles mining speed, survival, and movement, so they are one of the most important update checks."
+  },
+  {
+    question: "How do I know if my old route still works?",
+    answer: "Run a short test session. If you can mine, store, and return without extra downtime, the route is still valid. If not, rebuild around the new bottleneck."
+  }
+]} />
+
+</Section>

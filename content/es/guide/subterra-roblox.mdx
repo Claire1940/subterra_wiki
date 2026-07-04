@@ -1,0 +1,213 @@
+import { Map, Shield, Swords, Target, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "subterra roblox: Guía para principiantes, consejos y builds",
+  description: "Aprende la ruta inicial más segura de Subterra Roblox, las prioridades de mejora, los riesgos por capas, los hábitos de combate y las elecciones de build para una progresión temprana más fluida.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Subterra+Walkthrough",
+  date: "2026-07-05",
+  author: "Equipo de la Wiki de subterra"
+}
+
+<Callout type="info" title="Guía rápida">
+- **subterra roblox** recompensa los bucles de minería cortos y rentables por encima de lanzarse sin cuidado a profundidades mayores.
+- **Prioriza primero la potencia del pico** como la ruta de mejora inicial más segura para romper bloques más rápido.
+- **El espacio de la mochila en segundo lugar** mantiene tus runs eficientes y reduce viajes desperdiciados.
+- **Los materiales raros** deben guardarse para mejoras, no gastarse al azar.
+- **Bloquea, retrocede y reinicia** cuando una ruta de cueva deje de compensar por su riesgo.
+</Callout>
+
+<Section icon={Map} title="Bucle inicial de subterra roblox">
+
+Empieza con un bucle sencillo: aprende el hub, mina una ruta superficial, vende lo que lleves y luego mejora una cosa que haga más fácil la siguiente run. Ese ritmo importa más que cualquier build llamativa. En Subterra Roblox, el éxito temprano viene de mantener el orden, no de forzar la profundidad antes de que tu equipo esté listo.
+
+<CardGrid cols={3}>
+  <Card title="Minero de superficie">
+    - **Ideal para:** comienzos de bajo riesgo
+    - Mina, vende, repite
+    - Enfócate en la consistencia
+  </Card>
+  <Card title="Explorador profundo">
+    - **Ideal para:** progresión más rápida
+    - Avanza más hondo en ráfagas cortas
+    - Requiere mejor planificación
+  </Card>
+  <Card title="La seguridad primero">
+    - **Ideal para:** nuevos jugadores
+    - Prioriza salidas y recuperación
+    - Riesgo de pérdida mínimo
+  </Card>
+</CardGrid>
+
+| Prioridad inicial | Por qué importa | Mejor primer paso |
+|---|---|---|
+| Potencia de minería | Rompe bloques más duros más rápido | Mejora tu herramienta principal antes de perseguir botines raros |
+| Espacio del inventario | Amplía cada viaje de minería | Regresa solo cuando la bolsa realmente valga la pena venderla |
+| Movilidad | Mejora el posicionamiento y las salidas | Mantén abiertas las rutas de escape en cada túnel |
+| Objetos de recuperación | Protegen las ganancias en runs más largas | Llévalos antes de intentar una capa más profunda |
+
+<Callout type="tip" title="Regla temprana">
+Si una ruta empieza a tardar más de lo que paga, acórtala de inmediato. Un bucle limpio vence a un fracaso heroico.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Plan de la primera run y progresión">
+
+Tus primeras sesiones deben ser medidas y repetibles. El objetivo no es descubrirlo todo a la vez. Es construir una ruta estable que convierta tiempo en herramientas y herramientas en runs más seguras. Una vez que ese bucle se sienta normal, las capas más profundas dejarán de parecer aleatorias y empezarán a ser legibles.
+
+<Steps>
+  <Step num="1" title="Aprende el hub">
+    Revisa el hub principal, identifica dónde vendes, mejoras y te recuperas, y convierte ese recorrido en tu punto de reinicio.
+  </Step>
+  <Step num="2" title="Haz una pasada de minería superficial">
+    Toma una ruta corta, mina solo lo que encaje con tu plan actual y evita comprometerte de más en un túnel profundo.
+  </Step>
+  <Step num="3" title="Vende antes de atascarte">
+    Convierte tu botín en progreso mientras tu inventario aún conserva valor. Las bolsas vacías son mejores que las runs muertas.
+  </Step>
+  <Step num="4" title="Mejora una estadística central">
+    Gasta tus ganancias en la única mejora que más cambie el siguiente viaje, normalmente la potencia de la herramienta o el espacio del inventario.
+  </Step>
+  <Step num="5" title="Repite con una ruta ligeramente mejor">
+    Amplía la distancia solo cuando la ruta actual se sienta eficiente, segura y fácil de repetir.
+  </Step>
+</Steps>
+
+| Paso | Qué hacer | Señal de éxito |
+|---|---|---|
+| 1 | Aprende la distribución del hub | Puedes volver sin buscar |
+| 2 | Mina zonas superficiales | Tu bolsa se llena de valor útil |
+| 3 | Vende pronto | Mantienes el impulso entre runs |
+| 4 | Mejora una sola cosa | La siguiente ruta se siente más fácil |
+| 5 | Expande con cuidado | Sobrevives más tiempo con menos estrés |
+
+<Callout type="warning" title="Evita este error">
+No trates cada túnel más profundo como una oportunidad de mejora. Algunas rutas son solo distracciones costosas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Prioridad de mejoras y gasto de recursos">
+
+El modelo de progresión más seguro es potencia primero, capacidad segundo y comodidad tercero. Ese orden mantiene tus runs eficientes y aún deja espacio para experimentar más adelante. Si repartes tus recursos entre demasiados sistemas, tu progreso se ralentiza y cada viaje empieza a sentirse insuficiente.
+
+<CardGrid cols={3}>
+  <Card title="1. Potencia">
+    - **Por qué primero:** limpieza más rápida
+    - Hace posibles rutas más profundas
+    - Ayuda en cada sesión
+  </Card>
+  <Card title="2. Capacidad">
+    - **Por qué segundo:** runs más largas
+    - Reduce retrocesos desperdiciados
+    - Mantiene rentable la minería
+  </Card>
+  <Card title="3. Utilidad">
+    - **Por qué tercero:** comodidad y seguridad
+    - Buena cuando lo básico ya está estable
+    - Ideal para afinar detalles
+  </Card>
+</CardGrid>
+
+| Tipo de recurso | Guardarlo para | Gastarlo en |
+|---|---|---|
+| Mineral común | Mejoras tempranas | Progresión de herramientas y crafteo básico |
+| Materiales raros | Desbloqueos clave | Solo mejoras de alto valor |
+| Moneda | Estabilidad de la build | Potencia, luego capacidad, luego comodidad |
+| Consumibles | Rutas largas | Sesiones en las que fallar costaría más |
+
+| Elección de mejora | Prioridad | Motivo |
+|---|---|---|
+| Pico | Alta | Mejora la velocidad de minería y la calidad de la ruta |
+| Mochila | Media | Te permite llevar más valor por viaje |
+| Objetos de utilidad | Media | Útiles, pero no antes de la potencia central |
+| Crafteo secundario | Bajo al principio | Bueno más adelante, cuando tu ruta sea estable |
+
+<Callout type="success" title="Mejor hábito de gasto">
+Guarda los materiales raros hasta que una compra mejore claramente tus próximas tres runs, no solo tu estado de ánimo actual.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Capas, enemigos y hábitos de combate">
+
+La profundidad cambia el juego rápido. Las zonas superficiales se centran en construir impulso, mientras que las áreas más profundas castigan el mal posicionamiento y la falta de recuperación. No necesitas pelear con todo. De hecho, los mejores mineros suelen evitar combates que no mejoran el botín, el acceso o el progreso de misiones.
+
+| Etapa de capa | Riesgo típico | Objetivo inteligente |
+|---|---|---|
+| Superficie y hub | Bajo | Preparar, vender y reiniciar |
+| Rutas de cuevas tempranas | Moderado | Aprender el movimiento y el ritmo de minería |
+| Rutas de profundidad media | Alto | Llevar un plan y una salida alternativa |
+| Rutas profundas | Muy alto | Entrar solo con un propósito |
+| Zonas cercanas al jefe | Extremo | Priorizar la supervivencia sobre la codicia |
+
+<Callout type="info" title="Mentalidad de combate">
+Trata el combate como protección de la ruta, no como tu objetivo principal. Ganar una pelea es bueno; mantener viva una run rentable es mejor.
+</Callout>
+
+<Checklist
+  id="survival-checklist"
+  title="Lista de supervivencia para principiantes:"
+  items={[
+    "Mantén una ruta de salida abierta antes de avanzar minando",
+    "Deja de empujar cuando tu ruta se vuelva impredecible",
+    "Lleva recuperación para sesiones más largas",
+    "Lucha solo cuando la recompensa valga el riesgo",
+    "Retírate antes de que un mal intercambio se convierta en una pérdida total"
+  ]}
+/>
+
+| Situación | Mejor respuesta | Por qué |
+|---|---|---|
+| Túnel estrecho | Retrocede y reinicia la distancia | Los espacios reducidos amplifican los errores |
+| Vida baja | Sal de inmediato | Sobrevivir protege tu progreso |
+| Sala desconocida | Entra despacio | La visibilidad forma parte de la seguridad |
+| Presión intensa | Rompe la línea de visión | Reinicia la pelea a tu favor |
+
+</Section>
+
+<Section icon={Trophy} title="Enlaces oficiales, referencia rápida y FAQ">
+
+Usa las páginas oficiales de abajo cuando quieras verificar la experiencia, revisar las novedades de la comunidad o seguir publicaciones de los desarrolladores. Te recomiendo guardar primero la página del juego en Roblox y luego conservar un canal social para anuncios. Revisado el 2026-07-05.
+
+| Recurso oficial | Caso de uso | Enlace |
+|---|---|---|
+| Página de la experiencia en Roblox | Iniciar el juego, verificar el título y acceder directamente a la experiencia | https://www.roblox.com/games/16817315243/Subterra |
+| Comunidad de Polyworks Studio | Referencia del grupo de desarrolladores e identidad del proyecto | https://www.roblox.com/communities/5851851/Polyworks-Studio |
+| Polyworks Studio X | Actualizaciones públicas y anuncios | https://x.com/PolyworksStudio |
+
+<Callout type="tip" title="Estrategia de referencia">
+Mantén a mano un enlace oficial del juego y un canal de la comunidad. Eso cubre el acceso al lanzamiento y el seguimiento de actualizaciones sin saturarte.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor prioridad temprana en subterra roblox?",
+    answer: "Concéntrate primero en la potencia de minería y luego en el espacio del inventario. Ese orden mejora cada run y mantiene tu progreso avanzando sin complicar demasiado la build."
+  },
+  {
+    question: "¿Debería mejorar primero el pico o la mochila?",
+    answer: "En la mayoría de los casos, primero el pico. El espacio de la mochila importa, pero minar más rápido suele mejorar tus ganancias y desbloquear mejores rutas antes."
+  },
+  {
+    question: "¿Qué tan profundo debería llegar un principiante?",
+    answer: "Solo tan profundo como tu ruta actual siga siendo predecible. Si la cueva empieza a ralentizarte o a forzarte a peores combates, reinicia y guarda tus ganancias."
+  },
+  {
+    question: "¿Cuál es la forma más segura de gastar materiales raros?",
+    answer: "Guárdalos para mejoras que mejoren claramente las próximas varias runs. Evita gastar recursos raros en sistemas secundarios antes de que tu bucle principal sea estable."
+  }
+]} />
+
+<Callout type="success" title="Conclusión final">
+Construye una ruta repetible, mejora las herramientas que más importan y avanza más profundo solo cuando tu bucle actual deje de sentirse costoso.
+</Callout>
+
+</Section>

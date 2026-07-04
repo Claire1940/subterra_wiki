@@ -1,0 +1,220 @@
+import { Compass, Map, Layers, Target, Shield, Trophy, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Subterra Compass: Route Planning, Layers, and Mining Tips",
+  description: "Subterra Compass helps you plan safer mining routes, choose the right layer, and time upgrades so each run earns more with less backtracking.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Subterra+Compass+Guide",
+  date: "2026-07-05",
+  author: "subterra Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Subterra Compass** works best as a route planner for surface setup, mid-layer profit, and deep-layer exits.
+- **Pickaxe and backpack upgrades** beat reckless depth pushes because inventory space controls each run's value.
+- **Layer awareness** helps you turn back before monsters, dead ends, or smelting downtime slow progress.
+- **Ability Cards and codes** accelerate the loop with better mining, carry space, and survival tools.
+</Callout>
+
+<Section icon={Compass} title="Compass Mindset: Read the Mine First">
+
+Subterra Compass works best when you treat it like a route map, not a magic shortcut. The strongest players do not dig randomly; they set a target layer, gather the next upgrade materials, and leave before the run becomes inefficient. That mindset matters even more in Subterra because deeper layers raise the risk while also raising the reward.
+
+The clean rule is simple: mine with a destination, not just a direction. If your inventory fills too quickly, your pickaxe feels slow, or you start spending more time fighting than collecting, the route is already losing value. A good compass strategy keeps you moving toward the next profitable stop.
+
+<CardGrid cols={3}>
+  <Card title="Surface Loop">
+    - **Goal:** warm up fast
+    - **Focus:** Rocks, Coal, early ores
+    - **Exit:** when your bag starts filling
+  </Card>
+  <Card title="Mid-Layer Loop">
+    - **Goal:** steady profit
+    - **Focus:** Copper, Tin, Iron, gems
+    - **Exit:** when routes slow down
+  </Card>
+  <Card title="Deep Push">
+    - **Goal:** higher-value materials
+    - **Focus:** stronger ores, structures, bosses
+    - **Exit:** when risk outweighs rewards
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Route Rule">
+Use the compass to choose the next profitable stop, not the deepest tunnel available. In Subterra, the best run is usually the one you can repeat.
+</Callout>
+
+| Navigation Cue | What It Means | Best Move |
+|---|---|---|
+| Backpack nearly full | Profit window is closing | Return to sell and smelt |
+| Ore vein gets weaker | The layer is drying up | Shift route or turn back |
+| Enemy pressure rises | The path is getting expensive | Fight carefully or retreat |
+| Portal or structure found | A landmark is available | Mark it and revisit later |
+
+</Section>
+
+<Section icon={Map} title="Best Route by Layer">
+
+Subterra's map logic is built around depth, not distance. A compass-style route only works if you know what each layer is supposed to give you. Early layers are about building momentum, mid layers are about upgrading your economy, and deep layers are where your loadout must already be stable.
+
+The official progression path supports a loop of mine, upgrade, craft, and descend. That means your compass should always answer one question: "What does this layer unlock next?" If the answer is nothing useful, leave and cash out.
+
+<Callout type="warning" title="Depth Rule">
+Do not rush below your current upgrade tier. In Subterra, deeper is only better when your tools, inventory, and combat setup can support the trip.
+</Callout>
+
+| Layer | Best Goal | Main Resources | Turn Back When |
+|---|---|---|---|
+| Overworld | Prep and resupply | Shops, smeltery, sell area, portals | You are ready to commit to a mining run |
+| Dirt Layer | Fast early farming | Coal, Copper, Tin, Roots, Stone | Inventory fills or monsters slow the route |
+| Stone Layer | Main progression layer | Iron, Silver, Gold, gems, geodes | You stop finding upgrades or chests |
+| Darkstone Layer | First deep push | Cobalt, Nocturnite, Black Ice | Survival costs rise faster than rewards |
+| Permafrost Layer | Advanced farming | Chromium, Moonstone, Titanium, Wolframite | You need stronger weapons or more recovery |
+| Schwarzfrost Layer | Endgame target zone | Charged Ice, Eiskron, boss-area loot | You are not prepared for boss pressure |
+
+A practical compass route is usually Overworld → Dirt → Stone → Deep layer checkpoint → back to town. That loop keeps your mining runs profitable without forcing you to overstay in hostile areas.
+
+<Callout type="info" title="Best Use Case">
+If you are still learning the game, keep your compass focused on short loops first. Longer runs make sense only after your upgrade path is stable.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Loadout Priorities for Faster Runs">
+
+Your route only stays efficient when your loadout matches the layer you want to clear. The source data points to a very clear early-game pattern: upgrade your pickaxe first when mining feels slow, then upgrade your backpack when inventory space starts cutting trips short. That order keeps your runs productive and reduces wasted backtracking.
+
+If you want to push faster, use codes and rewards as a fuel source. Chrono Shards help with card progression, while TNT Blocks, EXP boosts, potions, and Gold all support the same mining loop. The trick is to spend those rewards before a long session, not after you have already lost momentum.
+
+<CardGrid cols={4}>
+  <Card title="Pickaxe">
+    - **Priority:** first if mining speed is low
+    - **Reason:** faster block clearing
+    - **Best for:** tougher layers
+  </Card>
+  <Card title="Backpack">
+    - **Priority:** first if trips end too early
+    - **Reason:** more carry space
+    - **Best for:** ore-heavy routes
+  </Card>
+  <Card title="Ability Cards">
+    - **Priority:** after your core tools
+    - **Reason:** mobility, yield, safety
+    - **Best for:** long mining sessions
+  </Card>
+  <Card title="Inventory">
+    - **Priority:** always monitored
+    - **Reason:** determines run length
+    - **Best for:** repeatable profit loops
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Progress Boost">
+Chrono Shards, TNT Blocks, EXP boosts, and potions are most useful before long runs. Spend them when they help you clear a deeper layer faster.
+</Callout>
+
+| Upgrade Priority | What It Solves | When to Buy |
+|---|---|---|
+| Pickaxe Tier 2 | Early mining speed and power | After you can stock Rock and Gold safely |
+| Backpack Tier 2 | Early carry limits | When your bag fills before the route ends |
+| Pickaxe Tier 4 | Better wall-breaking in Stone routes | When Copper and Coal income is steady |
+| Backpack Tier 4 | Longer mid-game profit loops | When Iron and gems begin crowding inventory |
+| Card Progression | More utility per run | After your tool upgrades feel stable |
+
+<Checklist
+  id="subterra-compass-prep"
+  title="Route Prep Checklist:"
+  items={[
+    "Finish the tutorial and reach the surface lobby",
+    "Set comfortable keys for inventory, interact, and block/parry",
+    "Upgrade pickaxe before backpack if mining speed is the bottleneck",
+    "Save gems and ingots for required recipes instead of spending them early",
+    "Redeem active rewards before a long mining session"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Step-by-Step Compass Route">
+
+A strong Subterra Compass route is basically a repeatable loop. Start safe, collect upgrade materials, leave before the bag stalls, then return with a clearer goal. That rhythm is more important than any single deep run because repeatable profit compounds faster than risky exploration.
+
+The official beginner path also points toward the same structure: tutorial, lobby, ore collection, upgrades, cards, crafting, then deeper layers. If you follow that order, your compass always points at the next sensible objective instead of random empty tunnels.
+
+<Callout type="warning" title="Turn-Back Signal">
+If your current route is slower than the last upgrade you earned, stop pushing deeper. Cash out, resupply, and reset the loop.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Start at the Overworld">
+    Use the lobby as your reset point. Sell items, check the smeltery, and decide whether you are farming, crafting, or pushing deeper.
+  </Step>
+  <Step num="2" title="Pick One Layer Goal">
+    Choose Dirt for early materials, Stone for broad progression, or a deeper layer only if your gear already supports it.
+  </Step>
+  <Step num="3" title="Mine Until the Route Loses Value">
+    Keep an eye on bag space, monster pressure, and ore quality. Stop when the route starts giving you more risk than reward.
+  </Step>
+  <Step num="4" title="Return, Upgrade, and Rebuild">
+    Spend your resources on the next meaningful upgrade. Pickaxe power and backpack space should solve the bottleneck you just hit.
+  </Step>
+  <Step num="5" title="Push One Layer Further">
+    After the upgrade, extend the route slightly deeper. That incremental approach is safer than forcing a huge jump.
+  </Step>
+</Steps>
+
+| Exit Trigger | What To Do | Why It Matters |
+|---|---|---|
+| Bag at 80%+ | Return to surface | Protects profit per trip |
+| Tool feels slow | Upgrade before re-running | Keeps momentum high |
+| Enemies stack up | Fight less, move more | Reduces repair time and risk |
+| Ore quality drops | Change depth or cash out | Prevents wasted mining time |
+
+<Callout type="info" title="Efficiency Tip">
+A better compass route is usually shorter, safer, and repeatable. The goal is not just to go farther; it is to earn more per minute.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Official Resources and FAQ">
+
+As of 2026-07-05, the cleanest references for Subterra are the official Roblox page, the Polyworks Studio Trello board, and the studio's social channels. Use those links when you want live game access, progression details, or update posts.
+
+<Callout type="tip" title="Best References">
+Use the Roblox page for live play, Trello for item and progression notes, and the studio's social links for updates and announcements.
+</Callout>
+
+| Resource | Link | Best Use |
+|---|---|---|
+| Official Roblox page | [Subterra on Roblox](https://www.roblox.com/games/16817315243/Subterra) | Play access, game page details, current experience info |
+| Trello board | [Polyworks Studio Trello](https://trello.com/b/mfSycrVO/subterra-wiki) | Layers, ores, upgrades, crafting, enemies, and references |
+| Discord | [Polyworks Studio Discord](https://discord.com/invite/wZ3J4whDPe) | Announcements, community help, patch updates |
+| X profile | [Polyworks Studio X](https://x.com/PolyworksStudio) | Developer posts and project news |
+| YouTube channel | [Polyworks Studio YouTube](https://www.youtube.com/channel/UCxnoxgq9LMmHBTSDJyk26BQ) | Official trailers and visual updates |
+
+<FAQ items={[
+  {
+    question: "What does Subterra Compass mean in practice?",
+    answer: "It means planning your mining route around a clear goal: gather the next upgrade, leave before the run slows down, and repeat at a slightly deeper layer."
+  },
+  {
+    question: "Should I upgrade my pickaxe or backpack first?",
+    answer: "Upgrade the pickaxe first if mining feels slow. Upgrade the backpack first if your trips end because inventory fills too quickly."
+  },
+  {
+    question: "When should I move to a deeper layer?",
+    answer: "Move deeper after your current layer stops producing useful upgrades. If the run is getting slower, safer, or less profitable, cash out first."
+  },
+  {
+    question: "Are codes worth using early in Subterra?",
+    answer: "Yes. Early rewards like Chrono Shards, TNT Blocks, EXP boosts, potions, and Gold help you reach the next upgrade faster."
+  }
+]} />
+
+</Section>

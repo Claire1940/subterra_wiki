@@ -1,0 +1,247 @@
+import { Map, Shield, Target, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Baú Viking do subterra: locais, saque e dicas de rota",
+  description: "Saiba onde procurar Baús Viking em Subterra, o que levar, como abri-los com segurança e como lidar com o saque sem desperdiçar chaves ou espaço.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/4b3f72/fff?text=Viking+Chest+Guide",
+  date: "2026-07-05",
+  author: "Equipe da Wiki do subterra"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **As corridas do Baú Viking do subterra** recompensam os jogadores que planejam rotas, não os que correm para cada sala.
+- **A melhor preparação** é mobilidade, espaço na mochila e uma arma confiável ou um setup de mineração.
+- **A melhor rota** favorece pontos de interesse ricos em baús, como ruínas, poços de mina, cavernas e estruturas de camadas mais profundas.
+- **O melhor hábito** é abrir baús com espaço livre para conseguir retirar o saque rapidamente.
+- **O melhor passo seguinte** é guardar materiais raros antes de vender o resto.
+</Callout>
+
+<Section icon={Map} title="Noções Básicas do Baú Viking do subterra">
+
+Caçar o Baú Viking do subterra funciona melhor quando você trata isso como um problema de rota. O objetivo não é apenas chegar a um baú; é chegar até ele com espaço suficiente, vida suficiente e controle suficiente para sair em segurança.
+
+As informações oficiais do jogo apontam para um ciclo de mineração baseado em camadas mais profundas, cartas de habilidade, criação e exploração. Isso importa aqui porque as rotas de baús em Subterra ficam mais fortes quando se encaixam nesse mesmo ciclo, em vez de lutar contra ele.
+
+**Destaques do Vídeo:**
+- Nenhum vídeo incorporado é usado aqui porque as fontes disponíveis não fornecem um vídeo relevante de Subterra.
+- A lógica da rota ainda segue os sistemas de mineração, camadas e estruturas de Subterra.
+- Trate as corridas de baú como saídas curtas e eficientes, e não como maratonas de profundidade total.
+
+<CardGrid cols={3}>
+  <Card title="Build de Mobilidade">
+    - **Walk Speed**
+    - **Double Jump**
+    - Melhor para alcançar estruturas rapidamente
+  </Card>
+  <Card title="Build de Armazenamento">
+    - **Bigger Backpack**
+    - **Pouch**
+    - Melhor para corridas longas de saque
+  </Card>
+  <Card title="Build de Combate">
+    - **Healthy**
+    - **Stronger Pickaxe**
+    - Melhor para salas hostis e lutas de escolta
+  </Card>
+</CardGrid>
+
+| Estilo de Rota | Melhor Para | Escolha Principal | Nível de Risco |
+|---|---|---|---|
+| Mobilidade primeiro | Exploração rápida | Walk Speed, Double Jump | Baixo a médio |
+| Armazenamento primeiro | Cadeias longas de saque | Bigger Backpack, Pouch | Baixo |
+| Combate primeiro | Cavernas com muitos inimigos | Healthy, suporte de arma | Médio a alto |
+| Rota balanceada | A maioria dos jogadores | Mistura de movimento e sobrevivência | Médio |
+
+<Callout type="tip" title="Referências Oficiais">
+Mantenha a página principal do jogo e o painel de referência salvos nos favoritos: [Subterra no Roblox](https://www.roblox.com/games/16817315243/Subterra) e [Subterra Trello](https://trello.com/b/mfSycrVO/subterra-wiki). Esses dois links cobrem os sistemas centrais que moldam as corridas de baú.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Melhores Camadas e Marcos para Explorar">
+
+Caçar baús fica mais fácil quando você para de pensar em linhas retas e começa a pensar em marcos. Os dados de camadas em Subterra mostram um padrão claro: quanto mais profunda e estruturada a área, mais útil se torna o planejamento da rota.
+
+Se você está atrás de um Baú Viking, foque em lugares onde densidade de baús, estrutura de caverna e pressão inimiga se sobrepõem. É aí que normalmente vivem as boas rotas de saque.
+
+| Camada | Por Que Importa | Marcos para Observar | Risco |
+|---|---|---|---|
+| Overworld | Ponto de preparação e redefinição | Plaza, Shop, Smeltery, Portal | Baixo |
+| Dirt Layer | Exploração inicial | Pequenas entradas de caverna, objetos saqueáveis | Baixo |
+| Stone Layer | Zona forte para caça a baús | Ruínas, Poço de Mina, Vila da Caverna, Wormholes | Médio |
+| Darkstone Layer | Rotas de valor mais profundo | Torre, Ilha Flutuante, Ruínas, Baús | Alto |
+| Permafrost Layer | Exploração de fim de jogo | Cavernas congeladas, Baús, Wormholes | Muito alto |
+
+As melhores rotas de baú tendem a passar por:
+
+- **Ruínas e vilas**, onde várias interações ficam concentradas
+- **Poços de mina**, que criam salas laterais e desvios naturalmente
+- **Wormholes**, que ajudam no reposicionamento quando a rota fica longa
+- **Estruturas de camadas profundas**, onde um saque mais forte normalmente justifica o risco
+
+| Marco | Valor do Baú | Custo de Tempo | Observações |
+|---|---|---|---|
+| Ruínas | Bom | Baixo a médio | Rápidas de verificar enquanto você avança de camada em camada |
+| Vila da Caverna | Bom | Médio | Útil para missões e rotas mais amplas de saque |
+| Poço de Mina | Bom | Médio | Forte para exploração com ramificações |
+| Torre | Alto | Médio a alto | Melhor para planejamento de rota profunda |
+| Wormhole | Situacional | Baixo | Melhor para reposicionamento, não apenas para saque |
+
+<Callout type="info" title="Regra de Rota">
+Não force uma corrida profunda só porque um baú parece promissor. Em Subterra, uma rota limpa com menos reinícios geralmente vale mais do que uma rota bagunçada com um baú extra.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Montagem da Corrida do Baú Passo a Passo">
+
+Antes de abrir qualquer baú de alto valor, organize a corrida para que o baú seja a recompensa, e não o começo de um desastre. A rota de baú mais segura é aquela em que inventário, vida e plano de saída já foram decididos.
+
+| Slot | Melhor Escolha | Por Que Ajuda |
+|---|---|---|
+| Mochila | Bigger Backpack ou Pouch | Mais espaço para saque e materiais |
+| Movimento | Walk Speed, Double Jump | Deslocamento mais rápido e saídas mais seguras |
+| Sobrevivência | Healthy, Extra Oxygen | Melhor resistência em camadas profundas |
+| Mineração | Lighter Pickaxe, Stronger Pickaxe | Limpeza mais rápida de blocos ao redor do baú |
+| Utilidade | Magnet | Coleta de itens mais fácil depois que o baú abre |
+
+<Steps>
+  <Step num="1" title="Comece pelo Overworld">
+    Venda o que sobrou, limpe seu inventário e certifique-se de que não está carregando lixo que vai bloquear o saque do baú.
+  </Step>
+  <Step num="2" title="Escolha uma Camada com Marcos Reais">
+    Mire na Stone Layer ou mais fundo se quiser uma densidade de baús realmente relevante. Use ruínas, poços de mina, vilas e wormholes como pontos de ancoragem da rota.
+  </Step>
+  <Step num="3" title="Limpe a Sala Antes de Abrir">
+    Elimine os inimigos próximos, verifique cantos apertados e garanta que você consiga saquear sem movimento de pânico.
+  </Step>
+  <Step num="4" title="Abra com Espaço Livre">
+    Deixe espaço na mochila antes de interagir com o baú para não perder tempo decidindo o que largar.
+  </Step>
+  <Step num="5" title="Saia de Propósito">
+    Use o melhor caminho de volta, um túnel seguro ou uma opção de movimento próxima em vez de ficar tempo demais depois que o baú abrir.
+  </Step>
+</Steps>
+
+| Verificação de Preparação | Condição de Sucesso | Condição de Falha |
+|---|---|---|
+| Vida | Você consegue sobreviver a um golpe surpresa | Você já está com pouca vida |
+| Espaço | A mochila tem espaço para o saque | O inventário está quase cheio |
+| Fuga | Você conhece seu caminho de volta | Você está tentando adivinhar a saída |
+| Plano de luta | Uma arma e uma alternativa segura | Sem resposta para inimigos próximos |
+
+<Callout type="warning" title="Não Force Demais">
+Um baú não vale a pena se você perder uma corrida forte por causa dele. Se a sala estiver cheia, sua bolsa estiver cheia ou a saída não estiver clara, reinicie a rota e volte mais preparado.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="O que Manter, Guardar e Vender">
+
+O melhor valor de um baú vem de uma triagem limpa, não de guardar tudo. Os sistemas de criação e materiais de Subterra tornam parte do saque imediatamente útil, enquanto outras recompensas são melhores para vender ou guardar para upgrades futuros.
+
+Use esta regra simples: mantenha materiais raros de progressão, processe minérios que possam ser fundidos e venda os itens de baixa prioridade depois de voltar em segurança.
+
+| Tipo de Saque | Manter? | Melhor Ação | Por Quê |
+|---|---|---|---|
+| Pergaminhos de receita | Sim | Guardar | Desbloqueia caminhos úteis de criação |
+| Chaves | Sim | Guardar | Melhor para rotas de baús de maior valor |
+| Gemas | Geralmente sim | Guardar ou usar | Fortes para upgrades e progressão |
+| Minérios e lingotes | Sim | Fundir ou guardar | Base para upgrades e criação |
+| Poções e explosivos | Sim | Usar em corridas longas | Ajuda na sobrevivência e na limpeza |
+| Itens comuns | Não | Vender | Libera espaço para saque melhor |
+
+A tabela de criação nos dados mais amplos do jogo deixa uma coisa clara: recursos como **Topázio, Ametista, Esmeralda, Safira, Rubi e Diamante** valem a pena ser protegidos. Mesmo quando não entram em uma receita imediatamente, eles podem importar depois.
+
+| Classe de Recurso | Itens de Exemplo | Melhor Uso |
+|---|---|---|
+| Materiais iniciais | Rock, Coal, Copper | Progressão básica e criação |
+| Materiais intermediários | Tin, Iron, Silver, Gold | Upgrades e receitas mais fortes |
+| Gemas | Topaz, Amethyst, Emerald | Armazenamento, missões, progressão |
+| Gemas de alto nível | Sapphire, Ruby, Diamond | Receitas futuras e rotas de valor |
+| Itens de utilidade | Poções, explosivos, chaves | Eficiência da corrida e acesso a baús |
+
+<Checklist
+  id="viking-chest-loot"
+  title="Checklist da Corrida do Baú:"
+  items={[
+    "Esvazie sua mochila antes de sair da superfície",
+    "Leve uma carta de movimento ou um buff de movimento",
+    "Carregue uma opção de combate para lutas surpresa",
+    "Mantenha chaves e pergaminhos de receita fora da pilha de vendas",
+    "Guarde gemas raras e minério que possa ser fundido depois da corrida"
+  ]}
+/>
+
+<Callout type="success" title="Regra Inteligente de Saque">
+Se um baú abrir com a bolsa cheia, a corrida já está perdendo valor. Abra espaço primeiro, saque depois e organize por último.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Melhores Prioridades nas Corridas de Baú">
+
+Depois que você entende a rota e as regras de saque, a tarefa restante é priorização. É aqui que muitos jogadores perdem tempo: eles perseguem cada estrutura próxima em vez de seguir a corrida que realmente planejaram.
+
+A abordagem mais limpa é usar corridas de baú como complemento da progressão de mineração. Isso significa que o baú deve apoiar sua build, e não desviá-la.
+
+| Prioridade | Em que Focar | Por Que Funciona |
+|---|---|---|
+| 1 | Alcançar a camada certa | A camada certa cria as oportunidades certas |
+| 2 | Abrir apenas salas seguras | Aberturas seguras protegem seu saque |
+| 3 | Guardar materiais raros primeiro | Itens raros importam mais do que moedas depois |
+| 4 | Manter a rota curta | Rotas curtas são mais fáceis de repetir |
+| 5 | Voltar antes que a ganância apareça | A ganância é a forma mais rápida de perder valor |
+
+Para a maioria dos jogadores, a melhor rota de baú não é a mais profunda. É a que você consegue repetir de forma consistente enquanto continua minerando, vendendo e melhorando no ritmo certo.
+
+| Tipo de Corrida | Melhor Uso | Ritmo Recomendado |
+|---|---|---|
+| Corrida curta de exploração | Aprender posições de marcos | Rápido |
+| Corrida de saque em profundidade média | Coletar recompensas de baú com segurança | Controlado |
+| Expedição profunda | Acumular valor e materiais raros | Lenta e deliberada |
+| Corrida mista de progressão | Minerar, saquear e retornar | Balanceada |
+
+<Callout type="tip" title="Estratégia Repetível">
+Uma rota de baú repetível é melhor do que uma chamativa. Se você consegue fazer a mesma corrida duas vezes com menos risco, essa rota provavelmente é a escolha mais forte.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="FAQ">
+
+<Callout type="info" title="Perguntas Comuns">
+Estas respostas focam em decisões práticas de rota, manejo de baús e gerenciamento de saque para jogadores de Subterra.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Qual é a forma mais segura de lidar com um Baú Viking do subterra?",
+    answer: "Limpe a sala primeiro, abra o baú com espaço livre e certifique-se de que o caminho de saída já está planejado. Lidar com segurança importa mais do que forçar a abertura o mais rápido possível."
+  },
+  {
+    question: "Qual camada é melhor para caçar baús?",
+    answer: "A Stone Layer costuma ser o ponto de partida mais prático porque combina estruturas, rotas e risco administrável. Darkstone e Permafrost podem ser melhores para saque mais profundo, mas o perigo aumenta rápido."
+  },
+  {
+    question: "Devo levar equipamento de combate ou de mobilidade primeiro?",
+    answer: "Para a maioria dos jogadores, a mobilidade vem primeiro. Walk Speed e Double Jump ajudam você a chegar e sair das salas de baú com mais eficiência, enquanto o equipamento de combate se torna mais importante quando a rota tem muitos inimigos."
+  },
+  {
+    question: "Que saque eu sempre devo manter de uma corrida de baú?",
+    answer: "Guarde pergaminhos de receita, chaves, gemas raras e qualquer minério ou lingote que ajude na progressão. Venda apenas os itens comuns depois de voltar em segurança à superfície."
+  }
+]} />
+
+<Callout type="tip" title="Conclusão Final">
+As rotas do Baú Viking do subterra ficam mais fortes quando você combina boa seleção de marcos, espaço vazio no inventário e um plano de saída disciplinado.
+</Callout>
+
+</Section>

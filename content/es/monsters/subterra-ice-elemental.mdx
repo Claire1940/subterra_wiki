@@ -1,0 +1,234 @@
+import { Snowflake, Map, Swords, Shield, Target, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Elemental de Hielo de Subterra: ubicación, botín y contrajuego",
+  description: "Aprende dónde aparece el Elemental de Hielo de Subterra, qué tan peligroso es, qué configuraciones funcionan mejor y cómo farmearlo de forma eficiente en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Ice+Elemental+Guide",
+  date: "2026-07-05",
+  author: "Equipo de Wiki de Subterra"
+}
+
+<Callout type="info" title="Guía rápida">
+- **El Elemental de Hielo de Subterra** es una amenaza de la capa Permafrost que recompensa un posicionamiento limpio y un daño disciplinado.
+- **El espacio abierto importa** más que el daño bruto cuando quieres una eliminación segura.
+- **La movilidad, la curación y el alcance** son las herramientas الأساسية para runs consistentes.
+- **Los combates cortos y eficientes** suelen superar a las peleas largas en túneles helados y estrechos.
+- **Planifica tu ruta de salida** antes de comprometerte con un encuentro en capas profundas.
+</Callout>
+
+<Section icon={Snowflake} title="Resumen del Elemental de Hielo de Subterra">
+
+El Elemental de Hielo de Subterra es un enemigo de capas avanzadas que castiga el mal posicionamiento, las peleas en túneles y las runs mal preparadas. Trátalo como una prueba de progreso: si tu movimiento, curación y ritmo de daño son débiles, el combate se vuelve caro muy rápido.
+
+<Callout type="info" title="Resumen del enemigo">
+Construye primero en torno a la supervivencia y luego añade daño. Los mejores encuentros ocurren cuando controlas la arena en lugar de perseguir la eliminación por cuevas de hielo estrechas.
+</Callout>
+
+| Estadística | Valor | Por qué importa |
+|---|---:|---|
+| Capa | Permafrost | Debes esperar enemigos más duros y ventanas de recuperación más largas. |
+| Salud | 1250 | Las configuraciones con bajo daño pueden tardar demasiado en terminar el combate. |
+| Daño | 50 | Los errores se acumulan rápido si intercambias golpes sin cuidado. |
+| Velocidad de caminata | 12 | Puedes hacer kite, pero solo si tu ruta permanece abierta. |
+| Recompensa | 2000 EXP | El pago es lo bastante bueno como para justificar una ruta de farmeo limpia. |
+
+| Entorno | Impacto práctico | Mejor respuesta |
+|---|---|---|
+| Túnel estrecho | Difícil esquivar y reiniciar | Llévalo a una sección de cueva más amplia |
+| Capas heladas | La visión y el movimiento se vuelven incómodos | Mantén la cámara centrada y evita giros bruscos por pánico |
+| Grupos de enemigos mixtos | Presión extra durante el combate | Elimina primero a las amenazas menores |
+| Caminos sin salida | No hay espacio para recuperarse | Nunca empieces el pull sin una ruta de escape |
+
+<CardGrid cols={3}>
+  <Card title="Terreno abierto">
+    - Mejor para hacer kite
+    - Ventanas de curación más fáciles
+    - Más seguro para configuraciones a distancia
+  </Card>
+  <Card title="Pasillo estrecho">
+    - Riesgoso para intercambios cuerpo a cuerpo
+    - Difícil desconectarse
+    - Malo si hay otros mobs cerca
+  </Card>
+  <Card title="Ruta preparada">
+    - Pulls más limpios
+    - Clears más rápidos
+    - Mejor EXP por run
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="No fuerces el combate">
+Si entras en Permafrost con curación débil o sin un plan de movilidad, el Elemental de Hielo puede convertir una expedición minera normal en un reinicio total. Lucha solo cuando la ruta te favorezca.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Cómo lucha el Elemental de Hielo">
+
+El Elemental de Hielo no es complicado, pero sí implacable. Presiona tu posicionamiento más que tus reflejos, lo que significa que la respuesta más segura es crear distancia, controlar el ángulo y castigar solo después de que se comprometa.
+
+<Callout type="warning" title="Regla central del combate">
+Nunca dejes que la pelea se convierta en una línea recta dentro de un túnel estrecho. El espacio lateral es tu mejor herramienta defensiva y importa más que sobreextenderte por unos golpes extra.
+</Callout>
+
+| Patrón | Qué ocurre | Mejor respuesta |
+|---|---|---|
+| Persecución directa | Se acerca y fuerza un intercambio a corta distancia | Retrocede hacia terreno abierto y castiga después del acercamiento |
+| Presión sostenida | La pelea se alarga y aumenta el riesgo | Cura pronto, no tarde, y mantén estable tu distancia |
+| Emboscada en cueva estrecha | La arena elimina tus opciones de esquiva | Aflójalo antes de comprometerte con el daño |
+| Interferencia de múltiples enemigos | Otro mob interrumpe tu ritmo | Limpia la zona antes de atraer al elemental |
+
+<Steps>
+  <Step num="1" title="Crea espacio">
+    Empieza moviéndote hacia una sección más amplia de la cueva. Tu primer objetivo no es hacer daño; es hacer que la arena sea jugable.
+  </Step>
+  <Step num="2" title="Mantén un ángulo limpio">
+    Mantén al enemigo frente a ti y evita que se deslice detrás de rocas, esquinas o formaciones de hielo.
+  </Step>
+  <Step num="3" title="Golpea después del compromiso">
+    Ataca cuando el Elemental de Hielo termine de moverse o cuando entre en una línea predecible. No persigas golpes extra.
+  </Step>
+  <Step num="4" title="Reinicia antes de la avaricia">
+    Si la pelea se ensucia, desconéctate y vuelve a establecer la distancia. Un reinicio controlado es mejor que perder la run.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Consejo práctico de combate">
+Si tu arma tiene mucho burst pero poco alcance, espera a que el enemigo entre en tu rango ideal en lugar de caminar primero hacia su zona de amenaza.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Las mejores configuraciones para el Elemental de Hielo">
+
+Tu mejor configuración es la que te mantiene con vida el tiempo suficiente para convertir el daño en un remate limpio. Para la mayoría de los jugadores, eso significa mezclar movilidad, recuperación y un arma fiable en lugar de acumular solo ofensiva.
+
+<Callout type="tip" title="Prioridad de la configuración">
+Elige una herramienta principal de daño, un apoyo de movimiento y un plan de recuperación. Cuanto más desorden añadas, más fácil será perder el ritmo del combate.
+</Callout>
+
+| Ranura | Prioridad | Enfoque recomendado | Por qué funciona |
+|---|---|---|---|
+| Arma | Alta | Melee fiable o una opción a distancia segura | Necesitas daño constante, no solo una ventana vistosa de burst. |
+| Movilidad | Alta | Apoyo de velocidad o salto | El movimiento extra te ayuda a mantenerte fuera del rango de presión del Elemental de Hielo. |
+| Curación | Alta | Pociones o objetos de recuperación | La pelea es mucho más fácil cuando te curas antes del siguiente error. |
+| Utilidad | Media | Visión, distancia o comodidad de inventario | Pequeños extras de calidad de vida hacen más fluidas las runs largas en Permafrost. |
+
+| Tipo de build | Mejor para | Fortalezas | Debilidades |
+|---|---|---|---|
+| Equilibrada | La mayoría de los jugadores | Buena supervivencia, daño estable, flexible en áreas abiertas | Menos explosiva que las builds de daño puro |
+| Segura a distancia | Jugadores cuidadosos | Gran control de la distancia, menor riesgo, más fácil controlar el pull | Puede ser más lenta en espacios reducidos |
+| Tanque | Aprender la pelea | Margen de salud perdonador, mejor tolerancia al error | Por lo general, menos eficiente para farmear |
+
+<CardGrid cols={3}>
+  <Card title="Build equilibrada">
+    - La opción más fiable
+    - Buena para los primeros clears
+    - Fácil de adaptar
+  </Card>
+  <Card title="Build segura a distancia">
+    - Gran control del posicionamiento
+    - Buena para rutas de farmeo
+    - La mejor en cámaras abiertas
+  </Card>
+  <Card title="Build tanque">
+    - Mejor margen para errores
+    - Curva de aprendizaje más fácil
+    - Más lenta, pero estable
+  </Card>
+</CardGrid>
+
+<Steps>
+  <Step num="1" title="Ordena tu inventario">
+    Limpia lo innecesario antes de entrar en Permafrost para no perder tiempo gestionando espacio en medio del combate.
+  </Step>
+  <Step num="2" title="Prepara la recuperación">
+    Lleva curación y mantenla en una ranura rápida. Si necesitas buscar en tu bolsa, ya estás perdiendo el control.
+  </Step>
+  <Step num="3" title="Elige un punto de pull seguro">
+    Lucha cerca de terreno abierto, no junto a caminos sin salida ni a otros mobs hostiles.
+  </Step>
+  <Step num="4" title="Termina y luego vete">
+    No te quedes después de la kill. Reinicia la ruta, guarda tus ganancias y repite solo si el camino sigue limpio.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="Ruta de farmeo, recompensas y eficiencia">
+
+Vale la pena farmear al Elemental de Hielo cuando puedes mantener la run corta y repetible. En el momento en que tu ruta se vuelve caótica, el valor cae porque la curación y el tiempo muerto empiezan a comerse la recompensa.
+
+<Callout type="success" title="La mejor mentalidad para farmear">
+Busca victorias repetibles, no jugadas heroicas arriesgadas. Una ruta limpia que puedas completar varias veces es mejor que un intento difícil que agote tus recursos.
+</Callout>
+
+| Fase de la ruta | Qué hacer | Objetivo |
+|---|---|---|
+| Aproximación | Busca una cámara amplia | Encontrar un espacio que favorezca el kite y la recuperación |
+| Limpieza | Elimina primero a las amenazas menores | Evitar interrupciones durante la pelea principal |
+| Pull | Enfrenta al Elemental de Hielo en terreno abierto | Mantener al enemigo lejos de las esquinas |
+| Finalización | Bájalo con burst y retírate | Asegurar la EXP sin sobreextenderte |
+
+| Factor de farmeo | Buena run | Mala run |
+|---|---|---|
+| Duración del combate | Corta y controlada | Larga y desordenada |
+| Terreno | Cueva abierta o cámara amplia | Pasillo de hielo estrecho |
+| Densidad de enemigos | Baja | Presión de grupos mixtos |
+| Uso de recuperación | Planeado | Reactivo y tarde |
+
+<Checklist
+  id="ice-elemental-farm"
+  title="Lista de comprobación para farmear al Elemental de Hielo:"
+  items={[
+    "Entra en Permafrost con una ruta de escape clara",
+    "Lleva curación antes de empezar el pull",
+    "Limpia a los mobs cercanos antes de entrar",
+    "Lucha en espacio abierto siempre que sea posible",
+    "Vete después de la kill y reinicia la ruta"
+  ]}
+/>
+
+<Callout type="tip" title="Consejo de eficiencia">
+Si una ruta te obliga a hacer demasiados desvíos, normalmente es mejor saltarte la pelea y volver con mejor equipo o con un camino más limpio.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="FAQ">
+
+<Callout type="info" title="Preguntas comunes">
+Usa esta sección para comprobar si tu preparación tiene sentido antes de pasar tiempo en Permafrost. La respuesta correcta suele depender de la distancia, la preparación y el control de la ruta.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Dónde encuentro al Elemental de Hielo de Subterra?",
+    answer: "Aparece en la capa Permafrost, así que debes prepararte para explorar más a fondo, enfrentarte a enemigos más fuertes y lidiar con un terreno más difícil antes de cazarlo."
+  },
+  {
+    question: "¿Cuál es la forma más segura de luchar contra el Elemental de Hielo?",
+    answer: "Usa terreno abierto, mantén una distancia limpia y evita pelear en túneles estrechos. Un pull controlado es más seguro que perseguir daño en un espacio reducido."
+  },
+  {
+    question: "¿Qué tipo de configuración funciona mejor?",
+    answer: "Una build equilibrada suele rendir mejor: un arma fiable, apoyo de movilidad y curación. Las builds centradas en alcance son especialmente fuertes para jugadores cuidadosos."
+  },
+  {
+    question: "¿Vale la pena farmear al Elemental de Hielo?",
+    answer: "Sí, si puedes mantener la ruta eficiente. La recompensa de EXP es fuerte, pero la run pierde valor cuando el terreno, la curación o los mobs extra te ralentizan."
+  }
+]} />
+
+<Callout type="warning" title="Recordatorio final">
+No trates al Elemental de Hielo como a un mob normal de cueva. Es una prueba de distancia, una prueba de ruta y una prueba de preparación, todo al mismo tiempo.
+</Callout>
+
+</Section>

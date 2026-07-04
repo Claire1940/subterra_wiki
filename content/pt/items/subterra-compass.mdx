@@ -1,0 +1,220 @@
+import { Compass, Map, Layers, Target, Shield, Trophy, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Subterra Compass: Planejamento de Rotas, Camadas e Dicas de Mineração",
+  description: "O Subterra Compass ajuda você a planejar rotas de mineração mais seguras, escolher a camada certa e cronometrar as melhorias para que cada rodada renda mais com menos retorno desnecessário.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Subterra+Compass+Guide",
+  date: "2026-07-05",
+  author: "Equipe da Wiki do subterra"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Subterra Compass** funciona melhor como planejador de rotas para preparação na superfície, lucro nas camadas intermediárias e saídas das camadas profundas.
+- **Melhorias na picareta e na mochila** valem mais do que avanços imprudentes em profundidade, porque o espaço do inventário controla o valor de cada rodada.
+- **Consciência da camada** ajuda você a recuar antes que monstros, becos sem saída ou o tempo parado na fundição atrasem o progresso.
+- **Ability Cards e códigos** aceleram o ciclo com melhor mineração, mais espaço para carregar e ferramentas de sobrevivência.
+</Callout>
+
+<Section icon={Compass} title="Mentalidade do Compass: Leia a Mina Primeiro">
+
+O Subterra Compass funciona melhor quando você o trata como um mapa de rotas, e não como um atalho mágico. Os jogadores mais fortes não cavam aleatoriamente; eles definem uma camada-alvo, juntam os materiais da próxima melhoria e saem antes que a rodada fique ineficiente. Essa mentalidade pesa ainda mais em Subterra porque camadas mais profundas aumentam o risco, mas também aumentam a recompensa.
+
+A regra simples é clara: minere com um destino, não apenas com uma direção. Se seu inventário enche rápido demais, sua picareta parece lenta, ou você começa a passar mais tempo lutando do que coletando, a rota já está perdendo valor. Uma boa estratégia com o compass mantém você avançando para a próxima parada lucrativa.
+
+<CardGrid cols={3}>
+  <Card title="Loop da Superfície">
+    - **Objetivo:** aquecer rápido
+    - **Foco:** rochas, carvão, minérios iniciais
+    - **Saída:** quando a mochila começar a encher
+  </Card>
+  <Card title="Loop da Camada Intermediária">
+    - **Objetivo:** lucro constante
+    - **Foco:** cobre, estanho, ferro, gemas
+    - **Saída:** quando as rotas começarem a ficar lentas
+  </Card>
+  <Card title="Avanço Profundo">
+    - **Objetivo:** materiais de maior valor
+    - **Foco:** minérios mais fortes, estruturas, chefes
+    - **Saída:** quando o risco superar as recompensas
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Regra da Rota">
+Use o compass para escolher a próxima parada lucrativa, não o túnel mais profundo disponível. Em Subterra, a melhor rodada costuma ser aquela que você consegue repetir.
+</Callout>
+
+| Sinal de Navegação | O que Significa | Melhor Ação |
+|---|---|---|
+| Mochila quase cheia | A janela de lucro está acabando | Volte para vender e fundir |
+| Veio de minério enfraquece | A camada está secando | Mude a rota ou recue |
+| Pressão dos inimigos aumenta | O caminho está ficando caro | Lute com cuidado ou recue |
+| Portal ou estrutura encontrado | Há um ponto de referência disponível | Marque e volte depois |
+
+</Section>
+
+<Section icon={Map} title="Melhor Rota por Camada">
+
+A lógica do mapa de Subterra é construída em torno da profundidade, não da distância. Uma rota no estilo compass só funciona se você souber o que cada camada deve fornecer. As camadas iniciais servem para ganhar ritmo, as camadas intermediárias servem para melhorar sua economia, e as camadas profundas são o ponto em que seu conjunto de equipamentos já precisa estar estável.
+
+A progressão oficial favorece um ciclo de minerar, melhorar, criar e descer. Isso significa que seu compass deve sempre responder a uma pergunta: "O que esta camada desbloqueia depois?" Se a resposta for nada útil, vá embora e transforme o loot em dinheiro.
+
+<Callout type="warning" title="Regra de Profundidade">
+Não tenha pressa para descer abaixo do seu nível atual de melhorias. Em Subterra, mais fundo só é melhor quando suas ferramentas, inventário e combate conseguem sustentar a viagem.
+</Callout>
+
+| Camada | Melhor Objetivo | Recursos Principais | Quando Recuar |
+|---|---|---|---|
+| Mundo Superior | Preparação e reabastecimento | Lojas, fundição, área de venda, portais | Quando você estiver pronto para se comprometer com uma run de mineração |
+| Camada de Terra | Farm inicial rápido | Carvão, cobre, estanho, raízes, pedra | Quando o inventário encher ou os monstros atrasarem a rota |
+| Camada de Pedra | Principal camada de progressão | Ferro, prata, ouro, gemas, geodos | Quando você parar de encontrar melhorias ou baús |
+| Camada de Pedra Sombria | Primeiro avanço profundo | Cobalto, Nocturnite, Black Ice | Quando os custos de sobrevivência subirem mais rápido que as recompensas |
+| Camada de Permafrost | Farm avançado | Chromium, Moonstone, Titanium, Wolframite | Quando você precisar de armas mais fortes ou mais recuperação |
+| Camada de Schwarzfrost | Zona-alvo de fim de jogo | Charged Ice, Eiskron, loot da área do chefe | Quando você não estiver preparado para a pressão do chefe |
+
+Uma rota prática com o compass geralmente é Mundo Superior → Terra → Pedra → ponto de checagem da camada profunda → volta à cidade. Esse ciclo mantém suas runs lucrativas sem forçar você a passar tempo demais em áreas hostis.
+
+<Callout type="info" title="Melhor Caso de Uso">
+Se você ainda estiver aprendendo o jogo, mantenha o compass focado primeiro em loops curtos. Runs mais longas só fazem sentido depois que seu caminho de melhorias estiver estável.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Prioridades de Equipamento para Runs Mais Rápidas">
+
+Sua rota só continua eficiente quando o seu loadout combina com a camada que você quer limpar. Os dados da fonte apontam para um padrão bem claro no início do jogo: melhore sua picareta primeiro quando a mineração estiver lenta, depois melhore sua mochila quando o espaço do inventário começar a encurtar as idas. Essa ordem mantém suas runs produtivas e reduz o retorno desnecessário.
+
+Se quiser avançar mais rápido, use códigos e recompensas como combustível. Chrono Shards ajudam na progressão das cartas, enquanto TNT Blocks, boosts de EXP, poções e Gold sustentam o mesmo ciclo de mineração. O segredo é gastar essas recompensas antes de uma sessão longa, e não depois que você já perdeu o ritmo.
+
+<CardGrid cols={4}>
+  <Card title="Picareta">
+    - **Prioridade:** primeiro se a velocidade de mineração estiver baixa
+    - **Motivo:** quebra de blocos mais rápida
+    - **Melhor para:** camadas mais difíceis
+  </Card>
+  <Card title="Mochila">
+    - **Prioridade:** primeiro se as runs terminarem cedo demais
+    - **Motivo:** mais espaço para carregar
+    - **Melhor para:** rotas com muito minério
+  </Card>
+  <Card title="Ability Cards">
+    - **Prioridade:** depois das ferramentas principais
+    - **Motivo:** mobilidade, rendimento, segurança
+    - **Melhor para:** sessões longas de mineração
+  </Card>
+  <Card title="Inventário">
+    - **Prioridade:** sempre monitorado
+    - **Motivo:** determina a duração da run
+    - **Melhor para:** loops de lucro repetíveis
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Impulso de Progresso">
+Chrono Shards, TNT Blocks, boosts de EXP e poções são mais úteis antes de runs longas. Gaste-os quando eles ajudarem você a limpar uma camada mais profunda mais rápido.
+</Callout>
+
+| Prioridade de Melhoria | O que Resolve | Quando Comprar |
+|---|---|---|
+| Picareta Nível 2 | Velocidade e poder de mineração no início | Depois que você conseguir estocar Pedra e Ouro com segurança |
+| Mochila Nível 2 | Limites de carga no início | Quando sua mochila encher antes de a rota terminar |
+| Picareta Nível 4 | Melhor quebra de paredes nas rotas de Pedra | Quando a renda de Cobre e Carvão estiver estável |
+| Mochila Nível 4 | Loops de lucro mais longos no meio do jogo | Quando Ferro e gemas começarem a lotar o inventário |
+| Progressão de Cartas | Mais utilidade por run | Depois que suas melhorias de ferramentas estiverem estáveis |
+
+<Checklist
+  id="subterra-compass-prep"
+  title="Checklist de Preparação da Rota:"
+  items={[
+    "Conclua o tutorial e chegue ao lobby da superfície",
+    "Configure teclas confortáveis para inventário, interagir e bloquear/aparar",
+    "Melhore a picareta antes da mochila se a velocidade de mineração for o gargalo",
+    "Guarde gemas e lingotes para as receitas necessárias em vez de gastar cedo demais",
+    "Resgate as recompensas ativas antes de uma sessão longa de mineração"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Rota do Compass Passo a Passo">
+
+Uma boa rota no Subterra Compass é basicamente um loop repetível. Comece com segurança, colete materiais de melhoria, saia antes que a mochila trave e depois volte com um objetivo mais claro. Esse ritmo é mais importante do que qualquer avanço profundo isolado, porque lucro repetível cresce mais rápido do que exploração arriscada.
+
+O caminho oficial para iniciantes também aponta para a mesma estrutura: tutorial, lobby, coleta de minérios, melhorias, cartas, criação e, então, camadas mais profundas. Se você seguir essa ordem, seu compass sempre apontará para o próximo objetivo sensato em vez de túneis vazios aleatórios.
+
+<Callout type="warning" title="Sinal de Recuo">
+Se a sua rota atual estiver mais lenta do que a última melhoria que você conseguiu, pare de empurrar para mais fundo. Transforme o loot em dinheiro, reabasteça e reinicie o loop.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Comece no Mundo Superior">
+    Use o lobby como ponto de reinício. Venda itens, verifique a fundição e decida se você vai farmar, criar ou avançar mais fundo.
+  </Step>
+  <Step num="2" title="Escolha um Objetivo de Camada">
+    Escolha Terra para materiais iniciais, Pedra para progressão ampla, ou uma camada mais profunda apenas se seu equipamento já der suporte.
+  </Step>
+  <Step num="3" title="Minere até a Rota Perder Valor">
+    Fique de olho no espaço da mochila, na pressão dos monstros e na qualidade do minério. Pare quando a rota começar a trazer mais risco do que recompensa.
+  </Step>
+  <Step num="4" title="Volte, Melhore e Reconstrua">
+    Gaste seus recursos na próxima melhoria relevante. O poder da picareta e o espaço da mochila devem resolver o gargalo que você acabou de encontrar.
+  </Step>
+  <Step num="5" title="Avance Uma Camada a Mais">
+    Depois da melhoria, estenda a rota um pouco mais fundo. Essa abordagem incremental é mais segura do que forçar um salto enorme.
+  </Step>
+</Steps>
+
+| Gatilho de Saída | O que Fazer | Por que Importa |
+|---|---|---|
+| Mochila em 80%+ | Volte para a superfície | Protege o lucro por viagem |
+| Ferramenta parece lenta | Melhore antes de rodar de novo | Mantém o ritmo alto |
+| Inimigos se acumulam | Lute menos, mova-se mais | Reduz tempo de reparo e risco |
+| Qualidade do minério cai | Mude a profundidade ou transforme em dinheiro | Evita tempo de mineração desperdiçado |
+
+<Callout type="info" title="Dica de Eficiência">
+Uma rota melhor no compass costuma ser mais curta, mais segura e repetível. O objetivo não é só ir mais longe; é ganhar mais por minuto.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recursos Oficiais e FAQ">
+
+Até 2026-07-05, as referências mais confiáveis para Subterra são a página oficial no Roblox, o quadro Trello da Polyworks Studio e os canais sociais do estúdio. Use esses links quando quiser acesso ao jogo ao vivo, detalhes de progressão ou posts de atualização.
+
+<Callout type="tip" title="Melhores Referências">
+Use a página do Roblox para jogar, o Trello para notas de itens e progressão, e os links sociais do estúdio para atualizações e anúncios.
+</Callout>
+
+| Recurso | Link | Melhor Uso |
+|---|---|---|
+| Página oficial no Roblox | [Subterra no Roblox](https://www.roblox.com/games/16817315243/Subterra) | Acesso ao jogo, detalhes da página e informações atuais da experiência |
+| Quadro Trello | [Polyworks Studio Trello](https://trello.com/b/mfSycrVO/subterra-wiki) | Camadas, minérios, melhorias, criação, inimigos e referências |
+| Discord | [Polyworks Studio Discord](https://discord.com/invite/wZ3J4whDPe) | Anúncios, ajuda da comunidade, atualizações de patch |
+| Perfil no X | [Polyworks Studio X](https://x.com/PolyworksStudio) | Postagens dos desenvolvedores e notícias do projeto |
+| Canal no YouTube | [Polyworks Studio YouTube](https://www.youtube.com/channel/UCxnoxgq9LMmHBTSDJyk26BQ) | Trailers oficiais e atualizações visuais |
+
+<FAQ items={[
+  {
+    question: "O que significa Subterra Compass na prática?",
+    answer: "Significa planejar sua rota de mineração com um objetivo claro: pegar a próxima melhoria, sair antes que a run fique lenta e repetir em uma camada um pouco mais profunda."
+  },
+  {
+    question: "Devo melhorar primeiro a picareta ou a mochila?",
+    answer: "Melhore a picareta primeiro se a mineração estiver lenta. Melhore a mochila primeiro se suas runs acabarem porque o inventário enche rápido demais."
+  },
+  {
+    question: "Quando devo ir para uma camada mais profunda?",
+    answer: "Vá mais fundo depois que a camada atual parar de gerar melhorias úteis. Se a run estiver ficando mais lenta, mais segura ou menos lucrativa, transforme o loot em dinheiro primeiro."
+  },
+  {
+    question: "Vale a pena usar códigos cedo em Subterra?",
+    answer: "Sim. Recompensas iniciais como Chrono Shards, TNT Blocks, boosts de EXP, poções e Gold ajudam você a chegar à próxima melhoria mais rápido."
+  }
+]} />
+
+</Section>

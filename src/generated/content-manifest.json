@@ -1,1 +1,706 @@
-{}
+{
+  "en": {
+    "codes": [
+      {
+        "slug": "subterra-codes",
+        "file": "subterra-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "subterra-beginner-guide",
+        "file": "subterra-beginner-guide"
+      },
+      {
+        "slug": "subterra-best-pickaxes",
+        "file": "subterra-best-pickaxes"
+      },
+      {
+        "slug": "subterra-beta",
+        "file": "subterra-beta"
+      },
+      {
+        "slug": "subterra-game",
+        "file": "subterra-game"
+      },
+      {
+        "slug": "subterra-guide",
+        "file": "subterra-guide"
+      },
+      {
+        "slug": "subterra-level-up-fast",
+        "file": "subterra-level-up-fast"
+      },
+      {
+        "slug": "subterra-roblox",
+        "file": "subterra-roblox"
+      },
+      {
+        "slug": "subterra-shards",
+        "file": "subterra-shards"
+      },
+      {
+        "slug": "subterra-update",
+        "file": "subterra-update"
+      }
+    ],
+    "items": [
+      {
+        "slug": "subterra-compass",
+        "file": "subterra-compass"
+      },
+      {
+        "slug": "subterra-frozen-heart",
+        "file": "subterra-frozen-heart"
+      },
+      {
+        "slug": "subterra-heart-of-frost",
+        "file": "subterra-heart-of-frost"
+      },
+      {
+        "slug": "subterra-heart-of-gold",
+        "file": "subterra-heart-of-gold"
+      },
+      {
+        "slug": "subterra-keys",
+        "file": "subterra-keys"
+      },
+      {
+        "slug": "subterra-monster-core",
+        "file": "subterra-monster-core"
+      },
+      {
+        "slug": "subterra-viking-chest",
+        "file": "subterra-viking-chest"
+      },
+      {
+        "slug": "subterra-viking-key",
+        "file": "subterra-viking-key"
+      }
+    ],
+    "monsters": [
+      {
+        "slug": "subterra-fear-ripper",
+        "file": "subterra-fear-ripper"
+      },
+      {
+        "slug": "subterra-guardians",
+        "file": "subterra-guardians"
+      },
+      {
+        "slug": "subterra-ice-elemental",
+        "file": "subterra-ice-elemental"
+      },
+      {
+        "slug": "subterra-missing-target",
+        "file": "subterra-missing-target"
+      },
+      {
+        "slug": "subterra-monster-rift",
+        "file": "subterra-monster-rift"
+      },
+      {
+        "slug": "subterra-yrsa-boss",
+        "file": "subterra-yrsa-boss"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "subterra-boss-guide",
+        "file": "subterra-boss-guide"
+      },
+      {
+        "slug": "subterra-dungeon-update",
+        "file": "subterra-dungeon-update"
+      },
+      {
+        "slug": "subterra-phoenix-quest",
+        "file": "subterra-phoenix-quest"
+      },
+      {
+        "slug": "subterra-quests",
+        "file": "subterra-quests"
+      },
+      {
+        "slug": "subterra-solo-guide",
+        "file": "subterra-solo-guide"
+      }
+    ],
+    "resources": [
+      {
+        "slug": "subterra-backpack-upgrade",
+        "file": "subterra-backpack-upgrade"
+      },
+      {
+        "slug": "subterra-crafting",
+        "file": "subterra-crafting"
+      },
+      {
+        "slug": "subterra-materials",
+        "file": "subterra-materials"
+      },
+      {
+        "slug": "subterra-mining-run",
+        "file": "subterra-mining-run"
+      },
+      {
+        "slug": "subterra-ores",
+        "file": "subterra-ores"
+      },
+      {
+        "slug": "subterra-resources",
+        "file": "subterra-resources"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "subterra-best-weapons",
+        "file": "subterra-best-weapons"
+      },
+      {
+        "slug": "subterra-frost-piercer",
+        "file": "subterra-frost-piercer"
+      },
+      {
+        "slug": "subterra-pickaxes",
+        "file": "subterra-pickaxes"
+      },
+      {
+        "slug": "subterra-strongest-pickaxe",
+        "file": "subterra-strongest-pickaxe"
+      },
+      {
+        "slug": "subterra-weapons",
+        "file": "subterra-weapons"
+      }
+    ]
+  },
+  "es": {
+    "codes": [
+      {
+        "slug": "subterra-codes",
+        "file": "subterra-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "subterra-beginner-guide",
+        "file": "subterra-beginner-guide"
+      },
+      {
+        "slug": "subterra-best-pickaxes",
+        "file": "subterra-best-pickaxes"
+      },
+      {
+        "slug": "subterra-beta",
+        "file": "subterra-beta"
+      },
+      {
+        "slug": "subterra-game",
+        "file": "subterra-game"
+      },
+      {
+        "slug": "subterra-guide",
+        "file": "subterra-guide"
+      },
+      {
+        "slug": "subterra-level-up-fast",
+        "file": "subterra-level-up-fast"
+      },
+      {
+        "slug": "subterra-roblox",
+        "file": "subterra-roblox"
+      },
+      {
+        "slug": "subterra-shards",
+        "file": "subterra-shards"
+      },
+      {
+        "slug": "subterra-update",
+        "file": "subterra-update"
+      }
+    ],
+    "items": [
+      {
+        "slug": "subterra-compass",
+        "file": "subterra-compass"
+      },
+      {
+        "slug": "subterra-frozen-heart",
+        "file": "subterra-frozen-heart"
+      },
+      {
+        "slug": "subterra-heart-of-frost",
+        "file": "subterra-heart-of-frost"
+      },
+      {
+        "slug": "subterra-heart-of-gold",
+        "file": "subterra-heart-of-gold"
+      },
+      {
+        "slug": "subterra-keys",
+        "file": "subterra-keys"
+      },
+      {
+        "slug": "subterra-monster-core",
+        "file": "subterra-monster-core"
+      },
+      {
+        "slug": "subterra-viking-chest",
+        "file": "subterra-viking-chest"
+      },
+      {
+        "slug": "subterra-viking-key",
+        "file": "subterra-viking-key"
+      }
+    ],
+    "monsters": [
+      {
+        "slug": "subterra-fear-ripper",
+        "file": "subterra-fear-ripper"
+      },
+      {
+        "slug": "subterra-guardians",
+        "file": "subterra-guardians"
+      },
+      {
+        "slug": "subterra-ice-elemental",
+        "file": "subterra-ice-elemental"
+      },
+      {
+        "slug": "subterra-missing-target",
+        "file": "subterra-missing-target"
+      },
+      {
+        "slug": "subterra-monster-rift",
+        "file": "subterra-monster-rift"
+      },
+      {
+        "slug": "subterra-yrsa-boss",
+        "file": "subterra-yrsa-boss"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "subterra-boss-guide",
+        "file": "subterra-boss-guide"
+      },
+      {
+        "slug": "subterra-dungeon-update",
+        "file": "subterra-dungeon-update"
+      },
+      {
+        "slug": "subterra-phoenix-quest",
+        "file": "subterra-phoenix-quest"
+      },
+      {
+        "slug": "subterra-quests",
+        "file": "subterra-quests"
+      },
+      {
+        "slug": "subterra-solo-guide",
+        "file": "subterra-solo-guide"
+      }
+    ],
+    "resources": [
+      {
+        "slug": "subterra-backpack-upgrade",
+        "file": "subterra-backpack-upgrade"
+      },
+      {
+        "slug": "subterra-crafting",
+        "file": "subterra-crafting"
+      },
+      {
+        "slug": "subterra-materials",
+        "file": "subterra-materials"
+      },
+      {
+        "slug": "subterra-mining-run",
+        "file": "subterra-mining-run"
+      },
+      {
+        "slug": "subterra-ores",
+        "file": "subterra-ores"
+      },
+      {
+        "slug": "subterra-resources",
+        "file": "subterra-resources"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "subterra-best-weapons",
+        "file": "subterra-best-weapons"
+      },
+      {
+        "slug": "subterra-frost-piercer",
+        "file": "subterra-frost-piercer"
+      },
+      {
+        "slug": "subterra-pickaxes",
+        "file": "subterra-pickaxes"
+      },
+      {
+        "slug": "subterra-strongest-pickaxe",
+        "file": "subterra-strongest-pickaxe"
+      },
+      {
+        "slug": "subterra-weapons",
+        "file": "subterra-weapons"
+      }
+    ]
+  },
+  "pt": {
+    "codes": [
+      {
+        "slug": "subterra-codes",
+        "file": "subterra-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "subterra-beginner-guide",
+        "file": "subterra-beginner-guide"
+      },
+      {
+        "slug": "subterra-best-pickaxes",
+        "file": "subterra-best-pickaxes"
+      },
+      {
+        "slug": "subterra-beta",
+        "file": "subterra-beta"
+      },
+      {
+        "slug": "subterra-game",
+        "file": "subterra-game"
+      },
+      {
+        "slug": "subterra-guide",
+        "file": "subterra-guide"
+      },
+      {
+        "slug": "subterra-level-up-fast",
+        "file": "subterra-level-up-fast"
+      },
+      {
+        "slug": "subterra-roblox",
+        "file": "subterra-roblox"
+      },
+      {
+        "slug": "subterra-shards",
+        "file": "subterra-shards"
+      },
+      {
+        "slug": "subterra-update",
+        "file": "subterra-update"
+      }
+    ],
+    "items": [
+      {
+        "slug": "subterra-compass",
+        "file": "subterra-compass"
+      },
+      {
+        "slug": "subterra-frozen-heart",
+        "file": "subterra-frozen-heart"
+      },
+      {
+        "slug": "subterra-heart-of-frost",
+        "file": "subterra-heart-of-frost"
+      },
+      {
+        "slug": "subterra-heart-of-gold",
+        "file": "subterra-heart-of-gold"
+      },
+      {
+        "slug": "subterra-keys",
+        "file": "subterra-keys"
+      },
+      {
+        "slug": "subterra-monster-core",
+        "file": "subterra-monster-core"
+      },
+      {
+        "slug": "subterra-viking-chest",
+        "file": "subterra-viking-chest"
+      },
+      {
+        "slug": "subterra-viking-key",
+        "file": "subterra-viking-key"
+      }
+    ],
+    "monsters": [
+      {
+        "slug": "subterra-fear-ripper",
+        "file": "subterra-fear-ripper"
+      },
+      {
+        "slug": "subterra-guardians",
+        "file": "subterra-guardians"
+      },
+      {
+        "slug": "subterra-ice-elemental",
+        "file": "subterra-ice-elemental"
+      },
+      {
+        "slug": "subterra-missing-target",
+        "file": "subterra-missing-target"
+      },
+      {
+        "slug": "subterra-monster-rift",
+        "file": "subterra-monster-rift"
+      },
+      {
+        "slug": "subterra-yrsa-boss",
+        "file": "subterra-yrsa-boss"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "subterra-boss-guide",
+        "file": "subterra-boss-guide"
+      },
+      {
+        "slug": "subterra-dungeon-update",
+        "file": "subterra-dungeon-update"
+      },
+      {
+        "slug": "subterra-phoenix-quest",
+        "file": "subterra-phoenix-quest"
+      },
+      {
+        "slug": "subterra-quests",
+        "file": "subterra-quests"
+      },
+      {
+        "slug": "subterra-solo-guide",
+        "file": "subterra-solo-guide"
+      }
+    ],
+    "resources": [
+      {
+        "slug": "subterra-backpack-upgrade",
+        "file": "subterra-backpack-upgrade"
+      },
+      {
+        "slug": "subterra-crafting",
+        "file": "subterra-crafting"
+      },
+      {
+        "slug": "subterra-materials",
+        "file": "subterra-materials"
+      },
+      {
+        "slug": "subterra-mining-run",
+        "file": "subterra-mining-run"
+      },
+      {
+        "slug": "subterra-ores",
+        "file": "subterra-ores"
+      },
+      {
+        "slug": "subterra-resources",
+        "file": "subterra-resources"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "subterra-best-weapons",
+        "file": "subterra-best-weapons"
+      },
+      {
+        "slug": "subterra-frost-piercer",
+        "file": "subterra-frost-piercer"
+      },
+      {
+        "slug": "subterra-pickaxes",
+        "file": "subterra-pickaxes"
+      },
+      {
+        "slug": "subterra-strongest-pickaxe",
+        "file": "subterra-strongest-pickaxe"
+      },
+      {
+        "slug": "subterra-weapons",
+        "file": "subterra-weapons"
+      }
+    ]
+  },
+  "ru": {
+    "codes": [
+      {
+        "slug": "subterra-codes",
+        "file": "subterra-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "subterra-beginner-guide",
+        "file": "subterra-beginner-guide"
+      },
+      {
+        "slug": "subterra-best-pickaxes",
+        "file": "subterra-best-pickaxes"
+      },
+      {
+        "slug": "subterra-beta",
+        "file": "subterra-beta"
+      },
+      {
+        "slug": "subterra-game",
+        "file": "subterra-game"
+      },
+      {
+        "slug": "subterra-guide",
+        "file": "subterra-guide"
+      },
+      {
+        "slug": "subterra-level-up-fast",
+        "file": "subterra-level-up-fast"
+      },
+      {
+        "slug": "subterra-roblox",
+        "file": "subterra-roblox"
+      },
+      {
+        "slug": "subterra-shards",
+        "file": "subterra-shards"
+      },
+      {
+        "slug": "subterra-update",
+        "file": "subterra-update"
+      }
+    ],
+    "items": [
+      {
+        "slug": "subterra-compass",
+        "file": "subterra-compass"
+      },
+      {
+        "slug": "subterra-frozen-heart",
+        "file": "subterra-frozen-heart"
+      },
+      {
+        "slug": "subterra-heart-of-frost",
+        "file": "subterra-heart-of-frost"
+      },
+      {
+        "slug": "subterra-heart-of-gold",
+        "file": "subterra-heart-of-gold"
+      },
+      {
+        "slug": "subterra-keys",
+        "file": "subterra-keys"
+      },
+      {
+        "slug": "subterra-monster-core",
+        "file": "subterra-monster-core"
+      },
+      {
+        "slug": "subterra-viking-chest",
+        "file": "subterra-viking-chest"
+      },
+      {
+        "slug": "subterra-viking-key",
+        "file": "subterra-viking-key"
+      }
+    ],
+    "monsters": [
+      {
+        "slug": "subterra-fear-ripper",
+        "file": "subterra-fear-ripper"
+      },
+      {
+        "slug": "subterra-guardians",
+        "file": "subterra-guardians"
+      },
+      {
+        "slug": "subterra-ice-elemental",
+        "file": "subterra-ice-elemental"
+      },
+      {
+        "slug": "subterra-missing-target",
+        "file": "subterra-missing-target"
+      },
+      {
+        "slug": "subterra-monster-rift",
+        "file": "subterra-monster-rift"
+      },
+      {
+        "slug": "subterra-yrsa-boss",
+        "file": "subterra-yrsa-boss"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "subterra-boss-guide",
+        "file": "subterra-boss-guide"
+      },
+      {
+        "slug": "subterra-dungeon-update",
+        "file": "subterra-dungeon-update"
+      },
+      {
+        "slug": "subterra-phoenix-quest",
+        "file": "subterra-phoenix-quest"
+      },
+      {
+        "slug": "subterra-quests",
+        "file": "subterra-quests"
+      },
+      {
+        "slug": "subterra-solo-guide",
+        "file": "subterra-solo-guide"
+      }
+    ],
+    "resources": [
+      {
+        "slug": "subterra-backpack-upgrade",
+        "file": "subterra-backpack-upgrade"
+      },
+      {
+        "slug": "subterra-crafting",
+        "file": "subterra-crafting"
+      },
+      {
+        "slug": "subterra-materials",
+        "file": "subterra-materials"
+      },
+      {
+        "slug": "subterra-mining-run",
+        "file": "subterra-mining-run"
+      },
+      {
+        "slug": "subterra-ores",
+        "file": "subterra-ores"
+      },
+      {
+        "slug": "subterra-resources",
+        "file": "subterra-resources"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "subterra-best-weapons",
+        "file": "subterra-best-weapons"
+      },
+      {
+        "slug": "subterra-frost-piercer",
+        "file": "subterra-frost-piercer"
+      },
+      {
+        "slug": "subterra-pickaxes",
+        "file": "subterra-pickaxes"
+      },
+      {
+        "slug": "subterra-strongest-pickaxe",
+        "file": "subterra-strongest-pickaxe"
+      },
+      {
+        "slug": "subterra-weapons",
+        "file": "subterra-weapons"
+      }
+    ]
+  }
+}

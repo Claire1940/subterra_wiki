@@ -10,7 +10,15 @@
       "twitterDescription": "Subterra Wiki - codes, ores, layers, ability cards, crafting and boss guides for the Roblox mining adventure."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "items": "Items",
+    "monsters": "Monsters",
+    "weapons": "Weapons",
+    "quests": "Quests",
+    "resources": "Resources"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -972,125 +980,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Subterra Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced mining, crafting, and boss strategies.",
-      "metaTitle": "Subterra Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Subterra guides covering beginner tips, mining loops, ability cards, crafting recipes, and boss tactics for the Roblox mining adventure.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, mining routes, survival strategies, and the Ability Card system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "codes": {
+      "title": "Subterra Codes",
+      "description": "Latest working Subterra codes for free Chrono Shards, EXP boosts, TNT, and potion rewards. Updated daily with verified codes and a clear redeem process.",
+      "metaTitle": "Subterra Codes - Free Chrono Shards & EXP Boosts",
+      "metaDescription": "Get free Chrono Shards, EXP boosts, TNT, and potions with active Subterra codes. Redeem at the Codes NPC near spawn — updated daily with verified codes.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Codes?",
+      "whatIsDescription": "Subterra codes are free promo codes from Polyworks Studio that grant Chrono Shards, EXP boosts, TNT, and potion support. Redeem them at the Codes NPC near the spawn gate to accelerate card progression and mining runs.",
+      "why": "Why redeem codes?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand mining, Ability Cards, and layer progression while avoiding common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven pickaxe and backpack upgrade paths to survive and thrive underground",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for deeper layers, bosses, and high-value ore farming"
+        "step1Title": "Free Chrono Shards",
+        "step1Description": "Chrono Shards power Ability Card upgrades, and codes are the fastest free source",
+        "step2Title": "Faster Progression",
+        "step2Description": "EXP boosts and TNT from codes help you push deeper layers without grinding",
+        "step3Title": "Safe & Verified",
+        "step3Description": "Every code is tested before listing, with expired entries removed so you never waste a redeem"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "guide": {
+      "title": "Subterra Guide",
+      "description": "Complete Subterra beginner guide covering the mining loop, pickaxe upgrades, Ability Cards, leveling, shards, and best pickaxes for Roblox players.",
+      "metaTitle": "Subterra Guide - Beginner Tips, Leveling & Best Pickaxes",
+      "metaDescription": "Master Subterra with beginner guides, leveling routes, shard farming, Ability Card builds, and best pickaxe upgrades for the Roblox mining adventure.",
+      "categoryLabel": "GAME GUIDE",
+      "whatIs": "What is the Subterra Guide?",
+      "whatIsDescription": "Walkthroughs that cover the core mining loop — dig ores, sell resources, upgrade your pickaxe and backpack, build with Ability Cards, craft weapons, and push into hostile layers. From your first spawn to advanced runs.",
+      "why": "Why read the guide?",
+      "whySteps": {
+        "step1Title": "Learn the Core Loop",
+        "step1Description": "Understand mining, selling, upgrading, and how Ability Cards change your build",
+        "step2Title": "Level Up Fast",
+        "step2Description": "Follow efficient routes and shard priorities to reach deeper layers quickly",
+        "step3Title": "Pick the Right Gear",
+        "step3Description": "Choose the best pickaxes and weapons for your stage and budget"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Subterra Crafting",
-      "description": "Master crafting recipes, materials, potions, explosives, and smelting strategies for stronger gear.",
-      "metaTitle": "Subterra Crafting - Recipes, Materials & Smelting",
-      "metaDescription": "Master Subterra crafting with recipes, ore materials, ingots, potions, explosives, keys, and smelting strategies for mining and combat progression.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "Subterra crafting connects mining, monster drops, recipe scrolls, smelting, keys, potions, and explosives. Prioritize health recovery, chest access, sticky explosives, and ingot production to push deeper safely.",
-      "why": "Why master crafting?",
-      "whySteps": {
-        "step1Title": "Unlock Useful Recipes",
-        "step1Description": "Find recipe scrolls for health potions, keys, and sticky explosives that open new routes",
-        "step2Title": "Smelt Efficiently",
-        "step2Description": "Turn raw ores into ingots used by pickaxe, backpack, and weapon upgrade chains",
-        "step3Title": "Prepare for Combat",
-        "step3Description": "Craft weapons and consumables before pushing into hostile layers and boss fights"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
-    },
     "items": {
       "title": "Subterra Items",
-      "description": "Detailed item guides covering pickaxes, backpacks, Ability Cards, weapons, and consumables with recipes and usage tips.",
-      "metaTitle": "Subterra Items - Pickaxes, Backpacks, Ability Cards & Gear",
-      "metaDescription": "Complete item database for Subterra including pickaxes, backpacks, Ability Cards, weapons, and consumables. Learn recipes, stats, and how to use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
+      "description": "Detailed Subterra item guides for keys, Viking Chest, Compass, Heart of Frost, Frozen Heart, Heart of Gold, and Monster Core drops.",
+      "metaTitle": "Subterra Items - Keys, Hearts, Compass & Chests",
+      "metaDescription": "Complete Subterra item database covering Viking Keys, Viking Chest, Compass, Heart of Frost, Frozen Heart, Heart of Gold, and Monster Cores with drop locations and uses.",
+      "categoryLabel": "ITEMS & TREASURE",
       "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for pickaxes, backpacks, Ability Cards, weapons, and consumables. Learn upgrade recipes, stat breakpoints, and optimal combinations for each progression stage.",
+      "whatIsDescription": "Guides to Subterra keys, chests, compass, and rare drops like Heart of Frost, Frozen Heart, Heart of Gold, and Monster Core. Learn where each item drops, what it unlocks, and when to use or save it.",
       "why": "Why check item guides?",
       "whySteps": {
-        "step1Title": "Plan Upgrades",
-        "step1Description": "See pickaxe and backpack tier recipes before spending rare materials",
-        "step2Title": "Choose Ability Cards",
-        "step2Description": "Pick cards that match your mining, smelting, or combat style",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip the right weapons and consumables for hostile layers and bosses"
+        "step1Title": "Open Locked Content",
+        "step1Description": "Keys and Compass unlock Viking Chests and hidden paths inside hostile layers",
+        "step2Title": "Use Rare Drops Wisely",
+        "step2Description": "Hearts and Cores feed crafting and upgrade chains — know before you spend",
+        "step3Title": "Find Every Source",
+        "step3Description": "Drop locations and rates for every item so you can target farm what you need"
       },
       "featured": "Featured & Essential",
       "all": "All Items"
     },
-    "biomes": {
-      "title": "Subterra Layers",
-      "description": "Explore underground layers, ore tiers, cave structures, portals, and resource value across every depth.",
-      "metaTitle": "Subterra Layers - Depths, Ores, Structures & Exploration",
-      "metaDescription": "Explore Subterra layers including Dirt, Stone, Darkstone, Permafrost, and Schwarzfrost. Find ore tiers, structures, enemies, and portals at every depth.",
-      "categoryLabel": "LAYERS & EXPLORATION",
-      "whatIs": "What are Layers?",
-      "whatIsDescription": "Guides to each underground layer, its depth range, block pool, ore value, structures, enemies, and portal access. Learn what to expect and how to prepare before pushing deeper.",
-      "why": "Why explore layers?",
+    "monsters": {
+      "title": "Subterra Monsters",
+      "description": "Complete Subterra monster guides covering Ice Elemental, Monster Rift, Yrsa Boss, Missing Target, Guardians, and Fear Ripper with tactics and drops.",
+      "metaTitle": "Subterra Monsters - Yrsa Boss, Ice Elemental & Rift Guides",
+      "metaDescription": "Beat every Subterra monster including Ice Elemental, Monster Rift, Yrsa Boss, Missing Target, Guardians, and Fear Ripper with attack patterns, weaknesses, and drop tables.",
+      "categoryLabel": "MONSTERS & BOSSES",
+      "whatIs": "What are Monsters?",
+      "whatIsDescription": "Subterra monsters roam the deeper layers and rift encounters — Ice Elementals, Guardians, Fear Rippers, and bosses like Yrsa. Learn attack patterns, weaknesses, safe positioning, and what each one drops.",
+      "why": "Why study monsters?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare ores, gems, and materials specific to each depth",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand hostile monsters, bosses, and environmental threats per layer",
-        "step3Title": "Plan Routes",
-        "step3Description": "Prepare the right pickaxe, weapons, keys, and oxygen for each layer"
+        "step1Title": "Survive Deeper Layers",
+        "step1Description": "Know attack patterns and tells before pushing into hostile territory",
+        "step2Title": "Beat the Bosses",
+        "step2Description": "Yrsa and rift bosses have clear weakness windows — learn the timing",
+        "step3Title": "Farm Drops Efficiently",
+        "step3Description": "Monster Cores and rare loot tables target-farmed the right way"
       },
       "featured": "Featured & Essential",
-      "all": "All Layers"
+      "all": "All Monsters"
     },
-    "building": {
-      "title": "Subterra Upgrades",
-      "description": "Master pickaxe and backpack progression, upgrade priority, and material planning for steady mining growth.",
-      "metaTitle": "Subterra Upgrades - Pickaxe and Backpack Progression",
-      "metaDescription": "Master Subterra upgrades with pickaxe power tiers, backpack space tiers, upgrade recipes, gem saving tips, and priority planning for mining progression.",
-      "categoryLabel": "UPGRADES & PROGRESSION",
-      "whatIs": "What are Upgrades?",
-      "whatIsDescription": "Guides to pickaxe power and speed tiers, backpack inventory tiers, upgrade recipes, and material priority. Learn when to upgrade, what to save, and how to keep mining runs profitable.",
-      "why": "Why plan upgrades?",
+    "weapons": {
+      "title": "Subterra Weapons",
+      "description": "Subterra weapon and pickaxe guides covering Frost Piercer, strongest pickaxes, best weapons, and full upgrade paths for mining and combat.",
+      "metaTitle": "Subterra Weapons - Best Pickaxes, Frost Piercer & Upgrades",
+      "metaDescription": "Find the best Subterra weapons and pickaxes including Frost Piercer, strongest pickaxe tiers, and upgrade recipes for mining power and monster combat.",
+      "categoryLabel": "WEAPONS & PICKAXES",
+      "whatIs": "What are Weapons?",
+      "whatIsDescription": "Subterra weapons and pickaxes define your mining speed and combat reach. Guides cover pickaxe power tiers, the Frost Piercer, best weapons per layer, and the upgrade materials you need to craft them.",
+      "why": "Why upgrade weapons?",
       "whySteps": {
         "step1Title": "Mine Faster",
-        "step1Description": "Pickaxe tiers raise power and speed for tougher blocks and deeper layers",
-        "step2Title": "Carry More",
-        "step2Description": "Backpack tiers extend mining trips before you must return to sell",
-        "step3Title": "Save Materials",
-        "step3Description": "Protect gems and ingots for the recipes that actually unlock later tiers"
+        "step1Description": "Stronger pickaxes break tougher blocks and reach deeper, richer layers",
+        "step2Title": "Win Fights",
+        "step2Description": "Best weapons like the Frost Piercer give an edge against bosses and rifts",
+        "step3Title": "Plan Material Costs",
+        "step3Description": "Know the upgrade recipes so you save the right ores and ingots"
       },
       "featured": "Featured & Essential",
-      "all": "All Upgrade Guides"
+      "all": "All Weapons"
     },
-    "support": {
-      "title": "Subterra Community",
-      "description": "Official Trello, Discord, Roblox, X, and YouTube links for codes, patch notes, bug reports, and updates.",
-      "metaTitle": "Subterra Community - Trello, Discord, Roblox and Updates",
-      "metaDescription": "Official Subterra community links including Trello, Discord, Roblox community, X, and YouTube for codes, patch notes, bug reports, and update announcements.",
-      "categoryLabel": "COMMUNITY & UPDATES",
-      "whatIs": "What is the Community Hub?",
-      "whatIsDescription": "The official Subterra entry points: Roblox game page, Trello reference board, Polyworks Studio Discord, Roblox community, X, and YouTube. Use them for new codes, patch notes, bug reports, and announcements.",
-      "why": "Why follow official channels?",
+    "quests": {
+      "title": "Subterra Quests",
+      "description": "Subterra quest walkthroughs for Phoenix Quest, dungeon updates, boss guides, and solo runs with step-by-step objectives and rewards.",
+      "metaTitle": "Subterra Quests - Phoenix, Dungeon, Boss & Solo Walkthroughs",
+      "metaDescription": "Complete Subterra quest guides including Phoenix Quest, dungeon update content, boss encounters, and solo strategies with rewards, steps, and recommended loadouts.",
+      "categoryLabel": "QUESTS & WALKTHROUGHS",
+      "whatIs": "What are Quests?",
+      "whatIsDescription": "Subterra quests structure your progression — the Phoenix Quest, dungeon update encounters, boss arenas, and solo challenges. Each walkthrough covers objectives, recommended gear, mechanics, and rewards.",
+      "why": "Why follow quest guides?",
       "whySteps": {
-        "step1Title": "Catch New Codes",
-        "step1Description": "Developers drop new codes and events on Discord and X first",
-        "step2Title": "Track Patch Notes",
-        "step2Description": "Trello and Discord list updates, fixes, and roadmap changes",
-        "step3Title": "Report Bugs",
-        "step3Description": "Use the official Discord bug-reports channel to surface issues to the devs"
+        "step1Title": "Clear Objectives Fast",
+        "step1Description": "Step-by-step walkthroughs so you never get stuck on a phase",
+        "step2Title": "Prep the Right Loadout",
+        "step2Description": "Recommended pickaxe, weapons, and consumables before each fight",
+        "step3Title": "Claim Every Reward",
+        "step3Description": "Quest drops, unlocks, and materials worth the time investment"
       },
       "featured": "Featured & Essential",
-      "all": "All Community Links"
+      "all": "All Quests"
+    },
+    "resources": {
+      "title": "Subterra Resources",
+      "description": "Subterra resource guides covering ores, raw materials, crafting ingredients, mining runs, and backpack upgrades for steady progression.",
+      "metaTitle": "Subterra Resources - Ores, Materials, Mining Runs & Backpacks",
+      "metaDescription": "Master Subterra resources including ore tiers, raw materials, crafting ingredients, mining run routes, and backpack upgrade paths for efficient mining profit.",
+      "categoryLabel": "ORES & MATERIALS",
+      "whatIs": "What are Resources?",
+      "whatIsDescription": "Subterra resources cover ore tiers, raw materials, crafting ingredients, mining run routes, and backpack upgrade paths. Learn where each ore spawns, what it sells for, and how to plan profitable runs.",
+      "why": "Why plan resources?",
+      "whySteps": {
+        "step1Title": "Mine the Right Ores",
+        "step1Description": "Ore value and depth tables so every trip is worth the time",
+        "step2Title": "Stockpile Materials",
+        "step2Description": "Know which ores and ingredients feed crafting and upgrade chains",
+        "step3Title": "Upgrade Your Backpack",
+        "step3Description": "Backpack tier breakpoints extend each run before you must sell"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Resources"
     }
   }
 }

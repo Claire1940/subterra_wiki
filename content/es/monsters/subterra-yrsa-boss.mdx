@@ -1,0 +1,239 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Jefe Yrsa de Subterra: guía de combate Schwarzfrost y consejos de preparación",
+  description: "Guía del jefe Yrsa de Subterra con preparación para el combate, equipamiento de armas y cartas, notas de ruta, estadísticas de recompensas y consejos de supervivencia para el encuentro Schwarzfrost.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Subterra+Yrsa+Boss+Guide",
+  date: "2026-07-05",
+  author: "Equipo de Wiki de subterra"
+}
+
+<Callout type="info" title="Guía rápida">
+- **El jefe Yrsa de Subterra** es un combate de final de partida en Schwarzfrost centrado en la movilidad, la supervivencia y el daño disciplinado.
+- **Splitblade** u otra gran espada potente combina muy bien con **Healthy**, **Walk Speed**, **Double Jump** y **Extra Oxygen**.
+- **Yrsa’s Ship** se encuentra en la **Schwarzfrost Layer**, así que lleva una configuración para una expedición profunda, no un equipo casual de minería.
+- **85 de daño** y **8,500 de HP** convierten este encuentro en una pelea prolongada, no en una prueba de daño explosivo.
+- **112,985 EXP** es la recompensa principal, así que una victoria limpia puede compensar rápidamente.
+</Callout>
+
+<Section icon={Shield} title="Descripción general del jefe Yrsa de Subterra">
+
+El combate contra el jefe Yrsa de Subterra es una prueba de Schwarzfrost de final de partida que recompensa los movimientos tranquilos, el buen equipo y un plan de escape claro. Trátalo como un encuentro de estilo raid, no como un enemigo de cueva estándar.
+
+Si quieres los puntos de entrada oficiales más fiables, empieza por la [página de Subterra en Roblox](https://www.roblox.com/games/16817315243/Subterra) y el [tablero de referencia de Polyworks Studio](https://trello.com/b/mfSycrVO/subterra-wiki). Esos dos enlaces son los mejores puntos de apoyo antes de adentrarte en las capas profundas.
+
+<Callout type="warning" title="Lee esto primero">
+Yrsa no es un objetivo de la capa superficial. Si tu equipo todavía te resulta cómodo en la Stone Layer, probablemente no estés preparado para este jefe.
+</Callout>
+
+| Jefe | Ubicación | Daño | Salud | Recompensa principal |
+|---|---|---:|---:|---:|
+| Yrsa of the Sunken Seas | Yrsa’s Ship, Schwarzfrost Layer | **85** | **8,500** | **112,985 EXP** |
+
+| Punto de entrada | Por qué importa | Estado recomendado |
+|---|---|---|
+| Vestíbulo de superficie | Reabastecerte antes de la expedición | Suministros completos, bolsa vacía |
+| Portal de Darkstone | Punto de control a mitad de ruta | Arma más fuerte, cartas de movilidad |
+| Portal de Permafrost | Zona de preparación final | Apoyo de curación y oxígeno |
+| Yrsa’s Ship | Arena del jefe | Listo para pelear, no para farmear |
+
+<CardGrid cols={3}>
+  <Card title="Mejor mentalidad">
+    - **Mantente en movimiento**
+    - Haz intercambios controlados
+    - Reinicia si la pelea se complica
+  </Card>
+  <Card title="Mejor estilo de daño">
+    - **Cuerpo a cuerpo fiable**
+    - Golpes constantes
+    - Sin sobrecomprometerse por codicia
+  </Card>
+  <Card title="Mejor prioridad de supervivencia">
+    - **Cartas de movimiento**
+    - Apoyo de salud
+    - Oxígeno suficiente para toda la ruta
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Swords} title="Mejor equipamiento para el combate">
+
+Tu equipamiento debe resolver tres problemas: daño, movimiento y recuperación. La configuración de mayor valor es la que te mantiene con vida lo suficiente como para seguir atacando.
+
+<Callout type="tip" title="Regla del equipamiento">
+Primero construye para toda la ruta y después para el jefe en sí. Un arma perfecta no puede salvar una expedición si llegas drenado, lento o atrapado.
+</Callout>
+
+| Ranura | Mejor opción | Por qué funciona |
+|---|---|---|
+| Arma | Splitblade | La opción de presión de final de partida más potente para daño cuerpo a cuerpo directo |
+| Arma alternativa | Knight’s Greatsword | Muy buena opción secundaria si prefieres un ritmo más seguro |
+| Carta 1 | Healthy | Aumenta tu margen de error ante fallos repentinos |
+| Carta 2 | Walk Speed | Ayuda con el espaciado y la recuperación |
+| Carta 3 | Double Jump | Mejora el reposicionamiento en terreno vertical |
+| Carta 4 | Extra Oxygen | Amplía la travesía por capas profundas y reduce la presión de la ruta |
+
+<Steps>
+  <Step num="1" title="Elige un arma que puedas usar sin dudar">
+    Escoge un arma que se sienta estable en combate real. Si fallas demasiados golpes, las cifras de daño bruto importan menos que la consistencia.
+  </Step>
+  <Step num="2" title="Añade movilidad antes que codicia">
+    Coloca primero Walk Speed y Double Jump. Si puedes retirarte con limpieza, sobrevivirás más tiempo y atacarás con más frecuencia.
+  </Step>
+  <Step num="3" title="Añade el apoyo de salud al final">
+    Healthy y los objetos de recuperación deben cubrir los errores que esperas cometer, no la expedición perfecta que esperas lograr.
+  </Step>
+  <Step num="4" title="Entra solo cuando la ruta ya esté pagada">
+    Lleva suficientes recursos para terminar el intento. Si el viaje hasta el jefe consume todos tus suministros, el combate se vuelve mucho más difícil de lo necesario.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Configuración práctica">
+Una build centrada en cuerpo a cuerpo con cartas de movilidad es el punto de partida más seguro para la mayoría de los jugadores. El combate a distancia puede funcionar, pero un conjunto estable de corto alcance es más fácil de controlar en un espacio de jefe reducido.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo vencer a Yrsa sin desperdiciar suministros">
+
+Yrsa castiga más el pánico que la impaciencia. El plan más efectivo es simple: mantén la distancia cuando la arena se estreche, y vuelve a entrar solo cuando tu movimiento sea seguro.
+
+<Callout type="info" title="Lógica del combate">
+No estás intentando ganar la carrera al medidor de vida del jefe. Estás intentando evitar que tu propio medidor colapse mientras le vas quitando vida poco a poco.
+</Callout>
+
+| Situación | Mejor respuesta | Error que debes evitar |
+|---|---|---|
+| Espacio abierto | Mantén la presión y el espaciado | Ir de frente a golpes repetidos |
+| Espacio reducido | Reposiciona primero, ataca después | Golpear mientras estás encerrado |
+| Salud baja | Rompe el contacto y recupérate | Intercambios por codicia |
+| Ritmo perdido | Reinicia tu ángulo y tu tempo | Spamear entradas sin un plan |
+
+| Tipo de amenaza | Lo que suele significar | Respuesta más segura |
+|---|---|---|
+| Ventana de golpe fuerte | Estás demasiado cerca durante demasiado tiempo | Sal un momento y vuelve a entrar |
+| Error de posicionamiento | Estás perdiendo el control de la arena | Usa antes las cartas de movimiento |
+| Consumo de recursos | La expedición está durando demasiado | Aléjate y recupérate |
+| Sobrecompromiso | Estás forzando el daño | Acorta tus ráfagas de ataque |
+
+Usa esta lista simple de prioridades durante el combate:
+
+- **Primero**, mantente en movimiento.
+- **Segundo**, mantén al jefe a la vista.
+- **Tercero**, solo alarga los combos cuando sepas que puedes salir con seguridad.
+- **Cuarto**, reserva la curación para el peligro real, no para el daño menor por desgaste.
+
+<Callout type="warning" title="Error común">
+La mayoría de las expediciones fallidas en capas profundas no terminan porque el jugador no haga daño. Terminan porque el jugador se quedó demasiado tiempo en el mismo lugar.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Ruta, puntos de control y lista de verificación previa al combate">
+
+Tu ruta importa porque el jefe es solo una parte de la expedición. Si llegas a Yrsa’s Ship con una bolsa débil, suministros vacíos o sin plan de respaldo, el encuentro será mucho más costoso de lo que debería.
+
+<Callout type="tip" title="Consejo de ruta">
+Trata la ruta como parte del combate. Cada punto de control debería reducir el riesgo, no aumentarlo.
+</Callout>
+
+| Etapa de la ruta | Objetivo | Qué debes tener listo |
+|---|---|---|
+| Vestíbulo de superficie | Reabastecerte y organizarte | Arma, curación, cartas |
+| Capa de Darkstone | Confirmar la capacidad de supervivencia | Apoyo de movimiento y daño |
+| Capa de Permafrost | Estabilizar el tramo final | Oxígeno y recuperación |
+| Yrsa’s Ship | Empezar el jefe con control total | Sin desorden, sin pánico |
+
+<Checklist
+  id="yrsa-prep"
+  title="Lista de verificación previa al combate:"
+  items={[
+    "Equipa un arma fuerte de final de partida",
+    "Coloca primero las cartas de movilidad y luego las de daño",
+    "Lleva apoyo de curación y oxígeno",
+    "Libera espacio en el inventario antes de entrar en la ruta profunda",
+    "Confirma tu ruta hacia Yrsa’s Ship antes de comprometerte"
+  ]}
+/>
+
+Este es el orden de preparación más seguro:
+
+1. Vacía tu inventario.
+2. Reabastécete en la superficie.
+3. Asegura tus cartas de movimiento.
+4. Confirma tu elección de arma.
+5. Entra en la ruta de Schwarzfrost solo cuando estés listo para perder una expedición sin perder progreso.
+
+<Callout type="success" title="Mejor hábito">
+Si haces una pausa en un punto de control y sientes que la ruta ya resulta cara, normalmente ese es el momento correcto para reiniciar y prepararte mejor.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Recompensas, valor y estrategia final">
+
+El perfil de recompensas hace que Yrsa merezca la pena, especialmente si ya estás farmeando capas profundas para progresar. El jefe es valioso porque la victoria ofrece una gran cantidad de EXP junto con la satisfacción de alcanzar un hito de final de partida.
+
+<Callout type="info" title="Enfoque de recompensas">
+Este combate es especialmente atractivo para los jugadores que ya viven en las capas profundas y quieren un aumento significativo de EXP a partir de un intento controlado contra el jefe.
+</Callout>
+
+| Recompensa | Valor | Por qué les importa a los jugadores |
+|---|---:|---|
+| EXP | **112,985** | Gran impulso de progreso para el avance de final de partida |
+| Hito del jefe | Victoria en Schwarzfrost | Marca una verdadera preparación para el final del juego |
+| Práctica de ruta | Experiencia en capas profundas | Mejora la eficiencia futura de farmeo |
+
+| Estrategia | Ideal para | Notas |
+|---|---|---|
+| Enfoque en cuerpo a cuerpo | La mayoría de los jugadores | Más fácil de controlar en una arena de jefe |
+| Mucha movilidad | Intentos de aprendizaje | Reposicionamiento y escape más seguros |
+| Build de aguante | Sesiones largas | Mejor para jugadores que valoran la consistencia |
+| Build de daño rápido | Jugadores experimentados | Derrotas más rápidas, pero menos permisivas |
+
+Una buena regla final de decisión es simple:
+
+- Si tu ruta se siente inestable, elige **supervivencia**.
+- Si tu ruta se siente sólida, elige **consistencia**.
+- Si ya te sientes cómodo en Schwarzfrost, apuesta por **victorias más rápidas**.
+
+<Callout type="warning" title="No lo fuerces">
+La forma más inteligente de vencer a un jefe suele ser llegar mejor preparado, no apostar todo a un intento afortunado.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<Callout type="tip" title="Nota rápida sobre la FAQ">
+Estas respuestas están basadas en las estadísticas publicadas del jefe, su ubicación y la ruta de progresión por capas profundas.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Dónde se encuentra el jefe Yrsa de Subterra?",
+    answer: "Yrsa aparece en Yrsa’s Ship dentro de la Schwarzfrost Layer, así que necesitas un plan de ruta profunda antes incluso de llegar a la arena."
+  },
+  {
+    question: "¿Cuál es la opción de arma más segura para el combate?",
+    answer: "Una opción fuerte de cuerpo a cuerpo como Splitblade es un punto de partida sólido porque combina bien con el espaciado controlado y el daño constante."
+  },
+  {
+    question: "¿Qué cartas ayudan más contra Yrsa?",
+    answer: "Healthy, Walk Speed, Double Jump y Extra Oxygen son las mejores cartas de apoyo general para la supervivencia y el control de la ruta."
+  },
+  {
+    question: "¿El jefe trata más sobre daño o supervivencia?",
+    answer: "Ambos importan, pero la supervivencia va primero. Si no puedes permanecer en el combate el tiempo suficiente, un daño mayor no ayudará demasiado."
+  }
+]} />
+
+</Section>

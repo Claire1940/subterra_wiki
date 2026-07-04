@@ -1,0 +1,244 @@
+import { Gem, Map, Target, Pickaxe, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Minerales de Subterra: mejores sitios de minería, usos y prioridades por nivel",
+  description: "Sigue cada mineral de Subterra por capa, profundidad, uso y ruta de fundición, con prioridades de inicio, consejos para farmear gemas y rutas de minería en capas profundas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Subterra+Ores+Guide",
+  date: "2026-07-05",
+  author: "Equipo de Wiki de subterra"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Los minerales de Subterra** se mapean mejor por capa, no solo por rareza.
+- **Las rutas tempranas** deberían priorizar Carbón, Cobre, Estaño y Hierro para las mejoras.
+- **Las vetas de gemas** son valiosas, pero importan sobre todo cuando las misiones o recetas las necesitan.
+- **Las capas profundas** recompensan minerales más fuertes, pero también exigen mejores herramientas y equipo de supervivencia.
+- **La disciplina de fundición** mantiene tu inventario limpio y tu progreso eficiente.
+</Callout>
+
+<Section icon={Gem} title="Resumen de minerales de Subterra y mapa de niveles">
+
+Los minerales de Subterra funcionan mejor cuando piensas en niveles de progresión. Los materiales tempranos alimentan las mejoras, las gemas de mitad de partida apoyan las misiones y el almacenamiento, y los minerales de capas profundas impulsan tu artesanía y su valor de venta. El enfoque más seguro es minar con un objetivo, no solo por volumen.
+
+<Callout type="tip" title="Regla general de minería">
+Si un mineral ayuda con tu próximo pico, mochila, misión o receta clave, consérvalo. Si no hace ninguna de esas cosas, véndelo o fúndelo rápidamente.
+</Callout>
+
+| Nivel | Minerales | Mejor uso | Prioridad |
+|---|---|---|---|
+| Temprano | Carbón, Cobre, Estaño | Mejoras básicas, primera cadena de fabricación | Alta |
+| Medio | Hierro, Plata, Oro | Mejores herramientas, venta constante, misiones | Alta |
+| Gemas | Topacio, Amatista, Esmeralda, Zafiro, Rubí | Recetas, misiones, puntos de control de almacenamiento | Media |
+| Profundo | Platino, Cobalto, Cromo | Progresión avanzada, fabricación tardía | Media |
+| Final | Titanio, Wolframita, Nocturnite, Azurita, Piedra solar | Valor de endgame, rutas profundas, configuraciones raras | Alta |
+
+<CardGrid cols={4}>
+  <Card title="Carbón / Cobre">
+    - **Valor temprano más rápido**
+    - Común en las capas iniciales
+    - Ideal para la primera cadena de mejoras
+  </Card>
+  <Card title="Hierro / Plata">
+    - **Materiales centrales de mitad de partida**
+    - Buen equilibrio entre fabricación y venta
+    - Vale la pena guardarlos para recetas
+  </Card>
+  <Card title="Gemas">
+    - **Útiles para misiones**
+    - A menudo necesarias en rutas de mejora
+    - Mejor guardarlas que venderlas demasiado pronto
+  </Card>
+  <Card title="Mineral profundo">
+    - **Alto riesgo, alto valor**
+    - Requiere mejor movilidad y combate
+    - Ideal para partidas planificadas
+  </Card>
+</CardGrid>
+
+Mantén tu ruta simple: mina el nivel que puedas limpiar con seguridad y baja solo cuando tu bolsa, pico y plan de recuperación puedan soportar sesiones más largas. Las referencias del juego en vivo y el contexto de actualización se verifican más fácilmente en la página oficial de Roblox y en el tablero de Trello de Polyworks Studio.
+
+</Section>
+
+<Section icon={Map} title="Dónde encontrar minerales de Subterra por capa">
+
+Las rutas más fuertes de minerales en Subterra siguen la distribución por capas. Tierra y Piedra te dan tus primeros materiales, Piedra oscura y Escarcha eterna abren la economía más profunda, y Escarcha negra empuja hacia los objetivos de final de partida. Trata cada capa como un punto de control, no solo como un lugar para excavar hacia abajo.
+
+<Callout type="warning" title="No te precipites a bajar">
+Bajar demasiado pronto suele costar más tiempo del que ahorra. Si tu inventario se llena demasiado rápido o los enemigos te obligan a retirarte, vuelve atrás y mejora tu ruta.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Empieza en la superficie y la capa de Tierra">
+    Recolecta Roca, Carbón, Cobre y Estaño mientras aprendes el mapa y localizas la primera ruta segura de regreso.
+  </Step>
+  <Step num="2" title="Pásate a Piedra para obtener mejores beneficios">
+    Enfócate en Hierro, Plata, Oro y gemas tempranas una vez que tu pico pueda manejar ciclos de minería más largos.
+  </Step>
+  <Step num="3" title="Avanza a Piedra oscura después de las mejoras básicas">
+    Busca vetas de mineral más fuertes y estructuras de mayor riesgo solo después de que tus herramientas de combate y movilidad se sientan estables.
+  </Step>
+  <Step num="4" title="Usa Escarcha eterna y Escarcha negra para rutas tardías">
+    Reserva estas capas para expediciones planificadas con recuperación de salud, armas fuertes y suficiente almacenamiento como para justificar el viaje.
+  </Step>
+</Steps>
+
+| Capa | Profundidad | Minerales clave | Riesgo principal |
+|---|---|---|---|
+| Tierra | De la superficie hasta alrededor de Y -35 | Carbón, Cobre, Estaño | Enjambres tempranos |
+| Piedra | Empieza alrededor de Y -35 | Hierro, Plata, Oro, Gemas | Esqueletos bomba |
+| Piedra oscura | Empieza alrededor de Y -435 | Cobalto, Nocturnite, Hielo negro | Enemigos no muertos más fuertes |
+| Escarcha eterna | Empieza alrededor de Y -723 | Platino, Cromo, Piedra lunar, Piedra solar | Enemigos congelados |
+| Escarcha negra | Capa profunda de endgame | Hielo cargado, Eiskron, Nocturnite | Presión de jefes y élites |
+
+| Objetivo de ruta | Mejor capa | Por qué funciona |
+|---|---|---|
+| Primeras mejoras | Tierra, Piedra | Acceso rápido a materiales básicos |
+| Farmear gemas | Piedra | Mejor mezcla de valor y seguridad |
+| Fabricación profunda | Piedra oscura, Escarcha eterna | Materiales más fuertes y mejor recompensa |
+| Preparación para jefes | Escarcha negra | Materiales tardíos y desafío de alto nivel |
+
+<Callout type="info" title="Estrategia de capas">
+Si todavía pasas demasiado tiempo peleando, quédate una capa más arriba y farmea minerales más rápidos. La velocidad importa más que la profundidad cuando tu build aún es débil.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mejores prioridades de minerales para cada etapa de progresión">
+
+La mejor elección de mineral cambia según tu etapa. El inicio trata de ganar impulso, la mitad de partida de eficiencia y el final de disciplina con los recursos. Un jugador que acumula todo suele terminar con la bolsa llena y sin una ruta real de mejoras.
+
+<Callout type="success" title="Mejor hábito de progresión">
+Guarda las gemas raras hasta saber qué recetas las necesitan. Ese pequeño hábito evita muchas mejoras estancadas más adelante.
+</Callout>
+
+| Etapa de progresión | Mejores minerales | Qué hacer | Qué no hacer |
+|---|---|---|---|
+| Temprano | Carbón, Cobre, Estaño | Fúndelo, véndelo y mejora rápido | No acumules para siempre el mineral inicial |
+| Medio | Hierro, Plata, Oro | Guárdalo para herramientas, misiones y fabricación | No gastes gemas en desvíos débiles |
+| Empuje de misiones | Topacio, Amatista, Esmeralda, Zafiro, Rubí | Consérvalas hasta que una misión o receta las pida | No conviertas cada gema en monedas |
+| Expedición profunda | Platino, Cobalto, Cromo | Acumúlalos para rutas de equipo más fuertes | No entres a capas profundas con equipo débil |
+| Endgame | Titanio, Wolframita, Nocturnite, Azurita, Piedra solar | Guárdalos para fabricación y valor de primer nivel | No desperdicies mineral raro en objetivos de relleno |
+
+| Tipo de mineral | Estilo de juego ideal | Patrón de valor | Veredicto |
+|---|---|---|---|
+| Mineral común | Farmeo rápido en bucle | Bajo por unidad, alto por volumen | Excelente al inicio |
+| Mineral medio | Farmeo equilibrado | Buen valor, uso amplio | El mejor en general |
+| Mineral de gema | Planificación de rutas | Alto impacto en misiones | Vale la pena guardarlo |
+| Mineral profundo | Rutas de alto riesgo | Gran recompensa | Mejor con preparación |
+
+<CardGrid cols={3}>
+  <Card title="Vendedores rápidos">
+    - **Carbón**
+    - Cobre
+    - Estaño
+    - Lo mejor para generar dinero temprano
+  </Card>
+  <Card title="Combustible de mejoras">
+    - **Hierro**
+    - Plata
+    - Oro
+    - Lo mejor para la estabilidad de la progresión
+  </Card>
+  <Card title="Reserva a largo plazo">
+    - **Gemas**
+    - Platino+
+    - Minerales de capas tardías
+    - Lo mejor para fabricación planificada
+  </Card>
+</CardGrid>
+
+Usa un conjunto de reglas simple: si el mineral aparece en tu próxima ruta de mejora, guárdalo. Si solo aumenta el dinero a corto plazo, véndelo después de una expedición segura. Si pertenece a una receta profunda, guárdalo aparte y deja de usarlo como dinero de emergencia.
+
+</Section>
+
+<Section icon={Pickaxe} title="Fundición, fabricación y qué conservar">
+
+La fundición es donde muchos jugadores pierden tiempo. El mineral en bruto guardado en tu bolsa no sirve de mucho si bloquea una ruta más larga. Conviértelo en lingotes cuando el proceso mejore tu siguiente paso y conserva el material en bruto solo cuando la receta lo requiera.
+
+<Callout type="info" title="Disciplina de inventario">
+Una bolsa llena de minerales mezclados suele ser peor que una bolsa más pequeña con exactamente los materiales que necesitarás después.
+</Callout>
+
+| Mineral en bruto | Se funde en | Mejor uso | ¿Conservar en bruto? |
+|---|---|---|---|
+| Cobre en bruto | Lingote de cobre | Fabricación y mejoras tempranas | Sí, hasta que necesites lingotes |
+| Estaño en bruto | Lingote de estaño | Progresión temprana a media | Sí, para niveles de mejora |
+| Hierro en bruto | Lingote de hierro | Herramientas, armas, progresión | Normalmente no |
+| Plata en bruto | Lingote de plata | Fabricación de mitad de partida | Normalmente no |
+| Oro en bruto | Lingote de oro | Venta, fabricación, misiones | Normalmente no |
+| Platino en bruto | Lingote de platino | Mejoras avanzadas | Sí, si una receta está cerca |
+| Cobalto en bruto | Lingote de cobalto | Fabricación en capas profundas | Sí, si aún estás farmeando |
+| Cromo en bruto | Lingote de cromo | Mejoras más profundas | Sí, si la ruta es estable |
+
+| Objetivo de fabricación | Mejor tipo de mineral | Notas |
+|---|---|---|
+| Ruta del pico | Hierro, Plata, Oro | Buenos materiales de punto medio |
+| Ruta de la mochila | Rutas cargadas de gemas | Guarda gemas raras para recetas |
+| Ruta de armas | Minerales profundos y lingotes | Materiales más fuertes para combate |
+| Ruta de pociones o utilidad | Minerales y botín mixtos | Equilibra fabricación con supervivencia |
+
+<Checklist
+  id="ore-management"
+  title="Qué guardar en tu inventario:"
+  items={[
+    "Guarda el mineral que aparezca en tu próxima receta de mejora.",
+    "Conserva gemas si una misión o línea de fabricación podría necesitarlas.",
+    "Funde el mineral en bruto después de cada expedición rentable.",
+    "Vende el excedente de mineral común antes de que te ralentice.",
+    "Retén los materiales de capas profundas hasta que tu ruta sea estable."
+  ]}
+/>
+
+<Callout type="tip" title="Mejor práctica">
+Si tienes dudas, guarda una pila para fabricar, una para vender y funde el resto. Ese equilibrio evita tanto el desperdicio como la sobreacumulación.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ de minerales de Subterra y resumen de rutas">
+
+Usa este repaso final para dejar cerradas tus decisiones sobre minerales antes de cada sesión de minería. La ruta correcta depende de la profundidad, la presión enemiga y de lo que tu próxima mejora realmente pida.
+
+<Callout type="warning" title="Comprobación final de ruta">
+Si tu próximo objetivo sigue siendo una mejora inicial, no farmees en exceso mineral profundo. La ruta más rápida suele ser la mejor.
+</Callout>
+
+| Situación | Mejor movimiento | Resultado |
+|---|---|---|
+| Necesitas dinero temprano | Farma Carbón, Cobre, Estaño | Dinero rápido y mejoras simples |
+| Necesitas materiales de progresión | Farma Hierro, Plata, Oro | Herramientas más fuertes y rutas más fluidas |
+| Necesitas objetos de misión | Farma gemas en Piedra | Mejor ritmo de completado de misiones |
+| Necesitas fabricación tardía | Farma Platino o más profundo | Progreso a largo plazo de mayor valor |
+| Necesitas estabilidad de supervivencia | Quédate una capa más arriba | Menos muertes y mejor tiempo activo |
+
+<FAQ items={[
+  {
+    question: "¿Cuáles son los mejores minerales de Subterra para principiantes?",
+    answer: "Carbón, Cobre y Estaño son los mejores minerales iniciales porque apoyan la progresión temprana sin obligarte a tomar rutas arriesgadas."
+  },
+  {
+    question: "¿Debería vender las gemas de inmediato en Subterra?",
+    answer: "Normalmente no. Topacio, Amatista, Esmeralda, Zafiro, Rubí y Diamante pueden ser importantes para misiones y recetas de mejora."
+  },
+  {
+    question: "¿Qué capa es la mejor para farmear minerales en mitad de partida?",
+    answer: "La capa de Piedra es la opción más segura de mitad de partida porque mezcla Hierro, Plata, Oro y gemas en una sola ruta práctica."
+  },
+  {
+    question: "¿Cómo evito desperdiciar mineral mientras mino?",
+    answer: "Mantén el mineral ligado a tu próxima receta, funde lo que puedas y vende solo el excedente que ya no apoye la progresión."
+  }
+]} />
+
+<Callout type="success" title="Resumen de ruta">
+Para la mayoría de los jugadores, los mejores minerales de Subterra salen de un bucle simple: mineral inicial para mejoras, mineral medio para estabilidad, gemas para misiones y mineral profundo para construcciones a largo plazo.
+</Callout>
+
+</Section>

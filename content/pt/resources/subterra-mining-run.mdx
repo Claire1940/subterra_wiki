@@ -1,0 +1,215 @@
+import { Map, Target, Shield, Sparkles, Trophy, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "run de mineração em Subterra: rota rápida, upgrades e loadout",
+  description: "Monte um run de mineração em Subterra mais forte com a melhor rota inicial, ordem de upgrades, prioridades de minérios e loadout de sobrevivência para camadas mais profundas e retornos mais seguros.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/5B4636/fff?text=Mining+Run+Guide",
+  date: "2026-07-05",
+  author: "Equipe Wiki de Subterra"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O sucesso de um **run de mineração em Subterra** depende de um ponto de saída claro, não de cavar sem parar.
+- Os **upgrades da picareta** devem vir antes de compras supérfluas no início do jogo.
+- O **espaço da mochila** importa porque cada ida extra reduz seu lucro por run.
+- As **Cartas de Habilidade** são mais fortes quando ajudam na velocidade de mineração, no espaço de carga ou na sobrevivência.
+- **Runs profundos** funcionam melhor quando você leva um objetivo, uma rota e um caminho de volta.
+</Callout>
+
+<Section icon={Map} title="Noções Básicas do Run de Mineração em Subterra">
+
+Um **run de mineração em Subterra** forte é construído em torno de uma regra: sair com mais valor do que você levou. A melhor rota não é a mais profunda; é a rota que oferece minério confiável, risco administrável e um retorno limpo à superfície. Isso significa definir uma meta de profundidade antes de sair da sala e tratar cada curva como parte do cálculo de lucro.
+
+**Comparação de estilos de run**
+
+| Estilo de Run | Melhor Para | Objetivo Principal | Condição de Saída |
+|---|---|---|---|
+| Varredura da Superfície | Jogadores novos | Minério rápido, retorno fácil | A bolsa está pela metade |
+| Loop Balanceado | A maioria dos jogadores | Minério, XP e profundidade mais segura | O minério alvo principal foi garantido |
+| Avanço Profundo | Runs avançados | Camadas de alto valor | Vida, espaço ou ferramentas começam a falhar |
+
+<CardGrid cols={3}>
+  <Card title="Varredura da Superfície">
+    - **Menor risco**
+    - Ciclo de venda rápido
+    - Melhor para materiais iniciais
+  </Card>
+  <Card title="Loop Balanceado">
+    - **Melhor valor geral**
+    - Controle estável de profundidade
+    - Bom para farm repetido
+  </Card>
+  <Card title="Avanço Profundo">
+    - **Maior potencial de recompensa**
+    - Precisa de ferramentas melhores
+    - Pune a ganância rapidamente
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Mentalidade de Rota">
+Não meça o sucesso pela profundidade que você alcançou. Meça por quanto minério útil, moeda e material de progressão você trouxe de volta.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rota de Mineração Passo a Passo">
+
+Uma boa rota é repetível. Se você não consegue descrever seus próximos cinco movimentos antes de sair, o run geralmente fica bagunçado. Use primeiro um loop curto e depois aumente quando sua picareta e sua mochila aguentarem a pressão.
+
+<Callout type="warning" title="Não Tenha Pressa na Primeira Viagem">
+Runs iniciais falham quando os jogadores descem reto demais, ignoram o espaço do inventário e gastam materiais raros cedo demais. Mantenha a primeira rota simples o suficiente para ser repetida.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Saia com um Objetivo Claro">
+    Escolha um único objetivo antes de se mover: cobre, estanho, ferro, gemas ou moedas. Um alvo só mantém sua rota eficiente.
+  </Step>
+  <Step num="2" title="Extraia Primeiro o Valor Mais Fácil">
+    Limpe veios de minério óbvios e blocos seguros antes de assumir riscos. Valor rápido vence desvios arriscados na maioria dos runs iniciais.
+  </Step>
+  <Step num="3" title="Acompanhe a Pressão do Inventário">
+    Se a bolsa começar a encher com material de baixo valor, pare e decida se vale continuar minerando ou voltar mais cedo.
+  </Step>
+  <Step num="4" title="Gaste com Progresso, Não com Enfeite">
+    Use as recompensas primeiro no próximo nível da picareta ou da mochila. Crafting secundário é útil, mas só depois que sua rota principal estiver estável.
+  </Step>
+  <Step num="5" title="Retorne Antes que o Run Quebre">
+    Saia quando sua rota ficar mais lenta, sua vida estiver instável ou o próximo ponto já não justificar o risco.
+  </Step>
+</Steps>
+
+**Pontos de verificação do run**
+
+| Ponto de Verificação | O que Observar | Resposta Segura |
+|---|---|---|
+| Primeiros 5 minutos | Ritmo da rota | Continue minerando se a densidade de veios estiver boa |
+| Meio do run | Espaço da bolsa | Vire de volta se minério de baixo valor estiver ocupando os melhores drops |
+| Fim do run | Pressão inimiga | Recuar antes que os erros se acumulem |
+| Retorno | Valor de venda | Deposite, derreta e reinicie rapidamente |
+
+</Section>
+
+<Section icon={Shield} title="Minério, Profundidade e Gestão de Risco">
+
+Planejar a profundidade mantém um run de mineração lucrativo. O objetivo não é apenas encontrar mais minério; é alcançar a camada em que seu conjunto atual de ferramentas ainda funciona num ritmo confortável. Quando os blocos desaceleram você mais do que as recompensas aceleram, você está no lugar errado.
+
+<Callout type="info" title="Regra de Profundidade">
+Se uma camada obriga você a lutar com muita frequência, minerar devagar demais ou recuar tarde demais, trate essa camada como uma meta futura, não como uma meta atual.
+</Callout>
+
+**Prioridades de profundidade e recursos**
+
+| Faixa de Profundidade | O que Farmar | Por que Importa | Saída Recomendada |
+|---|---|---|---|
+| Camadas iniciais | Carvão, cobre, estanho | Materiais rápidos para upgrade | Depois de uma bolsa cheia ou um conjunto de upgrades |
+| Camadas intermediárias | Ferro, prata, ouro | Melhor dinheiro e caminhos de craft | Quando a rota começar a desacelerar |
+| Bolsões de gemas | Topázio, ametista, esmeralda, rubi | Coletas paralelas de alto valor | Quando o tempo de deslocamento superar o valor |
+| Camadas profundas | Platina, diamantes, materiais mais raros | Ganhos fortes de progressão | Antes que lutas e desvios se acumulem |
+
+**Tabela de gestão de risco**
+
+| Risco | Como Parece | Melhor Resposta |
+|---|---|---|
+| Excesso de carga | Blocos de baixo valor ocupam o espaço dos bons minérios | Pare de cavar e volte |
+| Pressão inimiga | Dano repetido ou lutas apertadas em cavernas | Abra espaço e saia da área |
+| Excesso de compromisso | Um veio a mais vira três salas a mais | Defina um ponto rígido de retorno |
+| Descompasso de ferramentas | Os blocos demoram demais para quebrar | Farme primeiro uma camada mais fácil |
+
+<Callout type="success" title="Jogo Inteligente de Profundidade">
+A forma mais segura de evoluir é manter sua camada atual lucrativa até que seus upgrades façam a próxima camada parecer rotina.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Melhor Loadout e Ordem de Upgrade">
+
+Seu loadout deve apoiar o run que você realmente está fazendo. Se você ainda está farmando materiais iniciais, dano bruto é menos importante do que velocidade, espaço e recuperação. A mesma regra vale para os upgrades: deixe a rota mais fluida antes de deixá-la mais chamativa.
+
+<Callout type="tip" title="Prioridade de Upgrade">
+Picareta primeiro, mochila em segundo, cartas utilitárias em terceiro e itens de combate supérfluos depois disso. Isso mantém o loop rápido e previsível.
+</Callout>
+
+**Loadout recomendado**
+
+| Slot | Melhor Escolha | Por que Funciona |
+|---|---|---|
+| Ferramenta principal | A picareta mais forte que você puder pagar | Melhora a velocidade de quebra e o acesso às camadas |
+| Armazenamento | A maior mochila disponível | Reduz as viagens de retorno |
+| Utilidade | Carta de movimento ou carga | Ajuda você a manter a eficiência em loops mais longos |
+| Defesa | Uma opção confiável de combate | Evita que a pressão inimiga encerre o run cedo demais |
+| Consumíveis | Itens de cura ou fuga | Protegem o valor em avanços mais profundos |
+
+**Tabela de ordem de upgrade**
+
+| Prioridade | Gastar em | Esperar até |
+|---|---|---|
+| 1 | Upgrade da picareta | A mineração parecer lenta ou travada por camadas mais difíceis |
+| 2 | Upgrade da mochila | As viagens terminarem antes de a rota estar realmente concluída |
+| 3 | Cartas utilitárias | Você puder sustentar o suporte consistente do run |
+| 4 | Equipamento de combate | Você estiver farmando áreas mais profundas e hostis |
+| 5 | Crafting supérfluo | O loop principal já estiver estável |
+
+**O que guardar e o que vender**
+
+| Tipo de Item | Guardar | Vender |
+|---|---|---|
+| Material de upgrade | Materiais para o próximo nível | Extras que você não usará tão cedo |
+| Minério | Minérios de alto valor e itens de missão | Excedentes de baixo valor |
+| Gemas | Gemas raras necessárias para progressão | Gemas sobressalentes apenas depois do planejamento |
+| Consumíveis | Itens de cura e fuga | Nada útil para o run atual |
+
+<Callout type="warning" title="Erro Comum">
+Um craft chamativo que não melhora seus próximos três runs geralmente é atraso, não vitória.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos, Checklist e FAQ">
+
+Trate cada run de mineração como um projeto curto. Antes de sair, decida como é o sucesso e depois verifique isso quando voltar. Esse hábito acelera seu progresso porque toda viagem ensina algo útil.
+
+<Checklist
+  id="subterra-mining-run-goals"
+  title="Checklist do Run de Mineração:"
+  items={[
+    "Escolha uma camada-alvo antes de sair da sala",
+    "Leve espaço suficiente para lucrar com a rota",
+    "Faça upgrade da picareta antes de gastar com itens secundários",
+    "Retorne antes que inimigos ou mineração lenta quebrem a rota",
+    "Venda ou derreta o minério valioso assim que voltar"
+  ]}
+/>
+
+<Callout type="success" title="Melhor Prática">
+Os runs de mineração mais limpos em Subterra são curtos o suficiente para repetir e longos o suficiente para fazer diferença. Esse equilíbrio vence com mais frequência do que a profundidade imprudente.
+</Callout>
+
+**FAQ**
+
+<FAQ items={[
+  {
+    question: "O que faz um bom run de mineração em Subterra?",
+    answer: "Um bom run tem um alvo, um plano de profundidade e um ponto de saída. Ele deve trazer minério útil de volta mais rápido do que cria risco."
+  },
+  {
+    question: "Devo fazer upgrade da picareta ou da mochila primeiro?",
+    answer: "Faça upgrade da picareta primeiro se a velocidade de mineração for o problema. Faça upgrade da mochila primeiro apenas quando o espaço do inventário estiver claramente encerrando seus runs cedo demais."
+  },
+  {
+    question: "Quando devo voltar durante um run?",
+    answer: "Volte quando a rota desacelerar, sua bolsa encher com material de baixo valor ou a pressão inimiga começar a forçar erros."
+  },
+  {
+    question: "Vale a pena usar Cartas de Habilidade em runs de mineração?",
+    answer: "Sim, se elas melhorarem velocidade, espaço de carga ou sobrevivência. As cartas são mais fortes quando apoiam a rota que você já farma."
+  }
+]} />
+
+</Section>

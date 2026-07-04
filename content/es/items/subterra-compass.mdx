@@ -1,0 +1,220 @@
+import { Compass, Map, Layers, Target, Shield, Trophy, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Brújula de Subterra: planificación de rutas, capas y consejos de minería",
+  description: "Brújula de Subterra te ayuda a planificar rutas de minería más seguras, elegir la capa adecuada y ajustar el momento de las mejoras para que cada partida rinda más con menos retrocesos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Subterra+Compass+Guide",
+  date: "2026-07-05",
+  author: "Equipo de Wiki de Subterra"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Brújula de Subterra** funciona mejor como planificador de rutas para la preparación en superficie, el beneficio en capas intermedias y las salidas de capas profundas.
+- Las **mejoras del pico y la mochila** superan los empujes imprudentes hacia mayor profundidad, porque el espacio del inventario determina el valor de cada partida.
+- La **conciencia de la capa** te ayuda a retroceder antes de que los monstruos, los callejones sin salida o el tiempo muerto de fundición ralenticen el progreso.
+- Las **cartas de habilidad y los códigos** aceleran el ciclo con mejor minería, más capacidad de carga y herramientas de supervivencia.
+</Callout>
+
+<Section icon={Compass} title="Mentalidad de la brújula: lee primero la mina">
+
+Brújula de Subterra funciona mejor cuando la tratas como un mapa de ruta, no como un atajo mágico. Los jugadores más fuertes no excavan al azar; fijan una capa objetivo, reúnen los materiales de la siguiente mejora y se marchan antes de que la partida se vuelva ineficiente. Esa mentalidad importa aún más en Subterra porque las capas más profundas aumentan el riesgo, pero también la recompensa.
+
+La regla básica es simple: mina con un destino, no solo con una dirección. Si tu inventario se llena demasiado rápido, tu pico se siente lento o empiezas a pasar más tiempo luchando que recogiendo, la ruta ya está perdiendo valor. Una buena estrategia con la brújula te mantiene avanzando hacia la siguiente parada rentable.
+
+<CardGrid cols={3}>
+  <Card title="Bucle de superficie">
+    - **Objetivo:** calentar rápido
+    - **Enfoque:** rocas, carbón, menas tempranas
+    - **Salida:** cuando tu bolsa empieza a llenarse
+  </Card>
+  <Card title="Bucle de capa intermedia">
+    - **Objetivo:** beneficio constante
+    - **Enfoque:** cobre, estaño, hierro, gemas
+    - **Salida:** cuando las rutas se ralentizan
+  </Card>
+  <Card title="Empuje profundo">
+    - **Objetivo:** materiales de mayor valor
+    - **Enfoque:** menas más fuertes, estructuras, jefes
+    - **Salida:** cuando el riesgo supera las recompensas
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Regla de ruta">
+Usa la brújula para elegir la siguiente parada rentable, no el túnel más profundo disponible. En Subterra, la mejor partida suele ser la que puedes repetir.
+</Callout>
+
+| Indicador de navegación | Qué significa | Mejor acción |
+|---|---|---|
+| La mochila está casi llena | La ventana de beneficio se está cerrando | Regresa para vender y fundir |
+| La veta de mineral se debilita | La capa se está agotando | Cambia de ruta o retrocede |
+| La presión de los enemigos aumenta | El camino se está volviendo caro | Lucha con cuidado o retírate |
+| Encuentras un portal o una estructura | Hay un punto de referencia disponible | Márcalo y vuelve más tarde |
+
+</Section>
+
+<Section icon={Map} title="Mejor ruta por capa">
+
+La lógica del mapa de Subterra se basa en la profundidad, no en la distancia. Una ruta estilo brújula solo funciona si sabes qué se supone que debe darte cada capa. Las capas tempranas sirven para ganar impulso, las capas intermedias para mejorar tu economía y las capas profundas para cuando tu equipo ya debe estar consolidado.
+
+La ruta oficial de progresión favorece un ciclo de minar, mejorar, fabricar y descender. Eso significa que tu brújula siempre debería responder una pregunta: "¿Qué desbloquea esta capa después?" Si la respuesta es nada útil, vete y cobra las ganancias.
+
+<Callout type="warning" title="Regla de profundidad">
+No te precipites por debajo de tu nivel actual de mejora. En Subterra, más profundo solo es mejor cuando tus herramientas, tu inventario y tu configuración de combate pueden soportar el viaje.
+</Callout>
+
+| Capa | Objetivo principal | Recursos principales | Vuelve cuando |
+|---|---|---|---|
+| Superficie | Preparación y reabastecimiento | Tiendas, fundición, zona de venta, portales | Ya estés listo para comprometerte con una partida de minería |
+| Capa de tierra | Recolección temprana rápida | Carbón, cobre, estaño, raíces, piedra | El inventario se llene o los monstruos ralenticen la ruta |
+| Capa de piedra | Capa principal de progresión | Hierro, plata, oro, gemas, geodas | Dejes de encontrar mejoras o cofres |
+| Capa de darkstone | Primer empuje profundo | Cobalto, Nocturnite, Hielo negro | Los costos de supervivencia suban más rápido que las recompensas |
+| Capa de permafrost | Recolección avanzada | Cromo, piedra lunar, titanio, wolframita | Necesites armas más fuertes o más recuperación |
+| Capa de Schwarzfrost | Zona objetivo de final de juego | Hielo cargado, Eiskron, botín del área del jefe | No estés preparado para la presión del jefe |
+
+Una ruta práctica con la brújula suele ser Superficie → Tierra → Piedra → punto de control de capa profunda → regreso a la ciudad. Ese ciclo mantiene tus partidas de minería rentables sin obligarte a quedarte demasiado tiempo en zonas hostiles.
+
+<Callout type="info" title="Mejor caso de uso">
+Si todavía estás aprendiendo el juego, mantén la brújula centrada primero en ciclos cortos. Las partidas largas solo tienen sentido cuando tu ruta de mejoras ya es estable.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Prioridades de equipo para corridas más rápidas">
+
+Tu ruta solo se mantiene eficiente cuando tu equipo coincide con la capa que quieres limpiar. Los datos de la fuente apuntan a un patrón inicial muy claro: mejora primero tu pico cuando minar se sienta lento; luego mejora tu mochila cuando el espacio del inventario empiece a acortar las partidas. Ese orden mantiene tus corridas productivas y reduce los retrocesos innecesarios.
+
+Si quieres avanzar más rápido, usa códigos y recompensas como fuente de combustible. Los fragmentos Crono ayudan con la progresión de cartas, mientras que los bloques de TNT, los potenciadores de EXP, las pociones y el oro respaldan el mismo ciclo de minería. El truco está en gastar esas recompensas antes de una sesión larga, no después de haber perdido ya el impulso.
+
+<CardGrid cols={4}>
+  <Card title="Pico">
+    - **Prioridad:** primero si la velocidad de minería es baja
+    - **Razón:** rompe bloques más rápido
+    - **Ideal para:** capas más difíciles
+  </Card>
+  <Card title="Mochila">
+    - **Prioridad:** primero si las partidas terminan demasiado pronto
+    - **Razón:** más espacio de carga
+    - **Ideal para:** rutas con mucho mineral
+  </Card>
+  <Card title="Cartas de habilidad">
+    - **Prioridad:** después de tus herramientas principales
+    - **Razón:** movilidad, rendimiento, seguridad
+    - **Ideal para:** sesiones largas de minería
+  </Card>
+  <Card title="Inventario">
+    - **Prioridad:** siempre bajo vigilancia
+    - **Razón:** determina la duración de la partida
+    - **Ideal para:** ciclos de beneficio repetibles
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Impulso de progreso">
+Los fragmentos Crono, los bloques de TNT, los potenciadores de EXP y las pociones son más útiles antes de las partidas largas. Úsalos cuando te ayuden a limpiar una capa más profunda más rápido.
+</Callout>
+
+| Prioridad de mejora | Qué resuelve | Cuándo comprar |
+|---|---|---|
+| Pico nivel 2 | Velocidad y poder de minería tempranos | Cuando ya puedas acumular roca y oro con seguridad |
+| Mochila nivel 2 | Límites de carga tempranos | Cuando tu bolsa se llene antes de que termine la ruta |
+| Pico nivel 4 | Mejor ruptura de paredes en rutas de piedra | Cuando el ingreso de cobre y carbón sea estable |
+| Mochila nivel 4 | Ciclos de beneficio más largos en mitad de partida | Cuando el hierro y las gemas empiecen a saturar el inventario |
+| Progresión de cartas | Más utilidad por partida | Cuando las mejoras de tus herramientas ya se sientan estables |
+
+<Checklist
+  id="subterra-compass-prep"
+  title="Lista de preparación de ruta:"
+  items={[
+    "Completa el tutorial y llega al lobby de la superficie",
+    "Configura teclas cómodas para inventario, interactuar y bloquear/parry",
+    "Mejora el pico antes que la mochila si la velocidad de minería es el cuello de botella",
+    "Guarda las gemas y los lingotes para las recetas necesarias en lugar de gastarlos pronto",
+    "Canjea las recompensas activas antes de una sesión larga de minería"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Ruta de la brújula paso a paso">
+
+Una buena ruta con Brújula de Subterra es, en esencia, un ciclo repetible. Empieza con seguridad, recoge materiales de mejora, sal antes de que la bolsa se atasque y luego vuelve con un objetivo más claro. Ese ritmo importa más que cualquier partida profunda aislada, porque el beneficio repetible se acumula más rápido que la exploración arriesgada.
+
+La ruta oficial para principiantes también apunta a la misma estructura: tutorial, lobby, recolección de mineral, mejoras, cartas, fabricación y luego capas más profundas. Si sigues ese orden, tu brújula siempre señalará el siguiente objetivo sensato en lugar de túneles vacíos al azar.
+
+<Callout type="warning" title="Señal para dar media vuelta">
+Si tu ruta actual es más lenta que la última mejora que obtuviste, deja de empujar hacia más profundidad. Cobra, reabastécete y reinicia el ciclo.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Empieza en la superficie">
+    Usa el lobby como punto de reinicio. Vende objetos, revisa la fundición y decide si vas a farmear, fabricar o avanzar más profundo.
+  </Step>
+  <Step num="2" title="Elige un objetivo de capa">
+    Escoge Tierra para materiales tempranos, Piedra para progresión amplia o una capa más profunda solo si tu equipo ya la soporta.
+  </Step>
+  <Step num="3" title="Mina hasta que la ruta pierda valor">
+    Vigila el espacio de la bolsa, la presión de los monstruos y la calidad del mineral. Para cuando la ruta empiece a darte más riesgo que recompensa.
+  </Step>
+  <Step num="4" title="Regresa, mejora y reconstruye">
+    Gasta tus recursos en la siguiente mejora significativa. El poder del pico y el espacio de la mochila deberían resolver el cuello de botella que acabas de encontrar.
+  </Step>
+  <Step num="5" title="Avanza una capa más">
+    Después de la mejora, extiende la ruta un poco más abajo. Ese enfoque incremental es más seguro que forzar un salto enorme.
+  </Step>
+</Steps>
+
+| Activador de salida | Qué hacer | Por qué importa |
+|---|---|---|
+| Bolsa al 80%+ | Regresa a la superficie | Protege el beneficio por partida |
+| La herramienta se siente lenta | Mejora antes de repetir la ruta | Mantiene el impulso alto |
+| Los enemigos se acumulan | Lucha menos, muévete más | Reduce el tiempo de reparación y el riesgo |
+| La calidad del mineral baja | Cambia de profundidad o cobra | Evita tiempo de minería desperdiciado |
+
+<Callout type="info" title="Consejo de eficiencia">
+Una mejor ruta con la brújula suele ser más corta, más segura y repetible. El objetivo no es solo llegar más lejos; es ganar más por minuto.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recursos oficiales y preguntas frecuentes">
+
+A fecha de 2026-07-05, las referencias más fiables para Subterra son la página oficial de Roblox, el tablero de Trello de Polyworks Studio y los canales sociales del estudio. Usa esos enlaces cuando quieras acceso al juego en vivo, detalles de progresión o publicaciones de actualizaciones.
+
+<Callout type="tip" title="Mejores referencias">
+Usa la página de Roblox para jugar en vivo, Trello para notas sobre objetos y progresión, y los enlaces sociales del estudio para actualizaciones y anuncios.
+</Callout>
+
+| Recurso | Enlace | Mejor uso |
+|---|---|---|
+| Página oficial de Roblox | [Subterra en Roblox](https://www.roblox.com/games/16817315243/Subterra) | Acceso al juego, detalles de la página y estado actual de la experiencia |
+| Tablero de Trello | [Polyworks Studio Trello](https://trello.com/b/mfSycrVO/subterra-wiki) | Capas, minerales, mejoras, fabricación, enemigos y referencias |
+| Discord | [Discord de Polyworks Studio](https://discord.com/invite/wZ3J4whDPe) | Anuncios, ayuda de la comunidad, actualizaciones de parches |
+| Perfil de X | [Polyworks Studio X](https://x.com/PolyworksStudio) | Publicaciones del desarrollador y noticias del proyecto |
+| Canal de YouTube | [Polyworks Studio YouTube](https://www.youtube.com/channel/UCxnoxgq9LMmHBTSDJyk26BQ) | Tráilers oficiales y actualizaciones visuales |
+
+<FAQ items={[
+  {
+    question: "¿Qué significa Brújula de Subterra en la práctica?",
+    answer: "Significa planificar tu ruta de minería alrededor de un objetivo claro: conseguir la siguiente mejora, salir antes de que la partida se ralentice y repetir en una capa un poco más profunda."
+  },
+  {
+    question: "¿Debería mejorar primero el pico o la mochila?",
+    answer: "Mejora primero el pico si minar se siente lento. Mejora primero la mochila si tus partidas terminan porque el inventario se llena demasiado rápido."
+  },
+  {
+    question: "¿Cuándo debería pasar a una capa más profunda?",
+    answer: "Pasa más profundo cuando tu capa actual deje de producir mejoras útiles. Si la partida se está volviendo más lenta, más segura o menos rentable, cobra primero."
+  },
+  {
+    question: "¿Vale la pena usar códigos al principio en Subterra?",
+    answer: "Sí. Las recompensas tempranas como los fragmentos Crono, los bloques de TNT, los potenciadores de EXP, las pociones y el oro te ayudan a llegar más rápido a la siguiente mejora."
+  }
+]} />
+
+</Section>

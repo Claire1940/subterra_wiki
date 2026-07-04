@@ -1,0 +1,204 @@
+import { Map, Target, Sparkles, Shield, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Recursos de Subterra: Rotas de Mineração, Minérios e Guia de Valor",
+  description: "Encontre recursos de Subterra mais rápido com rotas de mineração por camada, prioridades de minérios, regras do que guardar ou vender e dicas inteligentes de progressão para cada run.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Subterra+Resources+Guide",
+  date: "2026-07-05",
+  author: "Equipe da Wiki Subterra"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Os recursos de Subterra** alimentam todo o ciclo de melhorias, da mineração e fundição à criação e à preparação para chefes.
+- **A escolha da camada importa** porque zonas mais profundas aumentam o risco, mas também melhoram o valor dos minérios e gemas.
+- **Guarde materiais raros** como gemas, lingotes e itens de camadas profundas para receitas e melhorias bloqueadas.
+- **Use o hub da superfície** para vender, fundir e reiniciar antes que uma run deixe de ser lucrativa.
+</Callout>
+
+<Section icon={Map} title="Visão Geral dos Recursos de Subterra">
+
+Os recursos de Subterra vão além dos minérios. Uma boa run normalmente mistura minérios brutos, lingotes fundidos, gemas, itens utilitários e uma pequena reserva de materiais de combate. O objetivo é simples: minerar o que paga sua próxima melhoria, guardar o que desbloqueia receitas futuras e vender o restante antes que seu inventário trave o progresso.
+
+<BookmarkNote />
+
+Para mudanças ao vivo, mantenha salvos nos favoritos a página oficial do jogo no Roblox e o quadro Trello da Polyworks Studio: [Roblox game page](https://www.roblox.com/games/16817315243/Subterra) e [Trello board](https://trello.com/b/mfSycrVO/subterra-wiki). Verificado por último em 2026-07-05.
+
+<Callout type="tip" title="Regra Prática Inicial">
+Se um material ajuda você a alcançar o próximo picareta, mochila ou marco de camada, guarde-o. Se ele só aumenta o peso do inventário, converta-o ou venda-o rapidamente.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Minérios & Lingotes">
+    - **Base da mineração**
+    - Usados para melhorias e criação
+    - Melhores para rotas de progressão
+  </Card>
+  <Card title="Gemas & Cristais">
+    - **Materiais de alto valor**
+    - Fortes para missões e receitas
+    - Muitas vezes vale a pena guardar
+  </Card>
+  <Card title="Itens Utilitários">
+    - **Partes para poções e explosivos**
+    - Apoiam runs de sobrevivência
+    - Ótimos para expedições longas
+  </Card>
+</CardGrid>
+
+| Categoria de Recurso | Melhores Exemplos | Função Principal |
+|---|---|---|
+| Minérios | Carvão, Cobre, Estanho, Ferro, Prata, Ouro | Alimentar melhorias, fundição e valor inicial |
+| Lingotes | Lingote de Cobre, Lingote de Estanho, Lingote de Ferro, Lingote de Prata | Criação e receitas de progressão |
+| Gemas | Topázio, Ametista, Esmeralda, Safira, Rubi, Diamante | Missões, valor de armazenamento, receitas do fim do jogo |
+| Materiais Profundos | Nocturnite, Fragmento de Pedra da Lua, Cristal de Azurita, Gelo Carregado | Progressão de camadas tardias e criação premium |
+| Itens Utilitários | Raízes, Frasco de Água, Fragmento de Vida, Pedaço de Slime | Poções, explosivos e suporte à sobrevivência |
+
+A melhor forma de pensar no fluxo de recursos é esta: minérios brutos viram lingotes, lingotes desbloqueiam equipamentos melhores e gemas raras preservam flexibilidade para o futuro. Isso significa que uma mistura saudável de inventário vence o acúmulo aleatório sempre.
+
+</Section>
+
+<Section icon={Target} title="Recursos de Subterra por Camada">
+
+<Callout type="warning" title="Aviso de Profundidade">
+Camadas mais profundas podem melhorar o retorno, mas também exigem mobilidade melhor, armas mais fortes e mais controle de inventário. Não desça só porque uma camada parece rica.
+</Callout>
+
+A rota mais limpa é tratar Subterra como uma escada, não uma corrida. Farme a camada que você consegue limpar com eficiência, saia com uma mochila lucrativa e só então desça mais quando suas melhorias atuais deixarem de sustentar a run.
+
+| Camada | Profundidade | Melhores Recursos | Risco | Prioridade |
+|---|---|---|---|---|
+| Mundo Superior | Hub da superfície | Moedas, acesso à fundição, criação, portais | Baixo | Preparar, vender e reiniciar |
+| Camada de Terra | Superfície até cerca de Y -35 | Carvão, Cobre, Estanho, Raízes, Pedra | Baixo a médio | Farm inicial de minérios |
+| Camada de Pedra | Começa por volta de Y -35 | Ferro, Prata, Ouro, Topázio, Ametista, Esmeralda, Safira, Rubi, Platina, Diamante | Médio | Loop principal do meio do jogo |
+| Camada de Pedra Escura | Começa por volta de Y -435 | Cobalto, Nocturnite, Gelo Negro, Ouro, Platina, Diamante | Alto | Primeiro avanço profundo |
+| Permafrost | Começa por volta de Y -723 | Cromo, Pedra da Lua, Pedra do Sol, Titânio, Wolframita, Azurita, Gelo Carregado | Muito alto | Farm de alto valor |
+| Schwarzfrost | Zona final profunda e congelada | Gelo Carregado, Eiskron, Nocturnite, itens saqueáveis profundos | Extremo | Preparação para chefes e runs finais |
+
+<Steps>
+  <Step num="1" title="Comece no Hub da Superfície">
+    Venda sobras, funda minérios brutos e limpe seu inventário antes de descer.
+  </Step>
+  <Step num="2" title="Farme a Camada Mais Segura e Mais Alta">
+    Fique na Terra ou na Pedra até sua mochila encher com minério suficiente para financiar a próxima melhoria.
+  </Step>
+  <Step num="3" title="Desça Uma Camada a Mais">
+    Vá para baixo só depois que sua picareta, mochila e kit de cura sustentarem limpezas mais rápidas.
+  </Step>
+  <Step num="4" title="Saia Antes que o Risco Aumente">
+    Vá embora quando inimigos, mortes ou rotas sem saída começarem a custar mais do que a mochila vale.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Lógica da Rota">
+Uma rota lucrativa geralmente fica uma camada abaixo da sua zona de conforto, não duas. Isso dá drops melhores sem forçar mortes constantes, reparos ou viagens de resgate.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Recursos de Subterra de Maior Valor">
+
+Os alvos de recurso mais fortes são aqueles que apoiam vários sistemas ao mesmo tempo. O ferro alimenta o equipamento principal, as gemas ajudam em missões e decisões de armazenamento, e os materiais profundos se tornam relevantes assim que você começa a buscar receitas melhores ou rotas do fim do jogo. Mantenha os itens abaixo na sua lista mental de prioridades.
+
+| Recurso | Melhor Camada | Uso Principal | Guarde Se |
+|---|---|---|---|
+| Carvão | Terra, Pedra | Progressão inicial e verificações de missão | Você ainda precisa de combustível para melhorias |
+| Cobre | Terra, Pedra | Criação inicial e cadeia de lingotes | Você está montando os primeiros tiers |
+| Estanho | Terra, Pedra | Progressão do começo ao meio do jogo | Você consegue fundi-lo em breve |
+| Ferro | Pedra, Pedra Escura | Progressão de ferramentas e armas | Você está se aproximando do meio do jogo |
+| Prata | Pedra, Pedra Escura | Criação e missões do meio do jogo | Você precisa de receitas mais fortes |
+| Ouro | Pedra, Pedra Escura | Valor, criação, missões | Você ainda precisa de fundos para melhorias |
+| Platina | Pedra, Pedra Escura, Permafrost | Progressão avançada | Você está guardando para tiers posteriores |
+| Diamante | Pedra, Permafrost | Material de missão de alto valor | Você tem espaço para itens raros |
+| Nocturnite | Pedra Escura, Schwarzfrost | Farm de camadas profundas | Você está planejando rotas de fim de jogo |
+| Gelo Carregado | Permafrost, Schwarzfrost | Criação e exploração no fim do jogo | Você está mirando zonas congeladas |
+
+<Callout type="success" title="Mentalidade de Alto Valor">
+O melhor hábito no fim do jogo não é “minerar tudo”. É “minerar o que avança o próximo marco”. Isso deixa as runs mais curtas, seguras e fáceis de escalar.
+</Callout>
+
+| Grupo de Material | Guardar para Progressão | Normalmente Seguro Vender |
+|---|---|---|
+| Minérios básicos | Carvão, Cobre, Estanho, Ferro | Pilhas extras depois que as melhorias estiverem cobertas |
+| Minérios do meio do jogo | Prata, Ouro, Platina | Vender só o excedente depois que as receitas estiverem garantidas |
+| Gemas raras | Topázio, Ametista, Esmeralda, Safira, Rubi, Diamante | Raramente venda cedo, a menos que precise de moedas agora |
+| Materiais profundos | Nocturnite, Pedra da Lua, Azurita, Gelo Carregado | Evite vender, a menos que sua rota já esteja estável |
+
+Se o espaço de armazenamento estiver curto, priorize materiais que desbloqueiam receitas em vez de valor bruto em moedas. Uma gema que conclui uma missão ou melhoria costuma valer mais do que uma venda rápida.
+
+</Section>
+
+<Section icon={Shield} title="O que Guardar, Fundir ou Vender">
+
+É aqui que a maioria das runs dá certo ou errado. Uma mochila cheia não é automaticamente uma boa mochila. A jogada inteligente é converter itens brutos de baixo valor em formas melhores, guardar itens raros para sistemas futuros e vender só quando o material já tiver cumprido sua função.
+
+<Callout type="tip" title="Disciplina de Inventário">
+Não deixe itens comuns abafarem minérios raros. Uma pilha esquecida pode custar o espaço que você precisa para uma gema, um lingote ou um drop de camada profunda.
+</Callout>
+
+| Tipo de Item | Guardar | Fundir | Vender |
+|---|---|---|---|
+| Minério bruto | Sim, se necessário para melhorias | Sim, quando fundir aumentar o valor | Pilhas extras depois do tier-alvo |
+| Lingotes | Sim, para receitas | Não | Só cópias excedentes |
+| Gemas | Sim, quase sempre | Não | Apenas duplicatas do fim do jogo |
+| Raízes, Fragmentos de Vida, Frascos de Água | Sim, para criação de poções | Não | Pilhas duplicadas de baixa prioridade |
+| Pedaço de Slime | Sim, para explosivos pegajosos | Não | Só se a criação de explosivos já estiver feita |
+| Carvão e Pedra | Às vezes | Pedra pode apoiar conversão básica | Excedente depois das necessidades iniciais |
+| Drops de camada profunda | Sim | Raramente | Não até você conhecer o conjunto de receitas |
+
+<Checklist
+  id="resource-management"
+  title="Checklist de Fim de Run:"
+  items={[
+    "Deposite gemas raras antes de começar outra descida",
+    "Funda minérios brutos que tenham um caminho claro de melhoria",
+    "Venda as comuns sobrando que já não desbloqueiam progresso",
+    "Mantenha um pequeno estoque de materiais de cura e explosivos",
+    "Deixe uma linha do inventário livre para drops surpresa"
+  ]}
+/>
+
+<Callout type="success" title="Melhor Prática">
+Se você terminou uma run sem espaço para drops valiosos, a rota foi gananciosa demais. Encurte a rota até a mochila voltar mais limpa.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ de Recursos de Subterra">
+
+Um plano de recursos focado ajuda você a sair da mineração inicial e chegar ao farm de camadas profundas sem perder tempo. Use as respostas abaixo como um filtro rápido de decisão antes da próxima run.
+
+<Callout type="info" title="Filtro Rápido de Decisão">
+Na dúvida, faça uma pergunta: este material me leva mais perto da próxima melhoria, missão ou camada? Se não levar, trate-o como valor temporário, não como parte central do inventário.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Quais são os recursos de Subterra mais importantes para iniciantes?",
+    answer: "Comece com Carvão, Cobre, Estanho, Pedra e Raízes. Eles sustentam melhorias iniciais, criação básica e os primeiros ciclos lucrativos de mineração."
+  },
+  {
+    question: "Quais recursos de Subterra devo guardar para depois?",
+    answer: "Guarde gemas, lingotes e materiais de camada profunda como Platina, Diamante, Nocturnite e Gelo Carregado, a menos que você já saiba que é seguro vender."
+  },
+  {
+    question: "Quando devo ir para uma camada mais profunda?",
+    answer: "Desça mais depois que a sua camada atual deixar de financiar melhorias significativas. Se a velocidade de limpeza cair ou as mortes aumentarem, fique onde sua rota ainda é eficiente."
+  },
+  {
+    question: "É melhor vender minério bruto ou fundi-lo primeiro?",
+    answer: "Funda primeiro quando o minério tiver um caminho claro para lingote e você tiver acesso ao hub da superfície. Venda o minério bruto só quando precisar de moedas imediatamente."
+  }
+]} />
+
+<Callout type="warning" title="Nota Final">
+Farmar camadas profundas parece empolgante, mas a progressão constante normalmente vence. Construa primeiro um loop estável de minérios e depois transforme recursos raros em melhorias, em vez de risco.
+</Callout>
+
+</Section>

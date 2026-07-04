@@ -1,0 +1,219 @@
+import { Map, Sparkles, Target, Shield, Trophy, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Atualização de Subterra: notas da patch, dicas e guia de rota",
+  description: "Acompanhe a atualização mais recente de Subterra com prioridades da patch, mudanças de upgrades, rotas para jogadores que voltam e verificações rápidas de cartas, crafting e camadas.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Subterra+Update+Guide",
+  date: "2026-07-05",
+  author: "Equipe da Wiki de Subterra"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **a atualização de subterra** normalmente muda a economia primeiro, então verifique recompensas, bônus e caminhos de gasto antes de farmar.
+- **Os upgrades da picareta e da mochila** importam mais quando você volta após uma patch e quer runs mais rápidas e seguras.
+- **Ability Cards e Chrono Shards** podem reformular sua melhor rota mais do que o dano bruto nas sessões iniciais.
+- **A segurança da camada** é o verdadeiro gargalo quando as zonas mais profundas ficam mais difíceis ou consomem mais recursos.
+</Callout>
+
+<Section icon={Map} title="O que muda primeiro após uma atualização de Subterra">
+
+Uma atualização de Subterra pode alterar o melhor loop de farm sem reescrever o jogo inteiro. A primeira coisa que eu verifico não é dano nem hype de raridade; é eficiência de tempo. Se uma patch mudar recompensas, velocidade de deslocamento ou pressão no inventário, sua rota antiga ainda pode funcionar, mas talvez já não seja o melhor uso de uma sessão curta.
+
+**Destaques do Vídeo:**
+- Nenhum embed de vídeo foi adicionado porque não há um vídeo de Subterra altamente relevante disponível no conjunto de dados atual.
+- Foque nos sistemas que afetam os lucros iniciais, não em metas chamativas do fim do jogo.
+- Reavalie a moeda, o timing dos upgrades e a profundidade segura da camada antes de sessões longas de farm.
+
+<CardGrid cols={3}>
+  <Card title="Economia em Primeiro Lugar">
+    - **Chrono Shards**
+    - Recompensas de códigos
+    - Fluxo de ouro e ritmo de gasto
+  </Card>
+  <Card title="Mobilidade em Segundo Lugar">
+    - **Espaço da mochila**
+    - Comprimento da rota
+    - Eficiência da viagem de retorno
+  </Card>
+  <Card title="Segurança em Terceiro Lugar">
+    - **Perigo da camada**
+    - Pressão dos inimigos
+    - Itens de recuperação e timing de bloqueio
+  </Card>
+</CardGrid>
+
+| Sistema | O que verificar | Por que importa |
+|---|---|---|
+| Códigos | Recompensas ativas, momento de resgate, valor das recompensas | Bônus iniciais podem mudar a melhor rota de abertura |
+| Ability Cards | Espaços de carta, gasto de shards, encaixe na build | As cartas costumam decidir a velocidade de mineração e a sobrevivência |
+| Picareta | Velocidade de mineração, poder, custo de materiais | Os tiers da ferramenta afetam a rapidez para chegar às camadas mais profundas |
+| Mochila | Espaço do inventário, duração da viagem, timing de retorno | Mais espaço geralmente significa menos saídas forçadas |
+| Camadas | Profundidade segura, ameaça inimiga, densidade de minério | A melhor rota costuma ser a rota mais segura e lucrativa |
+
+<Callout type="tip" title="Dica Profissional">
+Se você só tiver uma sessão para jogar, passe os primeiros minutos confirmando seu novo loop de lucro antes de correr atrás de drops raros.
+</Callout>
+
+A regra prática é simples: a melhor resposta a uma atualização é reconstruir sua rota em torno do gargalo mais sensível ao tempo. Para muitos jogadores, esse gargalo não é o combate. É a rapidez com que você consegue minerar, guardar, fundir e voltar sem desperdiçar movimento.
+
+</Section>
+
+<Section icon={Target} title="Reconstrua na ordem certa">
+
+Quando eu analiso uma patch nova, eu reconstruo tudo em uma ordem fixa. Essa ordem evita que você queime materiais raros no upgrade errado e depois perceba que a sessão continua lenta. Comece pelo que muda o loop, depois vá para o que sustenta o loop e, por fim, gaste em upgrades de luxo.
+
+<Callout type="warning" title="Evite Este Erro">
+Não coloque minérios raros em crafts paralelos ou upgrades de baixo impacto até saber qual sistema está realmente desacelerando seu progresso.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Verifique sua moeda e recompensas">
+    Abra primeiro suas fontes de recompensa. Confirme quais bônus ativos, ganhos de shards ou recompensas de códigos estão disponíveis antes de investir qualquer coisa.
+  </Step>
+  <Step num="2" title="Teste suas ferramentas">
+    Faça uma viagem curta de mineração com a picareta e a mochila atuais. Se as runs terminarem cedo demais ou a mineração parecer lenta, priorize os upgrades.
+  </Step>
+  <Step num="3" title="Atualize sua build de cartas">
+    Escolha um único objetivo de build: farm de minério, sobrevivência ou deslocamento. Use cartas que sustentem esse objetivo em vez de misturar todos os bônus em um só loadout.
+  </Step>
+  <Step num="4" title="Valide sua rota de camada">
+    Entre novamente na profundidade que ainda parece lucrativa. Se a rota estiver mais lenta, mais segura ou mais rica do que antes, fixe essa rota e siga em frente.
+  </Step>
+</Steps>
+
+| Prioridade | Antes da atualização | Depois da atualização |
+|---|---|---|
+| Moeda | Gaste livremente em pequenos bônus | Guarde até o novo gargalo ficar claro |
+| Ferramentas | Faça upgrades por hábito | Faça upgrade só se a velocidade de mineração parecer limitada |
+| Cartas | Use uma build mista | Monte para um objetivo: minério, segurança ou movimento |
+| Rota | Farme o ponto mais fundo que puder alcançar | Farme o ponto mais fundo que você conseguir limpar com eficiência |
+
+Um padrão útil é tratar a primeira sessão após uma patch como uma sessão de calibração. Isso significa que você não está tentando maximizar sua conta imediatamente. Você está coletando informações que mostram onde está o progresso real agora.
+
+| Decisão | Melhor escolha |
+|---|---|
+| Precisa minerar mais rápido | Melhore a picareta primeiro |
+| As runs estão terminando cedo demais | Melhore a mochila primeiro |
+| Está perdendo tempo entre viagens | Priorize mobilidade e fluxo de retorno |
+| Está tomando dano demais | Adicione cartas de sobrevivência e rotas mais seguras |
+
+<Callout type="info" title="Nota do Editor">
+Uma reconstrução limpa costuma ser mais barata do que uma reconstrução aleatória. Cada material economizado lhe dá mais espaço para se adaptar se a patch mudar de novo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Melhor rota de retorno de 30 minutos">
+
+Se você está voltando depois de uma atualização de Subterra, uma rota de 30 minutos já basta para mostrar se seu plano antigo ainda funciona. O objetivo não é fazer tudo. O objetivo é identificar qual camada, qual ferramenta e qual conjunto de cartas ainda entregam valor confiável.
+
+<Callout type="success" title="Melhor Regra para Sessões Curtas">
+Use a primeira sessão curta para confirmar o lucro, a segunda para confirmar a segurança e a terceira para ampliar sua rota.
+</Callout>
+
+<Checklist
+  id="return-route"
+  title="Lista de verificação para quem está voltando:"
+  items={[
+    "Resgate quaisquer recompensas ativas antes de começar a minerar.",
+    "Verifique se sua mochila enche rápido demais.",
+    "Equipe uma carta focada em mineração e uma carta focada em sobrevivência.",
+    "Teste uma camada segura antes de avançar mais fundo.",
+    "Guarde os materiais antes de sair do jogo."
+  ]}
+/>
+
+| Minuto | Ação | Objetivo |
+|---|---|---|
+| 0-5 | Resgatar recompensas, conferir loadout, abrir o inventário | Garantir que você está começando com uma base limpa |
+| 5-15 | Minerar uma rota conhecida | Medir velocidade, qualidade dos drops e pressão da mochila |
+| 15-25 | Testar uma camada mais profunda ou mais rica | Ver se a patch mudou sua profundidade segura |
+| 25-30 | Voltar, vender e comparar resultados | Decidir se sua rota ainda se sustenta |
+
+A melhor rota de retorno normalmente é aquela que oferece o menor número de saídas forçadas. Se você está voltando cedo o tempo todo, o problema geralmente é o fluxo do inventário ou a pressão dos inimigos, não o valor bruto do minério. Se você está confortável, mas farmando pouco, o problema costuma ser a escolha da rota.
+
+| Sintoma | Melhor correção |
+|---|---|
+| A mochila enche rápido demais | Melhore o armazenamento ou filtre o que você minera |
+| A mineração parece lenta | Reavalie o tier da picareta e o suporte das cartas |
+| O combate interrompe a run | Adicione cartas de segurança ou suba uma camada |
+| O lucro parece baixo | Mude para uma rota de minério mais densa ou um ciclo de venda mais inteligente |
+
+<Callout type="tip" title="Vitória Rápida">
+Se sua rota ainda funciona, mantenha-a. Se ela só funciona com sorte perfeita, provavelmente não é a rota certa pós-atualização.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Sistemas que valem ser reavaliados após qualquer atualização">
+
+Alguns sistemas reagem mais a patches do que outros. Cartas, ferramentas, crafting e acesso às camadas são os primeiros lugares onde um pequeno ajuste de balanceamento pode gerar uma grande mudança na sua build preferida. É por isso que eu sempre reavalio essas áreas antes de comprometer materiais raros.
+
+<Callout type="info" title="Centros Oficiais">
+Use a página oficial do jogo e os canais dos desenvolvedores para confirmar horários, anúncios e o contexto da patch antes de gastar uma sessão longa testando.
+</Callout>
+
+| Sistema | Reavaliar para | Impacto no jogador |
+|---|---|---|
+| Ability Cards | Valor dos shards, espaços de carta, sinergia da build | Pode mudar a melhor configuração de mineração ou sobrevivência |
+| Upgrades da picareta | Velocidade, poder, custo de materiais | Afeta diretamente a velocidade de limpeza e o acesso a camadas profundas |
+| Upgrades da mochila | Espaço do inventário, duração da viagem | Muda por quanto tempo seu loop de mineração pode continuar lucrativo |
+| Crafting | Receitas, valor dos ingredientes, fluxo de fundição | Afeta se você guarda ou vende um material |
+| Camadas | Risco de profundidade, pressão dos inimigos, densidade de recursos | Determina onde sua rota deve começar e parar |
+| Combate | Conforto da arma, timing de bloqueio, itens de recuperação | Define com quanta segurança você consegue farmar áreas mais ricas |
+
+| Hub oficial | Melhor uso | Link |
+|---|---|---|
+| Página do jogo no Roblox | Iniciar o jogo e conferir a experiência ao vivo | [Abrir o jogo](https://www.roblox.com/games/16817315243/Subterra) |
+| Discord | Timing da patch, anúncios e discussões da comunidade | [Entrar no Discord](https://discord.com/invite/wZ3J4whDPe) |
+| X | Atualizações rápidas dos desenvolvedores e avisos curtos | [Seguir no X](https://x.com/PolyworksStudio) |
+| YouTube | Trailers e prévias visuais | [Visitar o YouTube](https://www.youtube.com/channel/UCxnoxgq9LMmHBTSDJyk26BQ) |
+
+O principal hábito a manter é simples: não confie apenas na memória muscular. Depois de uma patch, até uma rota familiar pode se tornar ineficiente se um de seus sistemas de suporte tiver mudado. Um loop um pouco mais lento, mas com saídas mais seguras, costuma ser melhor do que uma rota agressiva que quebra seu inventário ou faz você morrer.
+
+| Erro comum | Hábito melhor |
+|---|---|
+| Gastar materiais imediatamente | Teste a patch primeiro |
+| Correr atrás de todos os upgrades ao mesmo tempo | Construa em torno de um objetivo claro |
+| Ignorar cartas | Reavalie a sinergia das cartas a cada atualização |
+| Minerar fundo demais cedo demais | Confirme a segurança antes de aumentar a profundidade |
+
+<Callout type="tip" title="Revisão Inteligente">
+Se um sistema não afeta tempo, segurança ou fluxo de recursos, ele normalmente pode esperar até sua rota principal ficar estável.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<Callout type="warning" title="Nota da FAQ">
+Estas respostas focam na forma mais rápida de se ajustar após uma patch, e não em tentar aperfeiçoar toda build de uma vez.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "O que devo verificar primeiro em uma atualização de Subterra?",
+    answer: "Comece pelo fluxo de moeda, pelos upgrades de ferramenta e pela rota atual da camada. Esses três fatores normalmente decidem se seu plano antigo ainda parece eficiente."
+  },
+  {
+    question: "Devo sempre melhorar minha picareta antes da mochila?",
+    answer: "Nem sempre. Se seu inventário enche cedo demais, o espaço da mochila pode ser a melhor primeira compra. Se a mineração estiver lenta, o poder da picareta geralmente é a prioridade."
+  },
+  {
+    question: "Vale a pena reavaliar as Ability Cards após cada patch?",
+    answer: "Sim. As cartas podem mudar o quanto sua build lida bem com velocidade de mineração, sobrevivência e movimento, então elas estão entre as verificações mais importantes de uma atualização."
+  },
+  {
+    question: "Como eu sei se minha rota antiga ainda funciona?",
+    answer: "Faça uma sessão curta de teste. Se você conseguir minerar, armazenar e voltar sem tempo morto extra, a rota ainda é válida. Se não, reconstrua em torno do novo gargalo."
+  }
+]} />
+
+</Section>

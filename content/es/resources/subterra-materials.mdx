@@ -1,0 +1,208 @@
+import { Map, Target, Shield, Trophy, Sparkles, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Materiales de Subterra: mejores rutas de farmeo, usos y consejos",
+  description: "La guía de materiales de Subterra cubre los minerales tempranos, lingotes, gemas, rutas por capas, materiales de fabricación y qué conservar o vender para progresar de forma constante.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/312e81/fff?text=Subterra+Materials",
+  date: "2026-07-05",
+  author: "Equipo de Wiki de Subterra"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Los materiales de Subterra** impulsan las mejoras, la fabricación y la supervivencia, así que aprende qué conservar antes de vender nada.
+- **Los minerales tempranos** como carbón, cobre, estaño y hierro deben destinarse a mejoras, no a gastos aleatorios.
+- **La profundidad de la capa** importa porque los materiales más raros aparecen más abajo y normalmente requieren herramientas más fuertes.
+- **Las gemas y los fragmentos** se reservan mejor para recetas, misiones y puertas de progreso.
+</Callout>
+
+<Section icon={Sparkles} title="Materiales de Subterra por tipo y nivel">
+
+Los materiales de Subterra son la base del progreso porque cada buena expedición minera termina en una mejora, una fabricación o un avance más profundo. La mejor forma de gestionarlos es clasificar todo en unos pocos grupos y decidir cuál ayuda a tu ruta actual.
+
+<CardGrid cols={4}>
+  <Card title="Minerales">
+    - **Carbón, Cobre, Estaño**
+    - **Hierro, Plata, Oro**
+    - Ideales para la fundición y las cadenas de mejoras
+  </Card>
+  <Card title="Lingotes">
+    - Fundidos a partir de mineral bruto
+    - Se usan en recetas posteriores
+    - Más cómodos que llevar pilas de mineral bruto
+  </Card>
+  <Card title="Gemas">
+    - **Topacio, Amatista, Esmeralda**
+    - **Zafiro, Rubí, Diamante**
+    - Mejor guardarlas para misiones y recetas
+  </Card>
+  <Card title="Materiales útiles">
+    - Raíces, Trozo de baba, Frasco de agua
+    - Llaves, pergaminos, fragmentos
+    - Impulsan la fabricación, la supervivencia y el acceso a cofres
+  </Card>
+</CardGrid>
+
+| Categoría | Ejemplos | Mejor uso | Prioridad |
+|---|---|---|---|
+| Minerales básicos | Roca, Carbón, Cobre, Estaño | Fundición temprana y progreso barato | Alta |
+| Minerales intermedios | Hierro, Plata, Oro | Mejoras de herramientas y recetas más fuertes | Alta |
+| Gemas raras | Topacio, Amatista, Esmeralda | Entregas de misiones y mejoras tardías | Media |
+| Gemas de alto valor | Zafiro, Rubí, Diamante | Guardarlas para recetas bloqueadas | Muy alta |
+| Materiales útiles | Raíces, Trozo de baba, Frasco de agua | Pociones, explosivos y recetas especiales | Alta |
+| Materiales procesados | Lingote de cobre, Lingote de estaño, Lingote de hierro | Fabricación y mejoras eficientes | Alta |
+
+<Callout type="tip" title="Regla inteligente para ordenar">
+Conserva una pila para fabricar, una para vender y otra reservada para recetas futuras. Ese hábito simple evita perder tiempo minando en vano.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mejores materiales iniciales y orden de farmeo">
+
+Si quieres un progreso fluido, empieza farmeando los materiales que desbloquean el siguiente nivel de herramientas en lugar de perseguir el nodo más raro que encuentres. La planificación temprana de rutas importa más que la suerte pura.
+
+<Steps>
+  <Step num="1" title="Empieza con carbón y roca">
+    Extrae suficientes recursos básicos de la capa de piedra para apoyar tus primeras mejoras y necesidades de fabricación. El carbón es especialmente útil porque aparece en recetas tempranas y mantiene la ruta en movimiento.
+  </Step>
+  <Step num="2" title="Añade cobre y estaño después">
+    Cuando tu inventario pueda soportar viajes más largos, céntrate en cobre bruto y estaño bruto. Estos materiales abren la primera ruta práctica hacia los lingotes y te ayudan a avanzar hacia minería más profunda.
+  </Step>
+  <Step num="3" title="Reserva el hierro para el progreso real">
+    El hierro se convierte en el primer material que empieza a sentirse como un punto de control. Guarda suficiente hierro bruto y lingotes de hierro para herramientas, no solo para ventas rápidas.
+  </Step>
+  <Step num="4" title="Trata las gemas como valor futuro">
+    Topacio, Amatista, Esmeralda, Zafiro, Rubí y Diamante pueden parecer tentadores de vender, pero a menudo importan más en misiones y recetas posteriores.
+  </Step>
+</Steps>
+
+| Material | Dónde centrarte | Por qué importa | Conservar o gastar |
+|---|---|---|---|
+| Carbón | Capas de tierra y piedra | Fabricación temprana, misiones y recetas de mejora | Conservar la mayor parte |
+| Cobre bruto | Capa de piedra | Primer camino fiable hacia los lingotes | Conservar la mayor parte |
+| Estaño bruto | Capa de piedra, por debajo de rangos de profundidad mayores | Necesario para rutas de mejora más fuertes | Conservar la mayor parte |
+| Hierro bruto | Alrededor de rutas más profundas de piedra | Material clave de punto de control en la fase media-temprana | Conservar la mayor parte |
+| Topacio | Bolsas de gemas y geodas | Rutas de misiones y mochilas | Guardar |
+| Amatista | Geodas de gemas y rutas más profundas de piedra | Gran valor para misiones | Guardar |
+| Esmeralda | Rutas de gemas más profundas | Valiosa en recetas posteriores | Guardar |
+| Diamante | Capas profundas y geodas | Material bloqueado de alto valor | Guardar |
+
+<Callout type="warning" title="Evita este error">
+No vendas todas las pilas de mineral bruto solo porque tengan valor en monedas. En Subterra, la opción más segura a largo plazo suele ser procesar primero los materiales y vender los sobrantes después.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Ruta de farmeo capa por capa">
+
+La ruta más limpia de materiales en Subterra se basa en las capas: farmea minerales tempranos cerca de la superficie y luego expándete a zonas más ricas cuando tu pico, mochila y capacidad de supervivencia estén listos. Eso mantiene tus expediciones rentables en lugar de aleatorias.
+
+| Capa | Profundidad / acceso | Materiales clave | Nivel de riesgo | Mejor objetivo |
+|---|---|---|---|---|
+| Superficie | Centro de la superficie | Objetos de tienda, acceso a la fundición, portales | Bajo | Preparación y reinicio |
+| Capa de tierra | De la superficie hasta alrededor de Y -35 | Carbón, Cobre, Estaño, Raíces, Roca | Bajo | Circuitos iniciales de mineral |
+| Capa de piedra | Empieza alrededor de Y -35 | Hierro, Plata, Oro, Topacio, Amatista, Esmeralda, Zafiro, Rubí, Platino, Diamante | Medio | Zona principal de farmeo |
+| Capa de piedra oscura | Empieza alrededor de Y -435 | Cobalto, Nocturnita, Hielo negro | Alto | Expediciones de progreso profundo |
+| Capa de permafrost | Empieza alrededor de Y -723 | Platino, Cromo, Piedra lunar, Titanio, Wolframita, Azurita | Muy alto | Farmeo avanzado |
+| Capa de Schwarzfrost | Debajo del permafrost | Hielo cargado, Eiskron, botín profundamente congelado | Muy alto | Materiales de final de juego |
+
+| Objetivo de la ruta | Qué llevar | Qué traer de vuelta |
+|---|---|---|
+| Circuito para principiantes | Arma básica, espacio libre en el inventario | Carbón, Cobre, Estaño, Roca |
+| Circuito de mitad de partida | Mejor pico, mejora de mochila, curación | Hierro, Plata, Oro, Topacio |
+| Expedición profunda | Arma fuerte, movilidad, apoyo de oxígeno | Gemas, minerales de nivel superior, botín especial |
+| Avance de final de juego | Equipamiento duradero, objetos de recuperación, plan de retirada segura | Cristales raros, recursos de capas profundas |
+
+<Callout type="info" title="Regla de profundidad">
+Si tu bolsa se llena antes de alcanzar tu siguiente hito, la capa es demasiado profunda para tu configuración actual. Retrocede, mejora y vuelve con una ruta mejor.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Qué conservar, fundir o gastar">
+
+Aquí es donde se gana o se pierde la mayor parte de la eficiencia minera. Muchos jugadores sobrevaloran las monedas inmediatas y subestiman los materiales necesarios para desbloquear la siguiente mejora importante.
+
+<Checklist
+  id="subterra-materials-goals"
+  title="Lista de control para la gestión de materiales:"
+  items={[
+    "Conserva carbón, cobre, estaño e hierro para las cadenas de mejoras",
+    "Funde el mineral bruto antes de venderlo, salvo que necesites dinero rápido",
+    "Guarda las gemas para misiones, recetas por niveles y progreso posterior",
+    "Lleva un control de los trozos de baba, raíces y frascos para la utilidad de fabricación",
+    "Usa materiales raros solo cuando eliminen un verdadero cuello de botella"
+  ]}
+/>
+
+| Acción | Mejores materiales | Por qué funciona | Notas |
+|---|---|---|---|
+| Conservar | Carbón, Cobre, Estaño, Hierro | Progreso temprano y de mitad de juego | Estos materiales desaparecen rápido |
+| Fundir | Cobre bruto, Estaño bruto, Hierro bruto, Plata bruta, Oro bruto | Aumenta el valor y la flexibilidad de fabricación | Mejor que soltar pilas de mineral bruto |
+| Guardar | Topacio, Amatista, Esmeralda, Zafiro, Rubí, Diamante | Bloqueos de misiones y recetas | Gastar solo cuando sea necesario |
+| Usar ahora | Raíces, Trozo de baba, Frasco de agua | Pociones y recetas explosivas | Gran utilidad, poco arrepentimiento |
+
+<CardGrid cols={3}>
+  <Card title="Primero el pico">
+    Mejora la potencia de minería cuando los bloques empiecen a tardar demasiado en romperse. Minar más rápido ayuda en todas las rutas, especialmente en las más profundas.
+  </Card>
+  <Card title="Segundo la mochila">
+    Mejora el almacenamiento cuando los viajes terminen demasiado pronto. Más espacio en el inventario mantiene con vida las expediciones rentables durante más tiempo.
+  </Card>
+  <Card title="Las gemas al final">
+    Las gemas raras parecen valiosas, pero son más útiles cuando sabes exactamente qué receta desbloquean.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Mejor forma de gastar">
+Usa tu primer gran excedente de materiales en progreso, no en comodidad. La ruta más rápida suele ser la que elimina el siguiente cuello de botella.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes y referencias oficiales">
+
+<Callout type="info" title="Enlaces de referencia">
+- 2026-07-05 — [Subterra en Roblox](https://www.roblox.com/games/16817315243/Subterra)
+- 2026-07-05 — [Tablero de Trello de Polyworks Studio](https://trello.com/b/mfSycrVO/subterra-wiki)
+- 2026-07-05 — [Comunidad de Roblox de Polyworks Studio](https://www.roblox.com/communities/5851851/Polyworks-Studio)
+</Callout>
+
+| Error común | Mejor opción | Resultado |
+|---|---|---|
+| Vender todo el mineral bruto de inmediato | Fundir primero, vender después | Mejor valor de progreso |
+| Perseguir capas profundas demasiado pronto | Farmear por hitos de capa | Expediciones más seguras y eficientes |
+| Gastar gemas en recetas al azar | Guardar gemas para recetas bloqueadas | Menos material raro desperdiciado |
+| Ignorar los límites del inventario | Mejorar la mochila según el calendario | Circuitos de minería más largos |
+
+<FAQ items={[
+  {
+    question: "¿Cuáles son los materiales de Subterra más importantes para farmear primero?",
+    answer: "Empieza con carbón, cobre, estaño e hierro. Esos materiales apoyan las mejoras tempranas, la fundición y los primeros saltos reales de progreso."
+  },
+  {
+    question: "¿Debería vender los materiales brutos de inmediato?",
+    answer: "Normalmente no. Funde primero el mineral cuando sea posible y luego vende los extras. Eso te da más flexibilidad para recetas y rutas de mejora."
+  },
+  {
+    question: "¿Qué materiales debería guardar para más adelante?",
+    answer: "Conserva materiales de gema como Topacio, Amatista, Esmeralda, Zafiro, Rubí y Diamante, salvo que los necesites para una receta o misión concreta."
+  },
+  {
+    question: "¿Cómo hago que el farmeo de materiales de Subterra sea más eficiente?",
+    answer: "Adapta tu ruta a tu equipamiento. Mina la capa más profunda que puedas manejar, mantén espacio libre en el inventario y mejora el pico y la mochila con un orden equilibrado."
+  }
+]} />
+
+<Callout type="tip" title="Conclusión final">
+La mejor estrategia de materiales de Subterra es simple: farmea la capa adecuada, conserva los minerales críticos para las mejoras y trata las gemas raras como activos a largo plazo.
+</Callout>
+
+</Section>

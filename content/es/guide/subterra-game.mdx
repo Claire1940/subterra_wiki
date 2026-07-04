@@ -1,0 +1,197 @@
+import { Map, Target, Sparkles, Shield, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Subterra Game: códigos, minerales y guía para principiantes",
+  description: "Guía de Subterra Game con códigos activos, pasos para canjearlos, rutas de minerales, prioridades de mejora, consejos por capas y equipos iniciales para jugadores de Roblox.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Subterra+Game+Guide",
+  date: "2026-07-05",
+  author: "Equipo de la Wiki de Subterra"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Subterra Game** premia un ciclo sencillo: minar, vender, mejorar y avanzar más profundo solo cuando tu equipo esté listo.
+- Los **códigos activos** actualmente dan Fragmentos de Crono, potenciadores de EXP, TNT y pociones que aceleran la progresión temprana.
+- **Primero el pico, segundo la mochila** es la regla de mejora más segura para la mayoría de las partidas iniciales.
+- **La profundidad de la capa importa** porque al descender aparecen minerales más fuertes, enemigos más duros y mejores estructuras.
+- **Las cartas que elijas** deben adaptarse a tu ruta: farmeo de minerales, movilidad, supervivencia o eficiencia de fundición.
+</Callout>
+
+<Section icon={Map} title="Inicio rápido y ciclo principal de Subterra Game">
+
+Subterra funciona mejor cuando tratas cada partida como un ciclo de recursos, no como una caída en línea recta. Termina el tutorial, cobra con seguridad y usa tus primeras mejoras para que cada regreso sea más valioso.
+
+<CardGrid cols={3}>
+  <Card title="Ciclo de superficie">
+    - Termina el tutorial
+    - Usa el lobby como tu punto de reinicio
+    - Reclama las recompensas antes de la primera partida larga
+  </Card>
+  <Card title="Ciclo de minería">
+    - Prioriza Roca, Oro, Carbón y Cobre
+    - Detente antes de que tu bolsa se llene demasiado
+    - Regresa solo cuando el botín valga la pena
+  </Card>
+  <Card title="Ciclo de progresión">
+    - Mejora las herramientas
+    - Añade Cartas de Habilidad
+    - Avanza más profundo solo cuando tu ruta se mantenga estable
+  </Card>
+</CardGrid>
+
+| Prioridad | Qué hacer | Por qué importa |
+|---|---|---|
+| 1 | Completa el tutorial | Desbloquea el lobby de superficie y el acceso a los NPC clave |
+| 2 | Canjea los códigos pronto | Otorga Fragmentos de Crono, EXP, TNT e ítems de seguridad |
+| 3 | Mina primero los minerales básicos | Financia la primera ronda de mejoras |
+| 4 | Regresa antes de sobrecargar la mochila | Protege el valor de los minerales y reduce viajes inútiles |
+| 5 | Construye tu equipo alrededor de tu ruta | Mantiene tu equipo alineado con minería o combate |
+
+<Callout type="tip" title="Regla para el juego temprano">
+Si una partida termina por falta de espacio en el inventario, mejora la mochila antes de perseguir minerales más profundos. Si minar se siente demasiado lento, mejora primero el pico.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Códigos activos, canje y enlaces oficiales">
+
+Usa primero el conjunto actual de recompensas y luego vuelve a revisar los canales oficiales si un código deja de dar premio. Así mantienes tu configuración inicial avanzando sin perder tiempo con cadenas vencidas.
+
+| Código | Recompensa | Mejor uso |
+|---|---|---|
+| UPDATE | 140 Fragmentos de Crono | Primeras tiradas de Cartas de Habilidad |
+| 100KMEMBERS | 420 Fragmentos de Crono, 10 Pociones de Agujero de Gusan, 10 Pociones de Regreso de la Muerte | Partidas largas de minería y recuperación |
+| FEATURED | 32 bloques de TNT, 2x EXP durante 1 hora | Excavación y subida de nivel más rápidas |
+| 1YEAR | 1.400 Fragmentos de Crono | Gran impulso de progresión |
+| 30KLIKES | 2x EXP durante 2 horas | Sesiones largas donde la EXP importa |
+| RELEASE | Fragmentos de Crono, Oro | Impulso económico inicial |
+
+<Steps>
+  <Step num="1" title="Abre Subterra en Roblox">
+    Empieza desde la página principal del juego y entra a la experiencia con normalidad.
+  </Step>
+  <Step num="2" title="Termina el tutorial">
+    Necesitas poder moverte libremente en el lobby de superficie antes de que el NPC de Códigos se convierta en tu punto de recompensa más cómodo.
+  </Step>
+  <Step num="3" title="Encuentra al NPC de Códigos cerca del spawn">
+    Interactúa con el NPC, introduce un código a la vez y pulsa Claim Code después de cada entrada.
+  </Step>
+  <Step num="4" title="Canjea todos los códigos que funcionen">
+    Guarda las recompensas y luego gasta los Fragmentos de Crono en cartas o los potenciadores en tu siguiente sesión de minería.
+  </Step>
+</Steps>
+
+| Enlace oficial | Ideal para | URL |
+|---|---|---|
+| Página del juego en Roblox | Botón de jugar, acceso a servidores, información básica del juego | https://www.roblox.com/games/16817315243/Subterra |
+| Tablero de Trello | Capas, minerales, recetas, mejoras, enemigos | https://trello.com/b/mfSycrVO/subterra-wiki |
+| Servidor de Discord | Anuncios, informes de errores, nuevos códigos | https://discord.com/invite/wZ3J4whDPe |
+| Perfil de X | Actualizaciones de parches y publicaciones del proyecto | https://x.com/PolyworksStudio |
+
+<Callout type="warning" title="Momento de los códigos">
+El estado de las recompensas puede cambiar. Si un código deja de funcionar, trátalo como expirado y sigue adelante en lugar de perder tiempo con intentos repetidos.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Prioridad de mejoras: pico, mochila y materiales">
+
+Tu primera gran decisión es sencilla: haz la minería más rápida antes de intentar alargar cada partida. Un pico más fuerte despeja espacio, mientras que una mochila más grande convierte esa velocidad en beneficio.
+
+| Etapa | En qué gastar | Materiales que debes guardar | Objetivo principal |
+|---|---|---|---|
+| Fase inicial | Niveles de pico 2-4 | Roca, Oro, Carbón, Cobre en bruto | Romper bloques más rápido y alcanzar ciclos estables de minerales |
+| Cuello de botella del inventario | Niveles de mochila 2-3 | Carbón, Cobre en bruto, Estaño en bruto | Reducir viajes a la superficie y llevar más mineral por partida |
+| Empuje de mitad de juego | Niveles de pico 5-8 | Lingote de estaño, Hierro, Oro | Mantener el ritmo con capas más profundas y bloques más duros |
+| Fase de gemas | Mochila y planificación de recetas | Citrino, Topacio, Amatista, Esmeralda | Evitar gastar materiales raros en mejoras de poco valor |
+
+La regla más segura con los materiales es acumular las gemas cuando aparezcan más adelante en recetas de mejora. Los datos de origen muestran que gemas como Citrino, Topacio, Amatista, Esmeralda, Rubí, Zafiro y Diamante se usan en costos de progresión, así que gastar al azar puede ralentizar tu avance.
+
+<Callout type="success" title="Mejor orden de mejora">
+Primero el pico, segundo la mochila, y después el apoyo de cartas. Ese orden mantiene tus partidas eficientes sin obligarte a comprometer demasiado pronto recursos raros.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Capas, minerales y objetivos de estructuras">
+
+La curva de profundidad de Subterra es lo que le da al juego su larga duración. Cada capa cambia el grupo de minerales, la presión de los enemigos y el valor de quedarte un poco más bajo tierra.
+
+| Capa | Profundidad típica | Minerales y recursos clave | Amenaza principal | Mejor objetivo |
+|---|---|---|---|---|
+| Capa de tierra | Superficie hasta alrededor de Y -35 | Carbón, Cobre, Estaño, Raíces | Slimes, Zombis | Construir tu primera reserva de materiales |
+| Capa de piedra | Comienza alrededor de Y -35 | Hierro, Plata, Oro, Gemas, Geodas | Esqueletos bomba | Mejorar la ruta y farmear botín |
+| Capa de piedra oscura | Comienza alrededor de Y -435 | Cobalto, Nocturnita, Hielo Negro | Esqueletos de piedra oscura | Viaje rápido y partidas profundas de minería |
+| Capa de permafrost | Comienza alrededor de Y -723 | Cromo, Piedra lunar, Titanio, Wolframita | Elemental de hielo, Esqueletos de piedra oscura | Farmeo de alto nivel y pruebas de supervivencia |
+| Capa de Schwarzfrost | Final del juego, hielo profundo | Hielo cargado, Eiskron, botín de final de juego | Presión de nivel jefe | Materiales de final de juego y preparación de jefes |
+
+Las estructuras importan tanto como los minerales. Aldeas en cuevas, ruinas, torres, minas abandonadas, agujeros de gusano y grupos de cofres pueden convertir una partida normal en una rentable si te detienes a inspeccionarlos con seguridad.
+
+| Estructura | Mejor uso | Nivel de riesgo |
+|---|---|---|
+| Aldea en cueva | Misiones, botín, planificación de ruta | Bajo |
+| Ruinas | Revisión de cofres y exploración | Medio |
+| Torre | Movimiento vertical y pruebas de cartas | Medio |
+| Mina abandonada | Acceso a minerales y rutas más profundas | Medio |
+| Agujero de gusano | Reposicionamiento rápido | Alto si se usa sin cuidado |
+
+<Callout type="info" title="Consejo sobre la profundidad">
+No bajes en línea recta con prisas. Jugar capa por capa te da mejor densidad de minerales, salidas más seguras y más oportunidades de encontrar estructuras útiles.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Equipos de combate, misiones y FAQ">
+
+En Subterra, el combate es en realidad un sistema de apoyo para la minería. El arma y las cartas correctas te permiten despejar espacio, sobrevivir a malos spawns y mantener viva tu ruta el tiempo suficiente para que dé frutos.
+
+| Build | Arma | Cartas | Úsalo cuando |
+|---|---|---|---|
+| Minero de minerales | Splitblade | Lucky, Explosive Touch, Blazing Pickaxe, Bigger Backpack | Rutas largas de minerales y zonas con bloques densos |
+| Explorador seguro | Wretched Sword | Healthy, Double Jump, Walk Speed, Extra Oxygen | Capas profundas y cuevas verticales |
+| Equilibrado inicial | Sword o Curved Bow | Pouch, Magnet, Radiant, Sneaky | Juego temprano y minería de bajo riesgo |
+
+Las cadenas de misiones merecen atención porque convierten la minería normal en progreso medible. First Step, Stone Breaker, Ore Hoarder y Deep Delver recompensan el juego constante con Oro y EXP, lo que las hace objetivos secundarios perfectos mientras farmeas mejoras.
+
+<Checklist
+  id="deep-run-checklist"
+  title="Lista de verificación para partidas profundas:"
+  items={[
+    "Canjea los códigos activos antes de tu sesión más larga",
+    "Mejora el pico antes de perseguir gemas raras",
+    "Mejora la mochila cuando las partidas terminen demasiado pronto",
+    "Guarda los materiales de gemas raras para recetas posteriores",
+    "Revisa las misiones antes de cada ciclo de minería"
+  ]}
+/>
+
+<Callout type="tip" title="Consejo sobre el equipo">
+Si tu objetivo es ganar beneficios, construye primero alrededor del rendimiento de minerales y del espacio del inventario. Si tu objetivo es sobrevivir, prioriza movilidad y salud antes de perseguir daño.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el mejor primer paso en Subterra Game?",
+    answer: "Termina el tutorial, canjea los códigos activos y empieza a minar minerales básicos como Roca, Carbón, Cobre y Oro antes de avanzar más profundo."
+  },
+  {
+    question: "¿Debería mejorar primero el pico o la mochila?",
+    answer: "Mejora primero el pico si minar se siente lento; luego mejora la mochila cuando tus partidas terminen por falta de espacio en el inventario."
+  },
+  {
+    question: "¿Qué códigos debería canjear primero?",
+    answer: "Empieza con UPDATE, 100KMEMBERS, FEATURED y 1YEAR porque ofrecen el mayor valor de progresión temprana."
+  },
+  {
+    question: "¿Qué build funciona mejor para capas profundas?",
+    answer: "Un build estilo Explorador Seguro funciona muy bien: un arma confiable, Healthy, Double Jump, Walk Speed y Extra Oxygen."
+  }
+]} />
+
+</Section>

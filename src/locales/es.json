@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "items": "Items",
+    "monsters": "Monsters",
+    "weapons": "Weapons",
+    "quests": "Quests",
+    "resources": "Resources"
+  }
+}

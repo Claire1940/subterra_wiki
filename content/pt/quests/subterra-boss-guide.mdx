@@ -1,0 +1,205 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guia de Bosses de Subterra: Builds, Padrões e Recompensas",
+  description: "Guia de bosses de Subterra para lutas no fim do jogo, builds e rotas de recompensa, com passos práticos de preparação para Yrsa dos Mares Submersos e outras ameaças das profundezas.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Boss+Guide",
+  date: "2026-07-05",
+  author: "Equipe da Wiki de Subterra"
+}
+
+<Callout type="info" title="Guia Rápido">
+- As prioridades do **guia de bosses de Subterra** são dano, mobilidade e recuperação, não avançar pelo túnel de forma imprudente.
+- **Yrsa dos Mares Submersos** é o alvo de luta mais claro do fim do jogo, com uma enorme recompensa de EXP.
+- **Bloqueie ou aparre com F** quando precisar de um reset e, depois, reposicione-se antes da próxima troca.
+- **Fragmentos de Crono e progresso das cartas** importam mais quando sua run de boss se mantém limpa e eficiente.
+</Callout>
+
+<Section icon={Map} title="Preparação para Bosses e Prioridades dos Encontros">
+
+As lutas contra bosses em **Subterra** punem mais um planejamento de rota ruim do que a mira bruta. Antes de entrar em um encontro nas camadas profundas, garanta que sua arma, cura e ferramentas de mobilidade já estejam prontas. O loop de progressão do jogo recompensa jogadores que chegam preparados, não quem tenta vencer tudo na força bruta com o inventário pela metade.
+
+**Destaques do Vídeo:**
+- A preparação para boss deve começar antes de você entrar na camada.
+- Mobilidade é tão valiosa quanto dano em espaços subterrâneos apertados.
+- A recuperação de vida importa ainda mais quando as rotas de fuga são estreitas.
+- Yrsa é a referência de boss mais explícita nos dados atuais.
+
+Se quiser um ponto de partida limpo, mantenha as páginas oficiais do jogo abertas em outra aba:
+[Subterra no Roblox](https://www.roblox.com/games/16817315243/Subterra) e [Polyworks Studio Trello](https://trello.com/b/mfSycrVO/subterra-wiki).
+
+| Boss | Onde Aparece | Nível de Ameaça | Melhor Preparação |
+|---|---|---:|---|
+| **Yrsa dos Mares Submersos** | Navio de Yrsa, Camada Schwarzfrost | **Muito Alto** | Arma de alto dano, cura, cartas de mobilidade |
+| **Lorin, o Senhor Antigo** | Alvo da tabela de drops de boss | **Alto** | Build de fim de jogo, itens de recuperação, jogo paciente |
+| **Monstros das camadas profundas** | Rotas de Permafrost e Schwarzfrost | **Médio-Alto** | Segurança da arma, suporte de oxigênio, timing de bloqueio/aparamento |
+
+<CardGrid cols={3}>
+  <Card title="Dano Primeiro">
+    - **Splitblade** é a maior espada grande craftável listada.
+    - Se ainda não tiver essa arma, evolua para a melhor opção corpo a corpo que conseguir sustentar.
+    - Bosses recompensam eliminações rápidas, mas só se você sobreviver tempo suficiente para executá-las.
+  </Card>
+  <Card title="Mobilidade em Segundo">
+    - **Velocidade de Caminhada** ajuda a recuperar o posicionamento.
+    - **Salto Duplo** melhora as rotas de fuga verticais.
+    - **Oxigênio Extra** evita que longas runs subterrâneas desmoronem cedo.
+  </Card>
+  <Card title="Sobrevivência em Terceiro">
+    - **Saudável** adiciona uma proteção simples e confiável.
+    - Mantenha a cura pronta antes de entrar na sala do boss.
+    - Use F para bloquear ou aparar e, depois, recue se a troca der errado.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Regra de Preparação">
+Não entre em uma rota de boss só porque chegou à camada. Se sua cura, configuração de cartas ou qualidade da arma estiver fraca, faça mais uma run de farm primeiro.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Melhores Builds para Lutas contra Bosses em Subterra">
+
+As melhores builds do **guia de bosses de Subterra** giram em torno de uma arma confiável e algumas cartas que reduzem o risco. Para a maioria dos jogadores, isso significa uma arma corpo a corpo forte, um pacote de mobilidade e pelo menos uma carta de sobrevivência. Dano é útil, mas o verdadeiro objetivo é manter pressão no boss sem ficar encurralado.
+
+| Build | Arma | Cartas Principais | Melhor Para |
+|---|---|---|---|
+| **Quebra-Boss** | Splitblade | Lucky, Explosive Touch, Blazing Pickaxe, Bigger Backpack | Eliminações rápidas e ótima eficiência em runs longas |
+| **Corpo a Corpo Seguro** | Knight’s Greatsword | Healthy, Walk Speed, Double Jump, Extra Oxygen | Limpezas consistentes com menos erros |
+| **Caçador Econômico** | Wretched Sword | Healthy, Walk Speed, Lighter Pickaxe, Pouch | Jogadores que precisam de uma opção mais segura no meio do jogo |
+| **Salva-Rota** | Reinforced Longbow | Walk Speed, Double Jump, Sneaky, Healthy | Distância mais segura quando lutas de perto parecem arriscadas |
+
+<CardGrid cols={3}>
+  <Card title="Configuração com Splitblade">
+    - Melhor quando você já tem uma progressão forte.
+    - Funciona bem para explosões de dano em boss e pressão no fim do jogo.
+    - Combine com mobilidade para conseguir resetar entre os golpes.
+  </Card>
+  <Card title="Configuração com Knight’s Greatsword">
+    - Ótima alternativa quando a Splitblade ainda não está pronta.
+    - É mais fácil manter estabilidade em uma luta longa.
+    - Boa para jogadores que valorizam consistência em vez de ganância.
+  </Card>
+  <Card title="Configuração de Utilidade">
+    - Útil quando a rota é mais perigosa do que o próprio boss.
+    - Foque em cartas de movimento e sobrevivência.
+    - Essa build costuma ser melhor para aprender o encontro.
+  </Card>
+</CardGrid>
+
+| Escolha de Carta | Por que Ajuda | Nota |
+|---|---|---:|
+| **Healthy** | Adiciona HP bruto para compensar erros | **5/5** |
+| **Walk Speed** | Ajuda a se desvincular e reposicionar | **5/5** |
+| **Double Jump** | Melhora o movimento em espaços verticais de caverna | **4/5** |
+| **Extra Oxygen** | Aumenta a segurança em rotas profundas | **4/5** |
+| **Lucky** | Ajuda no valor de mineração entre tentativas de boss | **3/5** |
+
+<Callout type="success" title="Melhor Prática">
+Se não tiver certeza de qual configuração usar, comece com uma build mais segura. Uma vitória limpa e de menor risco vale mais do que um wipe chamativo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Um Loop de Luta Seguro para Batalhas em Camadas Profundas">
+
+As lutas contra bosses ficam muito mais fáceis quando você segue o mesmo ritmo toda vez. O objetivo não é exagerar; é tornar cada troca previsível. Trate a batalha como uma rota: entre com um plano, aproveite sua janela e saia antes que a luta comece a forçar decisões ruins.
+
+<Steps>
+  <Step num="1" title="Defina a build antes de entrar">
+    Equipe uma arma forte, uma carta de sobrevivência e pelo menos uma opção de mobilidade. Complete a cura antes de sair do lobby ou da área da forja.
+  </Step>
+  <Step num="2" title="Abra com posicionamento seguro">
+    Entre na luta com cuidado e mantenha a câmera e o movimento sob controle. Se a rota estiver apertada, não corra para a primeira troca.
+  </Step>
+  <Step num="3" title="Troque golpes e depois recuue">
+    Acerte durante as janelas seguras e, em seguida, recue. Use F para bloquear ou aparar quando o boss fechar o espaço, e mantenha uma rota de fuga aberta.
+  </Step>
+  <Step num="4" title="Saia antes que a run fique negativa">
+    Se sua vida, oxigênio ou pressão no inventário começarem a trabalhar contra você, recue. A progressão de boss fica mais fácil quando você preserva recursos para a próxima tentativa.
+  </Step>
+</Steps>
+
+| Hábito de Luta | O Que Ele Evita | Resultado |
+|---|---|---|
+| **Cura antes da luta** | Morrer na primeira troca ruim | Abertura mais limpa |
+| **Janelas curtas de ataque** | Se comprometer demais em curta distância | Sustento mais seguro |
+| **Planejamento de rota de fuga** | Ficar preso nos cantos da caverna | Melhor sobrevivência |
+| **Recuo cedo** | Transformar um erro em um wipe completo | Menor perda de recursos |
+
+<Callout type="warning" title="Erro Comum">
+Muitos jogadores perdem runs de boss porque ficam para acertar mais um golpe. Esse ataque extra muitas vezes custa mais do que rende.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recompensas, Checklist e Valor de Progressão">
+
+As recompensas de boss importam porque alimentam o restante do seu loop de progressão. Em **Subterra**, isso significa EXP, acesso futuro a cartas, alvos de drops de longo prazo e a confiança para avançar por camadas mais severas. Farmar boss deve apoiar sua rota de mineração, não substituí-la.
+
+| Encontro | Recompensa Notável | Valor de Progressão |
+|---|---|---|
+| **Yrsa dos Mares Submersos** | **112,985 EXP** | Grande impulso de nível no fim do jogo |
+| **Lorin, o Senhor Antigo** | **Lágrima de Lorin, Vontade de Lorin, Fúria de Lorin** | Caça a drops de boss e valor de desbloqueio de longo prazo |
+| **Limpezas de combate em camadas profundas** | EXP e impulso de loot | Melhor estabilidade de rota para runs futuras |
+
+Se você está se preparando para tentativas de boss, mantenha este checklist visível:
+
+<Checklist
+  id="boss-prep"
+  title="Checklist de Run de Boss:"
+  items={[
+    "Equipe sua arma prática mais forte",
+    "Leve Healthy, Walk Speed ou Double Jump",
+    "Carregue cura antes de entrar na rota",
+    "Mantenha uma rota de saída aberta caso a luta piore",
+    "Use F para bloquear ou aparar quando precisar resetar"
+  ]}
+/>
+
+| Tipo de Recompensa | O Que Fazer com Ela | Uso Inteligente |
+|---|---|---|
+| **EXP** | Alimentar a progressão e desbloquear rotas mais fortes | Suba de nível antes de tentar bosses mais profundos |
+| **Fragmentos de Crono** | Apoiar o crescimento das Ability Cards | Gaste após uma sessão estável de farm |
+| **Drops raros** | Guarde para planos de progressão futuros | Não desperdice em objetivos paralelos de baixo valor |
+| **Gold** | Melhorar ferramentas e armazenamento | Mantenha seu loop de mineração eficiente |
+
+<Callout type="tip" title="Dica de Progressão">
+As runs de boss são mais fortes quando se encaixam entre rotas de mineração. Farm, melhore e então desafie o boss com uma build melhor, em vez de forçar a luta cedo demais.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<Callout type="info" title="Notas do FAQ">
+Estas respostas focam em preparação prática para bosses, segurança de rota e nos alvos atuais do fim do jogo com os quais a maioria dos jogadores deveria se importar.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor arma de boss em Subterra?",
+    answer: "Splitblade é a maior espada grande craftável listada, mas Knight’s Greatsword e Wretched Sword ainda são boas opções se você precisar de uma etapa mais segura."
+  },
+  {
+    question: "Quais cartas importam mais para lutas contra bosses?",
+    answer: "Healthy, Walk Speed e Double Jump são as escolhas principais mais seguras. Extra Oxygen ajuda em rotas subterrâneas longas, enquanto Lucky é melhor para valor de mineração do que para combate bruto."
+  },
+  {
+    question: "Devo usar uma build ranged para bosses?",
+    answer: "Sim, se a pressão de curta distância parecer insegura. Uma build com arco ou longbow pode ajudar você a manter distância, mas você ainda precisa de movimento e cura para sobreviver nas rotas de camadas profundas."
+  },
+  {
+    question: "Qual boss devo mirar primeiro?",
+    answer: "Yrsa dos Mares Submersos é o primeiro alvo mais claro porque a recompensa listada é explícita e o encontro se encaixa na progressão do fim do jogo. Trate Lorin, o Senhor Antigo, como uma caça de drop de longo prazo."
+  }
+]} />
+
+</Section>

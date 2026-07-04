@@ -1,0 +1,223 @@
+import { Map, Shield, Swords, Trophy, Target, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Subterra Monster Rift: Apariciones de enemigos, botín y consejos de supervivencia",
+  description: "Usa esta guía de Subterra Monster Rift para leer las amenazas de cada capa, elegir el mejor equipamiento, derrotar enemigos profundos y convertir las incursiones hostiles en progreso constante.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/5b2333/fff?text=Monster+Rift+Guide",
+  date: "2026-07-05",
+  author: "Equipo de Wiki de Subterra"
+}
+
+<Callout type="info" title="Guía rápida">
+- Las incursiones de **Subterra Monster Rift** recompensan la paciencia; las capas más profundas castigan la minería apresurada y un mal control del inventario.
+- Las **mejoras del pico y de la mochila** deben venir antes que el crafteo secundario caro o gastar gemas sin cuidado.
+- **Splitblade, Lucky y Explosive Touch** crean una configuración sólida para incursiones profundas, tanto para daño como para valor del mineral.
+- Los **Bomb Skeletons y Ice Elementals** son las principales señales para bajar el ritmo, curarte y reiniciar tu ruta.
+- Las **recompensas de misiones y logros** ayudan a financiar el progreso sin obligarte a hacer bucles de farmeo arriesgados.
+</Callout>
+
+<Section icon={Map} title="Mapa de amenazas de Subterra Monster Rift">
+
+Las rutas de Subterra Monster Rift son incursiones subterráneas hostiles en las que la presión enemiga, la profundidad de la capa y la distribución de los túneles importan más que la velocidad bruta de minado. Trata cada descenso como una incursión de valor: recoge mineral rentable, mantén libre tu ruta de escape y evita combatir en callejones estrechos sin salida.
+
+Si quieres los puntos de referencia más claros, mantén abierta la página oficial de [Subterra Roblox](https://www.roblox.com/games/16817315243/Subterra) y revisa el [tablero de Trello de Subterra](https://trello.com/b/mfSycrVO/subterra-wiki) para consultar más referencias de objetos y capas.
+
+**Puntos clave, al estilo de un video, para planificar tu ruta:**
+- Las capas más profundas añaden enemigos más duros, no solo mejor mineral.
+- Los agujeros de gusano, torres y ruinas pueden acelerar el movimiento, pero también crean riesgo de emboscada.
+- Darkstone y Permafrost son los mayores puntos de control del ritmo para la mayoría de los jugadores.
+- Guarda tus mejores herramientas para incursiones largas, no para recados cortos en la superficie.
+
+<CardGrid cols={3}>
+  <Card title="Reinicio en superficie">
+    - Ideal para **vender, fundir y reabastecerte**
+    - Menor presión enemiga
+    - Lugar ideal para reiniciar una mala incursión
+  </Card>
+  <Card title="Minería de capa media">
+    - Ideal para **carbón, cobre, estaño e hierro**
+    - Densidad enemiga moderada
+    - Buen equilibrio entre riesgo y recompensa
+  </Card>
+  <Card title="Empuje profundo">
+    - Ideal para **mineral raro y acceso a jefes**
+    - Alta presión enemiga
+    - Requiere un equipamiento preparado
+  </Card>
+</CardGrid>
+
+| Capa | Amenazas principales | Qué cambia | Estilo de juego recomendado |
+|---|---|---|---|
+| Capa de tierra | Slime, Zombie | Presión de combate temprana | Farmea materiales básicos y aprende el posicionamiento |
+| Capa de piedra | Slime, Zombie, Bomb Skeleton | Amenaza enemiga explosiva | Mantén salidas abiertas y evita trampas de túneles |
+| Capa de Darkstone | Darkstone Skeleton | Aumento más rápido del peligro | Usa movilidad y armas más fuertes |
+| Capa de Permafrost | Ice Slime, Ice Elemental | Enemigos con mucha vida y rutas congeladas | Lleva curación y apoyo para incursiones largas |
+| Capa de Schwarzfrost | Sunken Spirit, Sunken Warrior, Yrsa | Presión a escala de jefe | Entra solo con un plan de combate completo |
+
+<Callout type="tip" title="Consejo de ruta">
+Si la ruta empieza a obligarte a pelear en pasillos estrechos, deja de perseguir cada nodo de mineral. En Subterra, retirarse a tiempo suele ser más rentable que forzar un empuje profundo fallido.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mejor equipamiento para Monster Rift">
+
+El mejor equipamiento de Subterra Monster Rift se construye alrededor de tres objetivos: minar más rápido, sobrevivir más tiempo y salir de la cueva con más valor del que llevaste dentro. Las configuraciones más fuertes suelen combinar un arma fiable con cartas que mejoren el rendimiento del mineral, la velocidad del pico, el espacio de la mochila o la movilidad.
+
+<CardGrid cols={3}>
+  <Card title="Configuración de daño">
+    - Arma primero
+    - Ideal para presión de jefes
+    - Buena cuando los enemigos se acumulan
+  </Card>
+  <Card title="Configuración económica">
+    - Rendimiento de mineral y valor de fundición
+    - Ideal para sesiones largas de minería
+    - La mejor para el ritmo de progreso
+  </Card>
+  <Card title="Configuración de seguridad">
+    - Salud, movilidad y espacio
+    - Ideal para rutas desconocidas
+    - Excelente para las primeras incursiones profundas
+  </Card>
+</CardGrid>
+
+| Ranura | Mejores opciones | Por qué funciona |
+|---|---|---|
+| Arma | Splitblade, Knight’s Greatsword, Wretched Sword | El fuerte daño cuerpo a cuerpo mantiene manejables las incursiones hostiles |
+| Carta de minería | Lucky, Explosive Touch, Blazing Pickaxe | Mejor valor del mineral, limpieza más rápida, expansión de túneles más fluida |
+| Carta de utilidad | Bigger Backpack, Pouch, Larger Furnace | Menos tiempo perdido en viajes al inventario y ciclos de fundición |
+| Carta de supervivencia | Healthy, Double Jump, Extra Oxygen | Te ayuda a resistir la presión enemiga y alcanzar salidas más seguras |
+
+<Steps>
+  <Step num="1" title="Mejora primero el ciclo de herramientas">
+    Gasta los recursos iniciales en poder del pico y espacio de mochila antes de perseguir equipo de lujo. Minar más rápido y cargar más mejora todas las incursiones futuras.
+  </Step>
+  <Step num="2" title="Fija un arma de combate">
+    Elige una opción cuerpo a cuerpo fiable y mantenla lo bastante mejorada como para lidiar con Bomb Skeletons, Zombies y variantes de esqueletos más profundas.
+  </Step>
+  <Step num="3" title="Añade un paquete económico">
+    Lucky y Explosive Touch son fuertes cuando planeas permanecer bajo tierra durante un buen rato. Mejoran el valor sin obligarte a jugar de forma arriesgada.
+  </Step>
+  <Step num="4" title="Añade un paquete de seguridad">
+    Healthy, Double Jump y Extra Oxygen te ayudan a recuperarte de terrenos malos, enemigos sorpresa y tiempos de viaje más largos.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Advertencia de equipamiento">
+No gastes gemas raras demasiado pronto en objetivos secundarios. Materiales como Citrine, Topaz, Amethyst, Emerald, Ruby, Sapphire y Diamond pueden frenar el progreso posterior si los desperdicias.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Emparejamientos de enemigos y preparación para jefes">
+
+Una vez que Monster Rift empieza a generar enemigos más duros, la pelea ya no depende solo del daño bruto. El posicionamiento, el momento de retirarse y el control del terreno pasan a ser la diferencia entre una incursión rentable y una bolsa perdida.
+
+| Enemigo | Capa | Patrón de amenaza | Mejor contraataque |
+|---|---|---|---|
+| Slime | Tierra, piedra | Persigue a corta distancia | Mantén distancia y usa un tempo básico de cuerpo a cuerpo |
+| Zombie | Tierra, piedra | Presión directa y simple | Elimina un enemigo cada vez |
+| Bomb Skeleton | Piedra | Explota tras un breve retraso | Retrocede de inmediato y no te encierres |
+| Darkstone Skeleton | Darkstone, Permafrost | Amenaza de persecución más rápida en capas profundas | Lleva armas más fuertes y movilidad |
+| Ice Elemental | Permafrost | Mucha vida, daño alto | Usa curación y evita intercambios prolongados cuerpo a cuerpo |
+| Yrsa of the Sunken Seas | Schwarzfrost | Combate a escala de jefe | Entra con un equipamiento de combate completo |
+
+El patrón principal es simple: cuanto más profundo vas, menos margen tienes para equivocarte. Por eso, una ruta de Monster Rift siempre debería incluir un plan de salida limpio.
+
+| Objeto de preparación para jefe | Por qué importa | Prioridad |
+|---|---|---|
+| Splitblade o una gran espada fuerte | Daño explosivo alto | Excelente |
+| Carta Healthy | Supervivencia extra | Excelente |
+| Double Jump | Mejores ángulos de escape | Buena |
+| Extra Oxygen | Rutas profundas más largas | Buena |
+| Suministro de objetos de curación | Te ayuda a recuperarte a mitad de la incursión | Excelente |
+
+<Callout type="success" title="Regla de combate">
+Si una pelea profunda empieza a consumir espacio de inventario, deja de avanzar. Reinicia, cura y vuelve con una ruta más limpia en vez de donar recursos a la cueva.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Botín, misiones y objetivos de progreso">
+
+La forma más rápida de mejorar las incursiones de Monster Rift es convertir cada descenso en un bucle de progreso. Mina lo que necesites, vende lo que no, y deja que las misiones y los logros cubran los huecos entre mejoras de equipo.
+
+| Objetivo | Recompensa | Por qué ayuda |
+|---|---|---|
+| Primer paso | 25 Gold, 120 EXP | Impulso inicial para jugadores nuevos |
+| Rompiedras | 80 Gold, 125 EXP | Progreso fácil de superficie a zona media |
+| Acaparador de mineral | 400 Gold, 250 EXP | Fomenta rutas mixtas de mineral |
+| Buscador de diamantes | 750 Gold, 1000 EXP | Gran impulso de recompensa en mitad de partida |
+| Rompemundos | 140 Chrono Shards | Hito de minería a largo plazo |
+| Rey de los cofres | 140 Chrono Shards | Recompensa la exploración y la búsqueda de botín |
+
+<CardGrid cols={3}>
+  <Card title="Conserva">
+    - Materiales de mejora
+    - Gemas raras necesarias para recetas
+    - Cartas y moneda de progreso
+  </Card>
+  <Card title="Vende">
+    - Mineral común sobrante
+    - Materiales de bajo valor duplicados
+    - Botín que no apoya tu siguiente nivel
+  </Card>
+  <Card title="Guarda">
+    - Gold para mejoras importantes
+    - Gemas raras para recetas obligatorias
+    - Consumibles para capas más profundas
+  </Card>
+</CardGrid>
+
+<Checklist
+  id="rift-progress-goals"
+  title="Lista de verificación para incursiones del Rift:"
+  items={[
+    "Completa el tutorial y llega al vestíbulo de la superficie",
+    "Mejora el pico antes de empujar más profundo",
+    "Mejora la mochila cuando los viajes terminan demasiado pronto",
+    "Lleva un arma fiable y un plan de curación",
+    "Usa misiones y logros para financiar el siguiente nivel"
+  ]}
+/>
+
+<Callout type="info" title="Consejo de progreso">
+La ruta más limpia suele ser la más aburrida: minar, fundir, vender, mejorar y solo entonces empujar más profundo. Ese bucle mantiene rentable Monster Rift.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<Callout type="tip" title="Respuestas rápidas">
+Estas respuestas se centran en las partes de las incursiones de Subterra Monster Rift que más importan: preparación, supervivencia y momento del progreso.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la forma más segura de empezar una incursión de Subterra Monster Rift?",
+    answer: "Empieza con un arma estable, mejora primero el pico y la mochila, y mantén libre tu ruta de escape. Eso hace que sea mucho más fácil recuperarte de las primeras incursiones."
+  },
+  {
+    question: "¿Qué enemigos deberían hacerme bajar el ritmo de inmediato?",
+    answer: "Bomb Skeletons, Darkstone Skeletons e Ice Elementals son las señales de advertencia más claras. Aumentan el coste de cada error, especialmente en túneles estrechos."
+  },
+  {
+    question: "¿Vale la pena priorizar Splitblade para rutas profundas?",
+    answer: "Sí, Splitblade es una de las mejores opciones cuerpo a cuerpo fabricables que aparecen en la progresión tardía. Funciona especialmente bien cuando tu ruta ya incluye buenas cartas y curación."
+  },
+  {
+    question: "¿Cómo ayudan las misiones al progreso en Monster Rift?",
+    answer: "Las misiones y los logros añaden Gold, EXP y Chrono Shards sin obligarte a farmear al azar. Esa moneda extra puede acortar la distancia entre un nivel de equipamiento y el siguiente."
+  }
+]} />
+
+</Section>

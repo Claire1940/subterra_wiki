@@ -1,0 +1,235 @@
+import { Map, Shield, Sparkles, Target, Trophy, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "subterra dungeon update: Layer Changes, Loot & Route Guide",
+  description: "Track the subterra dungeon update with layer priorities, enemy risk, ore routes, upgrade order, and a fast progression plan for returning players.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Dungeon+Update+Guide",
+  date: "2026-07-05",
+  author: "subterra Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **subterra dungeon update** players should focus on deeper layers, safer exits, and stronger inventory management first.
+- **Best early route**: mine, sell, upgrade pickaxe, then expand backpack before pushing into harder zones.
+- **Combat check**: keep a reliable weapon and recovery items ready before entering Darkstone or below.
+- **Top value loop**: ore farming, smelting, and quest rewards keep your run profitable.
+- **Fastest growth**: use cards and crafting to reduce wasted trips and improve long-run efficiency.
+</Callout>
+
+<Section icon={Map} title="What the Dungeon Update Changes First">
+
+The dungeon update shifts the whole pace of Subterra toward deeper, riskier runs. That means your old habit of mining straight down until your bag is full is no longer enough. You need a route, a return plan, and a better sense of which layers pay off at your current power level.
+
+The biggest change is not just danger. It is decision pressure. Every layer now asks a simple question: do you stay for better ore, or leave before the run turns into a loss?
+
+**Video Highlights:**
+- Depth matters more than raw time in one tunnel
+- Inventory space can bottleneck progression faster than combat
+- Card choices now shape mining efficiency as much as gear does
+- Stronger layers reward patience, not reckless rushing
+
+<CardGrid cols={4}>
+  <Card title="Progression">
+    - **Upgrade order matters**
+    - Pickaxe first
+    - Backpack second
+  </Card>
+  <Card title="Combat">
+    - **One safe weapon**
+    - Keep healing or escape tools
+    - Avoid dead-end fights
+  </Card>
+  <Card title="Exploration">
+    - **Layer by layer**
+    - Learn portal locations
+    - Mark safe return points
+  </Card>
+  <Card title="Economy">
+    - **Smelt and sell**
+    - Save rare materials
+    - Turn quests into gold
+  </Card>
+</CardGrid>
+
+| Priority | Why It Matters | Best Action |
+|---|---|---|
+| **Pickaxe power** | Faster block removal opens better ore paths | Upgrade before chasing luxury items |
+| **Backpack space** | More space means fewer forced returns | Raise capacity once trips end too early |
+| **Combat readiness** | Deeper layers punish weak loadouts | Carry a dependable weapon and healing |
+| **Card setup** | Cards improve run efficiency and survival | Build around mining, mobility, or defense |
+
+<Callout type="warning" title="Do Not Rush Deep Layers">
+If you push into stronger zones before your tools are ready, the run often becomes inefficient. Return early, bank profit, then re-enter with a better loadout.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Layer-by-Layer Route Planning">
+
+A good dungeon update route is built around layers, not just ore names. Early zones are about building momentum. Mid zones are about resource quality. Deep zones are about survival, repair, and extracting value before enemies or logistics slow you down.
+
+Use the table below as your route map. It keeps your mining goals tied to the layer you can actually handle.
+
+| Layer | Main Purpose | Key Rewards | Risk Level |
+|---|---|---|---|
+| **Overworld** | Prep, selling, crafting, and reset point | Shop access, smelting, quests | **Low** |
+| **Dirt Layer** | First mining loop and starter materials | Coal, Copper, Tin, basic stone | **Low to Medium** |
+| **Stone Layer** | Main early progression zone | Iron, Silver, Gold, gem nodes | **Medium** |
+| **Darkstone Layer** | First major deep-layer jump | Cobalt, Nocturnite, Black Ice | **High** |
+| **Permafrost Layer** | Advanced frozen farming | Chromium, Moonstone, Titanium, Wolframite | **Very High** |
+| **Schwarzfrost Layer** | Endgame boss and late loot route | Charged Ice, rare deep loot | **Extreme** |
+
+**Recommended approach by layer:**
+- **Dirt Layer**: farm materials, finish starter quests, and leave before your inventory clogs.
+- **Stone Layer**: spend longer here because it has the best mix of safety and value.
+- **Darkstone Layer**: enter only when your weapon, movement, and healing are stable.
+- **Permafrost and beyond**: treat these as profit runs, not casual wandering.
+
+| Layer | Best For | Leave When |
+|---|---|---|
+| **Dirt** | Fast starter resources | Your bag fills or quests are done |
+| **Stone** | Balanced ore farming | Enemies slow the route too much |
+| **Darkstone** | Deep ore and structure hunting | You lose more time than you gain |
+| **Permafrost** | High-tier materials | Healing and mobility start failing |
+
+<Callout type="tip" title="Route Tip">
+When in doubt, mine one layer higher than you think you need. That usually gives better safety, faster sells, and fewer wasted recoveries.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Best Early-Game Route and Loadout">
+
+The cleanest early-game plan is simple: complete the tutorial, mine close to the surface, sell often, and only push deeper after your pickaxe and backpack are ready. That keeps your first sessions profitable instead of chaotic.
+
+The dungeon update makes preparation more valuable than aggression. If your inventory fills too fast or you spend too long fighting basic enemies, your route is too advanced for your current setup.
+
+<Steps>
+  <Step num="1" title="Finish the Tutorial">
+    Unlock full movement and learn where the key lobby NPCs and exits are. This gives you a stable reset point before deeper mining.
+  </Step>
+  <Step num="2" title="Farm the Dirt and Stone Layers">
+    Focus on common materials, basic ore, and simple quest tasks. Build a small stockpile before chasing anything rare.
+  </Step>
+  <Step num="3" title="Upgrade Pickaxe Before Backpack">
+    Better mining speed and power help every run. Raise backpack space once trips end too early because of a full inventory.
+  </Step>
+  <Step num="4" title="Add One Combat Option">
+    Bring a reliable weapon so hostile caves do not shut down your route. You only need enough damage to stay safe.
+  </Step>
+  <Step num="5" title="Move Deeper Only After Profit Stabilizes">
+    Enter stronger layers once your loop feels smooth. If you are constantly retreating, your build is not ready yet.
+  </Step>
+</Steps>
+
+<Checklist
+  id="subterra-dungeon-update-prep"
+  title="Pre-Run Checklist:"
+  items={[
+    "Empty your inventory before leaving the lobby",
+    "Confirm your pickaxe upgrade is the next real power spike",
+    "Carry at least one safe combat option",
+    "Keep materials for smelting or crafting separate from sell loot",
+    "Plan your return point before entering a deeper layer"
+  ]}
+/>
+
+| Loadout Piece | What It Should Solve | Early Priority |
+|---|---|---|
+| **Pickaxe** | Faster mining and better block-breaking | **Highest** |
+| **Backpack** | Fewer forced returns | **High** |
+| **Weapon** | Survival in hostile tunnels | **High** |
+| **Utility cards** | Better movement, mining, or storage | **Medium** |
+| **Healing items** | Safer long runs | **Medium** |
+
+<Callout type="success" title="Best Early Habit">
+Sell and reset early. Short profitable runs beat one long risky run almost every time in the dungeon update.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Loot, Ores, and Upgrade Priorities">
+
+Once you are stable in the early layers, the dungeon update becomes a resource game. The goal is not to collect everything. The goal is to keep the materials that unlock your next real jump in power.
+
+That means your inventory needs a filter. Common ore fuels progression. Rare gems and ingots should be saved for upgrades that actually move you forward. Anything else is just dead weight in a deeper tunnel.
+
+| Material | Best Use | Keep or Sell |
+|---|---|---|
+| **Coal** | Early upgrades, general progression | **Keep** |
+| **Copper / Tin** | First ore chain and crafting steps | **Keep** |
+| **Iron / Silver / Gold** | Mid-game upgrade materials | **Keep** |
+| **Topaz / Amethyst / Emerald** | Higher upgrade recipes and quests | **Keep carefully** |
+| **Ruby / Sapphire / Diamond** | Premium recipes and later routes | **Save for key upgrades** |
+
+| Upgrade Choice | Result | Why It Comes First |
+|---|---|---|
+| **Pickaxe upgrades** | Faster mining, better power | They improve every tunnel you enter |
+| **Backpack upgrades** | More carry space | They reduce return trips and lost time |
+| **Card upgrades** | Better efficiency or combat support | They fine-tune a working build |
+| **Crafting investments** | Weapons, potions, utility items | They matter once the route is already stable |
+
+Here is a practical way to decide what to keep:
+
+- **Keep** materials that unlock the next tier of gear.
+- **Keep** quest items if they feed a reward you already plan to claim.
+- **Keep** one stack of useful consumables for safety.
+- **Sell** clutter that does not help your next upgrade.
+- **Store** rare gems until you know the recipe path.
+
+| Item Type | Action | Reason |
+|---|---|---|
+| **Raw ore** | Smelt or save | Often more useful after processing |
+| **Ingots** | Keep for upgrades | Stronger progress value |
+| **Gems** | Save selectively | Commonly needed in later recipes |
+| **Consumables** | Carry a small stack | Safety during deeper runs |
+
+<Callout type="info" title="Smart Resource Rule">
+If a material does not help your next upgrade, your next quest, or your next safe run, it is probably overweight in your bag.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ and Official Hubs">
+
+This update rewards organized play. If you know your route, your loadout, and your next upgrade, progress feels steady instead of random. That is the main advantage of approaching Subterra like a route game rather than a pure dig-fest.
+
+Use the official hubs below to stay aligned with current updates and community announcements.
+
+| Official Hub | Best Use | Link |
+|---|---|---|
+| **Roblox game page** | Launch the game and check the main experience | https://www.roblox.com/games/16817315243/Subterra |
+| **Official Discord** | Patch notes, announcements, and player help | https://discord.com/invite/wZ3J4whDPe |
+| **Official YouTube channel** | Trailers and developer video updates | https://www.youtube.com/channel/UCxnoxgq9LMmHBTSDJyk26BQ |
+
+<Callout type="tip" title="Keep Your Run Focused">
+The players who progress fastest after a dungeon update usually do three things well: they sell often, upgrade on schedule, and avoid pointless deep dives.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "What is the best first goal after the subterra dungeon update?",
+    answer: "Upgrade your pickaxe, then your backpack, and only then start pushing into harder layers. That keeps your route efficient and reduces wasted trips."
+  },
+  {
+    question: "Which layer should I farm first?",
+    answer: "Start in the Dirt Layer, move into the Stone Layer once your route stabilizes, and only enter Darkstone when your weapon and healing are reliable."
+  },
+  {
+    question: "Should I sell all my materials right away?",
+    answer: "No. Keep ore chains, gems, and crafting materials that support your next upgrade. Sell the clutter that does not help your progression."
+  },
+  {
+    question: "What is the safest way to handle deeper runs?",
+    answer: "Use a planned return point, keep one solid combat option equipped, and leave before your inventory or healing becomes a problem."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,206 @@
+import { Target, Settings, Shield, Sparkles, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "subterra missing target: Soluciones, causas y métodos alternativos",
+  description: "Soluciona los problemas de subterra missing target con una secuencia rápida de reinicio, comprobaciones de causa y consejos de prevención para marcadores de misión, avisos de NPC y seguimiento de objetivos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Missing+Target+Fix+Guide",
+  date: "2026-07-05",
+  author: "Equipo de la Wiki de subterra"
+}
+
+<Callout type="info" title="Guía rápida">
+- **subterra missing target** normalmente significa que el marcador del objetivo, el aviso de NPC o el estado de la misión no se ha actualizado.
+- **La solución más rápida**: volver a seguir el objetivo, unirse a un servidor nuevo y volver a equipar tu herramienta o arma.
+- **La causa más común**: desincronización de la interfaz después de teletransportarte, cambiar de capa o entrar a mitad de sesión.
+- **La mejor prevención**: mantener una sola ruta limpia, evitar acumular menús y revisar el rastreador antes de cada partida.
+</Callout>
+
+<Section icon={Target} title="Subterra Missing Target: Qué suele significar">
+
+Si **subterra missing target** aparece en tu pantalla, normalmente el juego perdió la sincronización con aquello que estás intentando seguir. Eso puede ser un marcador de misión, un aviso de interacción, una mira de combate o un objetivo de capa. En la práctica, esto no suele indicar que tu partida esté rota, sino que el cliente o el servidor no lograron actualizar el estado del objetivo.
+
+La mejor forma de solucionarlo es identificar qué tipo de objetivo desapareció y luego aplicar el reinicio más pequeño que devuelva el rastreador. Si tratas todos los casos igual, pierdes tiempo. Si separas el seguimiento de misión de los problemas de la interfaz, la solución se vuelve mucho más rápida.
+
+<CardGrid cols={4}>
+  <Card title="Objetivo de misión">
+    - **Se ve como:** texto del objetivo sin marcador
+    - **Mejor solución:** volver a seguir la misión
+    - **Desencadenante común:** teletransporte o reingreso
+  </Card>
+  <Card title="Aviso de NPC">
+    - **Se ve como:** no aparece el botón de interacción
+    - **Mejor solución:** acércate más, vuelve a abrir la interfaz
+    - **Desencadenante común:** desincronización en el área de aparición
+  </Card>
+  <Card title="Objetivo de combate">
+    - **Se ve como:** falla la mira o el fijado de objetivo
+    - **Mejor solución:** volver a equipar el arma
+    - **Desencadenante común:** reinicio de cámara o de entrada
+  </Card>
+  <Card title="Objetivo de capa">
+    - **Se ve como:** profundidad incorrecta o sin pin de ruta
+    - **Mejor solución:** volver a la capa correcta
+    - **Desencadenante común:** desajuste de zona
+  </Card>
+</CardGrid>
+
+| Tipo de objetivo | Qué desaparece | Qué comprobar primero | Mejor primer arreglo |
+|---|---|---|---|
+| Marcador de misión | Pin o dirección del objetivo | Panel de misión activa | Volver a seguir la misión |
+| Interacción con NPC | Aviso para reclamar o hablar | Distancia y ángulo de cámara | Acércate y vuelve a abrir la interfaz |
+| Enfoque de combate | Mira o sensación de apuntado | Estado del arma y entrada | Volver a equipar el arma |
+| Guía de capa | Objetivo de profundidad o marcador de ruta | Zona actual | Volver a la capa correcta |
+
+<Callout type="tip" title="Lee primero la señal">
+Si el objetivo desaparece solo después de un teletransporte, trátalo como un problema de sincronización. Si desaparece solo en una zona, trátalo como un problema de zona o de estado de misión.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Rutina rápida de reparación">
+
+Cuando el rastreador falla, no empieces con una reinstalación completa ni con un reinicio largo. Usa una secuencia corta de reparación y detente en cuanto el objetivo reaparezca. Eso te mantiene en la partida y evita perder mineral, botín o el impulso de la misión.
+
+<Callout type="warning" title="Arregla en orden">
+No apliques varias soluciones a la vez. Cambia una cosa, prueba el objetivo otra vez y pasa al siguiente paso solo si el problema continúa.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Vuelve a abrir el panel de objetivos o misiones">
+    Primero actualiza el rastreador. Si el juego conserva un estado antiguo del objetivo, volver a abrir el panel suele forzar una actualización limpia.
+  </Step>
+  <Step num="2" title="Sal y vuelve a entrar en un servidor nuevo">
+    Un servidor nuevo es la forma más limpia de eliminar la desincronización. Si el marcador vuelve después de reingresar, probablemente el problema era de la sesión.
+  </Step>
+  <Step num="3" title="Vuelve a equipar tu herramienta o arma">
+    Cambia a otro objeto y vuelve al anterior. Esto ayuda cuando el problema del objetivo está ligado al enfoque de combate, al estado de interacción o al bloqueo de entrada.
+  </Step>
+  <Step num="4" title="Regresa a la capa correcta o a la zona del NPC">
+    Asegúrate de estar en la zona correcta para el objetivo. Algunos objetivos solo aparecen cuando estás físicamente en el área adecuada.
+  </Step>
+  <Step num="5" title="Reduce la carga visual y prueba otra vez">
+    Si la interfaz sigue sintiéndose lenta, baja un poco los gráficos y prueba en una zona más tranquila. Los efectos pesados pueden hacer que el rastreador parezca no responder.
+  </Step>
+</Steps>
+
+| Orden de arreglo | Acción | Qué resuelve | Cuándo parar |
+|---|---|---|---|
+| 1 | Volver a abrir el panel | Interfaz de misión desactualizada | El objetivo vuelve de inmediato |
+| 2 | Reingresar al servidor | Desincronización de la sesión | El marcador funciona en un servidor nuevo |
+| 3 | Volver a equipar el objeto | Error de entrada o enfoque | El aviso o la mira reaparecen |
+| 4 | Cambiar de zona | Área / capa incorrecta | El objetivo aparece en el lugar correcto |
+| 5 | Reducir carga | Lento de la interfaz o actualización tardía | El seguimiento se estabiliza |
+
+La clave es tratar el rastreador como un sistema vivo. Si un reinicio rápido lo soluciona, no necesitas una corrección más profunda. Si ninguno de los pasos ayuda, probablemente el problema esté relacionado con el estado actual del servidor, no con tu progreso.
+
+</Section>
+
+<Section icon={Shield} title="Causas comunes según la situación">
+
+La mayoría de los problemas de objetivo encajan en unos pocos grupos previsibles. Algunos son simples fallos visuales de la interfaz. Otros se deben a cambios de capa, viaje rápido o entrar en una sesión después de que otro jugador ya haya avanzado el objetivo. Cuanto antes identifiques el grupo, menos tiempo perderás adivinando.
+
+<Callout type="info" title="La mejor regla de diagnóstico">
+Si el objetivo falla en un lugar pero no en otro, el problema suele depender de la ubicación. Si falla en todas partes, normalmente se trata de una desincronización de sesión o de actualización de la interfaz.
+</Callout>
+
+| Causa | Señales típicas | Solución probable | Nivel de riesgo |
+|---|---|---|---|
+| La misión no está seguida | Sin marcador, texto del objetivo incorrecto | Volver a seleccionar la misión | Bajo |
+| Desincronización del servidor | La interfaz parece normal, pero el objetivo sigue sin aparecer | Reingresar en un servidor nuevo | Medio |
+| Solapamiento de menús | Marcador oculto detrás de capas de la interfaz | Cierra los paneles y prueba otra vez | Bajo |
+| Zona incorrecta | El aviso nunca aparece en el área actual | Volver a la capa correcta o al NPC correcto | Bajo |
+| Bloqueo de entrada | La mira o la interacción fallan después de cambiar de objeto | Volver a equipar y probar otra vez | Medio |
+| Retraso del cliente | Actualización lenta, avisos tardíos | Baja los gráficos y reinicia si hace falta | Medio |
+
+Si estás minando, ten especial cuidado después de teletransportarte entre capas. Pasar de una zona a otra puede dejar el rastreador atrasado un momento, sobre todo si abres varios menús a la vez. En ese caso, volver a seguir el objetivo de forma limpia suele ser suficiente.
+
+Si quieres un punto de referencia en vivo mientras pruebas, consulta la página oficial del juego a fecha de 2026-07-05: [Subterra en Roblox](https://www.roblox.com/games/16817315243/Subterra).
+
+<Callout type="success" title="Cuando la solución está funcionando">
+El problema probablemente esté resuelto cuando vuelve el marcador, el aviso aparece al instante y el texto del objetivo coincide con la zona en la que estás.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mejores ajustes de prevención para sesiones más largas">
+
+Puedes evitar muchos problemas del rastreador manteniendo tu partida limpia. Eso significa menos teletransportes innecesarios, menos menús acumulados y menos momentos en los que cambias de contexto más rápido de lo que la interfaz puede actualizarse. En un juego basado en minería, capas y movimiento repetido, eso importa más de lo que parece.
+
+<CardGrid cols={3}>
+  <Card title="Mantén un solo objetivo activo">
+    - **Usa una sola misión a la vez**
+    - Termina o abandona tareas antiguas antes de cambiar
+    - Reduce la confusión de marcadores
+  </Card>
+  <Card title="Evita acumular menús">
+    - **Cierra las superposiciones antes de moverte**
+    - Vuelve a abrir solo lo que necesites
+    - Ayuda a que el rastreador se actualice correctamente
+  </Card>
+  <Card title="Reinicia después de teletransportarte">
+    - **Espera un segundo después de viajar**
+    - Revisa el objetivo antes de minar
+    - Evita estados antiguos de la interfaz
+  </Card>
+</CardGrid>
+
+| Comprobación de plataforma | Qué ajustar | Por qué ayuda | Prioridad |
+|---|---|---|---|
+| PC | Baja un paso los gráficos | Reduce el retraso de la interfaz y los avisos tardíos | Alta |
+| Portátil | Cierra aplicaciones en segundo plano | Libera memoria para una actualización más fluida | Alta |
+| Móvil | Evita cambiar de pestaña rápidamente | Previene conflictos de entrada y superposición | Alta |
+| Todos los dispositivos | Vuelve a seguir el objetivo tras teletransportarte | Fuerza una actualización limpia del objetivo | Máxima |
+
+<Checklist
+  id="subterra-target-prevention"
+  title="Antes de empezar una nueva partida:"
+  items={[
+    "Confirma que la misión o el objetivo correctos están activos",
+    "Cierra todos los menús innecesarios antes de entrar en una capa",
+    "Revisa otra vez el objetivo después de teletransportarte o cambiar de servidor",
+    "Vuelve a equipar tu herramienta o arma principal después de cambiar de objeto",
+    "Mantén tu ruta simple hasta que el rastreador se sienta estable"
+  ]}
+/>
+
+<Callout type="success" title="Buen hábito">
+Una partida estable empieza con un objetivo estable. Revisa el objetivo una vez antes de minar, otra después de teletransportarte y otra tras cualquier cambio de objeto.
+</Callout>
+
+</Section>
+
+<Section icon={Search} title="Preguntas frecuentes">
+
+Si sigues atascado, usa estas respuestas para distinguir un error real de un problema temporal de sincronización. En la mayoría de los casos, el problema del rastreador se puede solucionar sin perder progreso.
+
+<Callout type="tip" title="Regla rápida">
+Si el objetivo vuelve después de volver a entrar, probablemente era un problema de sesión. Si nunca vuelve en la zona correcta, es probable que el estado de la misión necesite volver a seleccionarse.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Por qué Subterra muestra un objetivo faltante después de teletransportarme?",
+    answer: "Teletransportarte puede dejar al cliente con datos de objetivo obsoletos. Vuelve a abrir primero el panel de misión y, si el marcador sigue sin aparecer, reingresa."
+  },
+  {
+    question: "¿Qué debo hacer si falta el aviso del NPC?",
+    answer: "Acércate más, cierra cualquier interfaz abierta y vuelve a equipar tu objeto. Si eso falla, cambia de servidor para limpiar el estado de interacción."
+  },
+  {
+    question: "¿Suele ser un error permanente?",
+    answer: "Normalmente no. La mayoría de los problemas de subterra missing target son fallos temporales de sincronización o de interfaz, no progreso roto."
+  },
+  {
+    question: "¿Cuál es el orden de reinicio más seguro?",
+    answer: "Vuelve a seguir el objetivo, reingresa en un servidor nuevo, vuelve a equipar tu herramienta o arma y luego verifica que estás en la zona correcta."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,224 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Package, FlaskConical, Bomb } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Subterra Crafting: recetas, materiales y consejos de equipamiento",
+  description: "Guía de Subterra Crafting sobre recetas, materiales, armas, pociones, explosivos y prioridades de almacenamiento para mantener eficientes las expediciones subterráneas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/111827/fff?text=Subterra+Crafting+Guide",
+  date: "2026-07-05",
+  author: "Equipo de la Wiki de subterra"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Subterra Crafting** rinde más cuando guardas los materiales raros, crafteas primero para sobrevivir y mejoras la eficiencia en segundo lugar.
+- **Pociones, llaves y explosivos** suelen ser mejores que el equipo de lujo si quieres runs más fluidas y mejores retornos.
+- **Materiales de gemas** como Topacio, Amatista, Rubí, Zafiro y Diamante es mejor guardarlos que gastarlos al principio.
+- **Craftear armas** importa más cuando las capas profundas empiezan a castigar el daño bajo y la lentitud al limpiar.
+</Callout>
+
+<Section icon={Map} title="Prioridades de Subterra Crafting">
+
+Subterra Crafting funciona mejor cuando cada receta tiene una función. Si un objeto no mejora tu próxima run de minería, tu ventana de supervivencia o la eficiencia de tu alijo, normalmente puede esperar. Esa mentalidad mantiene tus materiales flexibles en lugar de atados a una ruta de mejora débil.
+
+<Callout type="tip" title="Regla principal">
+Craftea para la próxima expedición, no para la pantalla del inventario. Una buena receta debe ahorrar tiempo, reducir muertes o desbloquear mejor botín.
+</Callout>
+
+| Prioridad | Craftear primero | Por qué importa | Qué dejar para después |
+|---|---|---|---|
+| **1** | Poción de salud pequeña | Restaura HP y mantiene vivas las runs largas | Gastos cosméticos o de bajo impacto |
+| **2** | Bomba pegajosa pequeña / Dinamita pegajosa | Ayuda a romper bloques y abrir rutas | Crafteo aleatorio sin plan de ruta |
+| **3** | Llave de hierro / Llave de oro | Abre mejores recompensas de cofres | Gastar materiales raros en recetas secundarias |
+| **4** | Lingotes básicos y conversión de bloques | Da soporte a múltiples recetas futuras | Gastar mineral en bruto demasiado pronto |
+| **5** | Armas para capas más duras | Estabiliza el combate antes de profundizar | Perseguir daño perfecto demasiado pronto |
+
+<CardGrid cols={3}>
+  <Card title="Supervivencia primero">
+    - **Las pociones de salud** alargan las sesiones de minería
+    - Intentos de jefe más seguros
+    - Mejor recuperación tras errores
+  </Card>
+  <Card title="Utilidad después">
+    - **Las llaves** abren botín de mayor valor
+    - Los explosivos aceleran la eliminación de bloques
+    - Mejor eficiencia de ruta
+  </Card>
+  <Card title="Daño al final">
+    - Las armas importan más bajo tierra
+    - Mayor velocidad de limpieza en capas hostiles
+    - Menos presión sobre el momento de retirada
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Enlaces oficiales de referencia">
+Guarda la página activa del juego y el tablero de referencia para futuras actualizaciones: [Subterra en Roblox](https://www.roblox.com/games/16817315243/Subterra) y [Polyworks Studio Trello](https://trello.com/b/mfSycrVO/subterra-wiki). Revisado el 2026-07-05.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mejores recetas y materiales para vigilar">
+
+La forma más segura es separar los materiales en tres grupos: consumir, guardar y convertir. Eso hace que las decisiones de crafteo sean más rápidas cuando tu mochila está llena y los enemigos se acercan.
+
+<Callout type="warning" title="No te comprometas de más">
+Las gemas raras y los minerales de capas profundas se desperdician fácilmente en recetas de bajo impacto. Si un material aparece en varias mejoras futuras, guárdalo en reserva.
+</Callout>
+
+| Receta | Ingredientes | Efecto | Mejor uso |
+|---|---|---|---|
+| **Poción de salud pequeña** | Frasco de agua, raíces, fragmento de vida | Restaura **25 HP** | Supervivencia temprana y runs en cuevas más profundas |
+| **Bomba pegajosa pequeña** | Trozo de baba, bomba pequeña | Explosivo pegajoso para una limpieza controlada | Abrir bolsillos de mineral y túneles estrechos |
+| **Dinamita pegajosa** | Trozo de baba, dinamita | Explosión pegajosa más fuerte | Limpieza de rutas en mitad de partida |
+| **Dinamitas pegajosas** | Trozo de baba, dinamitas | Soporte explosivo pegajoso de mayor alcance | Trabajos de excavación más grandes |
+| **C4 pegajoso** | Trozo de baba, C4 | Explosivo pegajoso de gran radio | Limpieza de bloques al final de la partida |
+| **Piedra** | 4x roca | Convierte roca básica en piedra | Utilidad simple para craftear bloques |
+| **Llave de hierro** | Objeto de progresión de receta | Abre cofres de hierro | Rutas de cofres de valor medio |
+| **Llave de oro** | Objeto de progresión de receta | Abre cofres de oro | Runs de botín de alto valor |
+
+| Material | Guardar o gastar | Usos principales | Nota práctica |
+|---|---|---|---|
+| **Carbón** | Guardar al principio | Recetas de pico y mochila, rutas de crafteo | Gástalo solo cuando el siguiente nivel esté listo |
+| **Cobre / Estaño** | Guardar para progresar | Lingotes tempranos y cadenas de mejora | No rompas tu flujo de materiales con recetas secundarias |
+| **Hierro / Plata / Oro** | Guardar para grandes niveles | Herramientas de mitad de juego, almacenamiento y pasos de crafteo | Son materiales de bloqueo muy fuertes |
+| **Topacio / Amatista** | Guardar | Bloqueos de mochila y recetas | Mejor guardarlos que venderlos demasiado pronto |
+| **Esmeralda / Rubí / Zafiro / Diamante** | Guardar agresivamente | Progresión de alto nivel y recetas tardías | Trátalos como valor futuro, no como moneda sobrante |
+
+<CardGrid cols={3}>
+  <Card title="Materiales de pociones">
+    - Frasco de agua
+    - Raíces
+    - Fragmento de vida
+  </Card>
+  <Card title="Materiales explosivos">
+    - Trozo de baba
+    - Bomba pequeña / Dinamita
+    - Herramientas de limpieza más potentes
+  </Card>
+  <Card title="Materiales de cofres">
+    - Llave de hierro
+    - Llave de oro
+    - Progresión de pergaminos de receta
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Buen hábito">
+Si un material aparece tanto en una receta de crafteo como en una ruta de mejora, prioriza la ruta de mejora salvo que estés bloqueado por el combate o la supervivencia.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Equipos de crafteo y momento de mejora">
+
+Craftear es más fácil cuando tu build encaja con tu ruta. Un minero centrado en túneles largos necesita recetas distintas a las de un jugador que avanza por capas más profundas o elimina monstruos. El objetivo no es el objeto más caro; es el objeto que mantiene la run en movimiento.
+
+<Callout type="tip" title="Construye alrededor de la run">
+Elige una arma, una capa de utilidad y un plan de recursos. Así evitas un crafteo disperso y mantienes tu inventario bajo control.
+</Callout>
+
+| Estilo de juego | Enfoque de arma | Cartas útiles | Objetivo de crafteo |
+|---|---|---|---|
+| **Farmeador profundo de mineral** | Daño cuerpo a cuerpo fiable | Lucky, Explosive Touch, Blazing Pickaxe, Bigger Backpack | Maximizar la obtención de mineral y la velocidad de túnel |
+| **Explorador seguro** | Cuerpo a cuerpo o a distancia equilibrado | Healthy, Double Jump, Walk Speed, Extra Oxygen | Sobrevivir más tiempo y viajar más lejos |
+| **Corredor de fundición** | Arma estable y de bajo riesgo | Blazing Pickaxe, Larger Furnace, Lighter Pickaxe, Pouch | Reducir el tiempo muerto entre minería y procesamiento |
+
+<Steps>
+  <Step num="1" title="Ordena tu mochila antes de craftear">
+    Revisa qué materiales son comunes, cuáles son raros y cuáles aparecen en más de una receta. Pasa las gemas raras al grupo de guardar de inmediato.
+  </Step>
+  <Step num="2" title="Craftea primero las herramientas de supervivencia">
+    Haz las recetas que recuperan salud, abren cofres o limpian bloques más rápido. Normalmente son las que mejor rendimiento dan a corto plazo.
+  </Step>
+  <Step num="3" title="Define tu ruta">
+    Decide si la próxima sesión será para farmear mineral, cazar cofres o combatir. Esa elección te dice si debes gastar en explosivos, llaves o armas.
+  </Step>
+  <Step num="4" title="Mejora solo cuando el cuello de botella esté claro">
+    Si estás muriendo, craftea defensa. Si llenas el inventario demasiado pronto, mejora el almacenamiento. Si te quedas atascado en capas duras, pasa a armas más fuertes.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Revisión de timing">
+Una receta suele valer la pena cuando elimina un problema repetitivo. Si no corrige un cuello de botella real, guarda tus materiales.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Qué guardar en tu inventario">
+
+La disciplina con los materiales es la diferencia entre una progresión fluida y tiempo perdido farmeando. Guarda tus recursos más versátiles para recetas que desbloqueen valor repetido, no para objetos de comodidad de un solo uso.
+
+<Callout type="warning" title="Regla del inventario">
+No trates los materiales raros como oro extra. Si una gema o un lingote puede desbloquear una receta más fuerte más adelante, vale más que una venta rápida.
+</Callout>
+
+<Checklist
+  id="crafting-goals"
+  title="Lista de control de almacenamiento para crafteo:"
+  items={[
+    "Guarda al menos una pila de materiales de gemas raras para recetas futuras",
+    "Reserva el mineral en bruto y los lingotes para cadenas de mejora antes de craftear cosas secundarias",
+    "Guarda los ingredientes de pociones hasta que sepas tu próxima ruta",
+    "Reserva los materiales explosivos para rutas que necesiten limpiar más rápido",
+    "Trata las llaves como herramientas de progresión, no como moneda sobrante de crafteo"
+  ]}
+/>
+
+| Regla de almacenamiento | Qué guardar | Qué gastar | Por qué |
+|---|---|---|---|
+| **Materiales comunes** | Roca, carbón, mineral básico | Conversión simple de bloques o recetas iniciales | Fáciles de reemplazar |
+| **Materiales de nivel medio** | Hierro, plata, oro | Solo cuando la siguiente mejora esté lista | A menudo se necesitan en varios sitios |
+| **Gemas raras** | Topacio, Amatista, Esmeralda, Rubí, Zafiro, Diamante | Solo para recetas bloqueadas o progresión importante | Alto coste de oportunidad |
+| **Recursos de combate** | Trozo de baba, ingredientes de pociones, explosivos | Cuando la ruta se beneficia de velocidad o seguridad | Afecta directamente a la supervivencia |
+
+<CardGrid cols={4}>
+  <Card title="Guardar">
+    Gemas raras, lingotes, materiales de llaves
+  </Card>
+  <Card title="Gastar">
+    Roca común, mineral básico, materiales fáciles de reemplazar
+  </Card>
+  <Card title="Procesar">
+    Funde el mineral en bruto cuando alimente una receta a corto plazo
+  </Card>
+  <Card title="Posponer">
+    Equipo de lujo y experimentos de baja prioridad
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Mejor práctica">
+Si tu almacenamiento está lleno, convierte solo los materiales que ya sabes que se usarán en las próximas dos sesiones.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+<Callout type="tip" title="Respuestas rápidas">
+Estas son las preguntas que más importan al planear rutas de Subterra Crafting, especialmente para los jugadores nuevos que quieren evitar desperdiciar materiales.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Qué debo craftear primero en Subterra Crafting?",
+    answer: "Empieza con herramientas de supervivencia, especialmente objetos de curación y opciones para limpiar bloques. Esas recetas protegen tu tiempo de minería y reducen las runs fallidas."
+  },
+  {
+    question: "¿Debo gastar gemas raras al principio?",
+    answer: "Normalmente no. Guarda gemas como Topacio, Amatista, Rubí, Zafiro y Diamante, salvo que una receta o ruta de mejora las necesite claramente."
+  },
+  {
+    question: "¿Vale la pena craftear explosivos pronto?",
+    answer: "Sí, si minas en túneles estrechos o quieres limpiar rutas más rápido. Son especialmente útiles cuando tu objetivo es la velocidad y no el combate puro."
+  },
+  {
+    question: "¿Cómo evito desperdiciar materiales?",
+    answer: "Fija un objetivo antes de craftear. Decide si la sesión es para supervivencia, almacenamiento, combate o botín, y luego gasta solo en esa línea."
+  }
+]} />
+
+</Section>

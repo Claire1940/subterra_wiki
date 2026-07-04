@@ -1,0 +1,219 @@
+import { Map, Sparkles, Target, Shield, Trophy, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Actualización de Subterra: notas del parche, consejos y guía de rutas",
+  description: "Sigue la última actualización de Subterra con prioridades del parche, cambios en mejoras, rutas para jugadores que regresan y comprobaciones rápidas de cartas, fabricación y capas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Subterra+Update+Guide",
+  date: "2026-07-05",
+  author: "Equipo de Wiki de Subterra"
+}
+
+<Callout type="info" title="Guía rápida">
+- **la actualización de Subterra** suele cambiar primero la economía, así que verifica las recompensas, los potenciadores y las rutas de gasto antes de farmear.
+- **Las mejoras del pico y la mochila** importan más cuando regresas después de un parche y quieres partidas más rápidas y seguras.
+- **Las Cartas de Habilidad y los Fragmentos Crono** pueden remodelar tu mejor ruta más que el daño bruto en las primeras sesiones.
+- **La seguridad de la capa** es el verdadero cuello de botella cuando las zonas profundas se vuelven más difíciles o consumen más recursos.
+</Callout>
+
+<Section icon={Map} title="Qué cambia primero después de una actualización de Subterra">
+
+Una actualización de Subterra puede cambiar el mejor bucle de farmeo sin rehacer todo el juego. Lo primero que reviso no es el daño ni el entusiasmo por la rareza; es la eficiencia en el tiempo. Si un parche cambia las recompensas, la velocidad de viaje o la presión del inventario, tu ruta antigua puede seguir funcionando, pero quizá ya no sea el mejor uso de una sesión corta.
+
+**Destacados del video:**
+- No se añade ningún video incrustado porque no hay un video de Subterra altamente relevante disponible en el conjunto de datos actual.
+- Concéntrate en los sistemas que afectan las ganancias tempranas, no en las metas vistosas del final de partida.
+- Revisa de nuevo la moneda, el momento de las mejoras y la profundidad segura de la capa antes de sesiones largas de farmeo.
+
+<CardGrid cols={3}>
+  <Card title="La economía primero">
+    - **Fragmentos Crono**
+    - Recompensas de códigos
+    - Flujo de oro y ritmo de gasto
+  </Card>
+  <Card title="La movilidad segundo">
+    - **Espacio de la mochila**
+    - Longitud de la ruta
+    - Eficiencia del viaje de vuelta
+  </Card>
+  <Card title="La seguridad tercero">
+    - **Peligro de la capa**
+    - Presión enemiga
+    - Objetos de recuperación y tiempo de bloqueo
+  </Card>
+</CardGrid>
+
+| Sistema | Qué revisar | Por qué importa |
+|---|---|---|
+| Códigos | Recompensas activas, momento de canje, valor de la recompensa | Los potenciadores tempranos pueden cambiar la mejor ruta inicial |
+| Cartas de Habilidad | Ranuras de cartas, gasto de fragmentos, ajuste de la build | Las cartas suelen decidir la velocidad de minería y la supervivencia |
+| Pico | Velocidad de minería, potencia, coste de materiales | Los niveles de herramienta afectan a la rapidez con la que llegas a capas profundas |
+| Mochila | Espacio de inventario, duración del viaje, momento de retorno | Más espacio suele significar menos salidas forzadas |
+| Capas | Profundidad segura, amenaza enemiga, densidad de mineral | La mejor ruta suele ser la ruta rentable más segura |
+
+<Callout type="tip" title="Consejo profesional">
+Si solo tienes una sesión de juego, dedica los primeros minutos a confirmar tu nuevo bucle de beneficios antes de perseguir objetos raros.
+</Callout>
+
+La regla práctica es simple: la mejor respuesta a una actualización es reconstruir tu ruta en torno al cuello de botella más sensible al tiempo. Para muchos jugadores, ese cuello de botella no es el combate. Es la rapidez con la que puedes minar, almacenar, fundir y regresar sin desperdiciar movimiento.
+
+</Section>
+
+<Section icon={Target} title="Reconstruye en el orden correcto">
+
+Cuando analizo un parche nuevo, reconstruyo en un orden fijo. Ese orden evita que gastes materiales raros en la mejora equivocada y luego te des cuenta de que la sesión sigue sintiéndose lenta. Empieza con lo que cambia el bucle, luego pasa a lo que lo apoya y, por último, gasta en mejoras de lujo.
+
+<Callout type="warning" title="Evita este error">
+No inviertas minerales raros en artesanía secundaria o mejoras de poco impacto hasta que sepas qué sistema está frenando realmente tu progreso.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Revisa tu moneda y tus recompensas">
+    Abre primero tus fuentes de recompensas. Confirma qué bonificaciones activas, ganancias de fragmentos o recompensas de códigos están disponibles antes de invertir nada.
+  </Step>
+  <Step num="2" title="Prueba tu equipo">
+    Haz un viaje corto de minería con tu pico y mochila actuales. Si las salidas terminan demasiado pronto o la minería se siente lenta, prioriza las mejoras.
+  </Step>
+  <Step num="3" title="Renueva tu build de cartas">
+    Elige un solo objetivo de build: farmeo de mineral, supervivencia o movilidad. Usa cartas que apoyen ese objetivo en lugar de mezclar todas las bonificaciones en una sola configuración.
+  </Step>
+  <Step num="4" title="Valida tu ruta por capas">
+    Vuelve a entrar en la profundidad que aún resulte rentable. Si la ruta es más lenta, más segura o más rica que antes, fíjala y sigue adelante.
+  </Step>
+</Steps>
+
+| Prioridad | Antes de la actualización | Después de la actualización |
+|---|---|---|
+| Moneda | Gastar libremente en pequeños potenciadores | Ahorrar hasta que el nuevo cuello de botella quede claro |
+| Herramientas | Mejorar por costumbre | Mejorar solo si la velocidad de minería se siente limitada |
+| Cartas | Usar una build mixta | Construir para un solo objetivo: mineral, seguridad o movimiento |
+| Ruta | Farmear el punto más profundo al que puedas llegar | Farmear el punto más profundo que puedas limpiar con eficiencia |
+
+Un patrón útil es tratar la primera sesión después de un parche como una sesión de calibración. Eso significa que no estás intentando maximizar tu cuenta de inmediato. Estás reuniendo información que te dice dónde está ahora el progreso real.
+
+| Decisión | Mejor opción |
+|---|---|
+| Necesitas minar más rápido | Mejora primero el pico |
+| Terminas las partidas demasiado pronto | Mejora primero la mochila |
+| Pierdes tiempo entre viajes | Prioriza la movilidad y el flujo de retorno |
+| Recibes demasiado daño | Añade cartas de supervivencia y rutas más seguras |
+
+<Callout type="info" title="Nota del editor">
+Una reconstrucción limpia suele ser más barata que una reconstrucción aleatoria. Cada material que ahorras te da más margen para adaptarte si el parche vuelve a cambiar.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="La mejor ruta de regreso de 30 minutos">
+
+Si vuelves después de una actualización de Subterra, una ruta de 30 minutos basta para decirte si tu plan anterior sigue funcionando. El objetivo no es hacerlo todo. El objetivo es identificar qué capa, qué herramienta y qué conjunto de cartas siguen generando valor fiable.
+
+<Callout type="success" title="La mejor regla para sesiones cortas">
+Usa la primera sesión corta para confirmar beneficios, la segunda para confirmar seguridad y la tercera para escalar tu ruta.
+</Callout>
+
+<Checklist
+  id="return-route"
+  title="Lista de verificación para jugadores que regresan:"
+  items={[
+    "Canjea cualquier recompensa activa antes de empezar a minar.",
+    "Comprueba si tu mochila se llena demasiado rápido.",
+    "Equipa una carta centrada en minería y una carta centrada en supervivencia.",
+    "Prueba una capa segura antes de avanzar más profundo.",
+    "Guarda los materiales antes de salir del juego."
+  ]}
+/>
+
+| Minuto | Acción | Objetivo |
+|---|---|---|
+| 0-5 | Canjear recompensas, revisar la configuración, abrir el inventario | Asegurarte de empezar desde una base limpia |
+| 5-15 | Minar una ruta familiar | Medir la velocidad, la calidad del botín y la presión de la mochila |
+| 15-25 | Probar una capa más profunda o más rica | Ver si el parche cambió tu profundidad segura |
+| 25-30 | Regresar, vender y comparar resultados | Decidir si tu ruta sigue aguantando |
+
+La mejor ruta de regreso suele ser la que provoca menos salidas forzadas. Si vuelves constantemente antes de tiempo, el problema suele ser el flujo del inventario o la presión enemiga, no el valor bruto del mineral. Si te sientes cómodo pero farmeas poco, el problema suele ser la selección de la ruta.
+
+| Síntoma | Mejor solución |
+|---|---|
+| La mochila se llena demasiado rápido | Mejora el almacenamiento o filtra lo que minas |
+| La minería se siente lenta | Revisa el nivel del pico y el apoyo de las cartas |
+| El combate interrumpe la partida | Añade cartas de seguridad o sube una capa |
+| Las ganancias parecen bajas | Cambia a una ruta de mineral más densa o a un ciclo de venta más inteligente |
+
+<Callout type="tip" title="Victoria rápida">
+Si tu ruta sigue funcionando, mantenla. Si solo funciona con suerte perfecta, probablemente no sea la ruta adecuada después del parche.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Sistemas que conviene revisar después de cualquier actualización">
+
+Algunos sistemas reaccionan más que otros a los parches. Las cartas, las herramientas, la fabricación y el acceso a las capas son los primeros lugares donde un pequeño ajuste de balance puede generar un gran cambio en tu build preferida. Por eso siempre reviso estas áreas antes de comprometer materiales raros.
+
+<Callout type="info" title="Canales oficiales">
+Usa la página oficial del juego y los canales del desarrollador para verificar horarios, anuncios y contexto del parche antes de dedicar una sesión larga a probar.
+</Callout>
+
+| Sistema | Revisar para | Impacto en el jugador |
+|---|---|---|
+| Cartas de Habilidad | Valor de fragmentos, ranuras de cartas, sinergia de la build | Puede cambiar la mejor configuración para minería o supervivencia |
+| Mejoras del pico | Velocidad, potencia, coste de materiales | Afecta directamente la velocidad de limpieza y el acceso a capas profundas |
+| Mejoras de la mochila | Espacio de inventario, duración del viaje | Cambia cuánto tiempo puede seguir siendo rentable tu bucle de minería |
+| Fabricación | Recetas, valor de ingredientes, flujo de fundición | Afecta si conservas o vendes un material |
+| Capas | Riesgo de profundidad, presión enemiga, densidad de recursos | Determina dónde debe empezar y terminar tu ruta |
+| Combate | Comodidad del arma, tiempo de bloqueo, objetos de recuperación | Decide con qué seguridad puedes farmear zonas más ricas |
+
+| Canal oficial | Mejor uso | Enlace |
+|---|---|---|
+| Página del juego en Roblox | Iniciar el juego y comprobar la experiencia en vivo | [Abrir el juego](https://www.roblox.com/games/16817315243/Subterra) |
+| Discord | Momento del parche, anuncios y discusión de la comunidad | [Unirse a Discord](https://discord.com/invite/wZ3J4whDPe) |
+| X | Actualizaciones rápidas del desarrollador y avisos breves | [Seguir en X](https://x.com/PolyworksStudio) |
+| YouTube | Tráilers y avances visuales | [Visitar YouTube](https://www.youtube.com/channel/UCxnoxgq9LMmHBTSDJyk26BQ) |
+
+El hábito principal que debes mantener es simple: no confíes solo en la memoria muscular. Después de un parche, incluso una ruta conocida puede volverse ineficiente si uno de sus sistemas de apoyo cambió. Un bucle un poco más lento pero con salidas más seguras suele ser mejor que una ruta agresiva que rompe tu inventario o te mata.
+
+| Error común | Mejor hábito |
+|---|---|
+| Gastar materiales inmediatamente | Probar primero el parche |
+| Perseguir cada mejora a la vez | Construir en torno a un objetivo claro |
+| Ignorar las cartas | Revisar la sinergia de cartas en cada actualización |
+| Minar demasiado profundo demasiado pronto | Confirmar la seguridad antes de aumentar la profundidad |
+
+<Callout type="tip" title="Revisión inteligente">
+Si un sistema no afecta al tiempo, la seguridad o el flujo de recursos, normalmente puede esperar hasta que tu ruta principal esté estable.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+<Callout type="warning" title="Nota de la FAQ">
+Estas respuestas se centran en la forma más rápida de adaptarte después de un parche, no en intentar perfeccionar todas las builds al mismo tiempo.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Qué debo revisar primero en una actualización de Subterra?",
+    answer: "Empieza por el flujo de moneda, las mejoras de herramientas y tu ruta actual por capas. Esos tres factores suelen decidir si tu plan anterior sigue siendo eficiente."
+  },
+  {
+    question: "¿Siempre debo mejorar mi pico antes que mi mochila?",
+    answer: "No siempre. Si tu inventario se llena demasiado pronto, el espacio de la mochila puede ser la mejor primera compra. Si la minería se siente lenta, la potencia del pico suele ser la prioridad."
+  },
+  {
+    question: "¿Merece la pena revisar las Cartas de Habilidad después de cada parche?",
+    answer: "Sí. Las cartas pueden cambiar lo bien que tu build maneja la velocidad de minería, la supervivencia y el movimiento, así que son una de las comprobaciones más importantes de una actualización."
+  },
+  {
+    question: "¿Cómo sé si mi ruta antigua sigue funcionando?",
+    answer: "Haz una sesión de prueba corta. Si puedes minar, almacenar y volver sin tiempo muerto adicional, la ruta sigue siendo válida. Si no, reconstruye en torno al nuevo cuello de botella."
+  }
+]} />
+
+</Section>

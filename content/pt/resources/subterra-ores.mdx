@@ -1,0 +1,244 @@
+import { Gem, Map, Target, Pickaxe, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Minérios de Subterra: Melhores Locais de Mineração, Usos e Escolhas por Nível",
+  description: "Acompanhe cada minério de Subterra por camada, profundidade, uso e rota de fundição, com prioridades do início do jogo, dicas de farm de gemas e rotas de mineração em camadas profundas.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Subterra+Ores+Guide",
+  date: "2026-07-05",
+  author: "Equipe da Wiki de Subterra"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Os minérios de Subterra** são melhor mapeados por camada, e não apenas por raridade.
+- **As rotas iniciais** devem priorizar Coal, Copper, Tin e Iron para melhorias.
+- **As veias de gemas** são valiosas, mas fazem mais diferença quando missões ou receitas precisam delas.
+- **As camadas profundas** recompensam minérios mais fortes, mas também exigem ferramentas e equipamentos de sobrevivência melhores.
+- **A disciplina na fundição** mantém seu inventário limpo e sua progressão eficiente.
+</Callout>
+
+<Section icon={Gem} title="Visão Geral dos Minérios de Subterra e Mapa de Níveis">
+
+Os minérios de Subterra funcionam melhor quando você pensa em níveis de progressão. Materiais iniciais alimentam melhorias, gemas do meio do jogo dão suporte a missões e armazenamento, e minérios de camadas profundas aumentam o valor de crafting e de venda. A abordagem mais segura é minerar com um objetivo, e não apenas por volume.
+
+<Callout type="tip" title="Regra Geral de Mineração">
+Se um minério ajuda sua próxima picareta, mochila, missão ou receita importante, guarde-o. Se ele não ajuda em nada disso, venda-o ou funda-o rapidamente.
+</Callout>
+
+| Nível | Minérios | Melhor Uso | Prioridade |
+|---|---|---|---|
+| Inicial | Coal, Copper, Tin | Melhorias básicas, primeira cadeia de crafting | Alta |
+| Médio | Iron, Silver, Gold | Ferramentas melhores, venda estável, missões | Alta |
+| Gemas | Topaz, Amethyst, Emerald, Sapphire, Ruby | Receitas, missões, checkpoints de armazenamento | Média |
+| Profundo | Platinum, Cobalt, Chromium | Progressão avançada, crafting tardio | Média |
+| Final | Titanium, Wolframite, Nocturnite, Azurite, Sunstone | Valor de endgame, rotas profundas, builds raras | Alta |
+
+<CardGrid cols={4}>
+  <Card title="Coal / Copper">
+    - **Maior valor no início**
+    - Comuns nas camadas iniciais
+    - Ótimos para a primeira cadeia de melhorias
+  </Card>
+  <Card title="Iron / Silver">
+    - **Materiais centrais do meio do jogo**
+    - Bom equilíbrio entre crafting e venda
+    - Valem a pena guardar para receitas
+  </Card>
+  <Card title="Gemas">
+    - **Boas para missões**
+    - Muitas vezes exigidas em rotas de melhoria
+    - Melhor guardar do que vender cedo demais
+  </Card>
+  <Card title="Minério Profundo">
+    - **Alto risco, alto valor**
+    - Exige mobilidade e combate melhores
+    - Melhor para runs planejadas
+  </Card>
+</CardGrid>
+
+Mantenha sua rota simples: minera o nível que você consegue limpar com segurança e só desça depois que sua bag, picareta e plano de recuperação aguentarem runs mais longas. Referências do jogo ao vivo e contexto de atualização são mais fáceis de verificar na página oficial do Roblox e no quadro Trello da Polyworks Studio.
+
+</Section>
+
+<Section icon={Map} title="Onde Encontrar Minérios de Subterra por Camada">
+
+As rotas mais fortes de minério em Subterra seguem a estrutura das camadas. Dirt e Stone carregam seus primeiros materiais, Darkstone e Permafrost abrem a economia mais profunda, e Schwarzfrost leva aos objetivos do fim do jogo. Trate cada camada como um checkpoint, e não apenas como um lugar para cavar para baixo.
+
+<Callout type="warning" title="Não Acelere a Profundidade">
+Descer cedo demais geralmente custa mais tempo do que economiza. Se seu inventário enche rápido demais ou os inimigos forçam recuos, volte e melhore sua rota.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Comece na Superfície e na Camada Dirt">
+    Farme Rock, Coal, Copper e Tin enquanto aprende o mapa e encontra o primeiro caminho seguro de retorno.
+  </Step>
+  <Step num="2" title="Vá para Stone em Busca de Mais Lucro">
+    Foque em Iron, Silver, Gold e gemas iniciais assim que sua picareta aguentar ciclos de mineração mais longos.
+  </Step>
+  <Step num="3" title="Avance para Darkstone Depois das Melhorias Básicas">
+    Procure veios de minério mais fortes e estruturas de maior risco apenas depois que suas ferramentas de combate e mobilidade estiverem estáveis.
+  </Step>
+  <Step num="4" title="Use Permafrost e Schwarzfrost para Rotas Tardias">
+    Guarde essas camadas para runs planejadas com recuperação de vida, armas fortes e espaço suficiente para justificar a viagem.
+  </Step>
+</Steps>
+
+| Camada | Profundidade | Minérios Principais | Risco Principal |
+|---|---|---|---|
+| Dirt | Da superfície até cerca de Y -35 | Coal, Copper, Tin | Enxames iniciais |
+| Stone | Começa por volta de Y -35 | Iron, Silver, Gold, Gems | Esqueletos-bomba |
+| Darkstone | Começa por volta de Y -435 | Cobalt, Nocturnite, Black Ice | Inimigos mortos-vivos mais fortes |
+| Permafrost | Começa por volta de Y -723 | Platinum, Chromium, Moonstone, Sunstone | Inimigos congelados |
+| Schwarzfrost | Camada profunda de endgame | Charged Ice, Eiskron, Nocturnite | Pressão de chefes e elites |
+
+| Objetivo da Rota | Melhor Camada | Por que Funciona |
+|---|---|---|
+| Primeiras melhorias | Dirt, Stone | Acesso rápido a materiais básicos |
+| Farm de gemas | Stone | Melhor combinação de valor e segurança |
+| Crafting profundo | Darkstone, Permafrost | Materiais mais fortes e melhor pagamento |
+| Preparação para chefe | Schwarzfrost | Materiais tardios e desafio de ponta |
+
+<Callout type="info" title="Estratégia de Camada">
+Se você ainda está gastando tempo demais lutando, fique uma camada acima e farme minério mais rápido. Velocidade importa mais do que profundidade quando sua build ainda está fraca.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Melhores Prioridades de Minério para Cada Fase de Progressão">
+
+A melhor escolha de minério muda conforme sua fase. O início do jogo é sobre impulso, o meio do jogo é sobre eficiência, e o fim do jogo é sobre disciplina com recursos. Um jogador que guarda tudo normalmente acaba com a bag cheia e sem uma rota real de melhoria.
+
+<Callout type="success" title="Melhor Hábito de Progressão">
+Guarde gemas raras até saber quais receitas as exigem. Esse pequeno hábito evita muitas melhorias travadas depois.
+</Callout>
+
+| Fase de Progressão | Melhores Minérios | O que Fazer | O que Não Fazer |
+|---|---|---|---|
+| Inicial | Coal, Copper, Tin | Fundir, vender e melhorar rapidamente | Não acumule minério inicial para sempre |
+| Médio | Iron, Silver, Gold | Guardar para ferramentas, missões e crafting | Não gaste gemas em desvios fracos |
+| Foco em Missões | Topaz, Amethyst, Emerald, Sapphire, Ruby | Guardar até uma missão ou receita precisar | Não converta toda gema em moedas |
+| Run Profunda | Platinum, Cobalt, Chromium | Estocar para rotas de equipamentos mais fortes | Não entre em camadas profundas subequipado |
+| Endgame | Titanium, Wolframite, Nocturnite, Azurite, Sunstone | Guardar para crafting e valor de alto nível | Não desperdice minério raro em objetivos de enchimento |
+
+| Tipo de Minério | Melhor Estilo de Jogo | Padrão de Valor | Veredito |
+|---|---|---|---|
+| Minério comum | Farm em loop rápido | Baixo por item, alto em volume | Excelente no início |
+| Minério médio | Farm equilibrado | Bom valor, uso amplo | Melhor no geral |
+| Minério de gema | Planejamento de rota | Grande impacto em missões | Vale a pena guardar |
+| Minério profundo | Runs de alto risco | Recompensa forte | Melhor com preparo |
+
+<CardGrid cols={3}>
+  <Card title="Vendas Rápidas">
+    - **Coal**
+    - Copper
+    - Tin
+    - Melhor para fluxo de caixa inicial
+  </Card>
+  <Card title="Combustível de Melhoria">
+    - **Iron**
+    - Silver
+    - Gold
+    - Melhor para estabilidade da progressão
+  </Card>
+  <Card title="Estoque de Longo Prazo">
+    - **Gemas**
+    - Platinum+
+    - Minerais de camadas tardias
+    - Melhor para crafting planejado
+  </Card>
+</CardGrid>
+
+Use um conjunto simples de regras: se o minério aparecer na sua próxima rota de melhoria, guarde-o. Se ele só aumentar o dinheiro no curto prazo, venda-o depois de uma run segura. Se ele fizer parte de uma receita profunda, trave-o no armazenamento e pare de usá-lo como dinheiro de emergência.
+
+</Section>
+
+<Section icon={Pickaxe} title="Fundição, Crafting e O que Guardar">
+
+A fundição é onde muitos jogadores perdem tempo. Minério bruto parado na bag não serve de nada se ele bloquear uma rota mais longa. Converta-o em lingotes quando o processo melhorar seu próximo passo e mantenha drops brutos apenas quando a receita realmente exigir.
+
+<Callout type="info" title="Disciplina de Inventário">
+Uma bag cheia de minérios misturados costuma ser pior do que uma bag menor com exatamente os materiais de que você precisa a seguir.
+</Callout>
+
+| Minério Bruto | Funde em | Melhor Uso | Guardar Bruto? |
+|---|---|---|---|
+| Raw Copper | Copper Ingot | Crafting e melhorias iniciais | Sim, até precisar dos lingotes |
+| Raw Tin | Tin Ingot | Progressão do início ao meio | Sim, para os tiers de melhoria |
+| Raw Iron | Iron Ingot | Ferramentas, armas, progressão | Geralmente não |
+| Raw Silver | Silver Ingot | Crafting do meio do jogo | Geralmente não |
+| Raw Gold | Gold Ingot | Venda, crafting, missões | Geralmente não |
+| Raw Platinum | Platinum Ingot | Melhorias avançadas | Sim, se uma receita estiver próxima |
+| Raw Cobalt | Cobalt Ingot | Crafting de camada profunda | Sim, se você ainda estiver farmando |
+| Raw Chromium | Chromium Ingot | Melhorias mais profundas | Sim, se a rota estiver estável |
+
+| Objetivo de Crafting | Melhor Tipo de Minério | Observações |
+|---|---|---|
+| Rota da picareta | Iron, Silver, Gold | Bons materiais de meio de caminho |
+| Rota da mochila | Rotas com muitas gemas | Guarde gemas raras para receitas |
+| Rota de armas | Minérios profundos e lingotes | Materiais mais fortes para combate |
+| Rota de poções ou utilidades | Minérios e loot mistos | Equilibre crafting com sobrevivência |
+
+<Checklist
+  id="ore-management"
+  title="O que Guardar no Inventário:"
+  items={[
+    "Guarde o minério que aparece na sua próxima receita de melhoria.",
+    "Guarde gemas se uma missão ou linha de crafting puder precisar delas.",
+    "Funda minério bruto depois de cada run lucrativa.",
+    "Venda o excesso de minério comum antes que ele diminua sua velocidade.",
+    "Segure os materiais de camadas profundas até sua rota ficar estável."
+  ]}
+/>
+
+<Callout type="tip" title="Melhor Prática">
+Na dúvida, mantenha um stack para crafting, um stack para venda e funda o resto. Esse equilíbrio evita desperdício e excesso de coleta ao mesmo tempo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ de Minérios de Subterra e Resumo de Rotas">
+
+Use esta revisão final para travar suas decisões sobre minério antes de cada sessão de mineração. A rota certa depende da profundidade, da pressão dos inimigos e do que sua próxima melhoria realmente pede.
+
+<Callout type="warning" title="Verificação Final da Rota">
+Se seu próximo objetivo ainda é uma melhoria inicial, não faça farm excessivo de minério profundo. A rota mais rápida muitas vezes é a melhor rota.
+</Callout>
+
+| Situação | Melhor Jogada | Resultado |
+|---|---|---|
+| Precisa de dinheiro no início | Farm Coal, Copper, Tin | Dinheiro rápido e melhorias simples |
+| Precisa de materiais de progressão | Farm Iron, Silver, Gold | Ferramentas mais fortes e runs mais suaves |
+| Precisa de itens de missão | Farm Gemas em Stone | Ritmo melhor para concluir missões |
+| Precisa de crafting tardio | Farm Platinum ou mais profundo | Progresso de longo prazo com maior valor |
+| Precisa de estabilidade para sobreviver | Fique uma camada acima | Menos mortes e mais tempo de uptime |
+
+<FAQ items={[
+  {
+    question: "Quais são os melhores minérios de Subterra para iniciantes?",
+    answer: "Coal, Copper e Tin são os melhores minérios iniciais porque apoiam a progressão cedo sem forçar rotas arriscadas."
+  },
+  {
+    question: "Devo vender gemas imediatamente em Subterra?",
+    answer: "Normalmente não. Topaz, Amethyst, Emerald, Sapphire, Ruby e Diamond podem ser importantes para missões e receitas de melhoria."
+  },
+  {
+    question: "Qual camada é melhor para farmar minério no meio do jogo?",
+    answer: "A camada Stone é a escolha mais segura no meio do jogo porque mistura Iron, Silver, Gold e gemas em uma rota prática."
+  },
+  {
+    question: "Como evito desperdiçar minério enquanto minero?",
+    answer: "Mantenha o minério ligado à sua próxima receita, funda o que puder e venda apenas o excedente que não ajuda mais na progressão."
+  }
+]} />
+
+<Callout type="success" title="Resumo da Rota">
+Para a maioria dos jogadores, os melhores minérios de Subterra vêm de um loop simples: minério inicial para melhorias, minério médio para estabilidade, gemas para missões e minério profundo para builds de longo prazo.
+</Callout>
+
+</Section>

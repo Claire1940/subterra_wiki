@@ -1,0 +1,265 @@
+import { Map, Shield, Swords, Trophy, Target, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Subterra Monster Core: Guía de monstruos, jefes y botín",
+  description: "Subterra Monster Core cubre los niveles de enemigos, la preparación para jefes, las recompensas, las amenazas por capa y las rutas de combate para realizar incursiones profundas de forma eficiente.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2b1b4d/fff?text=Monster+Core+Guide",
+  date: "2026-07-05",
+  author: "Equipo de la Wiki de subterra"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Subterra Monster Core** funciona mejor cuando limpias, saqueas y te retiras por capa en lugar de sobreextenderte.
+- **Los enemigos iniciales** como Slime y Zombie generan EXP rápidamente, mientras que los Bomb Skeleton castigan los empujes descuidados por túneles.
+- **La preparación para jefes** debe priorizar daño, movilidad y recuperación antes de entrar en rutas profundas y heladas.
+- **Chrono Shards, llaves y pergaminos** son las recompensas utilitarias de mayor valor para una progresión larga.
+- **Las referencias oficiales** como la página de Roblox y el tablero de Trello te ayudan a verificar rutas y datos de enemigos.
+</Callout>
+
+<Section icon={Map} title="Ruta de Subterra Monster Core">
+
+Subterra Monster Core es el ciclo de enemigos y jefes que impulsa la progresión en Subterra. Si quieres ganancias constantes, estructura tus incursiones en patrones de limpieza seguros, ventanas cortas de botín y una ruta de escape clara de vuelta al lobby.
+
+Empieza con la [página oficial de Subterra en Roblox](https://www.roblox.com/games/16817315243/Subterra) y mantén abierto el [tablero de referencia de Trello](https://trello.com/b/mfSycrVO/subterra-wiki) cuando planifiques incursiones más profundas. Esa combinación te da la lectura más rápida de capas, botín y ritmo de progresión.
+
+**Puntos destacados del video:**
+- Elimina a los mobs iniciales antes de que se acumulen en túneles estrechos.
+- Reserva la recuperación para las amenazas explosivas y la presión de capas más profundas.
+- Mejora la movilidad antes de hacer incursiones codiciosas de minería.
+- Trata los combates contra jefes como expediciones planificadas, no como desvíos casuales.
+
+<CardGrid cols={4}>
+  <Card title="Caza temprana">
+    - **Zombie**
+    - **Slime**
+    - EXP rápida
+    - Ciclos de reinicio seguros
+  </Card>
+  <Card title="Caza media">
+    - **Bomb Skeleton**
+    - Pasillos estrechos
+    - Riesgo de daño explosivo
+    - Mantén la distancia
+  </Card>
+  <Card title="Caza profunda">
+    - **Darkstone Skeleton**
+    - **Ice Elemental**
+    - Mejor comprobación de armas
+    - Mayor demanda de recuperación
+  </Card>
+  <Card title="Preparación para jefes">
+    - **Cartas de movilidad**
+    - Equipo cuerpo a cuerpo o a distancia potente
+    - Objetos de curación
+    - Ruta de salida trazada
+  </Card>
+</CardGrid>
+
+| Fase | Objetivo principal | Enfoque ideal | Condición para detenerse |
+|---|---|---|---|
+| Lobby de superficie | Preparar el equipo | Comprar, vender, fabricar, reclamar recompensas | Sal solo cuando el equipo esté listo |
+| Cuevas iniciales | Construir economía | Roca, carbón, cobre, estaño | Sal cuando la bolsa se llene o los enemigos se acumulen |
+| Capas profundas | Aumentar la tolerancia a la presión | Armas más fuertes, cartas, curación | Retírate cuando los combates se vuelvan ineficientes |
+| Ruta de jefe | Completar la prueba | Daño, movilidad, recuperación | Detente antes de entrar sin preparación |
+
+<Callout type="tip" title="Regla de la ruta">
+Mantén un ojo en el espacio del inventario y otro en la densidad de enemigos. En Subterra, sobreexplotar un túnel suele costar más tiempo que retirarse a tiempo.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Limpia el ciclo de la superficie">
+    Termina el tutorial, llega al lobby e identifica tu punto principal de reinicio. Ahí es donde vendes, fabricas y te recuperas antes del siguiente avance.
+  </Step>
+  <Step num="2" title="Excava solo lo que impulse la siguiente mejora">
+    Prioriza los recursos que alimentan tu pico, mochila, cartas o curación. Minar al azar ralentiza la progresión y llena el espacio demasiado pronto.
+  </Step>
+  <Step num="3" title="Usa ventanas de incursión cortas">
+    Haz que cada viaje subterráneo sea lo bastante corto como para controlarlo. Un ciclo corto y rentable es mejor que una incursión larga que termina en un desastre.
+  </Step>
+  <Step num="4" title="Avanza capa por capa">
+    Ve más profundo solo cuando tu equipo pueda sobrevivir al siguiente nivel de enemigos. Eso mantiene la ruta estable y tus pérdidas bajas.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Niveles de enemigos y riesgo por capa">
+
+La faceta de monstruos de Subterra se vuelve mucho más fácil de manejar cuando piensas en niveles. Los enemigos iniciales son generadores de recursos; los más profundos rompen la ruta si ignoras sus patrones de ataque.
+
+<Callout type="warning" title="Comprobación de amenaza">
+Los Bomb Skeleton y los enemigos de capas profundas castigan la avaricia en los túneles. Si la cueva se vuelve estrecha, pelea menos y reposiciónate más.
+</Callout>
+
+| Enemigo | Aparece en | Nivel de amenaza | Mejor respuesta |
+|---|---|---|---|
+| Zombie | Tierra, piedra | Bajo a medio | Mantén la distancia, usa el tiempo básico del cuerpo a cuerpo |
+| Slime | Tierra, piedra | Bajo a medio | Evita acumular combates en túneles estrechos |
+| Bomb Skeleton | Piedra | Alto | Retrocede rápido, usa esquinas y espacios abiertos |
+| Darkstone Skeleton | Darkstone, Permafrost | Alto | Lleva armas más fuertes y movilidad |
+| Ice Elemental | Permafrost | Muy alto | Usa recuperación, rango y paciencia |
+
+| Capa | Peligro principal | Mejor objetivo de botín | Mentalidad recomendada |
+|---|---|---|---|
+| Capa de tierra | Presión de mobs iniciales | Carbón, cobre, estaño | Construye lo básico y sal a menudo |
+| Capa de piedra | Emboscadas de Bomb Skeleton | Hierro, plata, oro, gemas | Farmea de forma eficiente, no interminable |
+| Capa de Darkstone | Enemigos más duros y rutas verticales | Cobalto, Nocturnite, Black Ice | Mejora antes de empujar más profundo |
+| Capa de Permafrost | Combate más lento y pesado | Platino, cromo, Moonstone | Juega con seguridad y lleva recuperación |
+| Capa de Schwarzfrost | Peligro de nivel jefe | Hielo cargado, Eiskron, botín raro | Entra solo con un equipo adecuado |
+
+| Señal de peligro | Qué significa | Qué hacer |
+|---|---|---|
+| Túneles abarrotados | Menos espacio para esquivar | Retrocede y abre espacio |
+| Inventario lleno | La incursión está cerca de su valor máximo | Vuelve al lobby |
+| Múltiples amenazas a distancia | El riesgo de pérdida está aumentando | Atrae a los enemigos de uno en uno |
+| Sin curación restante | La incursión profunda está fallando | Sal antes de que el combate se encarezca |
+
+<Callout type="info" title="Consejo de capa">
+Usa la tabla de capas como una lista de disparadores. Si la ruta actual ya no encaja con tu equipo, lo más inteligente suele ser cobrar la ganancia y reiniciar.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preparación para jefes y mejores configuraciones">
+
+Los combates contra jefes en Subterra son, en realidad, pruebas de configuración. No necesitas el equipo más llamativo; necesitas el conjunto que te mantenga con vida el tiempo suficiente para seguir haciendo daño.
+
+<Callout type="success" title="Objetivo de la configuración">
+Una buena configuración para jefes debe combinar una herramienta de daño, una de movilidad y un plan de recuperación.
+</Callout>
+
+| Jefe | Arena | Presión | Prioridad de preparación | Recompensa principal |
+|---|---|---|---|---|
+| Yrsa of the Sunken Seas | Barco de Yrsa, capa Schwarzfrost | Muy alta | Arma de alto daño, movilidad, curación | Gran recompensa de EXP |
+| Ancient Lord Lorin | Progresión de jefes listada | Alta | Arma de final de juego, salud, movilidad | Lorin’s Tear, Will, Wrath |
+
+<CardGrid cols={3}>
+  <Card title="Estallido cuerpo a cuerpo">
+    - **Splitblade**
+    - Daño a corta distancia
+    - Mejor para jugadores con confianza
+    - Fuerte presión sobre jefes
+  </Card>
+  <Card title="Rango seguro">
+    - **Longbow o arco**
+    - Mejor separación
+    - Kiteo más fácil
+    - Menor riesgo de error
+  </Card>
+  <Card title="Configuración de expedición">
+    - **Healthy**
+    - **Double Jump**
+    - **Extra Oxygen**
+    - Rutas largas más seguras
+  </Card>
+</CardGrid>
+
+| Carta o herramienta | Mejor uso | Por qué ayuda |
+|---|---|---|
+| Healthy | Supervivencia contra jefes | Da más margen de error |
+| Double Jump | Movimiento vertical | Ayuda en cuevas y escapes |
+| Walk Speed | Reposicionamiento | Hace más fácil esquivar y retirarse |
+| Lucky | Ganancias de minería | Mejor valor durante bucles largos de farmeo |
+| Explosive Touch | Rutas de mineral densas | Acelera la limpieza de túneles y las incursiones de recursos |
+
+| Paso de preparación | Qué comprobar antes de entrar | Resultado recomendado |
+|---|---|---|
+| Ranura de arma | El daño está actualizado | Lleva tu opción fiable más fuerte |
+| Ranura de movilidad | El movimiento se siente seguro | Mantén activa la ayuda de salto o velocidad |
+| Ranura de recuperación | Puedes curarte | Entra con un plan claro de sostenimiento |
+| Inventario | No está sobrecargado | Deja espacio para botín y recompensas |
+
+<Callout type="warning" title="Advertencia sobre jefes">
+No trates a los jefes profundos como enemigos normales de cueva. Si tu daño se siente bajo y tu movimiento lento, probablemente no estás preparado.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Botín, misiones y prioridad de farmeo">
+
+Si quieres que la progresión de Subterra Monster Core se sienta eficiente, céntrate en las recompensas que generan más incursiones: moneda, cartas, llaves, pergaminos y EXP. Esas son las recompensas que mantienen en movimiento el ciclo.
+
+<Callout type="tip" title="Orden de prioridad">
+Elige primero las recompensas que mejoren la siguiente incursión. La utilidad vence a la apariencia cuando estás subiendo capas.
+</Callout>
+
+<Checklist
+  id="monster-core-priority"
+  title="Qué priorizar primero:"
+  items={[
+    "Chrono Shards para las Ability Cards y la progresión",
+    "Llaves y pergaminos de recetas para mejor acceso al botín",
+    "Objetos de curación para cuevas profundas y rutas de jefes",
+    "Recompensas de EXP que apoyen una subida de nivel más rápida",
+    "Materiales de fundición que alimenten las recetas de mejora"
+  ]}
+/>
+
+| Recompensa | Tipo de fuente | Por qué importa |
+|---|---|---|
+| Chrono Shards | Logros, códigos | Impulsa la progresión de cartas y la utilidad |
+| Oro | Misiones, botín, ventas | Mantiene en movimiento la economía |
+| EXP | Enemigos, misiones, jefes | Aumenta la progresión y el ritmo de desbloqueo |
+| Slime Chunk | Slimes, objetos saqueables | Permite fabricar explosivos pegajosos |
+| Recipe Scrolls | Cofres, objetos saqueables | Desbloquea nuevas rutas de fabricación |
+| Llaves | Fabricación y botín | Abre mejores rutas de cofres |
+
+| Misión | Requisito | Recompensa | Mejor momento |
+|---|---|---|---|
+| First Step | 25 rocas, mejora del pico | 25 de oro, 120 EXP | Muy temprano |
+| Stone Breaker | 40 piedra | 80 de oro, 125 EXP | Primer ciclo de minería |
+| Topaz Seeker | 5 topacios | 200 de oro, 235 EXP | Cuando se abren las rutas de gemas |
+| Ore Hoarder | Conjunto mixto de minerales | 400 de oro, 250 EXP | Progresión media |
+| Deep Delver | 64 plata, 30 carbón | 425 de oro, 350 EXP | Sesiones de cueva más largas |
+
+| Tipo de botín | Guardar o vender | Notas |
+|---|---|---|
+| Gemas | Guardar si hace falta | Útiles para mejoras y misiones |
+| Lingotes | Guardar a menudo | Insumos comunes de mejoras y fabricación |
+| Minerales comunes | Vender o almacenar | Depende de la siguiente receta |
+| Pergaminos raros | Guardar siempre | Desbloquean nuevas recetas |
+| Materiales de curación | Guardar | Prolongan las incursiones profundas |
+
+<Callout type="success" title="Regla de farmeo">
+La mejor ruta de farmeo es la que paga tu siguiente mejora, no la que simplemente permanece más tiempo bajo tierra.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="FAQ de Subterra Monster Core">
+
+<Callout type="info" title="Lee esto primero">
+Estas respuestas están construidas alrededor del ciclo de enemigos, jefes y botín que impulsa la progresión en Subterra.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Qué es Subterra Monster Core?",
+    answer: "Es el ciclo de progresión de combate construido alrededor de enemigos, jefes, botín y el riesgo de capas profundas en Subterra. El objetivo es limpiar con seguridad, saquear de forma eficiente y seguir mejorando."
+  },
+  {
+    question: "¿En qué enemigos debo centrarme primero?",
+    answer: "Empieza con Zombie y Slime para conseguir EXP de bajo riesgo y materiales básicos, y luego ajusta tu ruta cuando empiecen a aparecer Bomb Skeleton y enemigos de capas profundas."
+  },
+  {
+    question: "¿Cuál es la mejor preparación para jefes en las incursiones de Subterra Monster Core?",
+    answer: "Usa un arma potente, apoyo de movilidad como Double Jump o Walk Speed, y suficiente curación para sobrevivir a un combate largo. Las rutas de jefes nunca deben comenzar como una suposición."
+  },
+  {
+    question: "¿Qué recompensas importan más para la progresión?",
+    answer: "Chrono Shards, llaves, pergaminos de recetas, oro y EXP son las más importantes porque mejoran tu siguiente incursión y desbloquean configuraciones más eficientes."
+  }
+]} />
+
+<Callout type="tip" title="Nota final">
+Si una ruta deja de pagarse sola, retírate. En Subterra, los reinicios disciplinados suelen superar a los empujes desesperados por túneles.
+</Callout>
+
+</Section>

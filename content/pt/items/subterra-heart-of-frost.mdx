@@ -1,0 +1,221 @@
+import { Map, Target, Shield, Sparkles, Swords, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "subterra heart of frost: Rota e Build da Camada de Gelo",
+  description: "Planeje uma rota segura em Subterra Heart of Frost com prioridades de camadas, alvos de upgrade, escolhas de cartas, economia de materiais e dicas de sobrevivência no gelo para o fim de jogo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Heart+of+Frost+Guide",
+  date: "2026-07-05",
+  author: "Equipe da Wiki do subterra"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **subterra heart of frost** é melhor abordado como uma rota focada em sobrevivência pelas camadas mais profundas de gelo.
+- **Permafrost e Schwarzfrost** são os pontos-chave para farm mais seguro e preparação para chefes.
+- **Poder da picareta, espaço da mochila e cartas de mobilidade** importam mais do que ganância pura nas camadas frias.
+- **Guarde gemas raras e lingotes** para upgrades de progressão em vez de desperdiçá-los em crafts secundários.
+</Callout>
+
+<Section icon={Map} title="Visão geral de subterra heart of frost">
+
+subterra heart of frost é a faixa de gelo do fim de jogo em que cada viagem deve ter um propósito. Use as camadas frias mais profundas para coletar materiais de alto valor, mas mantenha sua rota curta, eficiente e segura. A abordagem certa é minerar com um plano de saída, não com esperança.
+
+<Callout type="tip" title="Regra Central">
+Trate as runs nas profundezas do gelo como um ciclo: entre com um objetivo, complete uma meta de uma camada e depois volte antes que seu inventário ou sua vida virem o verdadeiro chefe.
+</Callout>
+
+| Camada / Zona | Valor Principal | Ameaça Principal | Melhor Uso |
+|---|---|---|---|
+| Camada Darkstone | Primeiro salto para camadas profundas | Darkstone Skeleton | Aquecimento para rotas sérias de gelo |
+| Camada Permafrost | Platinum, Chromium, Moonstone, Charged Ice | Ice Slime, Ice Elemental | Farm principal e prática de rota |
+| Camada Schwarzfrost | Charged Ice, Eiskron, loot de fim de jogo | Sunken Spirit, Sunken Warrior, pressão de chefe | Preparação para chefe e farm de alto risco |
+
+<CardGrid cols={3}>
+  <Card title="Mentalidade Ideal">
+    - **Runs curtas**
+    - Saídas controladas
+    - Disciplina com materiais
+  </Card>
+  <Card title="Melhores Alvos">
+    - **Minério de alto nível**
+    - Cristais profundos
+    - Progresso seguro de quests
+  </Card>
+  <Card title="Pior Hábito">
+    - **Se estender demais**
+    - Deixar a mochila vazia de propósito
+    - Lutar cansado
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Não Tenha Pressa">
+As camadas mais profundas de gelo escalam rapidamente. Se seu dano, cura ou mobilidade estiverem abaixo do ideal, farmar por mais tempo em uma camada mais segura costuma ser a jogada mais inteligente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Melhor Rota de Gelo e Prioridade de Camadas">
+
+A melhor rota não é a mais profunda no papel. É a que transforma cada viagem em progresso. Comece onde os inimigos são administráveis e só avance quando seu inventário, suas ferramentas e sua recuperação estiverem prontos.
+
+<Steps>
+  <Step num="1" title="Estabilize na Superfície">
+    Esvazie o inventário, compre apenas o que realmente precisa e decida se a run será para minério, quests ou preparação para chefe.
+  </Step>
+  <Step num="2" title="Passe Primeiro por Darkstone">
+    Use Darkstone como sua camada de transição. Farme o que conseguir, mas não fique muito tempo se sua velocidade de limpeza começar a cair.
+  </Step>
+  <Step num="3" title="Farme Permafrost com Eficiência">
+    Foque nos bolsões de minério de maior valor, nos itens coletáveis próximos e em qualquer rota que possa ser limpa sem voltar toda hora.
+  </Step>
+  <Step num="4" title="Entre em Schwarzfrost Só com Objetivo">
+    Vá mais fundo quando estiver pronto para inimigos mais fortes, loot próximo a chefes ou farm avançado de recursos.
+  </Step>
+  <Step num="5" title="Saia Antes que a Run Vire Prejuízo">
+    Saia quando a cura estiver baixa, o inventário encher ou a pressão dos inimigos começar a custar mais tempo do que a viagem rende.
+  </Step>
+</Steps>
+
+| Etapa da Rota | O que Farmar | O que Evitar | Sinal de Saída |
+|---|---|---|---|
+| Configuração em Darkstone | Cobalt, Nocturnite, rotas de black-ice | Lutas longas com skeletons | O dano começa a cair |
+| Farm em Permafrost | Platinum, Chromium, Moonstone, Charged Ice | Ficar andando sem alvo | A bolsa está quase cheia |
+| Avanço em Schwarzfrost | Loot de fim de jogo, recursos para preparação de chefe | Loops de exploração gananciosa | Vida ou oxigênio ficam apertados |
+
+<Callout type="warning" title="Disciplina de Rota">
+Se você entra em uma camada de gelo sem um alvo, está farmando risco em vez de recursos. Sempre escolha minério, quest ou preparação para chefe antes de se mover.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Loadout, Armas e Escolhas de Cartas">
+
+O loadout mais seguro em Heart of Frost equilibra dano, mobilidade e conforto de inventário. Os dados oficiais de progressão apontam para boas opções de combate corpo a corpo, cartas de movimento e cartas utilitárias que mantêm você vivo nas camadas mais profundas.
+
+<Callout type="success" title="Padrão de Loadout Ideal">
+Uma build confiável para o gelo geralmente inclui uma arma forte, um reforço de mobilidade, uma carta de sobrevivência e uma carta de inventário ou mineração.
+</Callout>
+
+| Slot | Escolha Recomendada | Por que Funciona |
+|---|---|---|
+| Arma | Splitblade | Maior dano de greatsword craftável listado e ótima preparação para chefe |
+| Arma Reserva | Knight’s Greatsword | Opção confiável de meio/fim de jogo antes do gear de ponta |
+| Mobilidade | Double Jump / Walk Speed | Ajuda em cavernas verticais, fugas e rotas mais limpas |
+| Sobrevivência | Healthy / Extra Oxygen | Mantém runs profundas vivas por mais tempo |
+| Utilidade de Mineração | Lucky / Lighter Pickaxe / Explosive Touch | Melhora o retorno do minério, a velocidade ou a quebra de blocos |
+
+<CardGrid cols={3}>
+  <Card title="Build Agressiva">
+    - **Splitblade**
+    - Lucky
+    - Explosive Touch
+  </Card>
+  <Card title="Build Balanceada">
+    - **Knight’s Greatsword**
+    - Double Jump
+    - Healthy
+  </Card>
+  <Card title="Build de Mineração">
+    - **Lighter Pickaxe**
+    - Bigger Backpack
+    - Blazing Pickaxe
+  </Card>
+</CardGrid>
+
+| Carta | Melhor Uso | Limitação |
+|---|---|---|
+| Lucky | Mais valor de minério ao longo do tempo | Proc aleatório, não garantido |
+| Explosive Touch | Limpeza rápida em bolsões densos | Melhor em terreno mais agrupado |
+| Blazing Pickaxe | Praticidade para fundição | Melhor para sessões longas de mineração |
+| Bigger Backpack | Rotas mais longas com menos retornos | Não ajuda diretamente no combate |
+| Healthy | Lutas mais seguras em camadas profundas | Compete com slots utilitários |
+
+<Callout type="info" title="Prioridade do Loadout">
+Nas camadas de gelo, o dano da arma importa, mas a mobilidade e a capacidade de carga muitas vezes decidem se a run realmente compensa.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Upgrades, Materiais e O que Guardar">
+
+A progressão no gelo fica cara rápido, então disciplina com recursos faz diferença. As tabelas de upgrade mostram um padrão claro: picareta primeiro quando a mineração começa a ficar lenta, mochila em segundo quando as viagens acabam cedo demais, e gemas raras só quando uma receita realmente pede por elas.
+
+<Callout type="info" title="Guarde Estes Materiais">
+Mantenha gemas raras, lingotes e itens-chave de craft em reserva. Gastá-los cedo demais pode atrasar tanto os tiers de upgrade quanto a estabilidade das rotas em camadas profundas.
+</Callout>
+
+| Recurso | Melhor Uso | Não Desperdice em | Observações |
+|---|---|---|---|
+| Coal | Cadeias de upgrade iniciais e intermediárias | Crafts aleatórios secundários | Necessário em várias rotas |
+| Copper / Tin | Progressão inicial e lingotes | Itens de enchimento de baixo valor | Ajuda a transitar para tiers mais fortes |
+| Iron / Silver / Gold | Craft e upgrades de meio de jogo | Rerolls não essenciais | Importante para progressão estável |
+| Platinum / Chromium | Craft avançado e armazenamento | Crafts rápidos e descartáveis | Forte valor em rotas tardias |
+| Citrine / Topaz / Amethyst / Emerald / Ruby / Sapphire / Diamond | Receitas de tier mais alto | Gastos às cegas | Guarde para requisitos reais de upgrade |
+
+| Prioridade | Alvo de Upgrade | Por quê |
+|---|---|---|
+| 1 | Picareta | Mineração mais rápida e melhor manuseio de blocos |
+| 2 | Mochila | Rotas mais longas e menos retornos |
+| 3 | Cartas | Maior eficiência para seu estilo de jogo preferido |
+| 4 | Consumíveis | Segurança emergencial em runs profundas no gelo |
+
+<Checklist
+  id="heart-of-frost-checklist"
+  title="Antes de Entrar nas Camadas de Gelo:"
+  items={[
+    "Libere espaço no inventário e mantenha só consumíveis úteis",
+    "Equipe uma arma em que você confie no combate corpo a corpo",
+    "Leve cartas de mobilidade ou sobrevivência para saídas de camadas profundas",
+    "Decida se a run é para minério, quests ou preparação para chefe",
+    "Pare de farmar quando a rota ficar mais lenta do que a recompensa"
+  ]}
+/>
+
+<Callout type="success" title="Melhor Lógica de Upgrade">
+Se sua rota estiver lenta, melhore a picareta. Se a mochila encher cedo demais, melhore a mochila. Se você continuar morrendo, corrija mobilidade e sobrevivência primeiro.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Links Oficiais e FAQ">
+
+Use os recursos oficiais para informações estáveis do jogo, atualizações de patch e referências de progressão. Para um jogo com sistemas de mineração em camadas, ter os pontos de entrada certos economiza muito tempo de tentativa e erro.
+
+| Recurso | Melhor Para | Link |
+|---|---|---|
+| Roblox Game Page | Entrar no jogo, detalhes do jogo, acesso aos servidores | [Subterra no Roblox](https://www.roblox.com/games/16817315243/Subterra) |
+| Trello Board | Camadas, minérios, cartas, craft, inimigos | [Subterra Trello](https://trello.com/b/mfSycrVO/subterra-wiki) |
+| Discord | Anúncios, códigos, atualizações | [Discord da Polyworks Studio](https://discord.com/invite/wZ3J4whDPe) |
+| X Profile | Notícias dos desenvolvedores e posts do projeto | [Polyworks Studio X](https://x.com/PolyworksStudio) |
+| YouTube Channel | Trailers e atualizações oficiais em vídeo | [Polyworks Studio YouTube](https://www.youtube.com/channel/UCxnoxgq9LMmHBTSDJyk26BQ) |
+
+<Callout type="tip" title="Use o Ciclo Oficial">
+Se você quer o caminho de progressão mais limpo, confira a página do Roblox para jogar, o Trello para os sistemas e o Discord para as novidades mais recentes.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Qual é a forma mais segura de abordar subterra heart of frost?",
+    answer: "Comece com uma rota curta por Darkstone e depois farme Permafrost com um objetivo claro. Só entre em Schwarzfrost quando seu dano, cura e mobilidade estiverem prontos."
+  },
+  {
+    question: "Qual configuração de arma funciona melhor nas camadas de gelo?",
+    answer: "Splitblade é a greatsword craftável mais forte listada, enquanto Knight’s Greatsword é uma boa reserva. Combine qualquer uma delas com cartas de mobilidade e sobrevivência."
+  },
+  {
+    question: "O que devo guardar para upgrades?",
+    answer: "Guarde gemas raras, lingotes e minérios-chave para receitas que realmente os exijam. Isso inclui materiais como Platinum, Chromium, Amethyst, Emerald, Ruby, Sapphire e Diamond."
+  },
+  {
+    question: "Devo sempre avançar mais fundo na zona de gelo?",
+    answer: "Não. Uma run lucrativa em Permafrost muitas vezes é melhor do que um avanço arriscado em Schwarzfrost. Pare quando o inventário, a vida ou a velocidade de limpeza começarem a prejudicar sua eficiência."
+  }
+]} />
+
+</Section>

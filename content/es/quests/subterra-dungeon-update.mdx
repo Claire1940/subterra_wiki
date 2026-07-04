@@ -1,0 +1,235 @@
+import { Map, Shield, Sparkles, Target, Trophy, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Actualización de la mazmorra de Subterra: cambios de capas, botín y guía de rutas",
+  description: "Sigue la actualización de la mazmorra de Subterra con prioridades por capa, riesgo de enemigos, rutas de mena, orden de mejoras y un plan de progreso rápido para jugadores que regresan.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Dungeon+Update+Guide",
+  date: "2026-07-05",
+  author: "Equipo de la Wiki de subterra"
+}
+
+<Callout type="info" title="Guía rápida">
+- Los jugadores de la **subterra dungeon update** deberían centrarse primero en capas más profundas, salidas más seguras y una mejor gestión del inventario.
+- **Mejor ruta inicial**: mina, vende, mejora el pico y luego amplía la mochila antes de adentrarte en zonas más difíciles.
+- **Revisión de combate**: lleva un arma fiable y objetos de recuperación listos antes de entrar en Darkstone o más abajo.
+- **Bucle de mayor valor**: farmear mena, fundir y reclamar recompensas de misiones mantiene rentable tu partida.
+- **Crecimiento más rápido**: usa cartas y fabricación para reducir viajes desperdiciados y mejorar la eficiencia a largo plazo.
+</Callout>
+
+<Section icon={Map} title="Lo que cambia primero con la actualización de la mazmorra">
+
+La actualización de la mazmorra cambia por completo el ritmo de Subterra hacia partidas más profundas y más arriesgadas. Eso significa que tu vieja costumbre de minar en línea recta hacia abajo hasta llenar la bolsa ya no es suficiente. Necesitas una ruta, un plan de regreso y una mejor idea de qué capas merecen la pena según tu nivel de poder actual.
+
+El cambio más grande no es solo el peligro. Es la presión de tomar decisiones. Ahora cada capa plantea una pregunta sencilla: ¿te quedas por una mejor mena o te vas antes de que la partida se convierta en una pérdida?
+
+**Aspectos destacados del video:**
+- La profundidad importa más que el tiempo puro en un solo túnel
+- El espacio del inventario puede frenar el progreso antes que el combate
+- Las cartas ahora influyen en la eficiencia de minado tanto como el equipo
+- Las capas más fuertes recompensan la paciencia, no la prisa imprudente
+
+<CardGrid cols={4}>
+  <Card title="Progresión">
+    - **El orden de mejora importa**
+    - Primero el pico
+    - Después la mochila
+  </Card>
+  <Card title="Combate">
+    - **Un arma segura**
+    - Mantén objetos de curación o escape
+    - Evita peleas en callejones sin salida
+  </Card>
+  <Card title="Exploración">
+    - **Capa por capa**
+    - Aprende las ubicaciones de los portales
+    - Marca puntos de regreso seguros
+  </Card>
+  <Card title="Economía">
+    - **Funde y vende**
+    - Guarda los materiales raros
+    - Convierte las misiones en oro
+  </Card>
+</CardGrid>
+
+| Prioridad | Por qué importa | Mejor acción |
+|---|---|---|
+| **Poder del pico** | Romper bloques más rápido abre mejores rutas de mena | Mejora antes de perseguir objetos de lujo |
+| **Espacio de mochila** | Más espacio significa menos regresos forzados | Sube la capacidad cuando los viajes terminen demasiado pronto |
+| **Preparación para combate** | Las capas profundas castigan los equipamientos débiles | Lleva un arma fiable y curación |
+| **Configuración de cartas** | Las cartas mejoran la eficiencia y la supervivencia de la partida | Construye en torno a minería, movilidad o defensa |
+
+<Callout type="warning" title="No te apresures en las capas profundas">
+Si te adentras en zonas más fuertes antes de que tus herramientas estén listas, la partida suele volverse ineficiente. Vuelve antes, deposita las ganancias y entra de nuevo con un mejor equipamiento.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Planificación de ruta capa por capa">
+
+Una buena ruta para la actualización de la mazmorra se construye alrededor de las capas, no solo de los nombres de las menas. Las zonas iniciales tratan de generar impulso. Las zonas intermedias se centran en la calidad de los recursos. Las zonas profundas tratan de sobrevivir, reparar y extraer valor antes de que los enemigos o la logística te frenen.
+
+Usa la tabla de abajo como mapa de ruta. Mantiene tus objetivos de minería vinculados a la capa que realmente puedes manejar.
+
+| Capa | Propósito principal | Recompensas clave | Nivel de riesgo |
+|---|---|---|---|
+| **Mundo exterior** | Preparación, venta, fabricación y punto de reinicio | Acceso a la tienda, fundición, misiones | **Bajo** |
+| **Capa de tierra** | Primer bucle de minería y materiales iniciales | Carbón, cobre, estaño, piedra básica | **Bajo a medio** |
+| **Capa de piedra** | Zona principal de progresión temprana | Hierro, plata, oro, nodos de gemas | **Medio** |
+| **Capa Darkstone** | Primer gran salto a capas profundas | Cobalto, Nocturnite, Hielo negro | **Alto** |
+| **Capa Permafrost** | Farmo avanzado en hielo | Cromo, Piedra lunar, Titanio, Wolframita | **Muy alto** |
+| **Capa Schwarzfrost** | Jefe del final del juego y ruta de botín tardío | Hielo cargado, botín raro de profundidad | **Extremo** |
+
+**Enfoque recomendado por capa:**
+- **Capa de tierra**: farmea materiales, completa las misiones iniciales y vete antes de que el inventario se sature.
+- **Capa de piedra**: quédate más tiempo aquí porque ofrece la mejor mezcla de seguridad y valor.
+- **Capa Darkstone**: entra solo cuando tu arma, movimiento y curación sean estables.
+- **Permafrost y más allá**: trátalas como partidas de beneficio, no como paseos casuales.
+
+| Capa | Ideal para | Cuándo irte |
+|---|---|---|
+| **Tierra** | Recursos iniciales rápidos | Cuando se llene la bolsa o termines las misiones |
+| **Piedra** | Minería equilibrada de menas | Cuando los enemigos ralenticen demasiado la ruta |
+| **Darkstone** | Mena profunda y búsqueda de estructuras | Cuando pierdas más tiempo del que ganas |
+| **Permafrost** | Materiales de alto nivel | Cuando empiecen a fallar la curación y la movilidad |
+
+<Callout type="tip" title="Consejo de ruta">
+Cuando tengas dudas, mina una capa más arriba de la que crees necesitar. Eso suele darte más seguridad, ventas más rápidas y menos recuperaciones desperdiciadas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mejor ruta y equipamiento inicial">
+
+El plan inicial más limpio es sencillo: completa el tutorial, mina cerca de la superficie, vende con frecuencia y solo desciende más cuando el pico y la mochila estén listos. Así tus primeras sesiones serán rentables en vez de caóticas.
+
+La actualización de la mazmorra hace que la preparación sea más valiosa que la agresividad. Si tu inventario se llena demasiado rápido o pasas demasiado tiempo luchando contra enemigos básicos, tu ruta está demasiado avanzada para tu configuración actual.
+
+<Steps>
+  <Step num="1" title="Termina el tutorial">
+    Desbloquea todo el movimiento y aprende dónde están los PNJ clave del lobby y las salidas. Esto te da un punto de reinicio estable antes de minar más profundo.
+  </Step>
+  <Step num="2" title="Farmea las capas de tierra y piedra">
+    Enfócate en materiales comunes, menas básicas y tareas simples de misiones. Crea una pequeña reserva antes de perseguir algo raro.
+  </Step>
+  <Step num="3" title="Mejora el pico antes que la mochila">
+    Una mejor velocidad y potencia de minado ayudan en cada partida. Sube el espacio de la mochila cuando los viajes terminen demasiado pronto por tener el inventario lleno.
+  </Step>
+  <Step num="4" title="Añade una opción de combate">
+    Lleva un arma fiable para que las cuevas hostiles no te corten la ruta. Solo necesitas daño suficiente para mantenerte a salvo.
+  </Step>
+  <Step num="5" title="Adéntrate más solo cuando la rentabilidad se estabilice">
+    Entra en capas más fuertes cuando tu bucle se sienta fluido. Si te estás retirando constantemente, tu build aún no está lista.
+  </Step>
+</Steps>
+
+<Checklist
+  id="subterra-dungeon-update-prep"
+  title="Lista de preparación antes de la partida:"
+  items={[
+    "Vacía tu inventario antes de salir del lobby",
+    "Confirma que la mejora del pico sea tu próximo gran pico de poder",
+    "Lleva al menos una opción de combate segura",
+    "Separa los materiales para fundir o fabricar del botín para vender",
+    "Planifica tu punto de regreso antes de entrar en una capa más profunda"
+  ]}
+/>
+
+| Pieza del equipamiento | Qué debería resolver | Prioridad inicial |
+|---|---|---|
+| **Pico** | Minado más rápido y mejor ruptura de bloques | **Máxima** |
+| **Mochila** | Menos regresos forzados | **Alta** |
+| **Arma** | Supervivencia en túneles hostiles | **Alta** |
+| **Cartas de utilidad** | Mejor movimiento, minado o almacenamiento | **Media** |
+| **Objetos de curación** | Partidas largas más seguras | **Media** |
+
+<Callout type="success" title="Mejor hábito inicial">
+Vende y reinicia pronto. Las partidas cortas y rentables casi siempre superan a una partida larga y arriesgada en la actualización de la mazmorra.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Botín, menas y prioridades de mejora">
+
+Una vez que estés estable en las capas iniciales, la actualización de la mazmorra se convierte en un juego de recursos. El objetivo no es recogerlo todo. El objetivo es conservar los materiales que desbloquean tu próximo salto real de poder.
+
+Eso significa que tu inventario necesita un filtro. Las menas comunes alimentan la progresión. Las gemas y lingotes raros deben guardarse para mejoras que realmente te hagan avanzar. Todo lo demás es solo peso muerto en un túnel más profundo.
+
+| Material | Mejor uso | Guardar o vender |
+|---|---|---|
+| **Carbón** | Mejores tempranas, progresión general | **Guardar** |
+| **Cobre / Estaño** | Primera cadena de menas y pasos de fabricación | **Guardar** |
+| **Hierro / Plata / Oro** | Materiales de mejora de mitad de juego | **Guardar** |
+| **Topacio / Amatista / Esmeralda** | Recetas de mejora superiores y misiones | **Guardar con cuidado** |
+| **Rubí / Zafiro / Diamante** | Recetas premium y rutas posteriores | **Reservar para mejoras clave** |
+
+| Opción de mejora | Resultado | Por qué va primero |
+|---|---|---|
+| **Mejoras del pico** | Minado más rápido, mayor potencia | Mejoran cada túnel en el que entras |
+| **Mejoras de mochila** | Más espacio de carga | Reducen los viajes de regreso y el tiempo perdido |
+| **Mejoras de cartas** | Mejor eficiencia o apoyo en combate | Afinan una build que ya funciona |
+| **Inversiones en fabricación** | Armas, pociones, objetos de utilidad | Importan cuando la ruta ya es estable |
+
+Aquí tienes una forma práctica de decidir qué conservar:
+
+- **Guarda** los materiales que desbloquean el siguiente nivel de equipo.
+- **Guarda** los objetos de misión si conducen a una recompensa que ya planeas reclamar.
+- **Guarda** una pila de consumibles útiles para sobrevivir.
+- **Vende** el desorden que no ayuda a tu próxima mejora.
+- **Almacena** las gemas raras hasta que conozcas la ruta de las recetas.
+
+| Tipo de objeto | Acción | Motivo |
+|---|---|---|
+| **Mena en bruto** | Funde o guarda | Suele ser más útil después de procesarla |
+| **Lingotes** | Guárdalos para mejoras | Mayor valor de progreso |
+| **Gemas** | Resérvalas de forma selectiva | Suelen ser necesarias en recetas posteriores |
+| **Consumibles** | Lleva una pequeña pila | Seguridad durante partidas más profundas |
+
+<Callout type="info" title="Regla inteligente de recursos">
+Si un material no ayuda a tu próxima mejora, tu siguiente misión o tu próxima partida segura, probablemente esté ocupando demasiado espacio en tu bolsa.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes y centros oficiales">
+
+Esta actualización recompensa el juego organizado. Si conoces tu ruta, tu equipamiento y tu próxima mejora, el progreso se siente constante en lugar de aleatorio. Esa es la principal ventaja de abordar Subterra como un juego de rutas y no como una simple excavación sin rumbo.
+
+Usa los centros oficiales de abajo para mantenerte alineado con las actualizaciones actuales y los anuncios de la comunidad.
+
+| Centro oficial | Mejor uso | Enlace |
+|---|---|---|
+| **Página del juego en Roblox** | Iniciar el juego y revisar la experiencia principal | https://www.roblox.com/games/16817315243/Subterra |
+| **Discord oficial** | Notas de parches, anuncios y ayuda para jugadores | https://discord.com/invite/wZ3J4whDPe |
+| **Canal oficial de YouTube** | Tráilers y actualizaciones en video de los desarrolladores | https://www.youtube.com/channel/UCxnoxgq9LMmHBTSDJyk26BQ |
+
+<Callout type="tip" title="Mantén tu partida enfocada">
+Los jugadores que progresan más rápido después de una actualización de mazmorra suelen hacer tres cosas bien: venden con frecuencia, mejoran según el calendario y evitan las incursiones profundas innecesarias.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el mejor primer objetivo después de la actualización de la mazmorra de subterra?",
+    answer: "Mejora primero tu pico, luego tu mochila, y solo después empieza a empujar hacia capas más difíciles. Eso mantiene tu ruta eficiente y reduce los viajes desperdiciados."
+  },
+  {
+    question: "¿Qué capa debería farmear primero?",
+    answer: "Empieza en la capa de tierra, pasa a la capa de piedra una vez que tu ruta se estabilice y entra en Darkstone solo cuando tu arma y tu curación sean fiables."
+  },
+  {
+    question: "¿Debería vender todos mis materiales enseguida?",
+    answer: "No. Guarda las cadenas de menas, las gemas y los materiales de fabricación que apoyen tu próxima mejora. Vende el desorden que no ayude a tu progreso."
+  },
+  {
+    question: "¿Cuál es la forma más segura de manejar las partidas profundas?",
+    answer: "Usa un punto de regreso planificado, lleva equipada una opción de combate sólida y sal antes de que tu inventario o tu curación se conviertan en un problema."
+  }
+]} />
+
+</Section>

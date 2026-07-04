@@ -1,0 +1,206 @@
+import { Target, Settings, Shield, Sparkles, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "subterra missing target: Fixes, Causes & Workarounds",
+  description: "Fix Subterra missing target issues with a fast reset order, cause checks, and prevention tips for quest markers, NPC prompts, and objective tracking.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Missing+Target+Fix+Guide",
+  date: "2026-07-05",
+  author: "subterra Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **subterra missing target** usually means the objective marker, NPC prompt, or quest state failed to refresh.
+- **Fastest fix**: re-track the objective, rejoin a new server, and re-equip your tool or weapon.
+- **Most common cause**: UI desync after teleporting, changing layers, or joining mid-session.
+- **Best prevention**: keep one clean route, avoid stacking menus, and check the tracker before every run.
+</Callout>
+
+<Section icon={Target} title="Subterra Missing Target: What It Usually Means">
+
+If **subterra missing target** is showing up on your screen, the game usually lost sync with the thing you are trying to track. That can be a quest marker, an interaction prompt, a combat reticle, or a layer objective. In practice, this is less about your save being broken and more about the client or server failing to refresh the target state.
+
+The best way to solve it is to identify what kind of target disappeared, then apply the smallest reset that restores the tracker. If you treat every case the same way, you waste time. If you separate quest tracking from UI problems, the fix becomes much faster.
+
+<CardGrid cols={4}>
+  <Card title="Quest Target">
+    - **Looks like:** objective text with no marker
+    - **Best fix:** re-track the quest
+    - **Common trigger:** teleporting or rejoining
+  </Card>
+  <Card title="NPC Prompt">
+    - **Looks like:** no interact button
+    - **Best fix:** move closer, reopen UI
+    - **Common trigger:** spawn-area desync
+  </Card>
+  <Card title="Combat Target">
+    - **Looks like:** reticle or lock-on fails
+    - **Best fix:** re-equip weapon
+    - **Common trigger:** camera or input reset
+  </Card>
+  <Card title="Layer Objective">
+    - **Looks like:** wrong depth or no route pin
+    - **Best fix:** return to the correct layer
+    - **Common trigger:** zone mismatch
+  </Card>
+</CardGrid>
+
+| Target Type | What Vanishes | What to Check First | Best First Fix |
+|---|---|---|---|
+| Quest marker | Objective pin or direction | Active quest panel | Re-track the quest |
+| NPC interaction | Claim or talk prompt | Distance and camera angle | Step closer and reopen UI |
+| Combat focus | Reticle or aim feel | Weapon state and input | Re-equip the weapon |
+| Layer guidance | Depth goal or route marker | Current area | Move back to the correct layer |
+
+<Callout type="tip" title="Read the Signal First">
+If the target disappears only after a teleport, treat it like a sync issue. If it disappears only in one area, treat it like a zone or quest-state problem.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Fast Repair Routine">
+
+When the tracker breaks, do not start with a full reinstall or a long reset. Use a short repair order and stop as soon as the target returns. That keeps you in the run and avoids losing ore, loot, or quest momentum.
+
+<Callout type="warning" title="Fix in Order">
+Do not stack fixes at once. Change one thing, test the target again, and move to the next step only if the problem stays.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Reopen the objective or quest panel">
+    Refresh the tracker first. If the game is holding an old objective state, opening the panel again often forces a clean update.
+  </Step>
+  <Step num="2" title="Leave and rejoin a new server">
+    A fresh server is the cleanest way to clear desync. If the marker returns after a rejoin, the issue was probably session-based.
+  </Step>
+  <Step num="3" title="Re-equip your tool or weapon">
+    Swap to another item and switch back. This helps when the target problem is tied to combat focus, interaction state, or input locking.
+  </Step>
+  <Step num="4" title="Return to the correct layer or NPC zone">
+    Make sure you are standing in the right zone for the objective. Some targets only appear after you are physically in the right area.
+  </Step>
+  <Step num="5" title="Lower visual load and test again">
+    If the UI still feels delayed, reduce graphics a little and test in a calmer area. Heavy effects can make the tracker feel unresponsive.
+  </Step>
+</Steps>
+
+| Fix Order | Action | What It Solves | When to Stop |
+|---|---|---|---|
+| 1 | Reopen panel | Stale quest UI | Target returns immediately |
+| 2 | Rejoin server | Session desync | Marker works in a fresh server |
+| 3 | Re-equip item | Input or focus bug | Prompt or reticle comes back |
+| 4 | Move zones | Wrong area / layer | Objective appears in the right place |
+| 5 | Reduce load | UI lag or delayed refresh | Tracking becomes stable |
+
+The key is to treat the tracker as a live system. If one quick reset restores it, you do not need a deeper fix. If none of the steps help, the problem is probably tied to the current server state, not your progress.
+
+</Section>
+
+<Section icon={Shield} title="Common Causes by Situation">
+
+Most target problems fall into a few predictable buckets. Some are harmless UI hiccups. Others are caused by layer changes, fast travel, or joining a session after another player has already advanced the objective. The faster you identify the bucket, the less time you spend guessing.
+
+<Callout type="info" title="Best Diagnostic Rule">
+If the target fails in one place but not another, the problem is usually location-based. If it fails everywhere, the issue is usually a session or UI refresh problem.
+</Callout>
+
+| Cause | Typical Signs | Likely Fix | Risk Level |
+|---|---|---|---|
+| Quest not tracked | No marker, wrong objective text | Re-select the quest | Low |
+| Server desync | UI feels normal, target stays missing | Rejoin a fresh server | Medium |
+| Menu overlap | Marker hidden behind UI layers | Close panels and try again | Low |
+| Wrong zone | Prompt never appears in current area | Return to the correct layer or NPC | Low |
+| Input lock | Reticle or interaction fails after swapping items | Re-equip and test again | Medium |
+| Client lag | Slow refresh, delayed prompts | Lower graphics and relaunch if needed | Medium |
+
+If you are mining, be extra careful after teleporting between layers. Moving from one area to another can leave the tracker behind for a moment, especially if you open multiple menus at once. In that case, a clean re-track is often enough.
+
+If you want a live reference point while testing, check the official experience page as of 2026-07-05: [Subterra on Roblox](https://www.roblox.com/games/16817315243/Subterra).
+
+<Callout type="success" title="When the Fix Is Working">
+The problem is probably solved when the marker returns, the prompt appears instantly, and the objective text matches the area you are standing in.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Best Prevention Settings for Longer Runs">
+
+You can avoid a lot of tracker issues by keeping your run clean. That means fewer unnecessary teleports, fewer stacked menus, and fewer moments where you switch context faster than the UI can update. For a game built around mining, layers, and repeated movement, that matters more than it sounds.
+
+<CardGrid cols={3}>
+  <Card title="Keep One Active Target">
+    - **Use one quest at a time**
+    - Finish or abandon old tasks before swapping
+    - Reduces marker confusion
+  </Card>
+  <Card title="Avoid Menu Stacking">
+    - **Close overlays before moving**
+    - Reopen only what you need
+    - Helps the tracker refresh cleanly
+  </Card>
+  <Card title="Reset After Teleports">
+    - **Pause one second after travel**
+    - Check the objective before mining
+    - Prevents stale UI state
+  </Card>
+</CardGrid>
+
+| Platform Check | What To Adjust | Why It Helps | Priority |
+|---|---|---|---|
+| PC | Lower graphics one step | Reduces UI lag and delayed prompts | High |
+| Laptop | Close background apps | Frees memory for smoother refresh | High |
+| Mobile | Avoid rapid tab switching | Prevents input and overlay conflicts | High |
+| All devices | Re-track after teleport | Forces a clean objective refresh | Highest |
+
+<Checklist
+  id="subterra-target-prevention"
+  title="Before You Start a New Run:"
+  items={[
+    "Confirm the correct quest or objective is active",
+    "Close every unnecessary menu before entering a layer",
+    "Recheck the target after teleporting or server-hopping",
+    "Re-equip your main tool or weapon after item swaps",
+    "Keep your route simple until the tracker feels stable"
+  ]}
+/>
+
+<Callout type="success" title="Good Habit">
+A stable run starts with a stable objective. Check the target once before mining, once after teleporting, and once after any item swap.
+</Callout>
+
+</Section>
+
+<Section icon={Search} title="FAQ">
+
+If you are still stuck, use these answers to separate a real bug from a temporary sync issue. In most cases, the tracker problem is fixable without losing progress.
+
+<Callout type="tip" title="Quick Rule">
+If the target returns after a relog, it was probably a session issue. If it never returns in the correct area, the quest state likely needs a fresh selection.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Why does Subterra show a missing target after I teleport?",
+    answer: "Teleporting can leave the client with stale objective data. Reopen the quest panel first, then rejoin if the marker still does not appear."
+  },
+  {
+    question: "What should I do if the NPC prompt is missing?",
+    answer: "Move closer, close any open UI, and re-equip your item. If that fails, switch servers to clear the interaction state."
+  },
+  {
+    question: "Is this usually a permanent bug?",
+    answer: "Usually not. Most Subterra missing target issues are temporary sync or UI problems, not broken progress."
+  },
+  {
+    question: "What is the safest reset order?",
+    answer: "Re-track the objective, rejoin a fresh server, re-equip your tool or weapon, and then verify that you are in the correct zone."
+  }
+]} />
+
+</Section>

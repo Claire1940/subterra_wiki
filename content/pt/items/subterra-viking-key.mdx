@@ -1,0 +1,196 @@
+import { Map, Shield, Target, Trophy, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Chave Viking de Subterra: Acesso a Baús, Rotas e Dicas",
+  description: "Aprenda a rota da Chave Viking de Subterra com prioridades de baús, farm por camada, fontes de chaves e builds para runs eficientes com Iron Key e Gold Key.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/243b53/fff?text=Subterra+Viking+Key",
+  date: "2026-07-05",
+  author: "Equipe da Wiki do Subterra"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Subterra Viking Key** é melhor tratado como uma rota de acesso a baús, e não como uma corrida para todos os túneis profundos.
+- **Iron Key** e **Gold Key** são os itens de chave confirmados; guarde a Gold para runs de baús mais profundas.
+- As camadas **Stone** e **Darkstone** oferecem a melhor combinação de loot, perigo e eficiência de rota.
+- **Cartas de mobilidade** e **espaço na mochila** importam mais do que dano bruto em sessões longas de farm.
+</Callout>
+
+<Section icon={Target} title="Noções Básicas da Subterra Viking Key">
+
+A busca por Subterra Viking Key normalmente aponta para o ciclo de chaves e baús que mantém as runs profundas lucrativas. Comece pela [página de Subterra no Roblox](https://www.roblox.com/games/16817315243/Subterra) e mantenha o [quadro oficial do Trello](https://trello.com/b/mfSycrVO/subterra-wiki) aberto quando for planejar rotas, paradas em baús e prioridades de upgrade.
+
+<Callout type="tip" title="Regra Principal">
+Trate as chaves como ferramentas de progressão. Abra o baú certo na profundidade certa e saia com um ciclo de inventário mais forte.
+</Callout>
+
+| Item-chave | O que Abre | Melhor Combinação de Fontes | Quando Usar |
+| --- | --- | --- | --- |
+| Iron Key | Baús de Ferro | Marble Pots, Baús, Monstros, Lootables, Basic Utility Item Recipe Scroll | Runs iniciais e intermediárias com loot constante e baixo risco |
+| Gold Key | Baús de Ouro | Marble Pots, Baús, Monstros, Lootables, Basic Utility Item Recipe Scroll | Meio do jogo e runs mais profundas com retornos melhores |
+| Suporte de Recipe Scroll | Desbloqueia receitas de chaves | Baús, Lootables, recompensas de progressão | Quando você quer acesso repetível em vez de drops únicos |
+
+| Fonte | O que Geralmente Oferece | Por que Importa |
+| --- | --- | --- |
+| Marble Pots | Chaves, pergaminhos, loot utilitário | Bons desvios durante os loops de mineração |
+| Baús | Chaves, pergaminhos de receita, recompensas mistas | Melhor lugar para converter profundidade em valor |
+| Monstros | EXP, materiais, drops | Ajuda a bancar explosivos pegajosos e sobrevivência |
+| Lootables | Itens utilitários variados | Preenche lacunas sem forçar um reset completo |
+
+Use a rota das chaves como um loop controlado: minerar, verificar loot lateral, abrir o baú certo e sair antes que o inventário cheio mate o ritmo.
+
+</Section>
+
+<Section icon={Map} title="Rota Rápida de Farm de Chaves">
+
+Uma rota limpa de chaves em Subterra funciona melhor quando você constrói em torno do acesso pela superfície e depois desce por camadas, em vez de mergulhar direto para baixo. O caminho oficial de progressão favorece esse estilo: minerar, melhorar, craftar e só então avançar para as zonas hostis mais profundas.
+
+<Callout type="warning" title="Não Invista Demais no Começo">
+Se a sua bag estiver cheia de materiais de pouco valor, uma run de chaves vira uma viagem lenta de volta. Mantenha espaço livre para o loot que realmente importa.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Finalize o tutorial e chegue ao lobby">
+    Desbloqueie o movimento livre, identifique o portal de spawn e faça do lobby seu ponto de reset antes de toda run séria de mineração.
+  </Step>
+  <Step num="2" title="Pegue recompensas iniciais e utilidades">
+    Use o loop do lobby para resgatar códigos ativos e então coloque essas recompensas em acesso a cartas, explosivos ou itens de recuperação.
+  </Step>
+  <Step num="3" title="Minere com um alvo de material claro">
+    Foque nos materiais que sua rota precisa a seguir, especialmente Coal, Copper, Tin, Iron e Silver para a progressão inicial.
+  </Step>
+  <Step num="4" title="Volte antes que a run fique bagunçada">
+    Venda, derreta ou guarde seus materiais e depois volte para fora com uma build melhor e o inventário vazio.
+  </Step>
+</Steps>
+
+| Parada da Rota | Alvo | Por que Importa | Risco |
+| --- | --- | --- | --- |
+| Superfície | Códigos, loja, fundição | Prepara a run | Baixo |
+| Camada de Dirt | Coal, Copper, Tin | Materiais iniciais e pressão inimiga fácil | Baixo |
+| Camada de Stone | Iron, Silver, gemas | Melhor valor de baús e loot mais forte | Médio |
+| Camada de Darkstone | Cobalt, Nocturnite, baús profundos | Recompensas melhores em runs longas | Alto |
+| Camada de Permafrost | Platinum, Chromium, Moonstone | Valor forte para a parte final da rota | Alto |
+
+Uma rota prática é simples: construa na Superfície, farme em Dirt e Stone e só gaste chaves quando conseguir sobreviver ao caminho de volta. Isso mantém o loop lucrativo em vez de caótico.
+
+</Section>
+
+<Section icon={Shield} title="Prioridade das Camadas e Valor dos Baús">
+
+Profundidade importa mais do que hype. A estrutura de camadas de Subterra muda a pressão dos inimigos, a qualidade do minério e o tipo de valor de baú que você consegue alcançar com segurança. Se quiser o melhor uso das chaves, persiga camadas que combinem com seu nível atual de sobrevivência.
+
+<Callout type="info" title="Lógica da Rota">
+Abra baús quando sua rota já suportar a viagem de volta. Um bom baú não vale nada se a run desmoronar antes de você conseguir guardar a recompensa.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Rota Segura">
+    - **Melhores camadas:** Dirt, Stone
+    - **Melhores chaves:** Iron Key
+    - **Objetivo:** Loot constante com baixo risco
+  </Card>
+  <Card title="Rota Equilibrada">
+    - **Melhores camadas:** Stone, Darkstone
+    - **Melhores chaves:** Iron Key, Gold Key
+    - **Objetivo:** Melhor loot sem exagerar no avanço
+  </Card>
+  <Card title="Rota Profunda">
+    - **Melhores camadas:** Permafrost, Schwarzfrost
+    - **Melhores chaves:** Gold Key
+    - **Objetivo:** Baús de alto valor e materiais do fim de jogo
+  </Card>
+</CardGrid>
+
+| Camada | Profundidade | Loot Principal | Melhor Plano para Baús |
+| --- | --- | --- | --- |
+| Camada de Dirt | Da superfície até cerca de Y -35 | Coal, Copper, Tin | Farme rápido, saia cedo |
+| Camada de Stone | Começa por volta de Y -35 | Iron, Silver, gemas | Abra baús próximos enquanto minera |
+| Camada de Darkstone | Começa por volta de Y -435 | Cobalt, Nocturnite, Black Ice | Guarde chaves para grupos de baús mais seguros |
+| Camada de Permafrost | Começa por volta de Y -723 | Platinum, Chromium, Moonstone | Use builds mais fortes antes de abrir baús |
+| Camada de Schwarzfrost | Abaixo da Permafrost | Loot congelado de endgame e rotas de chefes | Abra só quando seu setup de combate estiver pronto |
+
+<Callout type="tip" title="Melhor Momento">
+Se sua movimentação e o tamanho da bag ainda estiverem fracos, farme mais em Stone e Darkstone antes de começar a gastar toda chave que encontrar.
+</Callout>
+
+É aqui que os dados oficiais de progressão mais importam: chaves, camadas e rotas de baús escalam melhor quando sua mochila, picareta e setup de cartas escalam junto.
+
+</Section>
+
+<Section icon={Swords} title="Melhores Builds para Runs de Baús">
+
+Quando você começa a abrir baús mais profundos, sua build importa tanto quanto sua rota. As melhores montagens de Subterra combinam uma arma confiável com cartas que melhoram sobrevivência, mobilidade e tempo útil de mineração.
+
+<Callout type="success" title="Regra da Build">
+Escolha um pilar de dano e depois empilhe utilidade. Isso mantém suas runs de chaves eficientes sem deixar você frágil.
+</Callout>
+
+| Build | Peças Principais | Melhor Para | Observações |
+| --- | --- | --- | --- |
+| Deep Ore Farmer | Splitblade, Lucky, Explosive Touch, Blazing Pickaxe, Bigger Backpack | Sessões longas de mineração | Ótima para volume de loot e limpeza de túneis |
+| Safe Deep Explorer | Wretched Sword, Healthy, Double Jump, Walk Speed, Extra Oxygen | Viagens em cavernas profundas | Forte em sobrevivência e mobilidade |
+| Inventory Miner | Knight’s Greatsword, Bigger Backpack, Pouch, Lucky, Larger Furnace | Rotas com muito loot | Boa quando sua bag enche rápido demais |
+| Early Miner | Sturdy Greatsword, Lighter Pickaxe, Stronger Pickaxe, Pouch, Walk Speed | Progressão inicial | Simples, prática e barata de administrar |
+
+| Carta | Benefício Principal | Por que Ajuda nas Chaves |
+| --- | --- | --- |
+| Lucky | Chance de dobrar o minério | Aumenta o lucro da rota |
+| Bigger Backpack | Mais espaço no inventário | Estende as runs de baús |
+| Double Jump | Melhor mobilidade | Ajuda em rotas verticais e fugas |
+| Walk Speed | Deslocamento mais rápido | Reduz o tempo de retorno |
+| Healthy | Mais HP | Ajuda a sobreviver a lutas surpresa |
+| Extra Oxygen | Mais fôlego | Útil em avanços longos no subterrâneo |
+
+Mantenha a escolha de arma simples. Greatswords fortes e opções confiáveis de ataque à distância funcionam, mas a diferença real vem de as cartas permitirem que você fique no subterrâneo tempo suficiente para a run de chaves valer a pena.
+
+</Section>
+
+<Section icon={Trophy} title="Checklist e FAQ">
+
+<Callout type="info" title="Checklist da Run">
+Use isto antes de toda rota séria de chaves para não desperdiçar um bom baú com um inventário ruim.
+</Callout>
+
+<Checklist
+  id="subterra-viking-key-checklist"
+  title="Checklist da Run de Chaves:"
+  items={[
+    "Finalize o tutorial e confirme sua rota para o lobby",
+    "Leve espaço suficiente para loot de baús e materiais",
+    "Leve uma arma confiável e um conjunto de cartas de sobrevivência",
+    "Priorize Iron Key no começo e Gold Key mais tarde",
+    "Saia da rota antes que seu inventário fique bagunçado"
+  ]}
+/>
+
+<Callout type="tip" title="Foco do FAQ">
+Estas respostas ficam focadas no ciclo de chaves e baús que importa para a progressão, não em distrações aleatórias.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Existe literalmente um item Subterra Viking Key?",
+    answer: "A busca prática normalmente se refere à rota de chaves e baús. Nos dados de progressão confirmados, Iron Key e Gold Key são os itens de chave nos quais você deve focar."
+  },
+  {
+    question: "Onde devo farmar chaves primeiro?",
+    answer: "Comece em Dirt e Stone e depois avance para Darkstone quando sua build aguentar a pressão. Isso dá loot mais seguro com melhor potencial de retorno."
+  },
+  {
+    question: "Qual baú devo abrir primeiro?",
+    answer: "Abra o baú que corresponda ao seu nível atual de sobrevivência. Iron Chests combinam com a progressão inicial, enquanto Gold Chests fazem mais sentido quando sua rota estiver mais profunda e limpa."
+  },
+  {
+    question: "Qual build funciona melhor para runs longas de chaves?",
+    answer: "Uma greatsword confiável ou uma arma à distância forte, junto de cartas utilitárias como Lucky, Bigger Backpack, Walk Speed e Healthy, é o setup mais flexível."
+  }
+]} />
+
+</Section>

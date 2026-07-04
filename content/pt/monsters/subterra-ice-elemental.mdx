@@ -1,0 +1,234 @@
+import { Snowflake, Map, Swords, Shield, Target, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Subterra Elemental de Gelo: Localização, Drops e Contra-ataque",
+  description: "Aprenda onde o Subterra Elemental de Gelo aparece, quão perigoso ele é, quais builds funcionam melhor e como farmá-lo com eficiência em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Ice+Elemental+Guide",
+  date: "2026-07-05",
+  author: "Equipe da Wiki do subterra"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Subterra Elemental de Gelo** é uma ameaça da camada Permafrost que recompensa posicionamento limpo e dano disciplinado.
+- **Espaço aberto importa** mais do que dano bruto quando você quer uma eliminação segura.
+- **Mobilidade, cura e alcance** são as ferramentas centrais para runs consistentes.
+- **Combates curtos e eficientes** geralmente vencem brigas longas em túneis congelados apertados.
+- **Planeje sua rota de saída** antes de se comprometer com um encontro em camada profunda.
+</Callout>
+
+<Section icon={Snowflake} title="Visão Geral do Subterra Elemental de Gelo">
+
+O Subterra Elemental de Gelo é um inimigo de camadas mais profundas que pune espaçamento descuidado, lutas em túneis e runs sem preparação. Trate-o como um teste de progressão: se seu ritmo de movimento, cura e dano estiver fraco, a luta se torna cara muito rapidamente.
+
+<Callout type="info" title="Resumo do Inimigo">
+Construa primeiro em torno da sobrevivência e depois adicione dano. Os melhores encontros acontecem quando você controla a arena em vez de correr atrás da eliminação por cavernas de gelo apertadas.
+</Callout>
+
+| Stat | Value | Why It Matters |
+|---|---:|---|
+| Layer | Permafrost | Você deve esperar inimigos mais difíceis e janelas de recuperação maiores. |
+| Health | 1250 | Builds com baixo dano podem demorar demais para terminar a luta. |
+| Damage | 50 | Erros se acumulam rápido se você trocar golpes sem cuidado. |
+| Walk Speed | 12 | Você consegue kitar, mas só se sua rota permanecer aberta. |
+| Reward | 2000 EXP | A recompensa é forte o bastante para justificar uma rota de farm limpa. |
+
+| Environment | Practical Impact | Best Response |
+|---|---|---|
+| Narrow tunnel | Difícil de desviar e resetar | Puxe-o para uma seção de caverna mais ampla |
+| Frozen layers | Visão e movimento ficam estranhos | Mantenha a câmera centralizada e evite giros de pânico |
+| Mixed enemy packs | Pressão extra durante a luta | Elimine primeiro as ameaças menores |
+| Dead ends | Sem espaço para se recuperar | Nunca inicie a puxada sem uma rota de fuga |
+
+<CardGrid cols={3}>
+  <Card title="Terreno Aberto">
+    - Melhor para kite
+    - Janelas de cura mais fáceis
+    - Mais seguro para builds à distância
+  </Card>
+  <Card title="Corredor Apertado">
+    - Arriscado para trocas corpo a corpo
+    - Difícil sair do combate
+    - Ruim se houver outros mobs por perto
+  </Card>
+  <Card title="Rota Preparada">
+    - Puxadas mais limpas
+    - Limpezas mais rápidas
+    - Melhor EXP por run
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Não Force a Luta">
+Se você entrar em Permafrost com cura fraca ou sem um plano de movimento, o Elemental de Gelo pode transformar uma mineração normal em um reset completo. Lute só quando a rota estiver a seu favor.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Como o Elemental de Gelo Luta">
+
+O Elemental de Gelo não é complicado, mas é implacável. Ele pressiona seu posicionamento mais do que seus reflexos, o que significa que a resposta mais segura é criar distância, controlar o ângulo e punir apenas depois que ele se comprometer.
+
+<Callout type="warning" title="Regra Central de Combate">
+Nunca deixe a luta virar uma linha reta em um túnel estreito. Espaço lateral é sua melhor ferramenta defensiva, e isso importa mais do que se esticar demais para ganhar golpes extras.
+</Callout>
+
+| Pattern | What Happens | Best Response |
+|---|---|---|
+| Direct chase | Ele se aproxima e força uma troca de curta distância | Recuar em terreno aberto e então punir após a aproximação |
+| Sustained pressure | A luta se arrasta e aumenta o risco | Cure cedo, não tarde, e mantenha seu espaçamento estável |
+| Tight-cave ambush | A arena remove suas opções de esquiva | Faça-o sair dali antes de se comprometer com o dano |
+| Multi-enemy interference | Outro mob interrompe seu ritmo | Limpe a área antes de puxar o elemental |
+
+<Steps>
+  <Step num="1" title="Crie Espaço">
+    Comece se movendo para uma seção mais ampla da caverna. Sua primeira tarefa não é causar dano; é tornar a arena jogável.
+  </Step>
+  <Step num="2" title="Mantenha um Ângulo Limpo">
+    Mantenha o inimigo à sua frente e evite deixá-lo se desviar para trás de rochas, cantos ou formações de gelo.
+  </Step>
+  <Step num="3" title="Ataque Depois do Comprometimento">
+    Ataque quando o Elemental de Gelo terminar de se mover ou quando entrar em uma linha previsível. Não corra atrás de golpes extras.
+  </Step>
+  <Step num="4" title="Reinicie Antes da Ganância">
+    Se a luta ficar bagunçada, desengaje e restabeleça o espaçamento. Um reset controlado é melhor do que perder a run.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Dica Prática de Combate">
+Se sua arma tem bom burst, mas pouco alcance, espere o inimigo entrar na sua faixa preferida em vez de andar primeiro até a zona de ameaça dele.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Melhores Builds para o Elemental de Gelo">
+
+Sua melhor configuração é aquela que mantém você vivo o suficiente para converter dano em um fim limpo. Para a maioria dos jogadores, isso significa uma mistura de mobilidade, recuperação e uma arma confiável, em vez de empilhar puro ataque.
+
+<Callout type="tip" title="Prioridade da Build">
+Escolha uma ferramenta principal de dano, um suporte de movimento e um plano de recuperação. Quanto mais coisa você acumular, mais fácil fica perder o ritmo da luta.
+</Callout>
+
+| Slot | Priority | Recommended Focus | Why It Works |
+|---|---|---|---|
+| Weapon | High | Opção confiável corpo a corpo ou à distância segura | Você precisa de dano constante, não apenas uma janela chamativa de burst. |
+| Mobility | High | Suporte de velocidade ou salto | Movimento extra ajuda você a ficar fora da faixa de pressão do Elemental de Gelo. |
+| Healing | High | Poções ou itens de recuperação | A luta fica muito mais fácil quando você se cura antes do próximo erro. |
+| Utility | Medium | Visão, espaçamento ou conforto no inventário | Pequenos bônus de qualidade de vida deixam runs longas em Permafrost mais suaves. |
+
+| Build Type | Best For | Strengths | Weaknesses |
+|---|---|---|---|
+| Balanced | A maioria dos jogadores | Boa sobrevivência, dano constante, flexível em áreas abertas | Menos explosiva do que builds de dano puro |
+| Ranged-safe | Jogadores cautelosos | Excelente controle de espaçamento, menor risco, puxadas mais fáceis | Pode ser mais lenta em espaços apertados |
+| Tanky | Aprender a luta | Margem de vida mais generosa, melhor tolerância a erros | Normalmente menos eficiente para farm |
+
+<CardGrid cols={3}>
+  <Card title="Build Balanceada">
+    - Escolha mais confiável
+    - Boa para as primeiras vitórias
+    - Fácil de adaptar
+  </Card>
+  <Card title="Build Segura à Distância">
+    - Forte controle de posicionamento
+    - Boa para rotas de farm
+    - Melhor em câmaras abertas
+  </Card>
+  <Card title="Build Tank">
+    - Melhor margem para erros
+    - Curva de aprendizado mais fácil
+    - Mais lenta, mas estável
+  </Card>
+</CardGrid>
+
+<Steps>
+  <Step num="1" title="Organize seu Inventário">
+    Limpe o lixo antes de entrar em Permafrost para não perder tempo gerenciando espaço no meio da luta.
+  </Step>
+  <Step num="2" title="Prepare a Recuperação">
+    Leve cura e deixe-a em um slot rápido. Se você precisar procurar na bolsa, já está perdendo o controle.
+  </Step>
+  <Step num="3" title="Escolha um Ponto Seguro de Puxada">
+    Lute perto de terreno aberto, não ao lado de dead ends ou de outros mobs hostis.
+  </Step>
+  <Step num="4" title="Finalize e Vá Embora">
+    Não fique por ali depois da kill. Reinicie a rota, banque seus ganhos e repita só se o caminho ainda parecer limpo.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="Rota de Farm, Recompensas e Eficiência">
+
+Vale a pena farmar o Elemental de Gelo quando você consegue manter a run curta e repetível. No momento em que sua rota fica caótica, o valor cai porque cura e tempo parado começam a comer a recompensa.
+
+<Callout type="success" title="Mentalidade Ideal para Farm">
+Busque vitórias repetíveis, não jogadas heroicas arriscadas. Uma rota limpa que você consegue concluir várias vezes é melhor do que uma tentativa difícil que drena seus recursos.
+</Callout>
+
+| Route Phase | What to Do | Goal |
+|---|---|---|
+| Approach | Procure uma câmara ampla | Encontrar um espaço que apoie kite e recuperação |
+| Clearout | Elimine primeiro as ameaças menores | Evitar interrupções durante a luta principal |
+| Pull | Enfrente o Elemental de Gelo em terreno aberto | Manter o inimigo longe dos cantos |
+| Finish | Exploda-o e recue | Garantir a EXP sem se esticar demais |
+
+| Farming Factor | Good Run | Bad Run |
+|---|---|---|
+| Fight length | Curta e controlada | Longa e bagunçada |
+| Terrain | Caverna aberta ou câmara ampla | Corredor de gelo apertado |
+| Enemy density | Baixa | Pressão de grupos mistos |
+| Recovery use | Planejada | Reativa e tardia |
+
+<Checklist
+  id="ice-elemental-farm"
+  title="Checklist de Farm do Elemental de Gelo:"
+  items={[
+    "Entre em Permafrost com uma rota de fuga clara",
+    "Leve cura antes de começar a puxada",
+    "Limpe os mobs próximos antes de engajar",
+    "Lute em espaço aberto sempre que possível",
+    "Saia após a kill e reinicie a rota"
+  ]}
+/>
+
+<Callout type="tip" title="Dica de Eficiência">
+Se uma rota força desvios demais, normalmente é melhor pular a luta e voltar com equipamentos melhores ou um caminho mais limpo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="FAQ">
+
+<Callout type="info" title="Perguntas Comuns">
+Use esta seção para checar sua configuração antes de gastar tempo em Permafrost. A resposta certa geralmente se resume a espaçamento, preparação e controle de rota.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Onde encontro o Subterra Elemental de Gelo?",
+    answer: "Ele aparece na camada Permafrost, então você deve se preparar para exploração mais profunda, inimigos mais fortes e terreno mais difícil antes de caçá-lo."
+  },
+  {
+    question: "Qual é a forma mais segura de lutar contra o Elemental de Gelo?",
+    answer: "Use terreno aberto, mantenha seu espaçamento limpo e evite engajar em túneis estreitos. Uma puxada controlada é mais segura do que correr atrás de dano em espaço apertado."
+  },
+  {
+    question: "Que tipo de build funciona melhor?",
+    answer: "Uma configuração balanceada geralmente tem o melhor desempenho: uma arma confiável, suporte de mobilidade e cura. Builds focadas em alcance são especialmente fortes para jogadores cautelosos."
+  },
+  {
+    question: "Vale a pena farmar o Elemental de Gelo?",
+    answer: "Sim, se você conseguir manter a rota eficiente. A recompensa de EXP é forte, mas a run fica menos valiosa quando terreno, cura ou mobs extras atrasam você."
+  }
+]} />
+
+<Callout type="warning" title="Lembrete Final">
+Não trate o Elemental de Gelo como um mob normal de caverna. Ele é, ao mesmo tempo, um teste de espaçamento, um teste de rota e um teste de preparação.
+</Callout>
+
+</Section>

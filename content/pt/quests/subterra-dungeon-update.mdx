@@ -1,0 +1,235 @@
+import { Map, Shield, Sparkles, Target, Trophy, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Atualização da dungeon de subterra: mudanças de camada, loot e guia de rota",
+  description: "Acompanhe a atualização da dungeon de subterra com prioridades de camada, risco dos inimigos, rotas de minérios, ordem de melhorias e um plano rápido de progressão para jogadores que estão voltando.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Dungeon+Update+Guide",
+  date: "2026-07-05",
+  author: "Equipe da Wiki de subterra"
+}
+
+<Callout type="info" title="Guia Rápido">
+- Os jogadores da **atualização da dungeon de subterra** devem focar primeiro em camadas mais profundas, saídas mais seguras e um gerenciamento de inventário mais forte.
+- **Melhor rota inicial**: minerar, vender, aprimorar a picareta e depois expandir a mochila antes de avançar para zonas mais difíceis.
+- **Verificação de combate**: mantenha uma arma confiável e itens de recuperação prontos antes de entrar em Darkstone ou abaixo.
+- **Melhor ciclo de valor**: farm de minérios, fundição e recompensas de missões mantêm sua run lucrativa.
+- **Crescimento mais rápido**: use cards e criação para reduzir viagens desperdiçadas e melhorar a eficiência no longo prazo.
+</Callout>
+
+<Section icon={Map} title="O que a Atualização da Dungeon Muda Primeiro">
+
+A atualização da dungeon muda todo o ritmo de Subterra para runs mais profundas e mais arriscadas. Isso significa que aquele velho hábito de minerar reto para baixo até a mochila encher não é mais suficiente. Você precisa de uma rota, de um plano de retorno e de uma noção melhor de quais camadas compensam no seu nível atual de poder.
+
+A maior mudança não é só o perigo. É a pressão de decisão. Cada camada agora faz uma pergunta simples: você continua atrás de minério melhor ou sai antes que a run vire prejuízo?
+
+**Destaques do vídeo:**
+- A profundidade importa mais do que o tempo bruto em um único túnel
+- O espaço do inventário pode travar a progressão mais rápido do que o combate
+- As escolhas de cards agora moldam a eficiência da mineração tanto quanto o equipamento
+- Camadas mais fortes recompensam paciência, não pressa imprudente
+
+<CardGrid cols={4}>
+  <Card title="Progressão">
+    - **A ordem de melhoria importa**
+    - Picareta primeiro
+    - Mochila depois
+  </Card>
+  <Card title="Combate">
+    - **Uma arma segura**
+    - Mantenha cura ou ferramentas de fuga
+    - Evite lutas em becos sem saída
+  </Card>
+  <Card title="Exploração">
+    - **Camada por camada**
+    - Aprenda a localização dos portais
+    - Marque pontos seguros de retorno
+  </Card>
+  <Card title="Economia">
+    - **Fundir e vender**
+    - Guarde materiais raros
+    - Transforme missões em ouro
+  </Card>
+</CardGrid>
+
+| Prioridade | Por que isso importa | Melhor ação |
+|---|---|---|
+| **Poder da picareta** | Quebrar blocos mais rápido abre melhores rotas de minério | Melhore antes de correr atrás de itens de luxo |
+| **Espaço da mochila** | Mais espaço significa menos retornos forçados | Aumente a capacidade quando as viagens estiverem terminando cedo demais |
+| **Prontidão de combate** | Camadas mais profundas punem builds fracos | Leve uma arma confiável e cura |
+| **Configuração de cards** | Cards melhoram a eficiência da run e a sobrevivência | Monte a build em torno de mineração, mobilidade ou defesa |
+
+<Callout type="warning" title="Não Acelere para as Camadas Profundas">
+Se você avançar para zonas mais fortes antes de suas ferramentas estarem prontas, a run costuma ficar ineficiente. Volte cedo, banque o lucro e entre de novo com uma build melhor.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Planejamento de Rota Camada por Camada">
+
+Uma boa rota da atualização da dungeon é construída em torno das camadas, não apenas dos nomes dos minérios. As zonas iniciais servem para criar impulso. As zonas intermediárias servem para melhorar a qualidade dos recursos. As zonas profundas servem para sobrevivência, reparo e extração de valor antes que os inimigos ou a logística atrasem você.
+
+Use a tabela abaixo como seu mapa de rota. Ela mantém seus objetivos de mineração ligados à camada que você realmente consegue lidar.
+
+| Camada | Propósito principal | Recompensas-chave | Nível de risco |
+|---|---|---|---|
+| **Mundo superior** | Preparação, venda, criação e ponto de reinício | Acesso à loja, fundição, missões | **Baixo** |
+| **Camada de terra** | Primeiro ciclo de mineração e materiais iniciais | Carvão, Cobre, Estanho, pedra básica | **Baixo a Médio** |
+| **Camada de pedra** | Principal zona de progressão inicial | Ferro, Prata, Ouro, nós de gemas | **Médio** |
+| **Camada de Darkstone** | Primeiro grande salto para camadas profundas | Cobalto, Nocturnite, Gelo Negro | **Alto** |
+| **Camada de Permafrost** | Farm avançado em gelo | Cromo, Pedra da Lua, Titânio, Wolframita | **Muito alto** |
+| **Camada de Schwarzfrost** | Boss de endgame e rota de loot tardio | Gelo Carregado, loot raro de profundidade | **Extremo** |
+
+**Abordagem recomendada por camada:**
+- **Camada de terra**: farme materiais, conclua missões iniciais e saia antes que o inventário fique cheio.
+- **Camada de pedra**: fique mais tempo aqui porque ela tem a melhor combinação de segurança e valor.
+- **Camada de Darkstone**: entre apenas quando sua arma, movimentação e cura estiverem estáveis.
+- **Permafrost e além**: trate essas áreas como runs de lucro, não como exploração casual.
+
+| Camada | Melhor para | Sair quando |
+|---|---|---|
+| **Terra** | Recursos iniciais rápidos | Sua mochila encher ou as missões terminarem |
+| **Pedra** | Farm equilibrado de minérios | Os inimigos atrasarem demais a rota |
+| **Darkstone** | Minérios profundos e caça a estruturas | Você perder mais tempo do que ganhar |
+| **Permafrost** | Materiais de alto tier | A cura e a mobilidade começarem a falhar |
+
+<Callout type="tip" title="Dica de Rota">
+Na dúvida, minere uma camada acima do que você acha que precisa. Isso geralmente dá mais segurança, vendas mais rápidas e menos recuperações desperdiçadas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhor Rota e Build Inicial">
+
+O plano inicial mais limpo é simples: conclua o tutorial, minere perto da superfície, venda com frequência e só avance mais fundo depois que sua picareta e mochila estiverem prontas. Isso mantém suas primeiras sessões lucrativas, em vez de caóticas.
+
+A atualização da dungeon torna a preparação mais valiosa do que a agressividade. Se o seu inventário enche rápido demais ou você gasta tempo demais lutando contra inimigos básicos, sua rota está avançada demais para o seu setup atual.
+
+<Steps>
+  <Step num="1" title="Finalize o Tutorial">
+    Desbloqueie toda a movimentação e aprenda onde ficam os NPCs principais do lobby e as saídas. Isso lhe dá um ponto de reinício estável antes de minerar mais fundo.
+  </Step>
+  <Step num="2" title="Farme as Camadas de Terra e Pedra">
+    Foque em materiais comuns, minério básico e tarefas simples de missão. Monte um pequeno estoque antes de correr atrás de algo raro.
+  </Step>
+  <Step num="3" title="Melhore a Picareta Antes da Mochila">
+    Melhor velocidade e poder de mineração ajudam em toda run. Aumente o espaço da mochila quando as viagens estiverem terminando cedo demais por causa do inventário cheio.
+  </Step>
+  <Step num="4" title="Adicione Uma Opção de Combate">
+    Leve uma arma confiável para que cavernas hostis não encerrem sua rota. Você só precisa de dano suficiente para se manter seguro.
+  </Step>
+  <Step num="5" title="Avance Mais Fundo Só Depois que o Lucro se Estabilizar">
+    Entre em camadas mais fortes quando seu ciclo estiver fluindo bem. Se você estiver recuando o tempo todo, sua build ainda não está pronta.
+  </Step>
+</Steps>
+
+<Checklist
+  id="subterra-dungeon-update-prep"
+  title="Checklist Pré-Run:"
+  items={[
+    "Esvazie seu inventário antes de sair do lobby",
+    "Confirme que a melhoria da picareta é o próximo grande pico de poder",
+    "Leve pelo menos uma opção segura de combate",
+    "Mantenha os materiais para fundição ou criação separados do loot de venda",
+    "Planeje seu ponto de retorno antes de entrar em uma camada mais profunda"
+  ]}
+/>
+
+| Peça da build | O que ela deve resolver | Prioridade inicial |
+|---|---|---|
+| **Picareta** | Mineração mais rápida e melhor quebra de blocos | **Mais alta** |
+| **Mochila** | Menos retornos forçados | **Alta** |
+| **Arma** | Sobrevivência em túneis hostis | **Alta** |
+| **Cards utilitários** | Melhor movimentação, mineração ou armazenamento | **Média** |
+| **Itens de cura** | Runs longas mais seguras | **Média** |
+
+<Callout type="success" title="Melhor Hábito Inicial">
+Venda e reinicie cedo. Runs curtas e lucrativas quase sempre vencem uma run longa e arriscada na atualização da dungeon.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Loot, Minérios e Prioridades de Upgrade">
+
+Depois que você estiver estável nas camadas iniciais, a atualização da dungeon se torna um jogo de recursos. O objetivo não é coletar tudo. O objetivo é guardar os materiais que desbloqueiam seu próximo salto real de poder.
+
+Isso significa que seu inventário precisa de um filtro. Minérios comuns alimentam a progressão. Gemas raras e lingotes devem ser guardados para melhorias que realmente façam você avançar. Qualquer outra coisa é só peso morto em um túnel mais profundo.
+
+| Material | Melhor uso | Guardar ou vender |
+|---|---|---|
+| **Carvão** | Melhorias iniciais, progressão geral | **Guardar** |
+| **Cobre / Estanho** | Primeira cadeia de minério e etapas de criação | **Guardar** |
+| **Ferro / Prata / Ouro** | Materiais de melhoria do meio do jogo | **Guardar** |
+| **Topázio / Ametista / Esmeralda** | Receitas e missões de melhorias mais altas | **Guardar com cuidado** |
+| **Rubi / Safira / Diamante** | Receitas premium e rotas mais tardias | **Guardar para melhorias-chave** |
+
+| Escolha de melhoria | Resultado | Por que vem primeiro |
+|---|---|---|
+| **Melhorias na picareta** | Mineração mais rápida, melhor poder | Melhoram todo túnel em que você entrar |
+| **Melhorias na mochila** | Mais espaço para carregar | Reduzem viagens de volta e tempo perdido |
+| **Melhorias de cards** | Melhor eficiência ou suporte de combate | Ajustam uma build que já funciona |
+| **Investimentos em criação** | Armas, poções, itens utilitários | Importam quando a rota já está estável |
+
+Aqui está uma forma prática de decidir o que guardar:
+
+- **Guarde** materiais que desbloqueiam o próximo tier de equipamento.
+- **Guarde** itens de missão se eles levam a uma recompensa que você já pretende reivindicar.
+- **Guarde** uma pilha de consumíveis úteis para segurança.
+- **Venda** o excesso que não ajuda sua próxima melhoria.
+- **Armazene** gemas raras até saber o caminho da receita.
+
+| Tipo de item | Ação | Motivo |
+|---|---|---|
+| **Minério bruto** | Fundir ou guardar | Muitas vezes fica mais útil depois de processado |
+| **Lingotes** | Guardar para melhorias | Maior valor de progressão |
+| **Gemas** | Guardar seletivamente | Costumam ser necessárias em receitas futuras |
+| **Consumíveis** | Carregar uma pequena pilha | Segurança durante runs mais profundas |
+
+<Callout type="info" title="Regra Inteligente de Recursos">
+Se um material não ajuda sua próxima melhoria, sua próxima missão ou sua próxima run segura, ele provavelmente está ocupando espaço demais na sua mochila.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ e Hubs Oficiais">
+
+Esta atualização recompensa uma jogabilidade organizada. Se você conhece sua rota, sua build e sua próxima melhoria, a progressão parece estável em vez de aleatória. Essa é a principal vantagem de abordar Subterra como um jogo de rota, e não como uma simples correria de escavação.
+
+Use os hubs oficiais abaixo para se manter alinhado com as atualizações atuais e os anúncios da comunidade.
+
+| Hub oficial | Melhor uso | Link |
+|---|---|---|
+| **Página do jogo no Roblox** | Iniciar o jogo e verificar a experiência principal | https://www.roblox.com/games/16817315243/Subterra |
+| **Discord oficial** | Notas de patch, anúncios e ajuda aos jogadores | https://discord.com/invite/wZ3J4whDPe |
+| **Canal oficial no YouTube** | Trailers e atualizações em vídeo dos desenvolvedores | https://www.youtube.com/channel/UCxnoxgq9LMmHBTSDJyk26BQ |
+
+<Callout type="tip" title="Mantenha Sua Run Focada">
+Os jogadores que progridem mais rápido depois de uma atualização da dungeon geralmente fazem três coisas bem: vendem com frequência, melhoram no momento certo e evitam dives profundos sem necessidade.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Qual é o melhor primeiro objetivo após a atualização da dungeon de subterra?",
+    answer: "Melhore sua picareta, depois sua mochila e só então comece a avançar para camadas mais difíceis. Isso mantém sua rota eficiente e reduz viagens desperdiçadas."
+  },
+  {
+    question: "Em qual camada devo farmar primeiro?",
+    answer: "Comece na Camada de Terra, passe para a Camada de Pedra quando sua rota se estabilizar e só entre em Darkstone quando sua arma e sua cura forem confiáveis."
+  },
+  {
+    question: "Devo vender todos os meus materiais imediatamente?",
+    answer: "Não. Guarde cadeias de minérios, gemas e materiais de criação que apoiem sua próxima melhoria. Venda o excesso que não ajuda sua progressão."
+  },
+  {
+    question: "Qual é a maneira mais segura de lidar com runs mais profundas?",
+    answer: "Use um ponto de retorno planejado, mantenha uma opção sólida de combate equipada e saia antes que o inventário ou a cura virem um problema."
+  }
+]} />
+
+</Section>
