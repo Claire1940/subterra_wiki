@@ -79,6 +79,26 @@
         "icon": "Pickaxe",
         "title": "Subterra Pickaxe and Backpack Upgrades",
         "description": "Pickaxe power, backpack space, recipes, and upgrade priority"
+      },
+      {
+        "icon": "Swords",
+        "title": "Subterra Weapons and Ability Cards",
+        "description": "Tier list of weapons and Ability Cards by damage, rarity, and utility"
+      },
+      {
+        "icon": "FlaskConical",
+        "title": "Subterra Crafting Recipes and Materials",
+        "description": "Recipes, ores, ingots, gems, potions, keys, and explosives"
+      },
+      {
+        "icon": "Mountain",
+        "title": "Subterra Layers, Ores, and Structures",
+        "description": "Layer depths, ore pools, structures, enemies, and portal access"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Subterra Monsters, Bosses, Quests, and Achievements",
+        "description": "Monster stats, boss fights, quest rewards, and Chrono Shard achievements"
       }
     ]
   },
@@ -345,6 +365,555 @@
         { "priority": 2, "title": "Upgrade Backpack When Trips End Too Early", "description": "Backpack upgrades are best when your inventory fills before your mining route is finished." },
         { "priority": 3, "title": "Save Gems for Required Recipes", "description": "Citrine, Topaz, Amethyst, Emerald, Ruby, Sapphire, and Diamond appear in upgrade recipes, so spending them early can delay later tiers." },
         { "priority": 4, "title": "Use Codes to Accelerate Card and EXP Progress", "description": "Chrono Shards, TNT Blocks, EXP boosts, and potions support the same mining loop that feeds pickaxe and backpack progression." }
+      ]
+    },
+    "subterraWeaponsAndAbilityCardsTierList": {
+      "title": "Subterra Weapons and Ability Cards Tier List",
+      "eyebrow": "Weapons & Cards",
+      "subtitle": "Compare Subterra weapons and Ability Cards by damage, rarity, card limit, utility, and stage fit. This ranking is built for practical progression, mining efficiency, combat safety, and deeper-layer exploration.",
+      "intro": "Combat and mining builds depend on both weapon choice and Ability Card stacking. High-value setups usually combine one reliable weapon with cards that improve ore yield, pickaxe speed, backpack space, mobility, or survival in hostile layers.",
+      "tierLegend": "Tier letters rank overall progression value. Weapons are measured by damage and recipe tier; Ability Cards are measured by effect strength, card limit, and how broadly the effect improves a mining or combat route.",
+      "tiers": [
+        {
+          "tier": "S",
+          "tierLabel": "Best Overall Progression Picks",
+          "entries": [
+            {
+              "name": "Splitblade",
+              "type": "Weapon",
+              "category": "Greatsword",
+              "damage": "92",
+              "rarity": "Recipe Weapon",
+              "combatRole": "High-damage melee weapon",
+              "bestFor": "Late-game melee damage and boss preparation",
+              "utility": "The strongest listed craftable greatsword option in the current weapon data, making it the main priority for players who want direct combat power."
+            },
+            {
+              "name": "Lucky",
+              "type": "Ability Card",
+              "rarity": "Rare",
+              "cardLimit": "3",
+              "effect": "5% chance to double ore gained from mining an ore.",
+              "bestFor": "Ore farming, rare material farming, long mining routes",
+              "utility": "One of the best economy cards because it directly improves mining returns without changing route planning."
+            },
+            {
+              "name": "Explosive Touch",
+              "type": "Ability Card",
+              "rarity": "Legendary",
+              "cardLimit": "2",
+              "effect": "10% chance to create a small explosion when striking ores, damaging nearby blocks within a 2-block radius.",
+              "bestFor": "Dense ore pockets, geode clearing, faster tunnel expansion",
+              "utility": "Excellent for clearing clustered blocks and speeding up deeper mining sessions."
+            },
+            {
+              "name": "Blazing Pickaxe",
+              "type": "Ability Card",
+              "rarity": "Legendary",
+              "cardLimit": "2",
+              "effect": "30% chance to automatically smelt mined ores.",
+              "bestFor": "Ore routes that normally require repeated smeltery trips",
+              "utility": "Saves processing time and keeps mining routes more efficient."
+            }
+          ],
+          "recommendedCombos": [
+            {
+              "name": "Deep Ore Farmer",
+              "weapon": "Splitblade",
+              "cards": ["Lucky", "Explosive Touch", "Blazing Pickaxe", "Bigger Backpack"],
+              "useCase": "Maximizes ore yield, block clearing, and inventory efficiency during long mining runs."
+            },
+            {
+              "name": "Fast Smelter Build",
+              "weapon": "Knight's Greatsword",
+              "cards": ["Blazing Pickaxe", "Larger Furnace", "Lighter Pickaxe", "Stronger Pickaxe"],
+              "useCase": "Reduces time lost between mining, smelting, and selling."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "tierLabel": "Strong Core Picks",
+          "entries": [
+            {
+              "name": "Knight's Greatsword",
+              "type": "Weapon",
+              "category": "Greatsword",
+              "damage": "66",
+              "rarity": "Recipe Weapon",
+              "combatRole": "Reliable melee weapon",
+              "bestFor": "Mid-to-late progression before Splitblade",
+              "utility": "A strong upgrade path for players who need dependable melee damage before reaching the top greatsword option."
+            },
+            {
+              "name": "Wretched Sword",
+              "type": "Weapon",
+              "category": "Greatsword",
+              "damage": "56",
+              "rarity": "Recipe Weapon",
+              "combatRole": "Melee weapon",
+              "bestFor": "Mid-game monster clearing",
+              "utility": "Good damage for players progressing through tougher layers and enemy-dense routes."
+            },
+            {
+              "name": "Bigger Backpack",
+              "type": "Ability Card",
+              "rarity": "Rare",
+              "cardLimit": "5",
+              "effect": "Increases backpack space by 15%.",
+              "bestFor": "Long mining sessions and sell-route efficiency",
+              "utility": "Reduces how often players must return to the surface to sell or manage inventory."
+            },
+            {
+              "name": "Double Jump",
+              "type": "Ability Card",
+              "rarity": "Rare",
+              "cardLimit": "5",
+              "effect": "Adds an additional jump boost.",
+              "bestFor": "Layer navigation, cave structures, escape routes",
+              "utility": "Improves movement in vertical caves, ruins, towers, and dangerous terrain."
+            },
+            {
+              "name": "Larger Furnace",
+              "type": "Ability Card",
+              "rarity": "Legendary",
+              "cardLimit": "2",
+              "effect": "Adds an extra furnace slot.",
+              "bestFor": "Players processing large ore inventories",
+              "utility": "Improves the smelting loop when paired with backpack and ore-farming cards."
+            },
+            {
+              "name": "Healthy",
+              "type": "Ability Card",
+              "rarity": "Uncommon",
+              "cardLimit": "10",
+              "effect": "Adds 10 HP per card.",
+              "bestFor": "Surviving monsters, bosses, and explosion mistakes",
+              "utility": "Straightforward durability that becomes more valuable in deeper hostile layers."
+            }
+          ],
+          "recommendedCombos": [
+            {
+              "name": "Safe Deep Explorer",
+              "weapon": "Wretched Sword",
+              "cards": ["Healthy", "Double Jump", "Walk Speed", "Extra Oxygen"],
+              "useCase": "Balances survival, movement, and oxygen safety for deeper cave exploration."
+            },
+            {
+              "name": "Inventory Miner",
+              "weapon": "Knight's Greatsword",
+              "cards": ["Bigger Backpack", "Pouch", "Lucky", "Larger Furnace"],
+              "useCase": "Improves carry capacity and processing for ore-heavy routes."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "tierLabel": "Good Early and Mid-Game Picks",
+          "entries": [
+            {
+              "name": "Sturdy Greatsword",
+              "type": "Weapon",
+              "category": "Greatsword",
+              "damage": "51",
+              "rarity": "Recipe Weapon",
+              "combatRole": "Early-to-mid melee weapon",
+              "bestFor": "Players upgrading from basic weapons",
+              "utility": "A practical combat step before stronger greatswords become available."
+            },
+            {
+              "name": "Reinforced Longbow",
+              "type": "Weapon",
+              "category": "Longbow",
+              "damage": "44",
+              "rarity": "Recipe Weapon",
+              "combatRole": "Ranged weapon",
+              "bestFor": "Safer ranged poking and spacing",
+              "utility": "Useful for players who prefer distance against hostile monsters."
+            },
+            {
+              "name": "Spine Bow",
+              "type": "Weapon",
+              "category": "Bow",
+              "damage": "38",
+              "rarity": "Recipe Weapon",
+              "combatRole": "Ranged weapon",
+              "bestFor": "Mobile ranged combat",
+              "utility": "A solid bow option when players need range without committing to heavy melee positioning."
+            },
+            {
+              "name": "Reinforced Bow",
+              "type": "Weapon",
+              "category": "Bow",
+              "damage": "30",
+              "rarity": "Recipe Weapon",
+              "combatRole": "Ranged weapon",
+              "bestFor": "Mid-game ranged combat",
+              "utility": "A stable ranged upgrade before stronger bows and longbows."
+            },
+            {
+              "name": "Stronger Pickaxe",
+              "type": "Ability Card",
+              "rarity": "Uncommon",
+              "cardLimit": "10",
+              "effect": "Increases pickaxe power by 6%.",
+              "bestFor": "Mining tougher blocks and deeper ores",
+              "utility": "Improves block-breaking power and helps progression into harder layers."
+            },
+            {
+              "name": "Lighter Pickaxe",
+              "type": "Ability Card",
+              "rarity": "Uncommon",
+              "cardLimit": "10",
+              "effect": "Increases pickaxe speed by 5%.",
+              "bestFor": "General mining speed",
+              "utility": "A strong everyday mining card that improves the feel of nearly every route."
+            },
+            {
+              "name": "Walk Speed",
+              "type": "Ability Card",
+              "rarity": "Common",
+              "cardLimit": "8",
+              "effect": "Increases walk speed by 2 studs.",
+              "bestFor": "Exploration, return trips, monster avoidance",
+              "utility": "Simple movement speed that saves time across every mining loop."
+            },
+            {
+              "name": "Extra Oxygen",
+              "type": "Ability Card",
+              "rarity": "Uncommon",
+              "cardLimit": "10",
+              "effect": "Adds 25 ml oxygen.",
+              "bestFor": "Long underground routes",
+              "utility": "Helps extend mining trips before returning to safer areas."
+            }
+          ],
+          "recommendedCombos": [
+            {
+              "name": "Early Miner",
+              "weapon": "Sturdy Greatsword",
+              "cards": ["Lighter Pickaxe", "Stronger Pickaxe", "Pouch", "Walk Speed"],
+              "useCase": "Improves mining speed, basic carry capacity, and movement while keeping combat usable."
+            },
+            {
+              "name": "Ranged Safety",
+              "weapon": "Reinforced Longbow",
+              "cards": ["Walk Speed", "Double Jump", "Healthy", "Sneaky"],
+              "useCase": "Keeps distance from enemies while improving mobility and survival."
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "tierLabel": "Starter and Utility Picks",
+          "entries": [
+            {
+              "name": "Sword",
+              "type": "Weapon",
+              "category": "Sword",
+              "damage": "~25",
+              "rarity": "Shop Weapon",
+              "combatRole": "Starter melee weapon",
+              "bestFor": "First combat upgrade",
+              "utility": "A basic weapon option for players who need early defense while mining."
+            },
+            {
+              "name": "Iron Greatsword",
+              "type": "Weapon",
+              "category": "Greatsword",
+              "damage": "20",
+              "rarity": "Recipe Weapon",
+              "combatRole": "Starter greatsword",
+              "bestFor": "Early melee progression",
+              "utility": "Useful as an early craftable step before stronger melee weapons."
+            },
+            {
+              "name": "Curved Longbow",
+              "type": "Weapon",
+              "category": "Longbow",
+              "damage": "24",
+              "rarity": "Recipe Weapon",
+              "combatRole": "Starter ranged weapon",
+              "bestFor": "Early ranged combat",
+              "utility": "A basic longbow option for players who want range before stronger bows."
+            },
+            {
+              "name": "Curved Bow",
+              "type": "Weapon",
+              "category": "Bow",
+              "damage": "16",
+              "rarity": "Recipe Weapon",
+              "combatRole": "Starter ranged weapon",
+              "bestFor": "Light ranged combat",
+              "utility": "A low-commitment ranged option for early cave enemies."
+            },
+            {
+              "name": "Magnet",
+              "type": "Ability Card",
+              "rarity": "Common",
+              "cardLimit": "5",
+              "effect": "Increases item pickup range by 0.5 studs.",
+              "bestFor": "Comfort mining and cleanup",
+              "utility": "Convenient for collecting drops and ores without tight positioning."
+            },
+            {
+              "name": "Pouch",
+              "type": "Ability Card",
+              "rarity": "Common",
+              "cardLimit": "5",
+              "effect": "Increases backpack space by 3%.",
+              "bestFor": "Early inventory relief",
+              "utility": "Helpful before Bigger Backpack becomes available."
+            },
+            {
+              "name": "Radiant",
+              "type": "Ability Card",
+              "rarity": "Common",
+              "cardLimit": "1",
+              "effect": "Makes the player emit faint light.",
+              "bestFor": "Low-light cave visibility",
+              "utility": "Useful comfort card for navigation in dark layers."
+            },
+            {
+              "name": "Sneaky",
+              "type": "Ability Card",
+              "rarity": "Uncommon",
+              "cardLimit": "10",
+              "effect": "Reduces monster detection range by 5%.",
+              "bestFor": "Avoiding unwanted fights",
+              "utility": "Good for players prioritizing mining routes over combat."
+            }
+          ],
+          "recommendedCombos": [
+            {
+              "name": "Starter Safety",
+              "weapon": "Sword",
+              "cards": ["Pouch", "Magnet", "Radiant", "Healthy"],
+              "useCase": "Improves early inventory comfort, visibility, and basic survival."
+            },
+            {
+              "name": "Quiet Miner",
+              "weapon": "Curved Bow",
+              "cards": ["Sneaky", "Walk Speed", "Extra Oxygen", "Radiant"],
+              "useCase": "Supports careful exploration while avoiding unnecessary monster pressure."
+            }
+          ]
+        }
+      ]
+    },
+    "subterraCraftingRecipesAndMaterials": {
+      "title": "Subterra Crafting Recipes and Materials",
+      "eyebrow": "Crafting & Materials",
+      "subtitle": "Track useful recipes, potion ingredients, explosive upgrades, keys, ore materials, ingots, crystals, and common resource sources. This table is built for quick filtering by crafting type, material source, and progression use.",
+      "intro": "Crafting connects mining, monster drops, recipe scrolls, smelting, keys, potions, and explosives. Prioritize health recovery, chest access, sticky explosives, and ingot production because those systems directly affect exploration speed and deeper-layer survival.",
+      "filterAll": "All",
+      "items": [
+        { "name": "Small Health Potion", "category": "Potion", "recipe": ["1x Water Flask", "2x Roots", "1x Life Shard"], "effect": "Restores 25 HP.", "sources": ["Crafting", "Basic Utility Item Recipe Scroll"], "sellValue": 37, "progressionUse": "Early survival, monster fights, deeper cave routes" },
+        { "name": "Small Sticky Bomb", "category": "Sticky Explosive", "recipe": ["3x Slime Chunk", "1x Small Bomb"], "effect": "Sticky version of Small Bomb for controlled block clearing.", "sources": ["Crafting", "Basic Combat Item Recipe Scroll"], "progressionUse": "Targeted mining, cave clearing, ore pocket access" },
+        { "name": "Sticky Dynamite", "category": "Sticky Explosive", "recipe": ["3x Slime Chunk", "1x Dynamite"], "effect": "Sticky version of Dynamite for stronger controlled explosions.", "sources": ["Crafting", "Basic Combat Item Recipe Scroll"], "progressionUse": "Mid-game clearing and structure access" },
+        { "name": "Sticky Dynamites", "category": "Sticky Explosive", "recipe": ["3x Slime Chunk", "1x Dynamites"], "effect": "Sticky version of Dynamites for wider explosive clearing.", "sources": ["Crafting", "Basic Combat Item Recipe Scroll"], "progressionUse": "Large ore pockets and tougher cave routes" },
+        { "name": "Sticky C4", "category": "Sticky Explosive", "recipe": ["3x Slime Chunk", "1x C4"], "effect": "Sticky version of C4 for high-radius controlled explosions.", "sources": ["Crafting", "Basic Combat Item Recipe Scroll"], "progressionUse": "Late-game block clearing and deep-layer mining routes" },
+        { "name": "Stone", "category": "Block Crafting", "recipe": ["4x Rock"], "effect": "Crafts Stone from basic Rock materials.", "sources": ["Crafting", "Rock from Stone, Dirt, and common cave blocks"], "progressionUse": "Basic block conversion and crafting utility" },
+        { "name": "Iron Key", "category": "Key", "effect": "Opens Iron Chests.", "sources": ["Marble Pots", "Chests", "Monsters", "Crafting", "Basic Utility Item Recipe Scroll"], "sellValue": 30, "progressionUse": "Mid-value chest access and loot progression" },
+        { "name": "Gold Key", "category": "Key", "effect": "Opens Gold Chests.", "sources": ["Marble Pots", "Chests", "Monsters", "Crafting", "Basic Utility Item Recipe Scroll"], "sellValue": 60, "progressionUse": "High-value chest access and rare loot routes" },
+        { "name": "Basic Utility Item Recipe Scroll", "category": "Recipe Scroll", "unlocks": ["Small Health Potion", "Iron Key", "Gold Key"], "sources": ["Chests", "Lootables", "Progression rewards"], "sellValue": 12, "progressionUse": "Unlocks core survival and chest-access recipes" },
+        { "name": "Basic Combat Item Recipe Scroll", "category": "Recipe Scroll", "unlocks": ["Small Sticky Bomb", "Sticky Dynamite", "Sticky Dynamites", "Sticky C4"], "sources": ["Chests", "Lootables", "Progression rewards"], "sellValue": 12, "progressionUse": "Unlocks sticky explosive recipes for mining and combat utility" },
+        { "name": "Small Bomb", "category": "Explosive", "damage": 85, "radius": 3, "sources": ["Shop", "Crafting routes"], "shopPrice": 28, "progressionUse": "Early explosive mining and block clearing" },
+        { "name": "Dynamite", "category": "Explosive", "damage": 150, "radius": 4, "sources": ["Shop", "Crafting routes"], "shopPrice": 125, "progressionUse": "Stronger early-to-mid explosive clearing" },
+        { "name": "Dynamites", "category": "Explosive", "damage": 175, "radius": 5, "sources": ["Shop", "Crafting routes"], "shopPrice": 300, "progressionUse": "Wider clearing for deeper mining routes" },
+        { "name": "C4", "category": "Explosive", "damage": 250, "radius": 8, "sources": ["Shop", "Crafting routes"], "shopPrice": 500, "progressionUse": "High-radius late-game clearing" },
+        { "name": "Water Flask", "category": "Potion Material", "rarity": "Uncommon", "sources": ["Monsters", "Chests", "Lootables"], "sellValue": 17, "progressionUse": "Small Health Potion ingredient" },
+        { "name": "Life Shard", "category": "Potion Material", "rarity": "Uncommon", "sources": ["Monsters", "Chests", "Lootables"], "sellValue": 10, "progressionUse": "Small Health Potion ingredient" },
+        { "name": "Roots", "category": "Material", "rarity": "Common", "sources": ["Roots found in cave layers"], "sellValue": 2, "progressionUse": "Small Health Potion ingredient" },
+        { "name": "Slime Chunk", "category": "Combat Material", "rarity": "Uncommon", "sources": ["Slimes", "Ice Slimes", "Monsters", "Chests", "Lootables"], "sellValue": 3, "progressionUse": "Sticky explosive ingredient" },
+        { "name": "Rock", "category": "Basic Material", "rarity": "Common", "sources": ["Stone", "Dirt", "Common cave blocks"], "sellValue": 2, "progressionUse": "Stone crafting and basic material farming" },
+        { "name": "Coal", "category": "Ore Material", "rarity": "Common", "tier": 1, "sources": ["Coal Ore"], "sellValue": 3, "progressionUse": "Early mining, quests, and progression routes" },
+        { "name": "Raw Copper", "category": "Raw Ore", "rarity": "Common", "tier": 3, "sources": ["Copper Ore"], "smeltsInto": "Copper Ingot", "sellValue": 7, "progressionUse": "Early ore progression" },
+        { "name": "Copper Ingot", "category": "Ingot", "rarity": "Common", "tier": 3, "sources": ["Smelt Raw Copper"], "sellValue": 11, "progressionUse": "Early crafting and upgrade material" },
+        { "name": "Raw Tin", "category": "Raw Ore", "rarity": "Common", "tier": 5, "sources": ["Tin Ore at Y -80 and below"], "smeltsInto": "Tin Ingot", "sellValue": 9, "progressionUse": "Early ore progression" },
+        { "name": "Tin Ingot", "category": "Ingot", "rarity": "Common", "tier": 5, "sources": ["Smelt Raw Tin"], "sellValue": 13, "progressionUse": "Early crafting and upgrade material" },
+        { "name": "Raw Iron", "category": "Raw Ore", "rarity": "Common", "tier": 10, "sources": ["Iron Ore at Y -100 and below"], "smeltsInto": "Iron Ingot", "sellValue": 15, "progressionUse": "Core early-to-mid ore progression" },
+        { "name": "Iron Ingot", "category": "Ingot", "rarity": "Common", "tier": 10, "sources": ["Smelt Raw Iron"], "sellValue": 22, "progressionUse": "Weapon, tool, and upgrade progression" },
+        { "name": "Raw Silver", "category": "Raw Ore", "rarity": "Common", "tier": 14, "sources": ["Silver Ore at Y -200 and below"], "smeltsInto": "Silver Ingot", "sellValue": 22, "progressionUse": "Mid-game ore progression" },
+        { "name": "Silver Ingot", "category": "Ingot", "rarity": "Common", "tier": 14, "sources": ["Smelt Raw Silver"], "sellValue": 33, "progressionUse": "Mid-game crafting and upgrades" },
+        { "name": "Raw Gold", "category": "Raw Ore", "rarity": "Common", "tier": 18, "sources": ["Gold Ore at Y -200 and below"], "smeltsInto": "Gold Ingot", "sellValue": 37, "progressionUse": "Mid-game selling, crafting, and quests" },
+        { "name": "Gold Ingot", "category": "Ingot", "rarity": "Common", "tier": 18, "sources": ["Smelt Raw Gold"], "sellValue": 56, "progressionUse": "Mid-game crafting and upgrade material" },
+        { "name": "Raw Platinum", "category": "Raw Ore", "rarity": "Uncommon", "tier": 22, "sources": ["Platinum Ore at Y -250 and below"], "smeltsInto": "Platinum Ingot", "sellValue": 60, "progressionUse": "Higher-tier ore progression" },
+        { "name": "Platinum Ingot", "category": "Ingot", "rarity": "Uncommon", "tier": 22, "sources": ["Smelt Raw Platinum"], "sellValue": 90, "progressionUse": "Advanced crafting and upgrades" },
+        { "name": "Raw Cobalt", "category": "Raw Ore", "rarity": "Uncommon", "tier": 28, "sources": ["Cobalt Ore"], "smeltsInto": "Cobalt Ingot", "sellValue": 50, "progressionUse": "Deep-layer ore progression" },
+        { "name": "Cobalt Ingot", "category": "Ingot", "rarity": "Uncommon", "tier": 28, "sources": ["Smelt Raw Cobalt"], "sellValue": 90, "progressionUse": "Advanced crafting and deeper progression" },
+        { "name": "Raw Chromium", "category": "Raw Ore", "rarity": "Uncommon", "tier": 30, "sources": ["Chromium Ore"], "smeltsInto": "Chromium Ingot", "sellValue": 60, "progressionUse": "Deep-layer ore progression" },
+        { "name": "Chromium Ingot", "category": "Ingot", "rarity": "Uncommon", "tier": 30, "sources": ["Smelt Raw Chromium"], "sellValue": 112, "progressionUse": "Advanced crafting and deeper upgrades" },
+        { "name": "Raw Titanium", "category": "Raw Ore", "rarity": "Mythical", "tier": 34, "sources": ["Titanium Ore"], "smeltsInto": "Titanium Ingot", "sellValue": 90, "progressionUse": "Late-game ore progression" },
+        { "name": "Titanium Ingot", "category": "Ingot", "rarity": "Mythical", "tier": 34, "sources": ["Smelt Raw Titanium"], "sellValue": 137, "progressionUse": "Late-game crafting and upgrades" },
+        { "name": "Raw Wolframite", "category": "Raw Ore", "rarity": "Mythical", "tier": 38, "sources": ["Wolframite Ore"], "smeltsInto": "Wolframite Ingot", "sellValue": 120, "progressionUse": "Late-game ore progression" },
+        { "name": "Wolframite Ingot", "category": "Ingot", "rarity": "Mythical", "tier": 38, "sources": ["Smelt Raw Wolframite"], "sellValue": 175, "progressionUse": "Late-game crafting and upgrades" },
+        { "name": "Topaz", "category": "Gem", "rarity": "Rare", "tier": 12, "sources": ["Topaz Ore at Y -150 and below", "Gem Geodes"], "sellValue": 40, "progressionUse": "Quest material and sell-value gem" },
+        { "name": "Amethyst", "category": "Gem", "rarity": "Rare", "tier": 15, "sources": ["Amethyst Blocks", "Amethyst Ore at Y -200 and below", "Gem Geodes"], "sellValue": 67, "progressionUse": "Quest material and mid-game gem farming" },
+        { "name": "Emerald", "category": "Gem", "rarity": "Rare", "tier": 16, "sources": ["Emerald Ore at Y -150 and below", "Gem Geodes"], "sellValue": 57, "progressionUse": "Gem farming and sell value" },
+        { "name": "Sapphire", "category": "Gem", "rarity": "Mythical", "tier": 20, "sources": ["Sapphire Ore at Y -160 and below", "Gem Geodes"], "sellValue": 75, "progressionUse": "Quest material and higher-value gem farming" },
+        { "name": "Ruby", "category": "Gem", "rarity": "Rare", "tier": 21, "sources": ["Ruby Ore at Y -160 and below", "Gem Geodes"], "sellValue": 90, "progressionUse": "Gem farming and sell value" },
+        { "name": "Diamond", "category": "Gem", "rarity": "Legendary", "tier": 24, "sources": ["Diamond Ore at Y -250 and below", "Gem Geodes"], "sellValue": 150, "progressionUse": "High-value gem farming and quest progression" },
+        { "name": "Nocturnite", "category": "Gem", "rarity": "Rare", "tier": 40, "sources": ["Nocturnite Ore", "Gem Geodes"], "sellValue": 262, "progressionUse": "Deep-layer high-value farming" },
+        { "name": "Moonstone Shard", "category": "Shard", "rarity": "Uncommon", "tier": 28, "sources": ["Moonstone Ore"], "sellValue": 75, "progressionUse": "Deep-layer material farming" },
+        { "name": "Azurite Crystal", "category": "Crystal", "rarity": "Uncommon", "tier": 33, "sources": ["Azurite Ore"], "sellValue": 212, "progressionUse": "High-value deep-layer crystal farming" },
+        { "name": "Sunstone Crystal", "category": "Crystal", "rarity": "Uncommon", "tier": 36, "sources": ["Sunstone Ore"], "sellValue": 75, "progressionUse": "Permafrost and deep-layer material routes" }
+      ]
+    },
+    "subterraLayersOresAndStructures": {
+      "title": "Subterra Layers Ores and Structures",
+      "eyebrow": "Layers & Exploration",
+      "subtitle": "Explore by layer, ore tier, structure type, portal access, and resource value. This module helps players decide where to mine, what to look for, and when to push deeper.",
+      "intro": "The world becomes more dangerous as players descend through procedural cave layers. Each layer changes the block pool, ore value, structures, enemies, and exploration goals, so a strong route balances pickaxe upgrades, oxygen, weapons, keys, and inventory space.",
+      "layerLegend": "Depth values reflect common progression breaks. Portal coordinates mark fast-travel unlocks; layers without a listed portal are reached by mining downward from the layer above.",
+      "layers": [
+        {
+          "layer": "Overworld",
+          "depth": "Surface hub",
+          "role": "Main preparation area",
+          "keyOres": [],
+          "resources": ["Shop items", "Smeltery access", "Sell Area", "Chrono Crystal", "Crafting Altar", "Portal access"],
+          "structures": ["Plaza", "Shop", "Smeltery", "Sell Area", "Chrono Crystal", "Crafting Altar", "Portal"],
+          "enemies": [],
+          "portal": "Overworld Portal",
+          "explorationFocus": "Buy explosives and tools, smelt raw ores, sell loot, craft recipes, summon Ability Cards, and prepare for underground routes."
+        },
+        {
+          "layer": "Dirt Layer",
+          "depth": "Surface to around Y -35",
+          "role": "Starter mining layer",
+          "keyOres": ["Coal", "Copper", "Tin"],
+          "resources": ["Dirt", "Mossy Dirt", "Stone", "Rock", "Roots", "Vines"],
+          "structures": ["Small cave openings", "Early lootables"],
+          "enemies": ["Slime", "Zombie"],
+          "portal": "No layer portal listed",
+          "explorationFocus": "Farm early ores, collect rocks and coal, complete first quests, and prepare pickaxe upgrades before moving into Stone."
+        },
+        {
+          "layer": "Stone Layer",
+          "depth": "Starts around Y -35",
+          "role": "Main early-to-mid progression layer",
+          "keyOres": ["Coal", "Copper", "Tin", "Iron", "Silver", "Gold", "Topaz", "Amethyst", "Emerald", "Sapphire", "Ruby", "Platinum", "Diamond"],
+          "resources": ["Gem Geodes", "Amethyst crystals", "Roots", "Vines", "Stalactites"],
+          "structures": ["Common House", "Cave Village", "Ruins", "Mineshaft", "Boat", "Chests", "Wormholes", "TNT", "Empty Amethyst Geode", "Normal Amethyst Geode"],
+          "enemies": ["Slime", "Zombie", "Bomb Skeleton"],
+          "portal": "No layer portal listed",
+          "explorationFocus": "Build economy through ores and gems, open chests, watch for explosive enemies, and use keys for better loot."
+        },
+        {
+          "layer": "Darkstone Layer",
+          "depth": "Starts around Y -435",
+          "role": "First major deep-layer jump",
+          "keyOres": ["Cobalt", "Nocturnite", "Black Ice", "Gold", "Platinum", "Diamond"],
+          "resources": ["Darkstone blocks", "Higher-value ore pockets", "Deep structures"],
+          "structures": ["Tower", "Floating Island", "Ruins", "Chests", "Wormholes"],
+          "enemies": ["Zombie", "Darkstone Skeleton"],
+          "portal": "Darkstone Portal at X 26, Y -481",
+          "explorationFocus": "Push into stronger ores, unlock fast travel, bring better weapons, and use mobility cards to handle vertical structures."
+        },
+        {
+          "layer": "Permafrost Layer",
+          "depth": "Starts around Y -723",
+          "role": "Advanced frozen layer",
+          "keyOres": ["Platinum", "Chromium", "Moonstone", "Diamond", "Sunstone", "Gold", "Titanium", "Cobalt", "Wolframite", "Azurite", "Nocturnite", "Charged Ice"],
+          "resources": ["Ice Block", "Colder Ice", "Black Ice", "Ice Shard", "Charged Ice Shard"],
+          "structures": ["Frozen caves", "Chests", "Wormholes", "Deep lootables"],
+          "enemies": ["Darkstone Skeleton", "Ice Slime", "Ice Elemental"],
+          "portal": "Permafrost Portal at X 26, Y -754",
+          "explorationFocus": "Farm higher-tier ores and crystals, manage tougher enemies, and prepare for Schwarzfrost progression."
+        },
+        {
+          "layer": "Schwarzfrost Layer",
+          "depth": "Deep frozen layer below Permafrost",
+          "role": "Current high-end exploration and boss layer",
+          "keyOres": ["Charged Ice", "Eiskron", "Nocturnite", "Deep frozen resources"],
+          "resources": ["Charged Ice Shard", "Schwarzfrost blocks", "High-value lootables"],
+          "structures": ["Yrsa's Ship", "Deep frozen caves", "Chests", "Boss area"],
+          "enemies": ["Ice Slime", "Sunken Spirit", "Sunken Warrior", "Schwarzfrost Skeleton", "Yrsa of the Sunken Seas"],
+          "portal": "Reached through deep-layer progression",
+          "explorationFocus": "Target endgame materials, prepare for boss combat, and bring strong weapons, health recovery, mobility, and oxygen support."
+        },
+        {
+          "layer": "Key Cave Structures",
+          "depth": "Multiple underground layers",
+          "role": "Reusable exploration landmarks",
+          "keyOres": ["Gem Geodes", "Amethyst crystals", "Layer-specific ore pockets"],
+          "resources": ["Wood Chests", "Iron Chests", "Gold Chests", "Marble Pots", "Recipe Scrolls", "Keys", "Lootables"],
+          "structures": ["Common House", "Cave Village", "Ruins", "Tower", "Riz's Hut", "Mineshaft", "Boat", "Wormhole", "TNT", "Floating Island"],
+          "enemies": ["Layer-dependent monsters"],
+          "portal": "Layer-dependent",
+          "explorationFocus": "Prioritize chests and villages for quests and loot, avoid TNT mistakes, use keys on higher-value chests, and use wormholes carefully for fast repositioning."
+        }
+      ]
+    },
+    "subterraMonstersBossesQuestsAndAchievements": {
+      "title": "Subterra Monsters Bosses Quests and Achievements",
+      "eyebrow": "Combat & Completion",
+      "subtitle": "Track monsters, bosses, drops, quests, titles, and achievement rewards from early mining goals to deep-layer boss progression.",
+      "intro": "Progression is not just mining downward. Monsters pressure cave routes, bosses guard deeper milestones, quests provide Gold and EXP, and achievements reward Chrono Shards for mining, chest hunting, exploration, and combat milestones.",
+      "sections": [
+        {
+          "section": "Monsters",
+          "defaultOpen": true,
+          "cards": [
+            { "name": "Zombie", "type": "Monster", "spawns": ["Dirt Layer", "Stone Layer"], "walkspeed": 16, "jumpPower": 50, "attackSpeed": 1, "damage": 25, "behavior": "Chases the player and attacks at close range.", "rewards": ["35 EXP"], "counterplay": "Keep space, use basic melee timing, and avoid fighting multiple enemies in narrow caves." },
+            { "name": "Slime", "type": "Monster", "spawns": ["Dirt Layer", "Stone Layer"], "walkspeed": 16, "jumpPower": 50, "attackSpeed": 1, "damage": 25, "behavior": "Chases the player and attacks at close range.", "rewards": ["35 EXP", "Slime Chunk"], "counterplay": "Useful early target for sticky explosive materials, but still dangerous when stacked with other enemies." },
+            { "name": "Bomb Skeleton", "type": "Monster", "spawns": ["Stone Layer"], "walkspeed": 16, "jumpPower": 50, "attackSpeed": 3, "damage": 75, "explosionRadius": 3, "behavior": "Runs at the player while holding a ticking bomb that explodes after a short delay.", "rewards": ["35 EXP"], "counterplay": "Back away immediately, use terrain corners, and avoid panic-mining into dead ends." },
+            { "name": "Darkstone Skeleton", "type": "Monster", "spawns": ["Darkstone Layer", "Permafrost Layer"], "walkspeed": 16, "jumpPower": 75, "attackSpeed": 1, "damage": 25, "behavior": "Chases the player through deeper layers and attacks at close range.", "rewards": ["35 EXP"], "counterplay": "Bring stronger melee weapons, health cards, and mobility before farming Darkstone and Permafrost routes." },
+            { "name": "Ice Elemental", "type": "Monster", "spawns": ["Permafrost Layer"], "walkspeed": 12, "attackSpeed": 1, "damage": 50, "health": 1250, "behavior": "High-health frozen enemy found in advanced cold-layer routes.", "rewards": ["2000 EXP"], "counterplay": "Use stronger weapons, keep distance when possible, and avoid starting the fight without health recovery." }
+          ]
+        },
+        {
+          "section": "Bosses",
+          "defaultOpen": true,
+          "cards": [
+            { "name": "Yrsa of the Sunken Seas", "type": "Boss", "spawns": ["Yrsa's Ship", "Schwarzfrost Layer"], "damage": 85, "health": 8500, "rewards": ["112985 EXP"], "role": "Schwarzfrost boss encounter", "preparation": ["Use a high-damage weapon such as Splitblade or a strong greatsword.", "Bring Healthy, Walk Speed, Double Jump, and Extra Oxygen for survival and positioning.", "Carry health recovery before entering the boss route."], "counterplay": "Treat the fight as a deep-layer combat check rather than a normal mining encounter." },
+            { "name": "Ancient Lord Lorin", "type": "Boss", "releaseStatus": "Listed boss drop pool", "drops": ["Lorin's Tear", "Lorin's Will", "Lorin's Wrath"], "role": "Boss-related progression and recipe pool", "preparation": ["Prioritize late-game weapons, health cards, mobility cards, and recovery items."], "counterplay": "Track boss drops separately from normal monster farming because artifact and recipe rewards belong in long-term progression." }
+          ]
+        },
+        {
+          "section": "Quests",
+          "defaultOpen": false,
+          "cards": [
+            { "name": "Daily Quests", "type": "Quest System", "requirements": ["Complete rotating mining or collection tasks such as gathering ores or breaking blocks."], "rewards": ["Daily quest rewards"], "resetTimer": "24 hours", "useCase": "Best checked at the start of a play session so mining routes can match the active objectives." },
+            { "name": "First Step", "type": "Starter Quest", "requirements": ["Collect 25 Rocks", "Upgrade your Pickaxe at the Blacksmith"], "rewards": ["25 Gold", "120 EXP"], "useCase": "First structured progression goal for new players." },
+            { "name": "Stone Breaker", "type": "Plaza Quest", "requirements": ["Mine 40 Stone"], "rewards": ["80 Gold", "125 EXP"], "useCase": "Early Stone Layer farming objective." },
+            { "name": "Stone Champion", "type": "Plaza Quest", "requirements": ["Mine 75 Stone"], "rewards": ["160 Gold", "200 EXP"], "useCase": "Follow-up stone farming objective for early progression." },
+            { "name": "Topaz Seeker", "type": "Plaza Quest", "requirements": ["Mine 5 Topaz"], "rewards": ["200 Gold", "235 EXP"], "useCase": "Introduces gem-focused mining routes." },
+            { "name": "Ore Hoarder", "type": "Plaza Quest", "requirements": ["Mine 1 Stone", "Mine 1 Silver", "Mine 1 Copper", "Mine 1 Iron", "Mine 1 Coal", "Mine 1 Tin"], "rewards": ["400 Gold", "250 EXP"], "useCase": "Encourages players to diversify ore routes instead of farming only one material." },
+            { "name": "Delver", "type": "Plaza Quest", "requirements": ["Mine 64 Copper", "Mine 30 Coal"], "rewards": ["200 Gold", "235 EXP"], "useCase": "Good early economy quest while upgrading tools and basic materials." },
+            { "name": "Shiny Hoarder", "type": "Cave Village Quest", "requirements": ["Mine 1 Gold", "Mine 1 Silver", "Mine 1 Sapphire", "Mine 1 Amethyst", "Mine 1 Diamond", "Mine 1 Topaz"], "rewards": ["400 Gold", "250 EXP"], "useCase": "Gem and ore checklist for deeper Stone Layer exploration." },
+            { "name": "Deep Delver", "type": "Cave Village Quest", "requirements": ["Mine 64 Silver", "Mine 30 Coal"], "rewards": ["425 Gold", "350 EXP"], "useCase": "Mid-game mining quest for players staying longer underground." },
+            { "name": "Diamond Seeker", "type": "Cave Village Quest", "requirements": ["Mine 10 Diamonds"], "rewards": ["750 Gold", "1000 EXP"], "useCase": "High-value gem objective for deeper mining routes." },
+            { "name": "Amethyst Seeker", "type": "Cave Village Quest", "requirements": ["Mine 10 Amethyst"], "rewards": ["400 Gold", "750 EXP"], "useCase": "Targets Amethyst Ore, Amethyst Blocks, and geode routes." },
+            { "name": "Rocks Champion", "type": "Cave Village Quest", "requirements": ["Get 150 Rocks"], "rewards": ["350 Gold", "550 EXP"], "useCase": "Simple material farming objective that pairs well with block-breaking achievements." },
+            { "name": "Sapphire Seeker", "type": "Cave Village Quest", "requirements": ["Mine 15 Sapphire"], "rewards": ["350 Gold", "550 EXP"], "useCase": "Gem route objective for players farming deeper valuable ores." }
+          ]
+        },
+        {
+          "section": "Achievements",
+          "defaultOpen": false,
+          "cards": [
+            { "name": "First Spelunkers", "type": "Achievement", "objective": "Join the game.", "rewards": ["Title-style completion entry"], "category": "Starter" },
+            { "name": "Humble Beginnings", "type": "Achievement", "objective": "Mine blocks.", "rewards": ["35 Chrono Shards"], "category": "Mining" },
+            { "name": "Rookie Spelunker", "type": "Achievement", "objective": "Mine 100 blocks.", "rewards": ["35 Chrono Shards"], "category": "Mining" },
+            { "name": "Deep Delver", "type": "Achievement", "objective": "Mine 500 blocks.", "rewards": ["50 Chrono Shards"], "category": "Mining" },
+            { "name": "Earthshaper", "type": "Achievement", "objective": "Mine 2000 blocks.", "rewards": ["50 Chrono Shards"], "category": "Mining" },
+            { "name": "Veinbreaker", "type": "Achievement", "objective": "Mine 5000 blocks.", "rewards": ["50 Chrono Shards"], "category": "Mining" },
+            { "name": "Worldbreaker", "type": "Achievement", "objective": "Mine 10000 blocks.", "rewards": ["140 Chrono Shards"], "category": "Mining" },
+            { "name": "Earthcarver", "type": "Achievement", "objective": "Mine 25000 blocks.", "rewards": ["280 Chrono Shards"], "category": "Mining" },
+            { "name": "Depth Conqueror", "type": "Achievement", "objective": "Mine 100000 blocks.", "rewards": ["500 Chrono Shards"], "category": "Mining" },
+            { "name": "Core Shaper", "type": "Achievement", "objective": "Mine 500000 blocks.", "rewards": ["525 Chrono Shards"], "category": "Mining" },
+            { "name": "Chest Collector", "type": "Achievement", "objective": "Open 20 chests.", "rewards": ["50 Chrono Shards"], "category": "Treasure" },
+            { "name": "Cavern Explorer", "type": "Achievement", "objective": "Open 40 chests.", "rewards": ["50 Chrono Shards"], "category": "Treasure" },
+            { "name": "Chest King", "type": "Achievement", "objective": "Open 80 chests.", "rewards": ["140 Chrono Shards"], "category": "Treasure" },
+            { "name": "Lost in the Depths", "type": "Achievement", "objective": "Find and enter a Wormhole.", "rewards": ["Exploration completion"], "category": "Exploration" },
+            { "name": "Into The Abyss", "type": "Achievement", "objective": "Reach the Darkstone Layer.", "rewards": ["140 Chrono Shards"], "category": "Layer Milestone" },
+            { "name": "Frostpiercer", "type": "Achievement", "objective": "Reach the Permafrost Layer.", "rewards": ["140 Chrono Shards"], "category": "Layer Milestone" },
+            { "name": "Stalactite Striker", "type": "Achievement", "objective": "Impale an enemy with a Stalactite.", "rewards": ["75 Chrono Shards"], "category": "Combat" },
+            { "name": "Monster Slayer", "type": "Achievement", "objective": "Kill 10 enemies.", "rewards": ["50 Chrono Shards"], "category": "Combat" }
+          ]
+        }
       ]
     }
   },

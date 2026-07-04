@@ -1,29 +1,49 @@
 "use client";
 
-import { Suspense, lazy } from "react";
+import { Suspense, lazy, useState } from "react";
 import {
+  ArrowDown,
   ArrowRight,
   ArrowUp,
   Backpack,
+  Bomb,
   BookOpen,
+  Building2,
   Check,
+  ChevronDown,
   ClipboardList,
+  Coins,
   Compass,
+  Crown,
+  Diamond,
+  DoorOpen,
   ExternalLink,
+  FlaskConical,
   Gamepad2,
+  Gauge,
   Gem,
   Gift,
   GraduationCap,
   Hammer,
+  Heart,
+  KeyRound,
   Keyboard,
   Layers,
+  Leaf,
+  Lightbulb,
+  Mountain,
   MessageCircle,
   MessagesSquare,
   Pickaxe,
+  ScrollText,
   Shield,
+  Skull,
   Sparkles,
+  Swords,
+  Target,
   Ticket,
   TrendingUp,
+  Trophy,
   Users,
   Wrench,
   X,
@@ -159,6 +179,10 @@ export default function HomePageClient({
     "subterra-trello-discord",
     "subterra-beginner-guide",
     "subterra-pickaxe-backpack",
+    "subterra-weapons-cards",
+    "subterra-crafting",
+    "subterra-layers",
+    "subterra-monsters",
   ];
 
   // Beginner guide step icons (one per step, in order)
@@ -182,6 +206,78 @@ export default function HomePageClient({
     Social: MessageCircle,
     Video: Youtube,
   };
+
+  // --- Module 5: Weapons & Ability Cards tier styling ---
+  const tierBadgeClass: Record<string, string> = {
+    S: "bg-[hsl(var(--nav-theme))] text-white border-transparent",
+    A: "bg-[hsl(var(--nav-theme)/0.22)] text-[hsl(var(--nav-theme-light))] border-[hsl(var(--nav-theme)/0.5)]",
+    B: "bg-white/10 text-foreground border-border",
+    C: "bg-white/5 text-muted-foreground border-border",
+  };
+  const entryTypeIcon: Record<string, typeof Swords> = {
+    Weapon: Swords,
+    "Ability Card": Sparkles,
+  };
+
+  // --- Module 6: Crafting recipes category icons + filter state ---
+  const craftingCategoryIcon: Record<string, typeof FlaskConical> = {
+    Potion: FlaskConical,
+    "Sticky Explosive": Bomb,
+    "Block Crafting": Building2,
+    Key: KeyRound,
+    "Recipe Scroll": ScrollText,
+    Explosive: Bomb,
+    "Potion Material": Leaf,
+    Material: Leaf,
+    "Combat Material": Swords,
+    "Basic Material": Layers,
+    "Ore Material": Mountain,
+    "Raw Ore": Mountain,
+    Ingot: Coins,
+    Gem: Gem,
+    Shard: Diamond,
+    Crystal: Diamond,
+  };
+  const [craftingFilter, setCraftingFilter] = useState<string>("All");
+  const craftingCategories = [
+    "All",
+    ...Array.from(
+      new Set(t.modules.subterraCraftingRecipesAndMaterials.items.map((it: any) => it.category)),
+    ),
+  ];
+  const craftingItems =
+    craftingFilter === "All"
+      ? t.modules.subterraCraftingRecipesAndMaterials.items
+      : t.modules.subterraCraftingRecipesAndMaterials.items.filter(
+          (it: any) => it.category === craftingFilter,
+        );
+
+  // --- Module 8: Monsters / Bosses / Quests / Achievements accordion ---
+  const sectionIconByName: Record<string, typeof Skull> = {
+    Monsters: Skull,
+    Bosses: Crown,
+    Quests: ClipboardList,
+    Achievements: Trophy,
+  };
+  const cardTypeIcon: Record<string, typeof Skull> = {
+    Monster: Skull,
+    Boss: Crown,
+    "Quest System": ScrollText,
+    "Starter Quest": ScrollText,
+    "Plaza Quest": ScrollText,
+    "Cave Village Quest": ScrollText,
+    Achievement: Trophy,
+  };
+  const initialOpenSections = t.modules.subterraMonstersBossesQuestsAndAchievements.sections
+    .filter((s: any) => s.defaultOpen)
+    .reduce<Record<string, boolean>>((acc, s: any) => {
+      acc[s.section] = true;
+      return acc;
+    }, {});
+  const [openSections, setOpenSections] =
+    useState<Record<string, boolean>>(initialOpenSections);
+  const toggleSection = (name: string) =>
+    setOpenSections((prev) => ({ ...prev, [name]: !prev[name] }));
 
   return (
     <div className="home-shell min-h-screen bg-background text-foreground">
@@ -740,6 +836,794 @@ export default function HomePageClient({
                 },
               )}
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位 6: 第四模块之后的阅读停顿位 */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-468x60"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60}
+        className="hidden md:flex"
+      />
+
+      {/* Module 5: Subterra Weapons and Ability Cards Tier List */}
+      <section
+        id="subterra-weapons-cards"
+        className="scroll-mt-24 px-4 py-14 md:py-20"
+      >
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <span className="inline-block text-xs md:text-sm font-semibold uppercase tracking-wider text-[hsl(var(--nav-theme-light))] mb-3">
+              {t.modules.subterraWeaponsAndAbilityCardsTierList.eyebrow}
+            </span>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {t.modules.subterraWeaponsAndAbilityCardsTierList.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.subterraWeaponsAndAbilityCardsTierList.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground/80 max-w-3xl mx-auto mt-4">
+              {t.modules.subterraWeaponsAndAbilityCardsTierList.intro}
+            </p>
+            <p className="text-xs md:text-sm text-muted-foreground/70 max-w-3xl mx-auto mt-3 italic">
+              {t.modules.subterraWeaponsAndAbilityCardsTierList.tierLegend}
+            </p>
+          </div>
+
+          <div className="space-y-6 md:space-y-8">
+            {t.modules.subterraWeaponsAndAbilityCardsTierList.tiers.map(
+              (tier: any, ti: number) => (
+                <div
+                  key={ti}
+                  className="scroll-reveal rounded-2xl border border-border bg-white/[0.02] p-4 md:p-6"
+                >
+                  {/* Tier header */}
+                  <div className="flex items-center gap-3 mb-5 md:mb-6">
+                    <span
+                      className={`inline-flex items-center justify-center h-11 w-11 md:h-12 md:w-12 rounded-xl text-lg md:text-xl font-bold border ${tierBadgeClass[tier.tier] || tierBadgeClass.C}`}
+                    >
+                      {tier.tier}
+                    </span>
+                    <h3 className="text-lg md:text-2xl font-bold">
+                      {tier.tierLabel}
+                    </h3>
+                  </div>
+
+                  {/* Entries grid */}
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4 mb-5 md:mb-6">
+                    {tier.entries.map((entry: any, ei: number) => {
+                      const EIcon = entryTypeIcon[entry.type] || Sparkles;
+                      return (
+                        <div
+                          key={ei}
+                          className="p-4 md:p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                        >
+                          <div className="flex items-start gap-3 mb-3">
+                            <span className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.15)]">
+                              <EIcon className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                            </span>
+                            <div className="min-w-0 flex-1">
+                              <div className="flex items-center justify-between gap-2">
+                                <h4 className="font-bold text-sm md:text-base">
+                                  {entry.name}
+                                </h4>
+                                <span className="text-xs px-2 py-0.5 rounded-full bg-white/5 border border-border text-muted-foreground flex-shrink-0">
+                                  {entry.type}
+                                </span>
+                              </div>
+                              <div className="flex flex-wrap gap-1.5 mt-2">
+                                {entry.category && (
+                                  <span className="text-xs px-2 py-0.5 rounded-md bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.25)] text-[hsl(var(--nav-theme-light))]">
+                                    {entry.category}
+                                  </span>
+                                )}
+                                {entry.rarity && (
+                                  <span className="text-xs px-2 py-0.5 rounded-md bg-white/5 border border-border">
+                                    {entry.rarity}
+                                  </span>
+                                )}
+                                {entry.damage && (
+                                  <span className="text-xs px-2 py-0.5 rounded-md bg-white/5 border border-border inline-flex items-center gap-1">
+                                    <Swords className="w-3 h-3" />
+                                    {entry.damage} dmg
+                                  </span>
+                                )}
+                                {entry.cardLimit && (
+                                  <span className="text-xs px-2 py-0.5 rounded-md bg-white/5 border border-border">
+                                    Limit {entry.cardLimit}
+                                  </span>
+                                )}
+                              </div>
+                            </div>
+                          </div>
+                          {entry.effect && (
+                            <p className="text-sm text-foreground/90 mb-2 pl-12">
+                              <span className="font-semibold">Effect:</span>{" "}
+                              {entry.effect}
+                            </p>
+                          )}
+                          {entry.combatRole && (
+                            <p className="text-sm text-muted-foreground mb-1 pl-12">
+                              <span className="font-semibold text-foreground/80">
+                                Role:
+                              </span>{" "}
+                              {entry.combatRole}
+                            </p>
+                          )}
+                          <p className="text-sm text-muted-foreground mb-1 pl-12">
+                            <span className="font-semibold text-foreground/80 inline-flex items-center gap-1">
+                              <Target className="w-3.5 h-3.5" /> Best for:
+                            </span>{" "}
+                            {entry.bestFor}
+                          </p>
+                          <p className="text-sm text-muted-foreground pl-12">
+                            {entry.utility}
+                          </p>
+                        </div>
+                      );
+                    })}
+                  </div>
+
+                  {/* Recommended combos */}
+                  {tier.recommendedCombos && tier.recommendedCombos.length > 0 && (
+                    <div className="rounded-xl bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.2)] p-4 md:p-5">
+                      <div className="flex items-center gap-2 mb-3 md:mb-4">
+                        <Lightbulb className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                        <h4 className="font-bold text-sm md:text-base">
+                          Recommended Combos
+                        </h4>
+                      </div>
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
+                        {tier.recommendedCombos.map((combo: any, ci: number) => (
+                          <div
+                            key={ci}
+                            className="p-3 md:p-4 bg-white/5 border border-border rounded-lg"
+                          >
+                            <h5 className="font-semibold text-sm mb-2 text-[hsl(var(--nav-theme-light))]">
+                              {combo.name}
+                            </h5>
+                            <div className="flex flex-wrap items-center gap-1.5 mb-2">
+                              <span className="text-xs px-2 py-0.5 rounded-md bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.3)] inline-flex items-center gap-1">
+                                <Swords className="w-3 h-3" />
+                                {combo.weapon}
+                              </span>
+                              {combo.cards.map((c: string, csi: number) => (
+                                <span
+                                  key={csi}
+                                  className="text-xs px-2 py-0.5 rounded-md bg-white/5 border border-border"
+                                >
+                                  {c}
+                                </span>
+                              ))}
+                            </div>
+                            <p className="text-xs md:text-sm text-muted-foreground">
+                              {combo.useCase}
+                            </p>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              ),
+            )}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位 7: 第五模块之后的阅读停顿位 */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-468x60"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60}
+        className="hidden md:flex"
+      />
+
+      {/* Module 6: Subterra Crafting Recipes and Materials */}
+      <section
+        id="subterra-crafting"
+        className="scroll-mt-24 px-4 py-14 md:py-20 bg-white/[0.02]"
+      >
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <span className="inline-block text-xs md:text-sm font-semibold uppercase tracking-wider text-[hsl(var(--nav-theme-light))] mb-3">
+              {t.modules.subterraCraftingRecipesAndMaterials.eyebrow}
+            </span>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {t.modules.subterraCraftingRecipesAndMaterials.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.subterraCraftingRecipesAndMaterials.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground/80 max-w-3xl mx-auto mt-4">
+              {t.modules.subterraCraftingRecipesAndMaterials.intro}
+            </p>
+          </div>
+
+          {/* Filter chips */}
+          <div className="flex flex-wrap justify-center gap-2 mb-8 md:mb-10 scroll-reveal">
+            {craftingCategories.map((cat: string) => {
+              const active = craftingFilter === cat;
+              return (
+                <button
+                  key={cat}
+                  onClick={() => setCraftingFilter(cat)}
+                  className={`text-xs md:text-sm px-3 py-1.5 rounded-full border transition-colors ${
+                    active
+                      ? "bg-[hsl(var(--nav-theme))] text-white border-transparent"
+                      : "bg-white/5 border-border text-muted-foreground hover:border-[hsl(var(--nav-theme)/0.5)] hover:text-foreground"
+                  }`}
+                >
+                  {cat === "All"
+                    ? t.modules.subterraCraftingRecipesAndMaterials.filterAll
+                    : cat}
+                </button>
+              );
+            })}
+          </div>
+
+          {/* Filtered items grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4 scroll-reveal">
+            {craftingItems.map((item: any, ii: number) => {
+              const CIcon = craftingCategoryIcon[item.category] || FlaskConical;
+              return (
+                <div
+                  key={ii}
+                  className="p-4 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors flex flex-col"
+                >
+                  <div className="flex items-start gap-2 mb-3">
+                    <span className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.15)]">
+                      <CIcon className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                    </span>
+                    <div className="min-w-0 flex-1">
+                      <h4 className="font-bold text-sm leading-tight">
+                        {item.name}
+                      </h4>
+                      <span className="text-[10px] uppercase tracking-wider text-muted-foreground">
+                        {item.category}
+                      </span>
+                    </div>
+                  </div>
+
+                  {/* stat chips */}
+                  <div className="flex flex-wrap gap-1.5 mb-3">
+                    {item.rarity && (
+                      <span className="text-xs px-2 py-0.5 rounded-md bg-white/5 border border-border">
+                        {item.rarity}
+                      </span>
+                    )}
+                    {item.tier && (
+                      <span className="text-xs px-2 py-0.5 rounded-md bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.25)] text-[hsl(var(--nav-theme-light))]">
+                        Tier {item.tier}
+                      </span>
+                    )}
+                    {typeof item.damage === "number" && (
+                      <span className="text-xs px-2 py-0.5 rounded-md bg-white/5 border border-border inline-flex items-center gap-1">
+                        <Swords className="w-3 h-3" />
+                        {item.damage}
+                      </span>
+                    )}
+                    {typeof item.radius === "number" && (
+                      <span className="text-xs px-2 py-0.5 rounded-md bg-white/5 border border-border">
+                        R{item.radius}
+                      </span>
+                    )}
+                    {typeof item.sellValue === "number" && (
+                      <span className="text-xs px-2 py-0.5 rounded-md bg-white/5 border border-border inline-flex items-center gap-1">
+                        <Coins className="w-3 h-3" />
+                        {item.sellValue}
+                      </span>
+                    )}
+                    {typeof item.shopPrice === "number" && (
+                      <span className="text-xs px-2 py-0.5 rounded-md bg-white/5 border border-border inline-flex items-center gap-1">
+                        <Coins className="w-3 h-3" />
+                        {item.shopPrice}
+                      </span>
+                    )}
+                  </div>
+
+                  {item.effect && (
+                    <p className="text-sm text-foreground/90 mb-2">{item.effect}</p>
+                  )}
+                  {item.smeltsInto && (
+                    <p className="text-xs text-muted-foreground mb-2">
+                      <span className="font-semibold text-foreground/80">
+                        Smelts into:
+                      </span>{" "}
+                      {item.smeltsInto}
+                    </p>
+                  )}
+
+                  {item.recipe && item.recipe.length > 0 && (
+                    <div className="mb-2">
+                      <p className="text-xs font-semibold text-foreground/80 mb-1">
+                        Recipe
+                      </p>
+                      <div className="flex flex-wrap gap-1">
+                        {item.recipe.map((m: string, mi: number) => (
+                          <span
+                            key={mi}
+                            className="text-xs px-1.5 py-0.5 rounded bg-white/5 border border-border"
+                          >
+                            {m}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {item.unlocks && item.unlocks.length > 0 && (
+                    <div className="mb-2">
+                      <p className="text-xs font-semibold text-foreground/80 mb-1">
+                        Unlocks
+                      </p>
+                      <div className="flex flex-wrap gap-1">
+                        {item.unlocks.map((u: string, ui: number) => (
+                          <span
+                            key={ui}
+                            className="text-xs px-1.5 py-0.5 rounded bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.2)]"
+                          >
+                            {u}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {item.sources && item.sources.length > 0 && (
+                    <div className="mb-2">
+                      <p className="text-xs font-semibold text-foreground/80 mb-1">
+                        Sources
+                      </p>
+                      <div className="flex flex-wrap gap-1">
+                        {item.sources.map((s: string, si: number) => (
+                          <span
+                            key={si}
+                            className="text-xs px-1.5 py-0.5 rounded bg-white/5 border border-border"
+                          >
+                            {s}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  <p className="text-xs text-muted-foreground mt-auto pt-2 border-t border-border">
+                    {item.progressionUse}
+                  </p>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 7: Subterra Layers Ores and Structures */}
+      <section
+        id="subterra-layers"
+        className="scroll-mt-24 px-4 py-14 md:py-20"
+      >
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <span className="inline-block text-xs md:text-sm font-semibold uppercase tracking-wider text-[hsl(var(--nav-theme-light))] mb-3">
+              {t.modules.subterraLayersOresAndStructures.eyebrow}
+            </span>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {t.modules.subterraLayersOresAndStructures.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.subterraLayersOresAndStructures.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground/80 max-w-3xl mx-auto mt-4">
+              {t.modules.subterraLayersOresAndStructures.intro}
+            </p>
+            <p className="text-xs md:text-sm text-muted-foreground/70 max-w-3xl mx-auto mt-3 italic">
+              {t.modules.subterraLayersOresAndStructures.layerLegend}
+            </p>
+          </div>
+
+          <div className="space-y-4 md:space-y-5">
+            {t.modules.subterraLayersOresAndStructures.layers.map(
+              (layer: any, li: number) => (
+                <div
+                  key={li}
+                  className="scroll-reveal p-4 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                >
+                  <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mb-3">
+                    <div className="flex items-center gap-3">
+                      <span className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.15)]">
+                        <Mountain className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                      </span>
+                      <h3 className="text-lg md:text-xl font-bold">{layer.layer}</h3>
+                    </div>
+                    <span className="text-xs px-2.5 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))] inline-flex items-center gap-1 self-start md:self-auto">
+                      <ArrowDown className="w-3 h-3" />
+                      {layer.depth}
+                    </span>
+                  </div>
+
+                  <p className="text-sm text-muted-foreground mb-4 inline-flex items-center gap-1.5">
+                    <Target className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))]" />
+                    <span className="font-semibold text-foreground/80">
+                      {layer.role}
+                    </span>
+                  </p>
+
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
+                    {layer.keyOres.length > 0 && (
+                      <div>
+                        <p className="text-xs font-semibold text-foreground/80 mb-1.5 inline-flex items-center gap-1">
+                          <Gem className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))]" />{" "}
+                          Key Ores
+                        </p>
+                        <div className="flex flex-wrap gap-1">
+                          {layer.keyOres.map((o: string, oi: number) => (
+                            <span
+                              key={oi}
+                              className="text-xs px-1.5 py-0.5 rounded bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.2)]"
+                            >
+                              {o}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                    {layer.resources.length > 0 && (
+                      <div>
+                        <p className="text-xs font-semibold text-foreground/80 mb-1.5 inline-flex items-center gap-1">
+                          <Layers className="w-3.5 h-3.5" /> Resources
+                        </p>
+                        <div className="flex flex-wrap gap-1">
+                          {layer.resources.map((r: string, ri: number) => (
+                            <span
+                              key={ri}
+                              className="text-xs px-1.5 py-0.5 rounded bg-white/5 border border-border"
+                            >
+                              {r}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                    {layer.structures.length > 0 && (
+                      <div>
+                        <p className="text-xs font-semibold text-foreground/80 mb-1.5 inline-flex items-center gap-1">
+                          <Building2 className="w-3.5 h-3.5" /> Structures
+                        </p>
+                        <div className="flex flex-wrap gap-1">
+                          {layer.structures.map((s: string, si: number) => (
+                            <span
+                              key={si}
+                              className="text-xs px-1.5 py-0.5 rounded bg-white/5 border border-border"
+                            >
+                              {s}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                    {layer.enemies.length > 0 && (
+                      <div>
+                        <p className="text-xs font-semibold text-foreground/80 mb-1.5 inline-flex items-center gap-1">
+                          <Skull className="w-3.5 h-3.5" /> Enemies
+                        </p>
+                        <div className="flex flex-wrap gap-1">
+                          {layer.enemies.map((e: string, ei: number) => (
+                            <span
+                              key={ei}
+                              className="text-xs px-1.5 py-0.5 rounded bg-white/5 border border-border"
+                            >
+                              {e}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                  </div>
+
+                  <div className="mt-4 pt-3 border-t border-border text-sm space-y-1.5">
+                    <p>
+                      <span className="font-semibold text-foreground/80 inline-flex items-center gap-1">
+                        <DoorOpen className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))]" />{" "}
+                        Portal:
+                      </span>{" "}
+                      <span className="text-muted-foreground">{layer.portal}</span>
+                    </p>
+                    <p className="text-muted-foreground">
+                      <span className="font-semibold text-foreground/80 inline-flex items-center gap-1">
+                        <Compass className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))]" />{" "}
+                        Focus:
+                      </span>{" "}
+                      {layer.explorationFocus}
+                    </p>
+                  </div>
+                </div>
+              ),
+            )}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位 8: 第七模块之后的阅读停顿位 */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-468x60"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60}
+        className="hidden md:flex"
+      />
+
+      {/* Module 8: Subterra Monsters Bosses Quests and Achievements */}
+      <section
+        id="subterra-monsters"
+        className="scroll-mt-24 px-4 py-14 md:py-20 bg-white/[0.02]"
+      >
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <span className="inline-block text-xs md:text-sm font-semibold uppercase tracking-wider text-[hsl(var(--nav-theme-light))] mb-3">
+              {t.modules.subterraMonstersBossesQuestsAndAchievements.eyebrow}
+            </span>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {t.modules.subterraMonstersBossesQuestsAndAchievements.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.subterraMonstersBossesQuestsAndAchievements.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground/80 max-w-3xl mx-auto mt-4">
+              {t.modules.subterraMonstersBossesQuestsAndAchievements.intro}
+            </p>
+          </div>
+
+          <div className="space-y-3 md:space-y-4">
+            {t.modules.subterraMonstersBossesQuestsAndAchievements.sections.map(
+              (sec: any, si: number) => {
+                const SIcon = sectionIconByName[sec.section] || ClipboardList;
+                const isOpen = !!openSections[sec.section];
+                return (
+                  <div
+                    key={si}
+                    className="scroll-reveal rounded-xl border border-border bg-white/[0.03] overflow-hidden"
+                  >
+                    <button
+                      onClick={() => toggleSection(sec.section)}
+                      className="flex items-center justify-between w-full p-4 md:p-5 hover:bg-white/[0.03] transition-colors"
+                      aria-expanded={isOpen}
+                    >
+                      <div className="flex items-center gap-3">
+                        <span className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.15)]">
+                          <SIcon className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                        </span>
+                        <div className="text-left">
+                          <h3 className="text-base md:text-lg font-bold">
+                            {sec.section}
+                          </h3>
+                          <p className="text-xs text-muted-foreground">
+                            {sec.cards.length} entries
+                          </p>
+                        </div>
+                      </div>
+                      <ChevronDown
+                        className={`w-5 h-5 text-muted-foreground transition-transform duration-300 ${isOpen ? "rotate-180" : ""}`}
+                      />
+                    </button>
+
+                    {isOpen && (
+                      <div className="px-4 md:px-5 pb-4 md:pb-5 grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
+                        {sec.cards.map((card: any, ci: number) => {
+                          const CIcon = cardTypeIcon[card.type] || ScrollText;
+                          return (
+                            <div
+                              key={ci}
+                              className="p-4 bg-white/5 border border-border rounded-lg"
+                            >
+                              <div className="flex items-start gap-2 mb-3">
+                                <span className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.15)]">
+                                  <CIcon className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                                </span>
+                                <div className="min-w-0 flex-1">
+                                  <div className="flex items-center justify-between gap-2">
+                                    <h4 className="font-bold text-sm">
+                                      {card.name}
+                                    </h4>
+                                    <span className="text-xs px-2 py-0.5 rounded-full bg-white/5 border border-border text-muted-foreground flex-shrink-0">
+                                      {card.type}
+                                    </span>
+                                  </div>
+                                  {card.category && (
+                                    <span className="text-xs text-muted-foreground">
+                                      {card.category}
+                                    </span>
+                                  )}
+                                  {card.role && (
+                                    <span className="text-xs text-muted-foreground">
+                                      {card.role}
+                                    </span>
+                                  )}
+                                </div>
+                              </div>
+
+                              {/* stat chips */}
+                              <div className="flex flex-wrap gap-1.5 mb-3">
+                                {card.spawns &&
+                                  card.spawns.length > 0 &&
+                                  card.spawns.map((sp: string, spi: number) => (
+                                    <span
+                                      key={spi}
+                                      className="text-xs px-2 py-0.5 rounded-md bg-white/5 border border-border"
+                                    >
+                                      {sp}
+                                    </span>
+                                  ))}
+                                {typeof card.walkspeed === "number" && (
+                                  <span className="text-xs px-2 py-0.5 rounded-md bg-white/5 border border-border inline-flex items-center gap-1">
+                                    <Gauge className="w-3 h-3" />
+                                    {card.walkspeed}
+                                  </span>
+                                )}
+                                {typeof card.jumpPower === "number" && (
+                                  <span className="text-xs px-2 py-0.5 rounded-md bg-white/5 border border-border inline-flex items-center gap-1">
+                                    <ArrowUp className="w-3 h-3" />
+                                    {card.jumpPower}
+                                  </span>
+                                )}
+                                {typeof card.attackSpeed === "number" && (
+                                  <span className="text-xs px-2 py-0.5 rounded-md bg-white/5 border border-border">
+                                    {card.attackSpeed}s
+                                  </span>
+                                )}
+                                {typeof card.damage === "number" && (
+                                  <span className="text-xs px-2 py-0.5 rounded-md bg-white/5 border border-border inline-flex items-center gap-1">
+                                    <Swords className="w-3 h-3" />
+                                    {card.damage}
+                                  </span>
+                                )}
+                                {typeof card.explosionRadius === "number" && (
+                                  <span className="text-xs px-2 py-0.5 rounded-md bg-white/5 border border-border">
+                                    R{card.explosionRadius}
+                                  </span>
+                                )}
+                                {typeof card.health === "number" && (
+                                  <span className="text-xs px-2 py-0.5 rounded-md bg-white/5 border border-border inline-flex items-center gap-1">
+                                    <Heart className="w-3 h-3" />
+                                    {card.health}
+                                  </span>
+                                )}
+                                {card.resetTimer && (
+                                  <span className="text-xs px-2 py-0.5 rounded-md bg-white/5 border border-border">
+                                    Resets in {card.resetTimer}
+                                  </span>
+                                )}
+                                {card.releaseStatus && (
+                                  <span className="text-xs px-2 py-0.5 rounded-md bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.25)] text-[hsl(var(--nav-theme-light))]">
+                                    {card.releaseStatus}
+                                  </span>
+                                )}
+                              </div>
+
+                              {card.objective && (
+                                <p className="text-sm text-foreground/90 mb-2">
+                                  <span className="font-semibold">
+                                    Objective:
+                                  </span>{" "}
+                                  {card.objective}
+                                </p>
+                              )}
+                              {card.behavior && (
+                                <p className="text-sm text-foreground/90 mb-2">
+                                  <span className="font-semibold">Behavior:</span>{" "}
+                                  {card.behavior}
+                                </p>
+                              )}
+                              {card.useCase && (
+                                <p className="text-sm text-muted-foreground mb-2">
+                                  {card.useCase}
+                                </p>
+                              )}
+
+                              {card.requirements && card.requirements.length > 0 && (
+                                <div className="mb-2">
+                                  <p className="text-xs font-semibold text-foreground/80 mb-1">
+                                    Requirements
+                                  </p>
+                                  <ul className="space-y-1">
+                                    {card.requirements.map(
+                                      (rq: string, rqi: number) => (
+                                        <li
+                                          key={rqi}
+                                          className="text-xs md:text-sm text-muted-foreground flex items-start gap-1.5"
+                                        >
+                                          <Check className="w-3 h-3 mt-0.5 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
+                                          {rq}
+                                        </li>
+                                      ),
+                                    )}
+                                  </ul>
+                                </div>
+                              )}
+                              {card.preparation && card.preparation.length > 0 && (
+                                <div className="mb-2">
+                                  <p className="text-xs font-semibold text-foreground/80 mb-1">
+                                    Preparation
+                                  </p>
+                                  <ul className="space-y-1">
+                                    {card.preparation.map(
+                                      (pr: string, pri: number) => (
+                                        <li
+                                          key={pri}
+                                          className="text-xs md:text-sm text-muted-foreground flex items-start gap-1.5"
+                                        >
+                                          <Check className="w-3 h-3 mt-0.5 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
+                                          {pr}
+                                        </li>
+                                      ),
+                                    )}
+                                  </ul>
+                                </div>
+                              )}
+
+                              {card.rewards && card.rewards.length > 0 && (
+                                <div className="mb-2 flex flex-wrap items-center gap-1.5">
+                                  <span className="text-xs font-semibold text-foreground/80 inline-flex items-center gap-1">
+                                    <Trophy className="w-3 h-3 text-[hsl(var(--nav-theme-light))]" />
+                                    Rewards:
+                                  </span>
+                                  {card.rewards.map((rw: string, rwi: number) => (
+                                    <span
+                                      key={rwi}
+                                      className="text-xs px-1.5 py-0.5 rounded bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.2)]"
+                                    >
+                                      {rw}
+                                    </span>
+                                  ))}
+                                </div>
+                              )}
+                              {card.drops && card.drops.length > 0 && (
+                                <div className="mb-2 flex flex-wrap items-center gap-1.5">
+                                  <span className="text-xs font-semibold text-foreground/80 inline-flex items-center gap-1">
+                                    <Gem className="w-3 h-3 text-[hsl(var(--nav-theme-light))]" />
+                                    Drops:
+                                  </span>
+                                  {card.drops.map((dr: string, dri: number) => (
+                                    <span
+                                      key={dri}
+                                      className="text-xs px-1.5 py-0.5 rounded bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.2)]"
+                                    >
+                                      {dr}
+                                    </span>
+                                  ))}
+                                </div>
+                              )}
+
+                              {card.counterplay && (
+                                <p className="text-xs text-muted-foreground mt-2 pt-2 border-t border-border">
+                                  <span className="font-semibold text-foreground/80">
+                                    Counterplay:
+                                  </span>{" "}
+                                  {card.counterplay}
+                                </p>
+                              )}
+                            </div>
+                          );
+                        })}
+                      </div>
+                    )}
+                  </div>
+                );
+              },
+            )}
           </div>
         </div>
       </section>

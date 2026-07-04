@@ -31,6 +31,10 @@ export const iconRegistry: Record<string, LucideIcon> = {
   MessagesSquare: LucideIcons.MessagesSquare,
   GraduationCap: LucideIcons.GraduationCap,
   Pickaxe: LucideIcons.Pickaxe,
+  Swords: LucideIcons.Swords,
+  FlaskConical: LucideIcons.FlaskConical,
+  Mountain: LucideIcons.Mountain,
+  Trophy: LucideIcons.Trophy,
 
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
