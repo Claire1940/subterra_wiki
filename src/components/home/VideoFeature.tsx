@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { ExternalLink, Play } from "lucide-react";
 
 interface VideoFeatureProps {
@@ -11,6 +11,39 @@ interface VideoFeatureProps {
 
 export function VideoFeature({ videoId, title, poster }: VideoFeatureProps) {
   const [activated, setActivated] = useState(false);
+  const containerRef = useRef<HTMLDivElement | null>(null);
+
+  // Autoplay via IntersectionObserver: load the muted, looping embed once the
+  // video region is comfortably in view. Keeps a click-to-play fallback and
+  // honors prefers-reduced-motion (leave control to the user in that case).
+  useEffect(() => {
+    if (activated) return;
+    if (typeof window === "undefined") return;
+
+    const reduceMotion = window.matchMedia(
+      "(prefers-reduced-motion: reduce)",
+    ).matches;
+    if (reduceMotion) return;
+
+    const node = containerRef.current;
+    if (!node || typeof IntersectionObserver === "undefined") return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting && entry.intersectionRatio >= 0.5) {
+            setActivated(true);
+            observer.disconnect();
+            break;
+          }
+        }
+      },
+      { threshold: 0.5 },
+    );
+
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, [activated]);
 
   const watchUrl = useMemo(
     () => `https://www.youtube.com/watch?v=${videoId}`,
@@ -19,13 +52,16 @@ export function VideoFeature({ videoId, title, poster }: VideoFeatureProps) {
 
   const embedUrl = useMemo(
     () =>
-      `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&playsinline=1&rel=0`,
+      `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&loop=1&playlist=${videoId}&playsinline=1&rel=0`,
     [videoId],
   );
 
   return (
     <div className="space-y-4">
-      <div className="relative w-full overflow-hidden rounded-lg bg-black aspect-video">
+      <div
+        ref={containerRef}
+        className="relative w-full overflow-hidden rounded-lg bg-black aspect-video"
+      >
         {activated ? (
           <iframe
             className="absolute top-0 left-0 w-full h-full"
