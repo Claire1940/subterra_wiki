@@ -268,12 +268,12 @@ export default function HomePageClient({
     "Cave Village Quest": ScrollText,
     Achievement: Trophy,
   };
-  const initialOpenSections = t.modules.subterraMonstersBossesQuestsAndAchievements.sections
+  const initialOpenSections = (t.modules.subterraMonstersBossesQuestsAndAchievements.sections as any[])
     .filter((s: any) => s.defaultOpen)
-    .reduce<Record<string, boolean>>((acc, s: any) => {
+    .reduce((acc: Record<string, boolean>, s: any) => {
       acc[s.section] = true;
       return acc;
-    }, {});
+    }, {} as Record<string, boolean>);
   const [openSections, setOpenSections] =
     useState<Record<string, boolean>>(initialOpenSections);
   const toggleSection = (name: string) =>
