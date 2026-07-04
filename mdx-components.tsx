@@ -7,6 +7,7 @@ import { CTAButtons } from '@/components/mdx/CTAButtons'
 import { Checklist } from '@/components/mdx/Checklist'
 import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
 import { FAQ, FAQItem } from '@/components/mdx/FAQ'
+import { BookmarkNote } from '@/components/mdx/BookmarkNote'
 
 export function useMDXComponents(components: MDXComponents): MDXComponents {
   return {
@@ -22,6 +23,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     YouTubeEmbed,
     FAQ,
     FAQItem,
+    BookmarkNote,
 
     // 覆盖默认 HTML 元素
     h1: (props) => <h1 className="text-4xl font-bold text-white mb-3" {...props} />,
