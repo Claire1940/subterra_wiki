@@ -10,14 +10,7 @@
       "twitterDescription": "Subterra Wiki - codes, ores, layers, ability cards, crafting and boss guides for the Roblox mining adventure."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
