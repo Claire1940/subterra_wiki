@@ -30,9 +30,9 @@
     --chart-4: 186 55% 60%;
     --chart-5: 186 60% 45%;
 
-    /* 导航页主题色 */
-    --nav-theme: 186 62% 39%;        /* lucid-blocks-cyan */
-    --nav-theme-light: 186 68% 52%;  /* 更浅的青色高亮 */
+    /* 导航页主题色 - 亮色主题 */
+    --nav-theme: 158 55% 34%;        /* deep emerald, 接近 Subterra logo 的矿洞绿 */
+    --nav-theme-light: 158 58% 46%;  /* 更亮的 emerald green */
     
     /* Callout 组件颜色 */
     --callout-info-bg: 217 91% 97%;  /* blue-50 */
@@ -76,8 +76,8 @@
     --chart-5: 186 60% 45%;
 
     /* 导航页主题色 - 暗色主题 */
-    --nav-theme: 186 62% 39%;        /* lucid-blocks-cyan */
-    --nav-theme-light: 186 68% 52%;  /* hover/active 高亮 */
+    --nav-theme: 158 62% 42%;        /* glowing emerald, 暗色下更清晰 */
+    --nav-theme-light: 158 72% 58%;  /* 发光矿石绿 */
 
     /* Callout 组件颜色 - 暗色主题 */
     --callout-info-bg: 217 91% 22%;  /* 更浅的深蓝色（模拟 blue-900/20） */
