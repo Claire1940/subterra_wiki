@@ -239,7 +239,7 @@ export default function HomePageClient({
     Crystal: Diamond,
   };
   const [craftingFilter, setCraftingFilter] = useState<string>("All");
-  const craftingCategories = [
+  const craftingCategories: string[] = [
     "All",
     ...Array.from(
       new Set(t.modules.subterraCraftingRecipesAndMaterials.items.map((it: any) => it.category)),
