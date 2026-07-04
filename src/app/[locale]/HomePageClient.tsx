@@ -241,9 +241,9 @@ export default function HomePageClient({
   const [craftingFilter, setCraftingFilter] = useState<string>("All");
   const craftingCategories: string[] = [
     "All",
-    ...Array.from(
+    ...(Array.from(
       new Set(t.modules.subterraCraftingRecipesAndMaterials.items.map((it: any) => it.category)),
-    ),
+    ) as string[]),
   ];
   const craftingItems =
     craftingFilter === "All"
@@ -490,7 +490,7 @@ export default function HomePageClient({
               </h3>
             </div>
             <ol className="space-y-3 md:space-y-4">
-              {t.modules.subterraCodes.redeemSteps.map((step: string, index: number) => (
+              {t.modules.subterraCodes.redeemSteps.map((step: any, index: number) => (
                 <li
                   key={index}
                   className="flex gap-3 md:gap-4 p-4 md:p-5 bg-white/5 border border-border rounded-xl"
@@ -515,7 +515,7 @@ export default function HomePageClient({
               </h3>
             </div>
             <div className="flex flex-wrap gap-2">
-              {t.modules.subterraCodes.expiredCodes.map((code: string, index: number) => (
+              {t.modules.subterraCodes.expiredCodes.map((code: any, index: number) => (
                 <span
                   key={index}
                   className="inline-flex items-center text-xs px-2.5 py-1 rounded-md bg-white/5 border border-border text-muted-foreground line-through"
