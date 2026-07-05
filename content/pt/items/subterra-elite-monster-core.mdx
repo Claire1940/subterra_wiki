@@ -1,0 +1,249 @@
+import { Map, Swords, Shield, Trophy, Target, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Subterra Elite Monster Core: Rota de Farm e Builds",
+  description: "Aprenda a farmar o Subterra Elite Monster Core com rotas mais seguras, prioridades de alvo, builds e dicas inteligentes de gasto para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Elite+Monster+Core+Guide",
+  date: "2026-07-06",
+  author: "Equipe da Wiki Subterra"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **As runs de Subterra Elite Monster Core** funcionam melhor quando você farma corredores abertos, e não túneis apertados.
+- **Mobilidade e sustain** importam mais do que dano ganancioso nas camadas hostis mais profundas.
+- **Velocidade da picareta, espaço na mochila e recuperação** fazem cada run permanecer lucrativa por mais tempo.
+- **Deposite os drops cedo** para que uma morte ruim não apague uma boa sessão de farm.
+</Callout>
+
+<Section icon={Map} title="Subterra Elite Monster Core: O Que É">
+
+Subterra Elite Monster Core é o tipo de drop que você deve tratar como combustível de progressão, não como loot aleatório. Se você quer resultados consistentes, monte sua rota em torno de lutas controladas, saídas curtas e limpezas repetíveis, em vez de perseguir todo inimigo no mapa.
+
+A abordagem mais segura é decidir com antecedência se você está farmando por velocidade, sobrevivência ou poder bruto. Quando essa decisão fica clara, toda escolha de ferramenta se torna mais fácil.
+
+<CardGrid cols={3}>
+  <Card title="Runner Solo">
+    - **Melhor para resets rápidos**
+    - Mobilidade forte e bom controle de saída
+    - Menor risco se você conhece o mapa
+  </Card>
+  <Card title="Farmeiro Balanceado">
+    - **Melhor opção geral**
+    - Bom dano com cura constante
+    - Funciona bem em zonas com inimigos mistos
+  </Card>
+  <Card title="Caçador Agressivo">
+    - **Melhor dano explosivo**
+    - Abate mais rápido de alvos elite
+    - Exige posicionamento e espaçamento cuidadosos
+  </Card>
+</CardGrid>
+
+| Estilo de Rota | Ideal Para | Nível de Risco | Principal Benefício |
+|---|---|---|---|
+| Loop solo | Janelas curtas de farm | Médio | Resets rápidos e pouco tempo parado |
+| Varredura em duo | Limpezas mais seguras | Baixo-Médio | Um jogador pode kitar enquanto o outro finaliza |
+| Circuito de camada profunda | Drops melhores e lutas mais densas | Alto | Mais pressão de elites por run |
+| Farm perto de boss | Jogadores avançados | Alto | Maior densidade de alvos em zonas perigosas |
+
+<Callout type="info" title="Verificação Oficial">
+Verificado em 2026-07-06 na página oficial da experiência Roblox: [Subterra on Roblox](https://www.roblox.com/games/16817315243/Subterra). Use a página ao vivo do jogo para confirmar sua rota atual antes de comprometer recursos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Melhor Rota de Farm e Prioridade de Spawn">
+
+Assim que você entra em uma zona de farm, sua primeira tarefa é remover a aleatoriedade. A melhor rota é aquela que você consegue repetir sem entrar em pânico, porque o farm de elite-core fica muito melhor quando você para de se estender demais.
+
+<Callout type="tip" title="Regra da Rota">
+Lute em áreas com espaço para se mover. Se um túnel não lhe der espaço para desviar, puxe os inimigos de volta para um corredor mais largo antes de se comprometer.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Defina Seu Ponto de Saída">
+    Escolha um caminho seguro de retorno antes de a luta começar. Se seu inventário encher ou sua vida cair, você já deve saber para onde sair.
+  </Step>
+  <Step num="2" title="Limpe os Mobs Fracos Primeiro">
+    Elimine inimigos pequenos e alvos incômodos antes de focar nos inimigos elite. Enxames geram erros, e erros custam runs.
+  </Step>
+  <Step num="3" title="Puxe as Elites Para o Espaço Aberto">
+    Deixe que os inimigos elite venham até você em uma área mais ampla. Terreno aberto facilita esquivas e reduz a chance de ficar preso.
+  </Step>
+  <Step num="4" title="Reinicie Após um Loop Limpo">
+    Saia enquanto sua run ainda parece controlada. Uma saída limpa com a mochila cheia é melhor do que um avanço arriscado que encerra a sessão cedo.
+  </Step>
+</Steps>
+
+| Prioridade | O Que Alvejar | Por Que Importa | O Que Evitar |
+|---|---|---|---|
+| 1 | Inimigos elite | Melhor chance para farm focado em core | Persegui-los por becos sem saída apertados |
+| 2 | Ameaças à distância | Elas punem movimentos ruins | Ignorá-las enquanto você fica vidrado em um alvo |
+| 3 | Pacotes de enxame | Eles bloqueiam rotas e drenam cura | Focar neles quando sua vida já está baixa |
+| 4 | Guardas de boss | Alta pressão, alto risco | Enfrentá-los sem um plano de saída |
+
+| Gatilho da Run | Saia Agora Se... | Por Quê |
+|---|---|---|
+| Checagem de vida | A cura quase acabou | Uma troca ruim pode escalar rápido |
+| Checagem de inventário | Sua mochila está quase cheia | Você quer que a run continue eficiente |
+| Checagem de munição ou stamina | Seu ritmo de ataque desanda | Um tempo mal executado leva a janelas perdidas |
+| Checagem de posição | Você perde sua rota de fuga | Reposicione antes de ficar encurralado |
+
+<Callout type="warning" title="Não Seja Ganancioso">
+Se uma rota começar a forçar lutas arriscadas, reinicie-a. Farmar só funciona quando a próxima run começa em um estado melhor do que a anterior terminou.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Builds Recomendadas para Farm de Core">
+
+As builds para farm de Subterra Elite Monster Core devem resolver três problemas ao mesmo tempo: velocidade de abate, movimento e sobrevivência. Se um desses elementos estiver faltando, a rota normalmente fica instável e a progressão do farm desacelera.
+
+<CardGrid cols={3}>
+  <Card title="Build Focada em Dano">
+    - **Prioridade de arma**
+    - Melhor para deletar elites rapidamente
+    - Exige bons hábitos de posicionamento
+  </Card>
+  <Card title="Build Focada em Segurança">
+    - **Prioridade em cura e defesa**
+    - Melhor para aprender rotas mais profundas
+    - Mais lenta, mas muito mais permissiva
+  </Card>
+  <Card title="Build Híbrida">
+    - **Melhor escolha no longo prazo**
+    - Dano e movimento equilibrados
+    - Boa para loops de farm repetidos
+  </Card>
+</CardGrid>
+
+| Build | Cartas Principais | Melhor Estilo de Arma | Melhor Uso |
+|---|---|---|---|
+| Focada em Dano | Lucky, Explosive Touch, Stronger Pickaxe | Corpo a corpo de alto dano | Limpezas rápidas de elites em corredores seguros |
+| Focada em Segurança | Healthy, Walk Speed, Extra Oxygen | Corpo a corpo ou à distância confiável | Aprender rotas e sobreviver a erros |
+| Híbrida | Bigger Backpack, Lighter Pickaxe, Double Jump | Corpo a corpo flexível | Sessões longas de farm com menos resets |
+| Build Econômica | Lucky, Bigger Backpack, Blazing Pickaxe | Arma utilitária | Rotas ricas em minério que também alimentam a progressão |
+
+Algumas escolhas de cartas se destacam para esse tipo de farm. **Lucky** ajuda se a rota também render valor em minério. **Explosive Touch** é excelente quando os inimigos se agrupam perto de terreno quebrável. **Blazing Pickaxe** economiza tempo se você estiver convertendo a mesma viagem em valor de combate e mineração. **Healthy** e **Walk Speed** são as escolhas iniciais mais seguras quando você ainda está aprendendo o timing dos inimigos.
+
+| Slot de Ferramenta | Escolha Inteligente | Por Que Funciona |
+|---|---|---|
+| Arma | Uma opção corpo a corpo confiável | Permite finalizar lutas sem se comprometer demais |
+| Mobilidade | Double Jump ou Walk Speed | Torna o reposicionamento muito mais fácil |
+| Economia | Bigger Backpack | Reduz o número de idas de volta |
+| Utilidade | Extra Oxygen | Estende o tempo de uso em rotas profundas |
+
+<Callout type="warning" title="Evite Armadilhas de Glass Cannon">
+Builds de puro dano parecem boas no papel, mas desmoronam rápido se você não conseguir sair das lutas com limpeza. Mantenha pelo menos uma escolha de mobilidade ou sustain em cada setup de farm de core.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="O Que Fazer com as Recompensas de Elite Monster Core">
+
+Depois de garantir os drops elite, o próximo erro é gastá-los de forma excessivamente solta. Trate cada recompensa como um ativo de progressão. Isso significa canalizar valor para os sistemas que tornam o farm futuro mais seguro e mais rápido.
+
+<Callout type="success" title="Gaste com Propósito">
+Use runs de elite-core para melhorar a própria rota: mais sustain, melhor movimento, mais espaço de inventário e menor tempo para matar.
+</Callout>
+
+<Checklist
+  id="elite-core-next-steps"
+  title="Checklist Pós-Farm:"
+  items={[
+    "Deposite o drop antes de iniciar outra run profunda",
+    "Melhore uma ferramenta de sobrevivência antes de buscar mais dano",
+    "Verifique se o espaço da mochila está te atrasando",
+    "Deixe um item de cura pronto para o próximo pacote de elites",
+    "Revise se sua rota ainda tem uma saída fácil"
+  ]}
+/>
+
+| Prioridade de Gasto | Foco Recomendado | Por Que Vem Primeiro |
+|---|---|---|---|
+| 1 | Sobrevivência | Impede que um bom farm vire uma run fracassada |
+| 2 | Mobilidade | Melhora o controle da rota e fugas de emergência |
+| 3 | Espaço no inventário | Aumenta o valor de cada viagem |
+| 4 | Dano | Acelera futuras eliminações de elites depois que a sobrevivência estiver estável |
+| 5 | Utilidade | Acrescenta conforto e consistência em sessões longas |
+
+| Tipo de Recurso | Melhor Uso | Resultado |
+|---|---|---|
+| Drops de combate elite | Melhorias de rota | Limpezas futuras mais seguras |
+| Moeda extra | Progressão de mochila ou movimento | Loops de farm mais eficientes |
+| Itens de cura | Runs mais longas | Menos saídas antecipadas |
+| Materiais utilitários | Builds flexíveis | Melhor adaptação a novas zonas |
+
+Se você estiver decidindo entre mais uma luta arriscada e um retorno limpo, escolha o retorno limpo. Uma sessão eficiente que termina bem geralmente vale mais do que um avanço ganancioso que apaga seu progresso.
+
+<Callout type="tip" title="Mentalidade de Progressão">
+Os melhores jogadores não apenas farmam mais; eles farmam melhor. Cada run de elite-core deve deixar a próxima run mais fácil de finalizar.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Farm e Comparação Rápida">
+
+Um bom plano de farm é fácil de repetir. Antes de cada sessão, confirme sua rota, sua rota de fuga e uma ou duas melhorias que mais importam agora.
+
+| Pergunta | Boa Resposta | Má Resposta |
+|---|---|---|
+| Consigo sair com segurança? | Sim, o caminho de saída está livre | Não, vou ter que improvisar |
+| Consigo sobreviver a um erro? | Sim, tenho sustain ou mobilidade | Não, um golpe pode encerrar a run |
+| Minha mochila está me ajudando? | Sim, consigo carregar mais valor | Não, preciso voltar cedo demais |
+| Estou matando rápido o suficiente? | Sim, as lutas terminam antes de o controle quebrar | Não, fico em perigo por tempo demais |
+
+<Steps>
+  <Step num="1" title="Confirme Seu Objetivo">
+    Decida se a sessão é para drops, dinheiro ou prática. Um objetivo focado evita movimento desperdiçado.
+  </Step>
+  <Step num="2" title="Combine Sua Build">
+    Escolha cartas e equipamentos que resolvam a maior fraqueza da rota, não a fraqueza que você gostaria de ter.
+  </Step>
+  <Step num="3" title="Faça um Loop de Teste Curto">
+    Faça primeiro uma run controlada. Se ela parecer instável, ajuste antes de se comprometer com uma sessão longa.
+  </Step>
+  <Step num="4" title="Trave o Melhor Padrão">
+    Repita a rota que oferece o melhor equilíbrio entre segurança, velocidade e densidade de recompensas.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Regra Final">
+Se uma rota parece estressante toda vez, ela provavelmente está cara demais para o seu setup atual. Ajuste a rota ao seu equipamento, e não o contrário.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ: Subterra Elite Monster Core">
+
+<Callout type="info" title="Dicas de FAQ">
+Use estas respostas rápidas para afinar seu plano de farm antes de se comprometer com uma sessão longa.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor forma de farmar Subterra Elite Monster Core?",
+    answer: "Use corredores abertos, limpe primeiro os mobs fracos e foque nos alvos elite apenas depois que sua rota de fuga estiver segura. Um loop controlado geralmente é melhor do que um avanço arriscado."
+  },
+  {
+    question: "Devo usar dano ou sobrevivência para farmar elite-core?",
+    answer: "Comece com sobrevivência se estiver aprendendo a rota. Quando conseguir sair limpo e evitar trocas ruins, adicione mais dano e valor econômico."
+  },
+  {
+    question: "Quando devo parar uma run de farm?",
+    answer: "Saia quando sua cura estiver baixa, sua mochila estiver quase cheia ou sua rota começar a forçar um posicionamento ruim. Encerrar cedo muitas vezes é a jogada mais inteligente."
+  },
+  {
+    question: "Quais cartas ajudam mais nas runs de elite-core?",
+    answer: "Walk Speed, Healthy, Bigger Backpack, Double Jump, Lucky e Explosive Touch são escolhas fortes porque ajudam em movimento, sustain e eficiência."
+  }
+]} />
+
+</Section>

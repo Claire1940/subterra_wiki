@@ -1,0 +1,249 @@
+import { Map, Swords, Shield, Trophy, Target, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Subterra Elite Monster Core: Ruta de farmeo y configuraciones",
+  description: "Aprende a farmear Subterra Elite Monster Core con rutas más seguras, prioridades de objetivos, configuraciones y consejos inteligentes de gasto para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Elite+Monster+Core+Guide",
+  date: "2026-07-06",
+  author: "Equipo de la Wiki de subterra"
+}
+
+<Callout type="info" title="Guía rápida">
+- Las partidas de **Subterra Elite Monster Core** funcionan mejor cuando farmeas por carriles abiertos, no por túneles estrechos.
+- **La movilidad y la sustentación** importan más que el daño voraz en las capas hostiles más profundas.
+- **La velocidad del pico, el espacio de la mochila y la recuperación** mantienen cada run rentable durante más tiempo.
+- **Deposita los objetos pronto** para que una mala muerte no borre una buena sesión de farmeo.
+</Callout>
+
+<Section icon={Map} title="Subterra Elite Monster Core: Qué es">
+
+Subterra Elite Monster Core es el tipo de botín que deberías tratar como combustible de progresión, no como botín aleatorio. Si quieres resultados constantes, construye tu ruta alrededor de combates controlados, salidas cortas y limpiezas repetibles en lugar de perseguir a cada enemigo del mapa.
+
+El enfoque más seguro es decidir de antemano si estás farmeando por velocidad, supervivencia o rendimiento bruto. Una vez que esa decisión está clara, cada elección de herramientas se vuelve más fácil.
+
+<CardGrid cols={3}>
+  <Card title="Corredor en solitario">
+    - **Mejor para reinicios rápidos**
+    - Gran movilidad y control de salida
+    - Menor riesgo si conoces el mapa
+  </Card>
+  <Card title="Granjero equilibrado">
+    - **La mejor opción general**
+    - Buen daño y curación constante
+    - Funciona bien en zonas con enemigos mixtos
+  </Card>
+  <Card title="Cazador agresivo">
+    - **Mejor daño explosivo**
+    - Mata más rápido a los objetivos élite
+    - Requiere posicionamiento y distancia cuidadosos
+  </Card>
+</CardGrid>
+
+| Estilo de ruta | Ideal para | Nivel de riesgo | Beneficio principal |
+|---|---|---|---|
+| Bucle en solitario | Ventanas cortas de farmeo | Medio | Reinicios rápidos y poco tiempo muerto |
+| Barrido en dúo | Limpiezas más seguras | Bajo-Medio | Un jugador puede atraer mientras el otro remata |
+| Circuito de capa profunda | Mejor botín y combates más densos | Alto | Más presión élite por run |
+| Farmeo cercano al jefe | Jugadores avanzados | Alto | Mayor densidad de objetivos cerca de zonas peligrosas |
+
+<Callout type="info" title="Verificación oficial">
+Verificado el 2026-07-06 con la página oficial de la experiencia de Roblox: [Subterra en Roblox](https://www.roblox.com/games/16817315243/Subterra). Usa la página del juego en vivo para confirmar tu ruta actual antes de invertir recursos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mejor ruta de farmeo y prioridad de aparición">
+
+Una vez que entras en una zona de farmeo, tu primera tarea es eliminar la aleatoriedad. La mejor ruta es la que puedes repetir sin entrar en pánico, porque farmear el core élite mejora mucho cuando dejas de sobreextenderte.
+
+<Callout type="tip" title="Regla de ruta">
+Lucha en zonas con espacio para moverte. Si un túnel no te deja esquivar, atrae a los enemigos de vuelta a un carril más ancho antes de comprometerte.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Define tu punto de salida">
+    Elige una ruta segura de retorno antes de que empiece el combate. Si tu inventario se llena o tu salud baja, ya deberías saber dónde salir.
+  </Step>
+  <Step num="2" title="Elimina primero a los mobs débiles">
+    Quita a los enemigos pequeños y a los objetivos molestos antes de centrarte en los enemigos élite. Las hordas generan errores, y los errores arruinan las runs.
+  </Step>
+  <Step num="3" title="Atrae a los élites a un espacio abierto">
+    Deja que los enemigos élite vengan hacia ti en una zona amplia. El terreno abierto facilita esquivar y reduce la probabilidad de quedar atrapado.
+  </Step>
+  <Step num="4" title="Reinicia tras un bucle limpio">
+    Retírate mientras la run aún se siente controlada. Una salida limpia con la mochila llena es mejor que una avance arriesgada que termina la sesión antes de tiempo.
+  </Step>
+</Steps>
+
+| Prioridad | Qué atacar | Por qué importa | Qué evitar |
+|---|---|---|---|
+| 1 | Enemigos élite | Mejor oportunidad para farmeo centrado en el core | Perseguirlos por fondos de saco estrechos |
+| 2 | Amenazas a distancia | Castigan el mal movimiento | Ignorarlas mientras te enfocas demasiado |
+| 3 | Hordas de enemigos | Bloquean rutas y agotan la curación | Centrarte en ellos cuando ya tienes poca vida |
+| 4 | Guardias del jefe | Mucha presión, mucho riesgo | Luchar contra ellos sin un plan de salida |
+
+| Activador de run | Sal ahora si... | Por qué |
+|---|---|---|
+| Revisión de salud | La curación casi se acabó | Un mal intercambio puede escalar muy rápido |
+| Revisión de inventario | Tu mochila está casi llena | Quieres que la run siga siendo eficiente |
+| Revisión de munición o resistencia | Tu ritmo de ataque se descompone | Un tempo descuidado hace que pierdas ventanas |
+| Revisión de posición | Pierdes tu carril de escape | Reposiciótate antes de que te encierren |
+
+<Callout type="warning" title="No seas codicioso">
+Si una ruta empieza a forzarte combates arriesgados, reiníciala. Farmear solo funciona cuando la siguiente run empieza en un estado mejor que el que dejó la anterior.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Configuraciones recomendadas para farmear el core">
+
+Las configuraciones para farmear Subterra Elite Monster Core deben resolver tres problemas a la vez: velocidad de eliminación, movimiento y supervivencia. Si falta uno de ellos, la ruta suele volverse inestable y el farmeo del botín se ralentiza.
+
+<CardGrid cols={3}>
+  <Card title="Configuración priorizada en daño">
+    - **Prioridad en el arma**
+    - Mejor para borrar élites rápidamente
+    - Necesita buenos hábitos de posicionamiento
+  </Card>
+  <Card title="Configuración priorizada en seguridad">
+    - **Prioridad en curación y defensa**
+    - Mejor para aprender rutas profundas
+    - Más lenta, pero mucho más permisiva
+  </Card>
+  <Card title="Configuración híbrida">
+    - **La mejor opción a largo plazo**
+    - Daño y movimiento equilibrados
+    - Buena para bucles de farmeo repetidos
+  </Card>
+</CardGrid>
+
+| Configuración | Cartas clave | Mejor estilo de arma | Mejor uso |
+|---|---|---|---|
+| Prioridad en daño | Lucky, Explosive Touch, Stronger Pickaxe | Cuerpo a cuerpo de alto daño | Limpiezas rápidas de élites en carriles seguros |
+| Prioridad en seguridad | Healthy, Walk Speed, Extra Oxygen | Cuerpo a cuerpo o a distancia fiable | Aprender rutas y sobrevivir a errores |
+| Híbrida | Bigger Backpack, Lighter Pickaxe, Double Jump | Cuerpo a cuerpo flexible | Sesiones largas de farmeo con menos reinicios |
+| Configuración económica | Lucky, Bigger Backpack, Blazing Pickaxe | Arma de utilidad | Rutas ricas en mineral que también impulsan la progresión |
+
+Hay algunas cartas que destacan para este tipo de farmeo. **Lucky** ayuda si la ruta también genera valor en mineral. **Explosive Touch** es excelente cuando los enemigos se agrupan cerca de terreno rompible. **Blazing Pickaxe** ahorra tiempo si conviertes el mismo viaje en valor tanto de combate como de minería. **Healthy** y **Walk Speed** son las opciones iniciales más seguras cuando todavía estás aprendiendo los tiempos de los enemigos.
+
+| Ranura de herramienta | Elección inteligente | Por qué funciona |
+|---|---|---|
+| Arma | Una opción cuerpo a cuerpo confiable | Te permite terminar combates sin sobrecomprometerte |
+| Movilidad | Double Jump o Walk Speed | Hace mucho más fácil reposicionarte |
+| Economía | Bigger Backpack | Reduce los viajes de retorno |
+| Utilidad | Extra Oxygen | Amplía el tiempo útil en rutas profundas |
+
+<Callout type="warning" title="Evita las trampas de cristal">
+Las configuraciones de daño puro se ven bien sobre el papel, pero se desmoronan rápido si no puedes salir de los combates de forma limpia. Mantén al menos una opción de movilidad o sustentación en cada configuración de farmeo del core.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Qué hacer con las recompensas de Elite Monster Core">
+
+Después de conseguir botín élite, el siguiente error es gastarlo con demasiada ligereza. Trata cada recompensa como un activo de progresión. Eso significa que debes canalizar el valor hacia los sistemas que hacen que el farmeo futuro sea más seguro y más rápido.
+
+<Callout type="success" title="Gasta con propósito">
+Usa las runs de elite-core para mejorar el propio bucle: mejor sustentación, mejor movimiento, más espacio de inventario y menor tiempo para matar.
+</Callout>
+
+<Checklist
+  id="elite-core-next-steps"
+  title="Lista de verificación después del farmeo:"
+  items={[
+    "Guarda el botín antes de iniciar otra run profunda",
+    "Mejora una herramienta de supervivencia antes de buscar más daño",
+    "Comprueba si el espacio de la mochila te está frenando",
+    "Mantén un objeto de curación listo para el siguiente grupo élite",
+    "Revisa si tu ruta sigue teniendo una salida fácil"
+  ]}
+/>
+
+| Prioridad de gasto | Enfoque recomendado | Por qué va primero |
+|---|---|---|---|
+| 1 | Supervivencia | Evita que un buen farmeo termine en una run fallida |
+| 2 | Movilidad | Mejora el control de ruta y las escapadas de emergencia |
+| 3 | Espacio de inventario | Aumenta el valor de cada viaje |
+| 4 | Daño | Acelera futuras muertes de élites una vez la supervivencia sea estable |
+| 5 | Utilidad | Añade comodidad y consistencia a las sesiones largas |
+
+| Tipo de recurso | Mejor uso | Resultado |
+|---|---|---|
+| Botín de combate élite | Mejoras de ruta | Limpiezas futuras más seguras |
+| Moneda extra | Progresión de mochila o movimiento | Bucles de farmeo más eficientes |
+| Objetos de curación | Runs más largas | Menos salidas tempranas |
+| Materiales de utilidad | Configuraciones flexibles | Mejor adaptación a nuevas zonas |
+
+Si estás decidiendo entre otro combate arriesgado y un retorno limpio, elige el retorno limpio. Una sesión eficiente que termina bien suele valer más que una arremetida codiciosa que borra tu progreso.
+
+<Callout type="tip" title="Mentalidad de progresión">
+Los mejores jugadores no solo farmean más duro; farmean de forma más inteligente. Cada run de elite-core debería hacer que la siguiente sea más fácil de completar.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación de farmeo y comparación rápida">
+
+Un buen plan de farmeo es fácil de repetir. Antes de cada sesión, confirma tu ruta, tu camino de escape y una o dos mejoras que realmente importan ahora mismo.
+
+| Pregunta | Buena respuesta | Mala respuesta |
+|---|---|---|
+| ¿Puedo salir con seguridad? | Sí, el camino de salida está despejado | No, tengo que improvisar |
+| ¿Puedo sobrevivir a un error? | Sí, tengo sustentación o movilidad | No, un golpe puede acabar con la run |
+| ¿Mi mochila me ayuda? | Sí, puedo llevar más valor | No, vuelvo demasiado seguido |
+| ¿Estoy matando lo bastante rápido? | Sí, los combates terminan antes de perder el control | No, me quedo en peligro demasiado tiempo |
+
+<Steps>
+  <Step num="1" title="Confirma tu objetivo">
+    Decide si la sesión es para botín, dinero o práctica. Un objetivo definido evita movimientos desperdiciados.
+  </Step>
+  <Step num="2" title="Ajusta tu configuración">
+    Elige cartas y equipo que resuelvan la mayor debilidad de la ruta, no la que desearías tener.
+  </Step>
+  <Step num="3" title="Haz un bucle de prueba corto">
+    Haz primero una run controlada. Si se siente inestable, ajusta antes de comprometerte con una sesión larga.
+  </Step>
+  <Step num="4" title="Bloquea el mejor patrón">
+    Repite la ruta que ofrezca el mejor equilibrio entre seguridad, velocidad y densidad de recompensa.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Regla final">
+Si una ruta se siente estresante cada vez, probablemente es demasiado costosa para tu configuración actual. Ajusta la ruta a tu equipo, no al revés.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ: Subterra Elite Monster Core">
+
+<Callout type="info" title="Consejos de FAQ">
+Usa estas respuestas rápidas para afinar tu plan de farmeo antes de comprometerte con una sesión larga.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor manera de farmear Subterra Elite Monster Core?",
+    answer: "Usa carriles abiertos, elimina primero a los mobs débiles y céntrate en los objetivos élite solo cuando tu ruta de escape esté asegurada. Un bucle controlado suele ser mejor que una arremetida imprudente."
+  },
+  {
+    question: "¿Debería priorizar daño o supervivencia para farmear elite-core?",
+    answer: "Empieza con supervivencia si estás aprendiendo la ruta. Una vez que puedas salir limpio y evitar malos intercambios, añade más daño y valor económico."
+  },
+  {
+    question: "¿Cuándo debo detener una run de farmeo?",
+    answer: "Sal cuando te quede poca curación, tu mochila esté casi llena o tu ruta empiece a forzarte malas posiciones. Terminar antes suele ser la jugada más inteligente."
+  },
+  {
+    question: "¿Qué cartas ayudan más en las runs de elite-core?",
+    answer: "Walk Speed, Healthy, Bigger Backpack, Double Jump, Lucky y Explosive Touch son opciones fuertes porque apoyan el movimiento, la sustentación y la eficiencia."
+  }
+]} />
+
+</Section>
