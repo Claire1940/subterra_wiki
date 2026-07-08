@@ -1,0 +1,150 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Melhoria de Picareta em Subterra: Receitas, Atributos e Rota de Progressão",
+  description: "Domine o sistema de melhoria de picareta do Subterra no Roblox. Explore receitas completas de fabricação, atributos e as rotas ideais de progressão de ferramentas para todos os níveis.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Subterra+Pickaxe+Upgrades",
+  date: "2026-07-08",
+  author: "Equipe da Wiki de Subterra"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Objetivo Principal**: Priorize a melhoria da sua ferramenta usando o sistema de **melhoria de picareta do Subterra** para aumentar a velocidade de mineração e quebrar minérios mais duros.
+- **Local de Fabricação**: Visite o NPC Ferreiro (Blacksmith) localizado no hub da superfície do Overworld para melhorar suas ferramentas.
+- **Recursos Chave**: Economize Rocha, Carvão, Cobre e Estanho iniciais para fabricar os níveis iniciais de melhorias.
+- **Ciclo de Progressão**: Equilibre as melhorias de picareta com a capacidade da mochila para garantir que suas jornadas continuem altamente lucrativas.
+</Callout>
+
+<Section icon={Map} title="Visão Geral do Sistema de Melhoria de Picareta do Subterra">
+
+Na aventura 2.5D do Roblox, Subterra, melhorar suas ferramentas é o fator mais importante para a sobrevivência em camadas profundas. Sua picareta determina tanto o seu poder de mineração quanto a sua velocidade de ataque. Blocos de níveis mais altos em camadas mais profundas exigem maior poder de mineração para serem quebrados com eficiência, o que significa que uma ferramenta inicial fraca limitará severamente sua exploração.
+
+Para realizar uma **melhoria de picareta do Subterra**, você deve coletar blocos específicos, minérios brutos e barras fundidas, e depois levá-los junto com Ouro ao NPC Ferreiro no hub da superfície do Overworld. Fixar suas receitas ativas no Ferreiro ajuda a rastrear os materiais durante as explorações ativas.
+
+<CardGrid cols={3}>
+  <Card title="Poder de Mineração">
+    Determina quantos golpes são necessários para quebrar blocos padrão e veios de minério raros em camadas profundas.
+  </Card>
+  <Card title="Velocidade de Mineração">
+    Aumenta a frequência de seus golpes, permitindo limpar túneis e escapar de minas desmoronando mais rapidamente.
+  </Card>
+  <Card title="Bloqueio de Progressão">
+    Desbloqueia o acesso a camadas mais profundas, como Darkstone e Permafrost, permitindo quebrar blocos mais duros.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Dica de Mestre">
+Nunca descarte gemas do início do jogo como Citrino ou Topázio. Embora possam ser vendidas por Ouro rápido, elas são necessárias para melhorias cruciais de ferramentas no meio do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Receitas e Atributos de Melhoria de Picareta">
+
+As tabelas a seguir mostram a rota de progressão completa desde a picareta inicial padrão até o Nível 14. Planeje suas alocações de recursos com cuidado para evitar o desperdício de barras preciosas em equipamentos temporários.
+
+### Melhorias de Picareta de Nível Inicial (Níveis 1 a 7)
+
+| Nível | Poder | Velocidade | Custo em Ouro | Materiais Necessários |
+| :--- | :--- | :--- | :--- | :--- |
+| **Nível 1** | 20 | 100% | Grátis | Ferramenta inicial padrão |
+| **Nível 2** | 25 | 105% | 62 | 25x Rocha |
+| **Nível 3** | 30 | 107% | 125 | 35x Rocha, 5x Carvão |
+| **Nível 4** | 35 | 107% | 187 | 50x Rocha, 15x Cobre Bruto, 15x Carvão |
+| **Nível 5** | 40 | 110% | 250 | 25x Carvão, 20x Barra de Cobre |
+| **Nível 6** | 50 | 115% | 625 | 20x Carvão, 10x Estanho Bruto, 50x Barra de Cobre |
+| **Nível 7** | 55 | 119% | 750 | 30x Estanho Bruto, 75x Barra de Cobre, 5x Carvão |
+
+### Melhorias de Picareta de Nível Médio (Níveis 8 a 14)
+
+| Nível | Poder | Velocidade | Custo em Ouro | Materiais Necessários |
+| :--- | :--- | :--- | :--- | :--- |
+| **Nível 8** | 60 | 120% | 875 | 30x Estanho Bruto, 100x Barra de Cobre, 50x Carvão |
+| **Nível 9** | 65 | 123% | 1000 | 75x Barra de Estanho, 100x Carvão |
+| **Nível 10** | 75 | 129% | 1250 | 50x Barra de Estanho, 35x Barra de Cobre, 10x Citrino |
+| **Nível 11** | 80 | 132% | 1375 | 90x Barra de Estanho, 75x Carvão, 25x Ferro Bruto |
+| **Nível 12** | 85 | 135% | 1500 | 125x Barra de Estanho, 50x Barra de Cobre, 15x Citrino, 35x Ferro Bruto |
+| **Nível 13** | 90 | 138% | 1625 | 75x Barra de Ferro, 100x Carvão |
+| **Nível 14** | 100 | 144% | 1875 | 90x Barra de Ferro, 60x Barra de Estanho |
+
+<Callout type="warning" title="Gerenciamento de Materiais">
+Fundir Cobre Bruto e Estanho Bruto em barras é necessário para ferramentas de nível alto. Não venda seus minérios brutos diretamente ao mercador se estiver perto de um ponto de melhoria de picareta.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rota de Progressão de Ferramentas Passo a Passo">
+
+Para progredir de forma eficiente sem bater em uma barreira onde os blocos demoram muito para quebrar, siga este caminho estruturado de melhorias.
+
+<Steps>
+  <Step num="1" title="Garanta o Básico da Camada de Terra">
+    Comece minerando Rocha e Carvão na Camada de Terra. Acumule materiais suficientes para saltar diretamente do Nível 1 para o Nível 3 rapidamente, ignorando a fase fraca do Nível 2, se possível.
+  </Step>
+  <Step num="2" title="Estabeleça a Fundição de Cobre e Estanho">
+    Desça para a Camada de Pedra e concentre-se em minerar Cobre Bruto e Estanho Bruto. Leve-os para a Fundição do Overworld para fabricar Barras de Cobre. Isso desbloqueia as melhorias de Nível 5 e Nível 6, que fornecem um aumento massivo de 15% na velocidade de mineração.
+  </Step>
+  <Step num="3" title="Colete Citrino e Ferro">
+    Assim que alcançar o Nível 9, você precisará de Cristais de Citrino e Ferro Bruto. Procure por Geodos de Gemas na Camada de Pedra e minere mais fundo (Y -100 e abaixo) para coletar Ferro Bruto.
+  </Step>
+  <Step num="4" title="Finalize o Ponto de Controle do Início ao Meio do Jogo">
+    Funda seu Ferro Bruto em Barras de Ferro para fabricar as picaretas de Nível 13 e Nível 14. Isso posiciona seu personagem perfeitamente para quebrar blocos de Darkstone e fazer a transição para as áreas de fim de jogo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Sinergia de Progressão">
+Combine suas melhorias de picareta com melhorias de mochila. Uma picareta de nível alto é inútil se o seu inventário encher em dois minutos de escavação.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Marcos de Mineração e Conquistas">
+
+Coletar blocos para melhorar sua picareta também ajuda a concluir conquistas principais do jogo, que o recompensam com valiosos Fragmentos de Crono (Chrono Shards).
+
+<Checklist
+  id="pickaxe-achievements"
+  title="Principais Conquistas de Mineração:"
+  items={[
+    "Começo Humilde: Minere seu primeiro bloco (35 Fragmentos de Crono) [1.1.5]",
+    "Espeleólogo Novato: Minere 100 blocos (35 Fragmentos de Crono)",
+    "Explorador Profundo: Minere 500 blocos (50 Fragmentos de Crono)",
+    "Moldador da Terra: Minere 2.000 blocos (50 Fragmentos de Crono)",
+    "Quebrador de Veios: Minere 5.000 blocos (50 Fragmentos de Crono)",
+    "Destruidor de Mundos: Minere 10.000 blocos (140 Fragmentos de Crono)"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+Use esta seção de FAQ para solucionar problemas em sua progressão e otimizar sua eficiência de mineração.
+
+<FAQ items={[
+  {
+    question: "Onde devo ir para realizar uma melhoria de picareta do Subterra?",
+    answer: "Você deve visitar o NPC Ferreiro localizado na praça da superfície do Overworld. Certifique-se de ter os materiais necessários e Ouro em seu inventário antes de interagir com ele."
+  },
+  {
+    question: "Como consigo os Cristais de Citrino necessários para as melhorias de Nível 10 e Nível 12?",
+    answer: "Os Cristais de Citrino podem ser encontrados abrindo Geodos de Gemas na Camada de Pedra ou procurando em baús de tesouro subterrâneos. Abrir baús costuma ser mais rápido do que minerar às cegas."
+  },
+  {
+    question: "Devo melhorar minha picareta ou minha mochila primeiro?",
+    answer: "Melhore sua picareta primeiro se achar que quebrar blocos leva mais de 3-4 golpes. Se perceber que seu inventário está enchendo antes de chegar ao seu destino, mude o foco para melhorar sua mochila."
+  },
+  {
+    question: "Posso usar Cartas de Habilidade para aumentar os atributos da minha picareta?",
+    answer: "Sim. Você pode equipar cartas como Picareta Mais Forte (aumenta o poder em 6% por carta) e Picareta Mais Leve (aumenta a velocidade em 5% por carta) para aumentar os atributos básicos da sua ferramenta."
+  }
+]} />
+
+</Section>

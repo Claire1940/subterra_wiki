@@ -1,0 +1,150 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mejora del pico en Subterra: Recetas, estadísticas y ruta de progresión",
+  description: "Domina el sistema de mejora del pico en Subterra en Roblox. Explora recetas de fabricación completas, estadísticas y rutas de progresión óptimas de herramientas para todos los niveles.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Subterra+Pickaxe+Upgrades",
+  date: "2026-07-08",
+  author: "Equipo de la Wiki de Subterra"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Objetivo principal**: Prioriza la mejora de tu herramienta usando el sistema de **mejora de pico de Subterra** para aumentar la velocidad de minería y romper minerales más duros.
+- **Ubicación de fabricación**: Visita al PNJ Herrero ubicado en el nexo de la superficie del Overworld para mejorar tus herramientas.
+- **Recursos clave**: Guarda roca, carbón, cobre y estaño al principio para fabricar los niveles iniciales de mejoras.
+- **Bucle de progresión**: Equilibra las mejoras del pico con la capacidad de la mochila para asegurar que tus incursiones sigan siendo altamente rentables.
+</Callout>
+
+<Section icon={Map} title="Resumen del sistema de mejora del pico de Subterra">
+
+En la aventura 2.5D de Roblox Subterra, mejorar tus herramientas es el factor más importante para sobrevivir en las capas profundas. Tu pico determina tanto tu poder de minería como tu velocidad de golpeo. Los bloques de niveles superiores en las capas más profundas requieren un mayor poder de minería para romperse de manera eficiente, lo que significa que una herramienta inicial débil limitará gravemente tu exploración.
+
+Para realizar una **mejora de pico de Subterra**, debes recolectar bloques específicos, minerales en bruto y lingotes fundidos, y luego llevarlos junto con oro al PNJ Herrero en el nexo de la superficie del Overworld. Fijar tus recetas activas en el Herrero te ayuda a realizar un seguimiento de los materiales durante tus incursiones activas.
+
+<CardGrid cols={3}>
+  <Card title="Poder de minería">
+    Determina cuántos golpes se necesitan para romper bloques estándar y vetas de mineral raras en las capas profundas.
+  </Card>
+  <Card title="Velocidad de minería">
+    Aumenta la frecuencia de tus golpes, lo que te permite despejar túneles y escapar de minas que se derrumban más rápido.
+  </Card>
+  <Card title="Bloqueo de progresión">
+    Desbloquea el acceso a capas más profundas como Darkstone y Permafrost al permitirte romper bloques más duros.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo profesional">
+Nunca descartes las gemas del principio del juego como el citrino o el topacio. Aunque se pueden vender para obtener oro rápido, son necesarias para mejoras cruciales de herramientas a mitad del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Recetas y estadísticas de mejora del pico">
+
+Las siguientes tablas muestran la ruta de progresión completa desde el pico inicial por defecto hasta el nivel 14. Planifica la asignación de recursos con cuidado para evitar desperdiciar lingotes valiosos en equipo temporal.
+
+### Mejoras de pico de nivel inicial (Niveles 1–7)
+
+| Nivel | Poder | Velocidad | Coste en oro | Materiales requeridos |
+| :--- | :--- | :--- | :--- | :--- |
+| **Nivel 1** | 20 | 100% | Gratis | Herramienta inicial por defecto |
+| **Nivel 2** | 25 | 105% | 62 | 25x Roca |
+| **Nivel 3** | 30 | 107% | 125 | 35x Roca, 5x Carbón |
+| **Nivel 4** | 35 | 107% | 187 | 50x Roca, 15x Cobre en bruto, 15x Carbón |
+| **Nivel 5** | 40 | 110% | 250 | 25x Carbón, 20x Lingote de cobre |
+| **Nivel 6** | 50 | 115% | 625 | 20x Carbón, 10x Estaño en bruto, 50x Lingote de cobre |
+| **Nivel 7** | 55 | 119% | 750 | 30x Estaño en bruto, 75x Lingote de cobre, 5x Carbón |
+
+### Mejoras de pico de nivel medio (Niveles 8–14)
+
+| Nivel | Poder | Velocidad | Coste en oro | Materiales requeridos |
+| :--- | :--- | :--- | :--- | :--- |
+| **Nivel 8** | 60 | 120% | 875 | 30x Estaño en bruto, 100x Lingote de cobre, 50x Carbón |
+| **Nivel 9** | 65 | 123% | 1000 | 75x Lingote de estaño, 100x Carbón |
+| **Nivel 10** | 75 | 129% | 1250 | 50x Lingote de estaño, 35x Lingote de cobre, 10x Citrino |
+| **Nivel 11** | 80 | 132% | 1375 | 90x Lingote de estaño, 75x Carbón, 25x Hierro en bruto |
+| **Nivel 12** | 85 | 135% | 1500 | 125x Lingote de estaño, 50x Lingote de cobre, 15x Citrino, 35x Hierro en bruto |
+| **Nivel 13** | 90 | 138% | 1625 | 75x Lingote de hierro, 100x Carbón |
+| **Nivel 14** | 100 | 144% | 1875 | 90x Lingote de hierro, 60x Lingote de estaño |
+
+<Callout type="warning" title="Gestión de materiales">
+Es necesario fundir el cobre en bruto y el estaño en bruto en lingotes para las herramientas de nivel superior. No vendas tus minerales en bruto directamente al comerciante si estás cerca de un punto de mejora del pico.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ruta de progresión de herramientas paso a paso">
+
+Para progresar de manera eficiente sin encontrarte con un muro donde los bloques tarden demasiado en romperse, sigue esta ruta de mejora estructurada.
+
+<Steps>
+  <Step num="1" title="Asegura lo básico en la capa de tierra">
+    Comienza minando roca y carbón en la capa de tierra. Acumula suficientes materiales para saltar directamente del nivel 1 al nivel 3 rápidamente, evitando la fase débil del nivel 2 si es posible.
+  </Step>
+  <Step num="2" title="Establece la fundición de cobre y estaño">
+    Desciende a la capa de piedra y concéntrate en minar cobre en bruto y estaño en bruto. Llévalos a la fundición del Overworld para fabricar lingotes de cobre. Esto desbloquea las mejoras de los niveles 5 y 6, que proporcionan un enorme aumento del 15% en la velocidad de minería.
+  </Step>
+  <Step num="3" title="Recolecta citrino e hierro">
+    Una vez que alcances el nivel 9, necesitarás cristales de citrino e hierro en bruto. Busca geodas de gemas en la capa de piedra y mina a más profundidad (Y -100 e inferior) para recolectar hierro en bruto.
+  </Step>
+  <Step num="4" title="Finaliza el punto de control del juego temprano-medio">
+    Funde tu hierro en bruto en lingotes de hierro para fabricar los picos de nivel 13 y 14. Esto posiciona a tu personaje a la perfección para romper bloques de Darkstone y hacer la transición a las áreas del juego tardío.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Sinergia de progresión">
+Combina las mejoras de tu pico con las mejoras de la mochila. Un pico de nivel superior es inútil si tu inventario se llena a los dos minutos de empezar a cavar.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hitos y logros de minería">
+
+Farmear bloques para mejorar tu pico también te ayuda a completar logros principales del juego, que te recompensan con valiosos Chrono Shards.
+
+<Checklist
+  id="pickaxe-achievements"
+  title="Logros clave de minería:"
+  items={[
+    "Comienzos humildes: Mina tu primer bloque (35 Chrono Shards) [1.1.5]",
+    "Espeleólogo novato: Mina 100 bloques (35 Chrono Shards)",
+    "Excavador profundo: Mina 500 bloques (50 Chrono Shards)",
+    "Moldeador de la tierra: Mina 2000 bloques (50 Chrono Shards)",
+    "Rompevetas: Mina 5000 bloques (50 Chrono Shards)",
+    "Destructor de mundos: Mina 10 000 bloques (140 Chrono Shards)"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+Usa esta sección de preguntas frecuentes para resolver problemas en tu progresión y optimizar tu eficiencia minera.
+
+<FAQ items={[
+  {
+    question: "¿A dónde voy para realizar una mejora de pico de Subterra?",
+    answer: "Debes visitar al PNJ Herrero ubicado en la plaza de la superficie del Overworld. Asegúrate de tener los materiales requeridos y el oro en tu inventario antes de interactuar con él."
+  },
+  {
+    question: "¿Cómo obtengo los cristales de citrino necesarios para las mejoras de nivel 10 y nivel 12?",
+    answer: "Los cristales de citrino se pueden encontrar al abrir geodas de gemas en la capa de piedra o al buscar cofres de botín subterráneos. Abrir cofres suele ser más rápido que minar a ciegas."
+  },
+  {
+    question: "¿Debería mejorar primero mi pico o mi mochila?",
+    answer: "Mejora tu pico primero si notas que romper bloques requiere más de 3 o 4 golpes. Si ves que tu inventario se llena antes de llegar a tu destino, cambia el enfoque a mejorar tu mochila."
+  },
+  {
+    question: "¿Puedo usar cartas de habilidad para mejorar las estadísticas de mi pico?",
+    answer: "Sí. Puedes equipar cartas como Pico más fuerte (aumenta el poder en un 6% por carta) y Pico más ligero (aumenta la velocidad en un 5% por carta) para aumentar las estadísticas base de tu herramienta."
+  }
+]} />
+
+</Section>
