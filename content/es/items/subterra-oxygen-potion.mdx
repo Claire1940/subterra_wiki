@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, FlaskConical, Heart, Wind } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Poción de oxígeno de Subterra: Guía de supervivencia y recetas de elaboración",
+  description: "Domina la poción de oxígeno de Subterra y las mecánicas de recuperación de salud. Aprende recetas de elaboración, consejos para la gestión del oxígeno y estrategias de supervivencia en capas profundas para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0ea5e9/fff?text=Oxygen+and+Survival+Guide",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Subterra"
+}
+
+<Callout type="info" title="Guía rápida">
+- **poción de oxígeno de Subterra**: Esencial para extender las sesiones de minería en capas profundas y hostiles donde el aire es escaso.
+- **Núcleo de elaboración**: Utiliza el **Altar de elaboración** en el Mundo Exterior para combinar materiales como Frascos de agua y Fragmentos de vida.
+- **Mejoras de oxígeno**: Equipar la carta de habilidad **Oxígeno extra** proporciona un aumento permanente a tu capacidad de oxígeno base.
+- **Sinergia de salud**: Lleva siempre **Pociones de salud pequeñas** junto con los suministros de oxígeno para sobrevivir a los encuentros con monstruos.
+- **Consejo de exploración**: Usa los **Agujeros de gusano** para salir rápidamente de las capas profundas si tus niveles de oxígeno o salud alcanzan estados críticos.
+</Callout>
+
+<Section icon={Wind} title="Mecánicas de oxígeno y conceptos básicos de supervivencia">
+
+En las profundidades generadas procedimentalmente de Subterra, el oxígeno es tan valioso como el diamante más raro. A medida que desciendes más allá de las capas de Tierra y Piedra, el entorno se vuelve cada vez más opresivo. Gestionar tu suministro de **poción de oxígeno de Subterra** y entender cómo funciona el agotamiento es la diferencia entre un botín rentable y perder tu inventario en un escenario de "Regreso por muerte". El sistema de oxígeno dicta la duración de tu ciclo de minería, forzando un equilibrio táctico entre la codicia por los minerales y la necesidad de regresar a la superficie.
+
+| Mecánica | Efecto en la supervivencia | Mejor contramedida |
+| :--- | :--- | :--- |
+| **Agotamiento de oxígeno** | Se drena gradualmente mientras estás bajo tierra | **poción de oxígeno de Subterra** / Pociones de retorno |
+| **Presión de capas profundas** | Drenaje más rápido en Darkstone y Schwarzfrost | Carta de habilidad **Oxígeno extra** (Nivel 10) |
+| **Daño de monstruos** | Reduce la salud, empeorando el pánico por el oxígeno | **Pociones de salud pequeñas** / Parada (Tecla F) |
+| **Riesgos ambientales** | El TNT y la caída de rocas pueden atraparte | **C4 adhesivo** para salidas de emergencia rápidas |
+
+<Callout type="warning" title="Advertencia crítica">
+Quedarse sin oxígeno no solo te ralentiza; provoca un drenaje rápido de salud. Si estás en lo profundo de la capa de Permafrost sin una **poción de oxígeno de Subterra** o una Poción de agujero de gusano, tus posibilidades de llegar vivo al lobby de la superficie se reducen significativamente.
+</Callout>
+
+La gestión del oxígeno se ve influenciada además por tu velocidad de movimiento y eficiencia minera. Los jugadores que invierten en cartas de **Velocidad de caminata** y **Pico ligero** descubren que pueden cubrir más terreno y minar más bloques antes de que se agote su suministro de aire. Esta eficiencia "aumenta" efectivamente tu oxígeno al reducir el tiempo dedicado a cada tarea.
+
+</Section>
+
+<Section icon={FlaskConical} title="poción de oxígeno de Subterra: Elaboración y consumibles">
+
+La elaboración en Subterra se realiza en el **Altar de elaboración** y la **Fundición** ubicados en la Plaza del Mundo Exterior. Para prepararte para las capas más profundas, debes recolectar materiales específicos tanto de monstruos como del entorno. Aunque la **poción de oxígeno de Subterra** y los objetos de recuperación de salud son el enfoque principal, también debes comprender los materiales prerrequisitos como los Frascos de agua y los Fragmentos de vida.
+
+| Nombre del objeto | Categoría | Ingredientes principales de la receta | Efecto principal |
+| :--- | :--- | :--- | :--- |
+| **Poción de salud pequeña** | Poción | 1x Frasco de agua, 2x Raíces, 1x Fragmento de vida | Restaura 25 HP inmediatamente |
+| **poción de oxígeno de Subterra** | Utilidad | Frasco de agua, Fragmentos, Flora específica de la capa | Rellena el medidor de oxígeno para incursiones profundas |
+| **Frasco de agua** | Material | Soltado por monstruos / Encontrado en cofres | Ingrediente base para todas las pociones líquidas |
+| **Fragmento de vida** | Material | Soltado por Slimes y Zombis | Requerido para consumibles basados en salud |
+| **Raíces** | Material | Recolectadas en las capas de Tierra y Piedra | Relleno común para recetas de utilidad básica |
+
+<Callout type="tip" title="Estrategia de elaboración pro">
+No vendas tus **Trozos de slime** o **Fragmentos de vida** al principio. Aunque ofrecen una pequeña cantidad de oro, su valor al elaborar **Pociones de salud pequeñas** y **Explosivos adhesivos** es mucho mayor cuando intentas entrar en la capa de Darkstone (Y -435).
+</Callout>
+
+Para desbloquear recetas de nivel superior, debes encontrar **Pergaminos de recetas** en cofres o como recompensas de progresión. El **Pergamino de receta de objetos de utilidad básica** es particularmente importante, ya que desbloquea la capacidad de elaborar llaves y pociones de supervivencia. Sin estos, dependes de los precios de la tienda, lo que puede agotar rápidamente tus reservas de oro durante la progresión del juego temprano y medio.
+
+</Section>
+
+<Section icon={Sparkles} title="Cartas de habilidad para el oxígeno y la eficiencia">
+
+Las cartas de habilidad son la forma más efectiva de alterar permanentemente tus estadísticas de supervivencia. En lugar de depender únicamente de una **poción de oxígeno de Subterra**, puedes acumular cartas que mejoren tu capacidad base o reduzcan la frecuencia de tus viajes. Estas se invocan usando **Fragmentos Crono**, que se ganan a través de logros como "Rompemundos" (minar 10,000 bloques).
+
+<CardGrid cols={3}>
+  <Card title="Oxígeno extra">
+    - **Rareza**: Poco común
+    - **Límite**: 10 cartas
+    - **Efecto**: Añade 25ml de oxígeno por carta
+    - **Ideal para**: Exploración profunda
+  </Card>
+  <Card title="Saludable">
+    - **Rareza**: Poco común
+    - **Límite**: 10 cartas
+    - **Efecto**: Añade 10 HP por carta
+    - **Ideal para**: Durabilidad en combate
+  </Card>
+  <Card title="Velocidad de caminata">
+    - **Rareza**: Común
+    - **Límite**: 8 cartas
+    - **Efecto**: +2 studs de velocidad de caminata
+    - **Ideal para**: Retornos más rápidos
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Configuración de supervivencia optimizada">
+Para una configuración de "Explorador de mar profundo", enfócate en acumular 5x **Oxígeno extra**, 3x **Mochila más grande** y 2x **Salto doble**. Esta combinación te permite permanecer en la capa de Permafrost significativamente más tiempo mientras mantienes la movilidad necesaria para evitar a los **Elementales de hielo**.
+</Callout>
+
+Más allá de los simples aumentos de estadísticas, las cartas legendarias como **Pico ardiente** (30% de probabilidad de autofundición) ayudan indirectamente a tu gestión de oxígeno. Al fundir minerales mientras minas, reduces el tiempo necesario en la Fundición del Mundo Exterior, lo que te permite pasar más de tu tiempo "activo" minando en lugar de gestionando la logística. Esta sinergia es vital para los jugadores que buscan minerales de alto nivel como **Wolframita** y **Titanio**.
+
+</Section>
+
+<Section icon={Target} title="Supervivencia en capas profundas paso a paso">
+
+Sobrevivir a la transición de la capa de Piedra a las capas de Darkstone y Schwarzfrost requiere un enfoque disciplinado. Sigue estos pasos para asegurarte de no desperdiciar tu **poción de oxígeno de Subterra** ni perder tus materiales ganados con tanto esfuerzo.
+
+<Steps>
+  <Step num="1" title="Preparación en el lobby">
+    Antes de descender, visita la tienda para comprar **Bombas pequeñas** y asegúrate de que tu suministro de **Frascos de agua** esté repuesto. Consulta al **NPC de códigos** para cualquier recompensa activa como "100KMEMBERS" que proporciona pociones gratuitas.
+  </Step>
+  <Step num="2" title="El descenso y las mejoras">
+    Muévete por las capas de Tierra y Piedra rápidamente. No te detengas a minar roca común a menos que la necesites para una mejora específica. Una vez que alcances Y -400, consume una **poción de oxígeno de Subterra** si tu medidor está por debajo del 50%.
+  </Step>
+  <Step num="3" title="Buscando minerales raros">
+    En la capa de Permafrost, busca **Piedra lunar** y **Azurita**. Estos son tus objetivos de alto valor. Usa **Dinamita adhesiva** para limpiar grupos rápidamente, minimizando el tiempo pasado en entornos de alto drenaje.
+  </Step>
+  <Step num="4" title="Extracción de emergencia">
+    Si tu oxígeno llega al 10% o tu salud cae por debajo del 30%, usa una **Poción de regreso por muerte** o busca el **Agujero de gusano** más cercano. Siempre es mejor perder unos minutos de viaje que perder todo tu inventario.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Nota táctica">
+La **tecla F** (Bloqueo/Parada) es tu mejor amiga cuando luchas contra los **Esqueletos de Darkstone**. Una parada exitosa evita la pérdida de salud, lo que a su vez previene el pánico que a menudo lleva a los jugadores a olvidar sus niveles de oxígeno.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mejoras de equipo y gestión de recursos">
+
+Tu equipo sirve como la base para tu supervivencia. Mientras que la **poción de oxígeno de Subterra** proporciona un alivio temporal, una mochila de nivel 10 te permite transportar más recursos, haciendo que cada viaje sea más rentable. Del mismo modo, un pico de alto nivel reduce el "tiempo de minado", que es el factor más significativo en el consumo de oxígeno.
+
+| Nivel de progresión | Pico recomendado | Requisito de mochila | Material de supervivencia clave |
+| :--- | :--- | :--- | :--- |
+| **Temprano (Y 0 a -100)** | Nivel 4 (Cobre/Carbón) | Nivel 2 (+75 espacio) | **Raíces / Roca** |
+| **Medio (Y -100 a -400)** | Nivel 10 (Estaño/Citrina) | Nivel 5 (Plata/Amatista) | **Fragmentos de vida / Hierro** |
+| **Tardío (Y -400+)** | Nivel 14 (Hierro/Plata) | Nivel 10 (Oro/Platino) | **Diamantes / Zafiro** |
+
+<Callout type="tip" title="Gestión de inventario">
+Cuando tu mochila esté casi llena, desecha objetos de poco valor como **Tierra** o **Roca** para dejar espacio para **Oro bruto** o **Diamantes**. Esto asegura que cada segundo de oxígeno gastado bajo tierra se traduzca en la máxima ganancia de oro.
+</Callout>
+
+Mejorar tu mochila al nivel 10 es un hito importante. Requiere una enorme variedad de gemas, incluyendo **Rubí**, **Esmeralda** y **Diamante**. Guardar estas gemas específicamente para la mejora de nivel 10, en lugar de venderlas para obtener dinero rápido, es la marca de un jugador experimentado de Subterra. Los 75 espacios adicionales proporcionados por este nivel permiten sesiones de minería masivas que justifican el uso de múltiples consumibles de **poción de oxígeno de Subterra**.
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos de supervivencia y lista de logros">
+
+Para dominar el subsuelo, debes apuntar a estos hitos específicos. Completarlos no solo proporciona **Fragmentos Crono** para mejores cartas de habilidad, sino que también garantiza que tengas la infraestructura para manejar cualquier capa.
+
+<Checklist
+  id="survival-milestones"
+  title="Objetivos esenciales de supervivencia:"
+  items={[
+    "Elabora 50 pociones de salud pequeñas para una curación constante",
+    "Llega a la capa de Permafrost (Y -723) y desbloquea el portal",
+    "Equipa al menos 3 cartas de habilidad 'Oxígeno extra' simultáneamente",
+    "Derrota a Yrsa de los Mares Hundidos en la capa Schwarzfrost",
+    "Mejora tu pico al nivel 14 para manejar minerales del juego tardío"
+  ]}
+/>
+
+<Callout type="success" title="Recompensa de logro">
+Llegar a la **capa de Permafrost** otorga el logro "Perforador de escarcha" y 140 Fragmentos Crono. Usa estos fragmentos inmediatamente para intentar conseguir cartas **Legendarias** como **Horno más grande** o **Toque explosivo**.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo consigo la poción de oxígeno de Subterra al principio del juego?",
+    answer: "La mejor manera de asegurar suministros de oxígeno temprano es encontrar el Pergamino de receta de objetos de utilidad básica en los cofres de la capa de Piedra. Esto te permite elaborar objetos de supervivencia usando Frascos de agua y materiales recolectados en la capa de Tierra."
+  },
+  {
+    question: "¿Qué pasa si me quedo sin oxígeno en la capa de Darkstone?",
+    answer: "Tu salud comenzará a agotarse rápidamente. Si no tienes una poción de salud o una forma de llegar a un Agujero de gusano o a la superficie, morirás y perderás tu inventario actual. Ten siempre una poción de 'Regreso por muerte' para tales emergencias."
+  },
+  {
+    question: "¿Es mejor usar cartas de habilidad o pociones para el oxígeno?",
+    answer: "Las cartas de habilidad como 'Oxígeno extra' proporcionan un aumento permanente a tu capacidad, mientras que la poción de oxígeno de Subterra proporciona un relleno temporal. Para la progresión a largo plazo, enfócate en las cartas, pero lleva siempre pociones como seguro para las capas profundas."
+  },
+  {
+    question: "¿Dónde puedo encontrar frascos de agua para la elaboración?",
+    answer: "Los Frascos de agua son botines comunes de Zombis y Slimes en las capas de Tierra y Piedra. También se pueden encontrar con frecuencia dentro de cofres de madera y hierro dispersos por las estructuras de las cuevas."
+  }
+]} />
+
+</Section>
