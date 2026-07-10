@@ -1,0 +1,170 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Vendedor ambulante de Subterra: Condiciones de aparición y mecánica de inventario",
+  description: "Domina las mecánicas del vendedor ambulante de Subterra. Aprende las tasas de aparición, optimiza el inventario de la tienda y desbloquea objetos raros con nuestra guía de configuración de la ciudad paso a paso.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Traveling+Merchant+Guide",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Subterra"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Vendedor ambulante de Subterra**: Un comerciante errante único que visita tu ciudad temporalmente con un inventario aleatorio y de gran valor.
+- **Requisitos de aparición**: Debes tener al menos otros 2 NPC de la ciudad alojados, como el Guía y el Mercader, antes de que pueda llegar.
+- **Tasa de aparición diaria**: Un 22.12% de probabilidad de aparecer cada día entre las 4:30 AM y las 12:00 PM, marchándose exactamente a las 6:00 PM.
+- **Potenciadores de inventario**: Expande permanentemente la selección de su tienda usando el consumible Morral de buhonero.
+- **Progresión de combate**: Se defiende con un Revólver en el modo normal (pre-Hardmode), mejorando a un Arco de pulsos en el modo difícil (Hardmode).
+</Callout>
+
+<Section icon={Map} title="Cómo hacer aparecer al vendedor ambulante de Subterra">
+
+El **vendedor ambulante de Subterra** es un NPC errante vital que trae objetos exóticos, equipamiento raro y bloques estéticos exclusivos a tu asentamiento. A diferencia de los residentes permanentes, este comerciante no requiere una casa asignada. En su lugar, aparece cerca de los NPC de la ciudad existentes y deambula a su alrededor durante el día. 
+
+Para asegurar su llegada, debes cumplir con parámetros específicos de población de la ciudad y del estado del mundo. La probabilidad de llegada diaria del vendedor se calcula por tick del juego, lo que resulta en una probabilidad matemática confiable de aparecer cada mañana.
+
+| Parámetro de aparición | Detalles del requisito |
+| --- | --- |
+| **NPC mínimos de la ciudad** | Al menos 2 NPC alojados (el Guía cuenta, pero el Anciano y el Esqueleto comerciante no) |
+| **Probabilidad de llegada diaria** | 22.12% de probabilidad por día |
+| **Ventana de tiempo de aparición** | Aleatoriamente entre las 4:30 AM y las 12:00 PM |
+| **Hora de salida** | 6:00 PM (Requiere que el vendedor esté fuera de la pantalla para desaparecer) |
+| **Eventos de bloqueo** | No aparecerá durante eclipses solares, invasiones de duendes, invasiones piratas o cuando el chat esté abierto |
+
+<Callout type="warning" title="Bloqueadores de invasión">
+Las invasiones activas o los eventos del mundo bloquean por completo la aparición del vendedor. Si estás buscando accesorios raros, despeja cualquier invasión de duendes o invasión pirata activa antes de las 4:30 AM para mantener activa tu probabilidad de aparición diaria.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Configuración paso a paso de la ciudad para la aparición del vendedor">
+
+Maximizar tus encuentros con el comerciante errante requiere un diseño de ciudad estructurado. Sigue estos pasos para preparar tu mundo para su llegada y asegurarte de no perder nunca una ventana de comercio.
+
+<Steps>
+  <Step num="1" title="Construye viviendas básicas">
+    Construye al menos dos casas válidas para atraer a tus NPC iniciales. El Guía y el Mercader son los residentes más fáciles de asegurar al principio del juego. Asegúrate de que sus banderas de vivienda estén activas.
+  </Step>
+  <Step num="2" title="Crea un núcleo urbano central">
+    Coloca tus casas cerca unas de otras. El vendedor ambulante aparece cerca de los residentes existentes, incluidas las mascotas de la ciudad. Un diseño compacto facilita su localización tan pronto como aparece el mensaje de estado.
+  </Step>
+  <Step num="3" title="Adquiere el Morral de buhonero">
+    Obtén y usa el Morral de buhonero. Este consumible aumenta permanentemente la cantidad de objetos que vende el comerciante durante cada visita, lo que te da más oportunidades de obtener accesorios raros.
+  </Step>
+  <Step num="4" title="Vigila el reloj por la mañana">
+    Lleva un registro de la hora del juego entre las 4:30 AM y las 12:00 PM. Si el vendedor aparece, revisa su inventario de inmediato. Si su mercancía no es de tu interés, puedes ignorarlo con seguridad hasta que se marche a las 6:00 PM.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Truco para evitar la desaparición">
+El vendedor solo se marcha a las 6:00 PM si está fuera de la pantalla. Si lo mantienes en tu pantalla, puedes evitar que se vaya, lo que te dará tiempo extra para conseguir monedas. Permanecerá allí hasta que te alejes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Ranuras de inventario y mecánicas de rareza">
+
+El inventario de la tienda del vendedor es muy aleatorio y se extrae de seis niveles de rareza distintos. Cada vez que llega, el juego genera entre 4 y 12 ranuras de objetos. La calidad de su inventario escala a medida que progresa tu mundo, especialmente después de derrotar a jefes clave o de la transición al modo difícil (Hardmode).
+
+<CardGrid cols={3}>
+  <Card title="Niveles comunes">
+    - **Sake**: Mejora temporal de cuerpo a cuerpo
+    - **Piel de tigre**: Decoración de pared
+    - **Aparición frecuente**: Alta probabilidad de aparecer
+  </Card>
+  <Card title="Rareza media">
+    - **Gran caña del pato**: Post-Skeletron
+    - **Accesorios de combate**: Mejoras de estadísticas
+    - **Cuadros**: Variantes raras de biomas
+  </Card>
+  <Card title="Extraordinariamente raro">
+    - **Halo de ángel**: Objeto estético premium
+    - **Arco de pulsos**: Arma del modo difícil
+    - **Cubo de compañía**: Alto coste en monedas
+  </Card>
+</CardGrid>
+
+La siguiente tabla muestra las probabilidades de generación de objetos base según la dificultad del mundo. Los mundos Experto y Maestro ofrecen una cantidad promedio de objetos ligeramente mayor por visita.
+
+| Número de objetos base | Probabilidad en Modo Clásico | Probabilidad en Modo Experto/Maestro |
+| --- | --- | --- |
+| **4 objetos** | 19.87% | 9.93% |
+| **5 objetos** | 31.29% | 25.58% |
+| **6+ objetos** | Porcentaje restante | Muy favorecido |
+
+<Callout type="success" title="Potenciación en mundos Celebration">
+En las semillas de mundo Celebrationmk10, el vendedor vende automáticamente 2 objetos adicionales por visita, lo que lo convierte en el mejor entorno absoluto para conseguir piezas estéticas y accesorios raros.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Clasificación de rareza de objetos y precios">
+
+Para ayudarte a presupuestar tus monedas de oro, aquí tienes un desglose de los objetos clave que vende el comerciante, categorizados por sus ranuras de rareza y costes base.
+
+| Nombre del objeto | Ranura de rareza | Coste base | Disponibilidad / Requisitos |
+| --- | --- | --- | --- |
+| **Sake** | Común (1/6) | 5 de plata | Disponible desde el principio |
+| **Piel de tigre** | Común (1/6) | 10 de oro | Objeto decorativo |
+| **El científico caballero** | Poco común (2/6) | 1 de oro | Exclusivo del mundo Constant |
+| **Gran caña del pato** | Raro (3/6) | 35 de oro | Solo después de derrotar a Skeletron |
+| **Contrapeso negro** | Extremadamente raro (5/6) | 5 de oro | Esencial para construcciones de yo-yo |
+| **Halo de ángel** | Extraordinariamente raro (6/6) | 40 de oro | Accesorio estético raro |
+
+<Callout type="info" title="Transformación de fulgor">
+Lanzar al vendedor a un estanque de fulgor lo transforma en su forma de fulgor. Este cambio es puramente visual y no altera los precios de su tienda, las tasas de obtención de objetos ni las mecánicas de aparición.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación y objetivos del vendedor">
+
+Lleva un registro de tu progreso y de las adquisiciones raras con esta práctica lista de verificación. Asegúrate de obtener estos objetos esenciales antes de entrar en la fase tardía del modo difícil (Hardmode).
+
+<Checklist
+  id="merchant-milestones"
+  title="Objetivos del vendedor ambulante:"
+  items={[
+    "Haber alojado al menos a 2 NPC de la ciudad para habilitar las mecánicas de aparición",
+    "Haber adquirido el Morral de buhonero para ampliar la capacidad de la tienda",
+    "Haber derrotado a Skeletron para desbloquear la Gran caña del pato",
+    "Haber obtenido el Contrapeso negro para construcciones de utilidad",
+    "Haber asegurado el Arco de pulsos durante la progresión del modo difícil (Hardmode)"
+  ]}
+/>
+
+<Callout type="tip" title="Combate de autodefensa">
+Si los enemigos se infiltran en tu ciudad, el vendedor se defenderá usando un Revólver. Una vez que tu mundo entre en el modo difícil (Hardmode), mejorará automáticamente su arma al Arco de pulsos de alto daño.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo aumento la cantidad de objetos que vende el vendedor ambulante de Subterra?",
+    answer: "Puedes aumentar permanentemente la capacidad de su inventario consumiendo un Morral de buhonero. Además, jugar en semillas de mundo Celebrationmk10 aumenta el tamaño de su tienda en 2 objetos adicionales."
+  },
+  {
+    question: "¿Puedo forzar la aparición del vendedor si no tiene el objeto que quiero?",
+    answer: "Sí. Dado que su tirada de aparición ocurre en cada tick antes de las 12:00 PM, puedes derrotar al vendedor activo. Si todavía es de mañana, existe la posibilidad de que aparezca otro vendedor con un inventario completamente renovado."
+  },
+  {
+    question: "¿El vendedor requiere una casa válida con una silla y una mesa?",
+    answer: "No. Es un visitante temporal y no necesita su propia casa. Simplemente deambulará alrededor de los residentes y mascotas existentes de tu ciudad durante el tiempo que dure su estancia."
+  },
+  {
+    question: "¿Por qué no aparece el vendedor ambulante en mi mundo?",
+    answer: "Asegúrate de tener al menos otros 2 NPC de la ciudad alojados. Además, comprueba que no haya eventos activos como una invasión de duendes o un eclipse solar, ya que estos eventos bloquean por completo su llegada."
+  }
+]} />
+
+</Section>

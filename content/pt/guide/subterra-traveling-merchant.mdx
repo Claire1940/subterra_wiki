@@ -1,0 +1,170 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Caixeiro Viajante do Subterra: Condições de Spawn e Mecânicas de Inventário",
+  description: "Domine as mecânicas do caixeiro viajante do Subterra. Aprenda as taxas de spawn, otimize o inventário da loja e desbloqueie itens raros com nosso guia passo a passo de configuração da cidade.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Traveling+Merchant+Guide",
+  date: "2026-07-10",
+  author: "Equipe da Wiki do Subterra"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Caixeiro Viajante do Subterra**: Um vendedor ambulante exclusivo que visita sua cidade temporariamente com um inventário aleatório e de alto valor.
+- **Requisitos de Spawn**: Deve haver pelo menos 2 outros NPCs de cidade alojados, como o Guia e o Comerciante, antes que ele possa chegar.
+- **Taxa Diária de Spawn**: Uma chance de 22,12% de spawnar a cada dia entre 4h30 e 12h00, partindo exatamente às 18h00.
+- **Amplificadores de Inventário**: Expanda permanentemente a seleção da loja dele usando o consumível Bolsa do Mascate.
+- **Progressão de Combate**: Defende-se com um Revólver no pré-Modo Difícil, atualizando para um Arco de Pulso no Modo Difícil.
+</Callout>
+
+<Section icon={Map} title="Como Spawnar o Caixeiro Viajante do Subterra">
+
+O **caixeiro viajante do Subterra** é um NPC ambulante vital que traz itens exóticos, equipamentos raros e blocos de vaidade exclusivos para o seu assentamento. Ao contrário dos residentes permanentes, este comerciante não precisa de uma casa atribuída. Em vez disso, ele spawna perto de NPCs de cidade existentes e vaga ao redor deles durante o dia. 
+
+Para garantir a chegada dele, você deve atender a parâmetros específicos de população da cidade e do estado do mundo. A chance diária de chegada do comerciante é calculada por tick do jogo, resultando em uma probabilidade matemática confiável de aparecer a cada manhã.
+
+| Parâmetro de Spawn | Detalhes do Requisito |
+| --- | --- |
+| **Mínimo de NPCs na Cidade** | Pelo menos 2 NPCs alojados (O Guia conta, mas o Velho e o Comerciante Esqueleto não) |
+| **Chance de Chegada Diária** | 22,12% de chance por dia |
+| **Janela de Tempo de Spawn** | Aleatoriamente entre 4h30 e 12h00 |
+| **Horário de Partida** | 18h00 (Requer que o comerciante esteja fora da tela para desaparecer) |
+| **Eventos Bloqueadores** | Não spawna durante Eclipses Solares, Exércitos de Goblins, Invasões Piratas ou quando o chat estiver aberto |
+
+<Callout type="warning" title="Bloqueadores de Invasão">
+Invasões ativas ou eventos mundiais bloqueiam completamente o spawn do comerciante. Se você estiver farmando acessórios raros, limpe qualquer Exército de Goblins ou Invasão Pirata ativa antes das 4h30 para manter sua chance diária de spawn ativa.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Configuração Passo a Passo da Cidade para Spawns do Comerciante">
+
+Maximizar seus encontros com o comerciante ambulante requer um layout de cidade estruturado. Siga estes passos para preparar seu mundo para a chegada dele e garantir que você nunca perca uma janela de troca.
+
+<Steps>
+  <Step num="1" title="Construa Habitações Básicas">
+    Construa pelo menos duas casas válidas para atrair seus NPCs iniciais. O Guia e o Comerciante são os residentes mais fáceis de obter no início do jogo. Certifique-se de que as bandeiras de habitação deles estejam ativas.
+  </Step>
+  <Step num="2" title="Crie um Centro Urbano Principal">
+    Posicione suas casas próximas umas das outras. O comerciante ambulante spawna perto de residentes existentes, incluindo animais de estimação da cidade. Um layout compacto facilita localizá-lo assim que a mensagem de status aparecer.
+  </Step>
+  <Step num="3" title="Adquira a Bolsa do Mascate">
+    Obtenha e use a Bolsa do Mascate. Este consumível aumenta permanentemente o número de itens que o comerciante vende durante cada visita, dando a você mais chances de obter acessórios raros.
+  </Step>
+  <Step num="4" title="Monitore o Relógio da Manhã">
+    Acompanhe o tempo do jogo entre 4h30 e 12h00. Se o comerciante spawnar, verifique o inventário dele imediatamente. Se o estoque dele não for favorável, você pode ignorá-lo com segurança até que ele parta às 18h00.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Truque para Evitar o Despawn">
+O comerciante só parte às 18h00 se estiver fora da tela. Se você mantê-lo na sua tela, poderá evitar que ele saia, dando-lhe tempo extra para coletar moedas. Ele permanecerá até você se afastar.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Espaços de Inventário e Mecânicas de Raridade">
+
+O inventário de loja do comerciante é altamente aleatório, baseado em seis níveis distintos de raridade. Cada vez que ele chega, o jogo sorteia entre 4 e 12 espaços de itens. A qualidade do inventário dele escala conforme seu mundo progride, especialmente após derrotar chefes importantes ou transicionar para o Modo Difícil.
+
+<CardGrid cols={3}>
+  <Card title="Níveis Comuns">
+    - **Saquê**: Buff temporário de corpo a corpo
+    - **Pele de Tigre**: Decoração de parede
+    - **Sorteios Frequentes**: Alta chance de aparecer
+  </Card>
+  <Card title="Raridade Média">
+    - **Vara do Pato Sentado**: Pós-Esqueletron
+    - **Acessórios de Combate**: Aumentos de atributos
+    - **Pinturas**: Variantes raras de biomas
+  </Card>
+  <Card title="Extraordinariamente Raros">
+    - **Auréola de Anjo**: Item de vaidade premium
+    - **Arco de Pulso**: Arma do Modo Difícil
+    - **Cubo Companheiro**: Custo alto de moedas
+  </Card>
+</CardGrid>
+
+A tabela a seguir mostra as probabilidades básicas de sorteio de itens com base na dificuldade do mundo. Mundos no Perito e Mestre oferecem contagens médias de itens ligeiramente maiores por visita.
+
+| Número de Itens Base | Chance no Modo Clássico | Chance no Modo Perito/Mestre |
+| --- | --- | --- |
+| **4 Itens** | 19.87% | 9.93% |
+| **5 Itens** | 31.29% | 25.58% |
+| **6+ Itens** | Porcentagem Restante | Altamente Favorecido |
+
+<Callout type="success" title="Bônus de Mundos de Celebração">
+Nas sementes de mundo Celebrationmk10, o comerciante vende automaticamente 2 itens adicionais por visita, tornando-o o melhor ambiente absoluto para farmar peças de vaidade e acessórios raros.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Classificação de Raridade de Itens e Preços">
+
+Para ajudar você a planejar suas moedas de ouro, aqui está uma divisão dos principais itens vendidos pelo comerciante, categorizados por seus espaços de raridade e custos base.
+
+| Nome do Item | Espaço de Raridade | Custo Base | Disponibilidade / Requisitos |
+| --- | --- | --- | --- |
+| **Saquê** | Comum (1/6) | 5 Pratas | Disponível desde o início |
+| **Pele de Tigre** | Comum (1/6) | 10 Ouros | Item decorativo |
+| **O Cientista Cavalheiro** | Incomum (2/6) | 1 Ouro | Exclusivo do mundo Constant |
+| **Vara do Pato Sentado** | Raro (3/6) | 35 Ouros | Apenas após derrotar o Esqueletron |
+| **Contrapeso Preto** | Extremamente Raro (5/6) | 5 Ouros | Essencial para builds de Ioiô |
+| **Auréola de Anjo** | Extraordinariamente Raro (6/6) | 40 Ouros | Acessório de vaidade raro |
+
+<Callout type="info" title="Transformação do Cintilante">
+Jogar o comerciante em um poço de Cintilante o transforma em sua forma Cintilante. Essa mudança é puramente visual e não altera os preços de sua loja, as taxas de drop de itens ou as mecânicas de spawn.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Tarefas e Objetivos do Comerciante">
+
+Keep track of your progression and rare acquisitions with this handy checklist. Ensure you have obtained these essential items before entering late-game Hardmode.
+
+<Checklist
+  id="merchant-milestones"
+  title="Objetivos do Caixeiro Viajante:"
+  items={[
+    "Alojou pelo menos 2 NPCs de cidade para ativar as mecânicas de spawn",
+    "Adquiriu a Bolsa do Mascate para expandir a capacidade da loja",
+    "Derrotou o Esqueletron para desbloquear a Vara de Pescar do Pato Sentado",
+    "Obteve o Contrapeso Preto para builds de utilidade",
+    "Garantiu o Arco de Pulso durante a progressão do Modo Difícil"
+  ]}
+/>
+
+<Callout type="tip" title="Combate de Autodefesa">
+Se inimigos infiltrarem sua cidade, o comerciante se defende usando um Revólver. Assim que seu mundo entrar no Modo Difícil, ele atualiza automaticamente sua arma para o Arco de Pulso de alto dano.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como faço para aumentar o número de itens que o caixeiro viajante do Subterra vende?",
+    answer: "Você pode aumentar permanentemente a capacidade de inventário dele consumindo uma Bolsa do Mascate. Além disso, jogar em sementes de mundo Celebrationmk10 aumenta o tamanho da loja dele em 2 itens adicionais."
+  },
+  {
+    question: "Posso forçar o comerciante a ressurgir se ele não tiver o item que eu quero?",
+    answer: "Sim. Como a rolagem de spawn dele ocorre a cada tick antes das 12h00, você pode derrotar o comerciante ativo. Se ainda for manhã, há uma chance de outro comerciante surgir com um estoque completamente renovado."
+  },
+  {
+    question: "O comerciante precisa de uma casa válida com uma cadeira e uma mesa?",
+    answer: "Não. Ele é um visitante temporário e não precisa de casa própria. Ele simplesmente vagará ao redor de seus residentes e animais de estimação existentes pelo período de sua estadia."
+  },
+  {
+    question: "Por que o caixeiro viajante não está surgindo no meu mundo?",
+    answer: "Certifique-se de ter pelo menos 2 outros NPCs de cidade alojados. Além disso, verifique se não há eventos ativos como um Exército de Goblins ou Eclipse Solar, pois esses eventos bloqueiam completamente a chegada dele."
+  }
+]} />
+
+</Section>

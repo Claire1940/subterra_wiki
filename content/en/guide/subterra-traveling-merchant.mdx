@@ -1,0 +1,170 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Subterra Traveling Merchant: Spawn Conditions & Inventory Mechanics",
+  description: "Master the subterra traveling merchant mechanics. Learn spawn rates, optimize shop inventory, and unlock rare items with our step-by-step town setup guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Traveling+Merchant+Guide",
+  date: "2026-07-10",
+  author: "subterra Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Subterra Traveling Merchant**: A unique wandering vendor who visits your town temporarily with a randomized, high-value inventory.
+- **Spawn Requirements**: Must have at least 2 other town NPCs housed, such as the Guide and Merchant, before he can arrive.
+- **Daily Spawn Rate**: A 22.12% chance to spawn each day between 4:30 AM and 12:00 PM, departing exactly at 6:00 PM.
+- **Inventory Boosters**: Permanently expand his shop selection by using the Peddler's Satchel consumable.
+- **Combat Progression**: Defends himself with a Revolver in pre-Hardmode, upgrading to a Pulse Bow in Hardmode.
+</Callout>
+
+<Section icon={Map} title="How to Spawn the Subterra Traveling Merchant">
+
+The **subterra traveling merchant** is a vital wandering NPC who brings exotic items, rare equipment, and exclusive vanity blocks to your settlement. Unlike permanent residents, this trader does not require an assigned house. Instead, he spawns near existing town NPCs and wanders around them for the day. 
+
+To secure his arrival, you must meet specific town population and world state parameters. The merchant's daily arrival chance is calculated per game tick, resulting in a reliable mathematical probability of appearing each morning.
+
+| Spawn Parameter | Requirement Details |
+| --- | --- |
+| **Minimum Town NPCs** | At least 2 housed NPCs (The Guide counts, but the Old Man and Skeleton Merchant do not) |
+| **Daily Arrival Chance** | 22.12% chance per day |
+| **Spawn Time Window** | Randomly between 4:30 AM and 12:00 PM |
+| **Departure Time** | 6:00 PM (Requires the merchant to be off-screen to despawn) |
+| **Blocker Events** | Will not spawn during Solar Eclipses, Goblin Armies, Pirate Invasions, or when chat is open |
+
+<Callout type="warning" title="Invasion Blockers">
+Active invasions or world events completely block the merchant from spawning. If you are farming for rare accessories, clear any active Goblin Army or Pirate Invasion before 4:30 AM to keep your daily spawn chance active.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Town Setup for Merchant Spawns">
+
+Maximizing your encounters with the wandering trader requires a structured town layout. Follow these steps to prepare your world for his arrival and ensure you never miss a trading window.
+
+<Steps>
+  <Step num="1" title="Build Basic Housing">
+    Construct at least two valid houses to attract your starting NPCs. The Guide and the Merchant are the easiest early-game residents to secure. Ensure their housing flags are active.
+  </Step>
+  <Step num="2" title="Create a Central Town Hub">
+    Place your houses close together. The traveling trader spawns near existing residents, including town pets. A compact layout makes it easier to locate him as soon as the status message appears.
+  </Step>
+  <Step num="3" title="Acquire the Peddler's Satchel">
+    Obtain and use the Peddler's Satchel. This consumable permanently increases the number of items the merchant sells during each visit, giving you more chances to roll rare accessories.
+  </Step>
+  <Step num="4" title="Monitor the Morning Clock">
+    Keep track of the in-game time between 4:30 AM and 12:00 PM. If the merchant spawns, check his inventory immediately. If his stock is unfavorable, you can safely ignore him until he departs at 6:00 PM.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Despawn Prevention Trick">
+The merchant only departs at 6:00 PM if he is off-screen. If you keep him on your screen, you can prevent him from leaving, allowing you extra time to gather coins. He will remain until you walk away.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Inventory Slots & Rarity Mechanics">
+
+The merchant's shop inventory is highly randomized, drawing from six distinct rarity tiers. Each time he arrives, the game rolls between 4 and 12 item slots. The quality of his inventory scales as your world progresses, especially after defeating key bosses or transitioning into Hardmode.
+
+<CardGrid cols={3}>
+  <Card title="Common Tiers">
+    - **Sake**: Temporary melee buff
+    - **Tiger Skin**: Decorative wall hanging
+    - **Frequent Rolls**: High spawn chance
+  </Card>
+  <Card title="Mid-Tier Rarity">
+    - **Sitting Duck's Pole**: Post-Skeletron
+    - **Combat Accessories**: Stat boosts
+    - **Paintings**: Rare biome variants
+  </Card>
+  <Card title="Extraordinarily Rare">
+    - **Angel Halo**: Premium vanity item
+    - **Pulse Bow**: Hardmode weapon
+    - **Companion Cube**: High coin cost
+  </Card>
+</CardGrid>
+
+The following table showcases the base item roll probabilities based on world difficulty. Expert and Master worlds offer slightly higher average item counts per visit.
+
+| Number of Base Items | Classic Mode Chance | Expert/Master Mode Chance |
+| --- | --- | --- |
+| **4 Items** | 19.87% | 9.93% |
+| **5 Items** | 31.29% | 25.58% |
+| **6+ Items** | Remaining% | Highly Favored |
+
+<Callout type="success" title="Celebration Worlds Boost">
+On Celebrationmk10 world seeds, the merchant automatically sells an additional 2 items per visit, making it the absolute best environment for farming rare vanity pieces and accessories.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Item Rarity Classification & Pricing">
+
+To help you budget your gold coins, here is a breakdown of key items sold by the merchant, categorized by their rarity slots and base costs.
+
+| Item Name | Rarity Slot | Base Cost | Availability / Requirements |
+| --- | --- | --- | --- |
+| **Sake** | Common (1/6) | 5 Silver | Available from the start |
+| **Tiger Skin** | Common (1/6) | 10 Gold | Decorative item |
+| **The Gentleman Scientist** | Uncommon (2/6) | 1 Gold | Constant world exclusive |
+| **Sitting Duck's Pole** | Rare (3/6) | 35 Gold | Only after defeating Skeletron |
+| **Black Counterweight** | Extremely Rare (5/6) | 5 Gold | Essential for Yo-Yo builds |
+| **Angel Halo** | Extraordinarily Rare (6/6) | 40 Gold | Rare vanity accessory |
+
+<Callout type="info" title="Shimmer Transformation">
+Throwing the merchant into a pool of Shimmer transforms him into his Shimmered form. This change is purely visual and does not alter his shop prices, item drop rates, or spawn mechanics.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Merchant Checklist & Goals">
+
+Keep track of your progression and rare acquisitions with this handy checklist. Ensure you have obtained these essential items before entering late-game Hardmode.
+
+<Checklist
+  id="merchant-milestones"
+  title="Wandering Merchant Goals:"
+  items={[
+    "Housed at least 2 town NPCs to enable spawn mechanics",
+    "Acquired the Peddler's Satchel to expand shop capacity",
+    "Defeated Skeletron to unlock the Sitting Duck's Fishing Pole",
+    "Obtained the Black Counterweight for utility builds",
+    "Secured the Pulse Bow during Hardmode progression"
+  ]}
+/>
+
+<Callout type="tip" title="Self-Defense Combat">
+If enemies infiltrate your town, the merchant defends himself using a Revolver. Once your world enters Hardmode, he automatically upgrades his weapon to the high-damage Pulse Bow.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I increase the number of items the subterra traveling merchant sells?",
+    answer: "You can permanently increase his inventory capacity by consuming a Peddler's Satchel. Additionally, playing on Celebrationmk10 world seeds increases his shop size by an extra 2 items."
+  },
+  {
+    question: "Can I force the merchant to respawn if he doesn't have the item I want?",
+    answer: "Yes. Because his spawn roll occurs every tick before 12:00 PM, you can defeat the active merchant. If it is still morning, there is a chance another merchant will spawn with completely refreshed stock."
+  },
+  {
+    question: "Does the merchant require a valid house with a chair and table?",
+    answer: "No. He is a temporary visitor and does not need his own house. He will simply wander around your existing town residents and pets for the duration of his stay."
+  },
+  {
+    question: "Why is the traveling merchant not spawning in my world?",
+    answer: "Ensure you have at least 2 other housed town NPCs. Also, check that there are no active events like a Goblin Army or Solar Eclipse, as these events completely block his arrival."
+  }
+]} />
+
+</Section>

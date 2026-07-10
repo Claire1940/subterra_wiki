@@ -1,0 +1,149 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Pickaxe } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Subterra Gem Dust: Farming Routes & Usage Guide 2026",
+  description: "Master Subterra gem dust collection with our 2026 farming guide. Learn how to optimize ore mining, upgrade your gear, and boost your progression efficiency.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/7c3aed/fff?text=Subterra+Gem+Dust+Guide",
+  date: "2026-07-10",
+  author: "subterra Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Subterra gem dust** is a critical resource for crafting high-tier upgrades and boosting your mining efficiency.
+- **Focus on deep layers** where rare ores and gem geodes provide the highest dust yield per run.
+- **Upgrade your pickaxe** and backpack early to maximize the inventory space needed for long farming sessions.
+- **Use Ability Cards** like Lucky to double your ore returns and accelerate your overall material progression.
+- **Complete daily quests** to earn extra gold and experience, which support your long-term gear development.
+</Callout>
+
+<Section icon={Pickaxe} title="Understanding Gem Dust and Ore Progression">
+
+To succeed in Subterra, you must master the delicate balance between mining speed and inventory management. Gem dust and related materials are the backbone of your progression. Players often struggle when they spend rare resources on early-game items that quickly become obsolete.
+
+**Video Highlights:**
+- Identifying the most profitable mining layers for consistent dust drops.
+- Best practices for utilizing the Codes NPC to boost your early-game Chrono Shards.
+- Efficient strategies for upgrading your pickaxe before tackling deeper, hostile cave sections.
+
+<YouTubeEmbed videoId="16817315243" title="Subterra Game Trailer" />
+
+Your progression path relies on moving from basic surface materials to complex deep-layer ores. The table below outlines the primary ore tiers and their importance in your crafting journey.
+
+| Ore Tier | Material Name | Primary Use | Mining Depth |
+| :--- | :--- | :--- | :--- |
+| Tier 1 | Coal | Early Quests | Surface to -35 |
+| Tier 3 | Raw Copper | Crafting Ingots | Surface to -35 |
+| Tier 5 | Raw Tin | Upgrade Recipes | Below -80 |
+| Tier 10 | Raw Iron | Mid-game Gear | Below -100 |
+| Tier 14 | Raw Silver | Advanced Gear | Below -200 |
+
+<Callout type="tip" title="Pro Tip">
+Always prioritize upgrading your **pickaxe** before your backpack. Faster mining speed allows you to clear more blocks per minute, which significantly increases your total gem dust and ore intake during short play sessions.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Optimized Farming Routes">
+
+Efficient farming requires a systematic approach. Instead of digging straight down, focus on clearing horizontal pockets in layers where specific gems and ores are concentrated.
+
+<Steps>
+  <Step num="1" title="Preparation">
+    Visit the surface lobby to clear your inventory, repair gear, and purchase necessary explosives from the shop.
+  </Step>
+  <Step num="2" title="Layer Selection">
+    Choose a layer that matches your current pickaxe power. Farming in layers too deep will result in slow block-breaking and wasted time.
+  </Step>
+  <Step num="3" title="Strategic Clearing">
+    Use sticky explosives to clear dense ore pockets quickly. Save your basic pickaxe durability for high-value rare ore veins.
+  </Step>
+  <Step num="4" title="Return and Process">
+    Return to the surface once your backpack is full. Smelt your raw ores into ingots before selling them to maximize your gold profit.
+  </Step>
+</Steps>
+
+<CardGrid cols={3}>
+  <Card title="Surface Loop">
+    - **Focus**: Coal and basic Rock
+    - **Risk**: Minimal
+    - **Goal**: Initial upgrades
+  </Card>
+  <Card title="Mid-Layer Grind">
+    - **Focus**: Copper, Tin, and Topaz
+    - **Risk**: Moderate
+    - **Goal**: Iron-tier gear
+  </Card>
+  <Card title="Deep-Layer Farm">
+    - **Focus**: Silver, Gold, and Diamonds
+    - **Risk**: High
+    - **Goal**: Endgame progression
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Gear and Ability Card Strategy">
+
+Your ability to survive in deeper layers depends entirely on your Ability Card loadout. Combining mining-focused cards with survival-focused cards is essential for maximizing your time underground.
+
+| Ability Card | Rarity | Effect | Best Use Case |
+| :--- | :--- | :--- | :--- |
+| Lucky | Rare | 5% Double Ore Chance | Farming rare ores |
+| Explosive Touch | Legendary | 10% Explosion Chance | Clearing dense rock |
+| Blazing Pickaxe | Legendary | 30% Auto-smelt | Long mining runs |
+| Bigger Backpack | Rare | 15% Space Increase | Inventory management |
+
+<Callout type="warning" title="Important">
+Do not neglect your **Health** cards. As you descend into the Darkstone and Permafrost layers, enemy damage scales rapidly. A "Healthy" card can be the difference between a successful run and losing your hard-earned materials.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Goals and Milestones">
+
+Tracking your achievements is a great way to stay motivated and earn extra Chrono Shards. Ensure you are checking your quest log frequently to align your farming routes with active goals.
+
+<Checklist
+  id="progression-milestones"
+  title="Core Progression Milestones:"
+  items={[
+    "Reach the Darkstone Layer",
+    "Craft your first Iron Ingot",
+    "Open 40 chests for bonus loot",
+    "Unlock all 5 Ability Card slots",
+    "Defeat the Yrsa boss encounter"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I get more gem dust in Subterra?",
+    answer: "Focus on mining in deep layers and prioritize gem geodes. Using the 'Lucky' Ability Card significantly increases the amount of dust and rare items you receive from each block."
+  },
+  {
+    question: "Should I sell my raw ores or smelt them first?",
+    answer: "Always smelt your raw ores into ingots. Ingots have a significantly higher sell value and are required for almost all high-tier crafting recipes."
+  },
+  {
+    question: "What is the best way to handle hostile monsters?",
+    answer: "Use ranged weapons like the Reinforced Longbow to maintain distance. If you must engage in melee, use the 'F' key to block or parry attacks to mitigate damage."
+  },
+  {
+    question: "Are there codes for extra rewards?",
+    answer: "Yes, check the Codes NPC near the spawn gate. You can redeem active codes for Chrono Shards, TNT blocks, and EXP boosts to speed up your early progression."
+  }
+]} />
+
+</Section>
